@@ -1,15 +1,26 @@
 # Contributing
 
-This repository supports cumulative research across VIP cohorts. Keep each contribution small enough to review and complete enough for the next cohort to reproduce.
+This is the canonical Fall 2026 VIP workspace. Follow the [semester plan](docs/semester-plan.md), keep work in its milestone, and preserve evidence and credit for the people who did it.
+
+## Your first contribution
+
+1. Read the README and semester plan, then follow the pilot setup.
+2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
+3. Follow the [portfolio guide](docs/contributors/README.md) to add your public roster entry and profile. Share only your preferred display name and GitHub username.
+4. Pick a small issue in the current milestone. Ask to be assigned or identify yourself as its proposed owner in the issue; a maintainer confirms ownership. List collaborators so overlapping work is visible.
+5. Submit your first contribution as a pull request. A maintainer reviews onboarding and can arrange repository access separately.
 
 ## Workflow
 
-1. Start from a GitHub issue with a clear question or deliverable.
-2. Create a short-lived branch from `main`.
-3. Make one focused change and document assumptions.
-4. Run `python -m unittest discover -s tests -v`.
-5. Open a pull request and link the issue.
-6. Address review, then merge only when the acceptance criteria are met.
+1. Start from an issue with one deliverable, a milestone, a lead owner, dependencies, acceptance criteria, and planned evidence. Everyone can see collaborators in its body; GitHub assignees identify the accountable owner where access permits.
+2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
+3. Make one focused change and document assumptions. Add a contribution-profile entry for a meaningful deliverable or review, linked to its evidence. This is one entry per outcome, not per commit.
+4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
+5. Open a pull request with its issue, milestone, evidence, and a short contributor-role table. Credit collaborators by their actual contributions; each person can update their own portfolio in this PR or a linked follow-up.
+6. Obtain review from someone other than the author. A contributor from the other subteam should review methodological changes. Resolve review discussions and pass CI before merging.
+7. Merge with a **merge commit** to preserve individual commit authors. Close the issue only after its acceptance criteria and evidence are complete. Use `Closes #123` only when this PR finishes the entire issue.
+
+For each active issue, post one short weekly update: evidence produced, next step, and blocker or decision needed. Keep work status in Issues and pull requests; milestone completion records delivery. Use the [meeting guide](docs/meetings/README.md) to capture decisions and assign follow-up actions.
 
 Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board is enabled. Issues and pull requests are sufficient to start. An issue should have at least one of these labels:
 
@@ -17,6 +28,26 @@ Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board
 - `engineering`: experimental environment or instrumentation;
 - `experiment`: a configured, executed, or analyzed study;
 - `bug`: behavior that contradicts the documented design.
+
+Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. A change in research scope, planned outcomes, resources, or success criteria needs a linked plan-change issue and reviewed update to the semester plan/decision log.
+
+## Make your contributions visible
+
+The [roster](CONTRIBUTORS.md) links each student's portfolio. Literature synthesis, experiment design, reproductions, datasets, analysis, validation, writing, reviews, and presentations all count as visible work when they link to an inspectable artifact. Commit counts and lines of code are not measures of research value or a grading rubric.
+
+Use a commit email associated with your own GitHub account; GitHub's private `noreply` address works. Configure it for this checkout, rather than using a shared team identity. Copy the exact address from your GitHub email settings; do not guess it or put private addresses in the roster. GitHub also has [other conditions for profile contributions](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/troubleshooting-missing-contributions), including the branch and repository relationship. The reviewed portfolio is the record for work that a commit graph cannot express.
+
+For work jointly authored in one commit, use `Co-authored-by` trailers with each person's chosen account-associated address. Confirm the credit with them first. See [GitHub's co-author instructions](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors). Reviews and other contributions belong in the PR credit table and portfolio even when they do not justify commit co-authorship.
+
+Keep original authors when integrating student changes. If a maintainer must cherry-pick or import work, preserve author metadata and link the original PR. Do not replace students' work with a maintainer-authored aggregate commit. If tools materially assisted the work, describe their role and what the contributor verified; credit named people only for their actual work.
+
+## Repository review settings
+
+`main` requires a pull request, one approving review, resolved conversations, and passing `test (3.11)` and `test (3.13)` CI checks. New commits dismiss stale approvals. Force pushes and branch deletion are disabled. The repository uses merge commits and disables squash/rebase merging to preserve the original contribution history.
+
+Changes to workflow configuration and core research/semester policy require a code-owner review. The initial code owner is the repository owner, `@zhongnz`; update `.github/CODEOWNERS` through review when actual maintainers are appointed. No student access or role is assumed from appearing in the public roster.
+
+The repository owner retains GitHub's administrator bypass for bootstrap or recovery while the cohort is being onboarded. Ordinary student work follows the review path. Document any exceptional bypass and its reason in the relevant issue or pull request.
 
 ## Experiment changes
 

@@ -1,5 +1,7 @@
 # Cohort Guide
 
+New students can start with the [quick start](student-start.md). The [semester plan](semester-plan.md) defines milestone targets and dependencies; [Contributors](../CONTRIBUTORS.md) links each student's visible work. This guide explains how the cohort works together.
+
 ## One experiment, two teams
 
 The Research and Data Science/Engineering teams share one research question, condition matrix, dataset, and final report. They have different responsibilities, but they are not separate projects.
