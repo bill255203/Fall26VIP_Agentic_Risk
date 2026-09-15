@@ -15,6 +15,7 @@ Complete these fields before or during execution, not from memory at the end.
 - primary and secondary outcomes, with formulas;
 - exclusion, retry, and stopping rules;
 - issue and pull-request links.
+- source assumption/control or literature claim, exact source revision, predicted propagation path, and the outcome that would challenge the assumption.
 
 ### Exact implementation
 
@@ -28,6 +29,8 @@ Complete these fields before or during execution, not from memory at the end.
 - perturbation rule and oracle-verification rule;
 - actual timestamp and execution environment;
 - known deviations from the plan.
+
+Include the experiment's compact role/input/tool/authority/memory/output map. [Study 1](studies/01-runtime-containment.md) contains the proposed map and evidence separation. For a practical verifier, identify the independent evidence source and what it can observe; keep evaluator answer labels inaccessible. For paired downstream comparisons, retain the shared upstream trace/request ID and record how each execution branch starts from an isolated state copy.
 
 Do not store credentials, private data, or secret values in a record or trace.
 
@@ -47,6 +50,8 @@ A retry receives a new run ID and points to the original attempt. Never silently
 ## Generated artifacts
 
 The current pilot writes `config.toml`, `manifest.json`, `trials.jsonl`, and `summary.csv`. Each JSONL row contains one full trial plus its outcomes; there is no separate outcome-table file. The manifest records the scripted backend, seed, Python version, Git revision/dirty state, package-source hash, and artifact hashes. Preserve these logical layers as later experiments add real model calls:
+
+For empirical runs, retain the exact assembled model input, retrieved/source context identifiers and content snapshots, available tool schemas, calls and outputs, raw exposed responses, gate verdict, and actual action. Record redactions or unavailable fields explicitly. This adapts AT-01's observable-evidence practice; it is not a claim to capture hidden model reasoning or satisfy the whole control matrix. See [the source map](agent-assurance-bridge.md).
 
 | Layer | Purpose | Interpretation |
 | --- | --- | --- |
@@ -91,6 +96,8 @@ Do not include lower-cap runs in an execution-eligible denominator. Do not count
 ## Paired scenario analysis
 
 The clean and flipped versions of one base scenario are a pair. The same scenario should also appear under verification on/off and each authority cap. Keep all non-treatment settings identical when possible.
+
+That matrix describes the scripted apparatus. The proposed empirical study instead uses four primary cells (clean/corrupted × practical gate off/on), all execution-eligible. Replay each upstream candidate request through isolated gate branches with a shared pair ID; keep optional oracle references and non-executing cap checks outside its primary effect estimate. Follow the frozen study protocol for empirical accounting rather than copying the scripted matrix by default.
 
 Analyze within-scenario contrasts before aggregating:
 

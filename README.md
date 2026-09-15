@@ -15,6 +15,8 @@ This is the **canonical repository for the Fall 2026 VIP: Agentic AI for Risk Ma
 | Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [portfolio guide](docs/contributors/README.md) |
 | First contribution and review process | [Contributing](CONTRIBUTING.md) |
 | Research methods and claim limits | [Research plan](docs/research-plan.md) |
+| First empirical question, conditions, and measures | [Study 1: runtime containment](docs/studies/01-runtime-containment.md) |
+| Ideas borrowed from Agent Assurance | [Source-to-experiment map](docs/agent-assurance-bridge.md) |
 | Accepted decisions and meeting actions | [Decision log](docs/decisions.md) and [meeting records](docs/meetings/README.md) |
 | Semester outputs and continuity | [Reports and handoff](docs/reports/README.md) |
 
@@ -26,30 +28,29 @@ Chat, slides, notebooks, and external storage may support the work. Link their d
 
 The program asks:
 
-> How do failures propagate through agentic AI systems, when do they become consequential because of delegated authority, and which assurance controls prevent that transition?
+> How do failures propagate through agentic AI systems, when do they become consequential because of delegated authority, and which assurance controls reduce or contain that transition?
 
-The first cohort starts with one small, synthetic financial-control workflow. The software is an experimental apparatus: it creates known ground truth, injects a controlled information error, records what happens at each stage, and compares outcomes with and without a control. All actions are simulated.
+The first cohort starts with one small, synthetic financial-control workflow. The initial empirical question is whether a gate that checks independent evidence reduces incorrect actions under a corrupted upstream summary, while preserving useful task completion. All actions are simulated.
+
+The current code is a deterministic apparatus for checking traces, permissions, and measurements. [Study 1](docs/studies/01-runtime-containment.md) describes the next step: one real model backend, paired clean/corrupted cases, and a practical gate on/off. That empirical study is proposed and still needs implementation and a frozen protocol; the starter's output is not a model finding.
 
 ## Research structure
 
 ```text
-Agent Assurance
-    └── risk propagation research question
-        └── VIP as the experimental vehicle
-            └── synthetic financial workflow as the first environment
+Question → testable hypothesis → controlled experiment → evidence → revised claim
 
-signal (clean/flipped) → monitor → analyze/recommend → approve
-                                                        ↓
-                                             optional ideal verifier
-                                                        ↓
-                                              simulated execution
+Sources: academic literature + selected Agent Assurance assumptions
+First study: corrupted summary → agent decisions → execution boundary
+Comparison: practical evidence gate off/on, with clean-input utility checks
 ```
+
+[Agent Assurance](docs/agent-assurance-bridge.md) is one source of hypotheses and evidence practices. Students may support, qualify, or challenge its assumptions. The VIP's success is a defensible result and reproducible evidence, including a negative result.
 
 Every study follows the same cycle:
 
 **Define → Baseline → Perturb → Observe → Control → Compare → Generalize**
 
-The founding pilot varies three factors:
+The **currently runnable scripted pilot** varies three factors:
 
 | Factor | Conditions |
 |---|---|
@@ -108,10 +109,10 @@ The Research and Data Science / Engineering subteams work on the same experiment
 
 Start with the [cohort guide](docs/cohort-guide.md), record experiments using [the experiment record](docs/experiment-record.md), and review the current [literature map](docs/literature.md). Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The [semester task queue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) follows five milestones: onboard and reproduce; review evidence and freeze the protocol; implement and validate; run and analyze; report and hand off. Practical verification is a stretch task after the core study is feasible.
+The [semester task queue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) follows five front-loaded milestones: onboarding by **September 18**, protocol by **September 25**, validated empirical workflow and practical gate by **October 2**, first complete dataset/analysis by **October 16**, and report/handoff by **November 6**, with a full draft by **October 23**. These are working project targets; the rest of the term provides review, presentation, and recovery time.
 
 ## Current scope
 
-The first research package is deliberately narrow: one workflow, one known information fault, authority boundary enforcement, one ideal control, and auditable measurements. Future work can replace scripted stages with recorded model calls, test realistic verifiers, add other fault mechanisms, and evaluate whether findings transfer across models, architectures, and domains.
+The first research package is deliberately narrow: one workflow, one known information fault, one model backend, one practical containment gate, and auditable safety/utility measurements. The ideal oracle and authority caps remain apparatus checks. Memory poisoning, full toxic-flow/exfiltration experiments, authentication-strength comparisons, and trace-attribution studies are later candidates selected from evidence.
 
 The repository contains no production financial integration and should not contain personal, confidential, regulated, or proprietary data.

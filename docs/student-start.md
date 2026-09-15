@@ -50,6 +50,8 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 
 Choose a task in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones). Start with a scoped part of reproducing the pilot, a paper note, a test, or a documentation improvement. Identify yourself and collaborators in its issue and agree the deliverable with a maintainer. Research and writing are visible contributions too.
 
+Read the question and four-condition table in [Study 1](studies/01-runtime-containment.md) before choosing research work. The cohort is working toward early evidence and an October report draft; the [semester targets](semester-plan.md#calendar-and-working-targets) show the dates. If you join later, enroll through the same PR workflow and take a bounded current task without restarting the cohort's milestones.
+
 Add one short portfolio row for each meaningful outcome, linked to its issue, PR, review, or artifact. Those links show the actual review status; you do not need a second progress log. For shared work, say who did what. The [portfolio guide](contributors/README.md) has examples.
 
 Before starting the next branch, update from the official repository with a clean working tree:

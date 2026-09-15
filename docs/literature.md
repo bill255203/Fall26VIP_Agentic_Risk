@@ -2,6 +2,12 @@
 
 This is a seed list, not a completed literature review. The links below point to the primary arXiv records. Descriptions are deliberately limited to what the papers say they contribute; students should read and assess the methods before relying on any result.
 
+## Start with the first question
+
+For [Study 1](studies/01-runtime-containment.md), review propagation, executable-action outcomes, runtime containment, and safety/utility tradeoffs. Use the [Agent Assurance source map](agent-assurance-bridge.md) to select testable assumptions from its pinned control matrix. Read IA-02, IA-03, CF-01, and AT-01 first; their literal scopes are narrower or different from some proposed VIP adaptations.
+
+Treat this methodology as one source alongside independent papers. Record which claim the first experiment could falsify and what alternative explanations remain. Time-box the initial review and reproduction selection to the September 25 protocol checkpoint; continue expanding the literature while feasible implementation proceeds. A full reproduction of an unrelated benchmark is not a prerequisite for the first experiment.
+
 ## Multi-agent adversarial risk and propagation
 
 ### [TAMAS: Benchmarking Adversarial Risks in Multi-Agent LLM Systems](https://arxiv.org/abs/2511.05269) — arXiv:2511.05269
