@@ -92,18 +92,9 @@ Treat a causal authority study as a separate experiment after the apparatus work
 
 This design can test a causal claim. The first pilot should be described as apparatus and enforcement validation.
 
-## Semester phases
+## Semester delivery
 
-| Phase | Shared result |
-| --- | --- |
-| **1. Frame** | Literature map, narrow question, hypotheses, claim boundary, and preregistered-style analysis plan. |
-| **2. Reproduce** | One relevant baseline or method is reproduced closely enough to understand its assumptions and measures. |
-| **3. Build** | Minimal workflow, fixture, authority policy, perturbation, oracle control, and trace schema work end to end. |
-| **4. Validate** | Unit checks and the 12-cell pilot confirm ground truth, treatment assignment, enforcement, and artifact generation. |
-| **5. Evaluate** | Students run distinct scenarios, analyze paired results, check utility, and investigate failures without changing outcomes after seeing results. |
-| **6. Report and hand off** | Code, configurations, traces, analysis, limitations, negative results, and next hypotheses are reviewable and reusable. |
-
-The target is work strong enough to support a technical report or submission if the evidence warrants it. Publication is an outcome to earn, not a semester requirement.
+The [Fall 2026 semester plan](semester-plan.md) is the single operational plan for milestones, dates, owners, dependencies, and delivery evidence. This document defines the scientific method. A technical report and reproducible evidence are semester outputs; publication depends on the findings.
 
 ## Claim discipline
 

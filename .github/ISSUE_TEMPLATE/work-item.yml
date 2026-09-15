@@ -3,6 +3,20 @@ description: Propose a focused research, engineering, or experiment task
 title: "[Work]: "
 body:
   - type: dropdown
+    id: milestone
+    attributes:
+      label: Semester milestone
+      description: A maintainer also sets the GitHub milestone field. Changes to scope need a plan update.
+      options:
+        - M1 — Onboard and reproduce
+        - M2 — Review evidence and freeze protocol
+        - M3 — Implement and validate
+        - M4 — Run and analyze
+        - M5 — Report and hand off
+        - Stretch backlog — no delivery milestone yet
+    validations:
+      required: true
+  - type: dropdown
     id: workstream
     attributes:
       label: Workstream
@@ -27,6 +41,16 @@ body:
       description: Explain how this supports the current research package.
     validations:
       required: true
+  - type: input
+    id: people
+    attributes:
+      label: Proposed owner and collaborators
+      description: Use GitHub usernames and roles. Leave unclaimed if no owner is known; a maintainer confirms assignments.
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and scope
+      description: Link prerequisite issues and state whether this is required work or an optional extension.
   - type: textarea
     id: acceptance
     attributes:
