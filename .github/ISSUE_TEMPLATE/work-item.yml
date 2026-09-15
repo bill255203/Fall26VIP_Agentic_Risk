@@ -1,0 +1,43 @@
+name: Research work item
+description: Propose a focused research, engineering, or experiment task
+title: "[Work]: "
+body:
+  - type: dropdown
+    id: workstream
+    attributes:
+      label: Workstream
+      options:
+        - Research
+        - Engineering
+        - Experiment
+        - Bug
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: State one question, problem, or durable deliverable.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Research value
+      description: Explain how this supports the current research package.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable conditions that make this work complete and reviewable.
+      placeholder: |
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproducibility record
+      description: For experiments, list the intended config, traces, analysis, and held-constant variables.

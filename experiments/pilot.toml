@@ -1,0 +1,12 @@
+# This is a deterministic mechanism check with scripted agents, not an LLM study.
+experiment_id = "scripted-credit-pilot"
+seed = 20260915
+cases = 40
+authority_levels = ["recommend", "approve", "execute"]
+verification = [false, true]
+faults = ["clean", "flip"]
+
+[scenario]
+# Synthetic units, with no external account or financial action.
+current_limit = 100
+reduced_limit = 50
