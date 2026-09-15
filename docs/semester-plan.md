@@ -12,22 +12,26 @@ ground truth, a declared information fault, explicit authority boundaries, and
 one assurance control. Deliver working code, a reviewed protocol, recorded
 empirical trials, analysis, a technical report, and a usable handoff.
 
-The scripted pilot is the starting apparatus. Its deterministic output validates
-the machinery; it does not satisfy the empirical-study requirement. The study
-needs at least one empirical agent backend selected after the protocol is
-reviewed, with enough recorded provenance to inspect the observed behavior.
-Model access, spending limits, and a feasible run count must be settled before
-implementation or paid runs depend on them. No model budget is assumed here.
-This plan itself does not authorize spending.
+The scripted pilot validates the machinery. [Study 1](studies/01-runtime-containment.md)
+supplies a concrete proposed empirical path: one backend, clean/corrupted
+summary pairs, and a practical independent-evidence gate off/on. All primary
+conditions can execute; authority caps remain separate enforcement checks.
+This keeps the effect from being predetermined by removing execution permission.
 
 Core scope includes one workflow, one fault mechanism, one empirical backend,
-the existing oracle control as an explicitly idealized comparison, clean and
-perturbed conditions, utility measures, and reproducibility. A causal claim
-about authority requires the separate design described in the research plan;
-it is not an automatic consequence of varying authority caps.
+one practical containment gate, safety and utility outcomes, and reproducibility.
+The existing oracle remains an explicitly idealized reference. Selected
+[Agent Assurance assumptions](agent-assurance-bridge.md) inform the study alongside
+independent literature; testing one adaptation does not validate the whole matrix.
 
-Stretch work includes a practical verifier using independent evidence, multiple
-models, additional fault mechanisms, extra domains, or a publication submission.
+Backend feasibility, access, and a small smoke budget are resolved in the first
+week while students refine the protocol. Full study settings and resources are
+frozen in M2 before confirmatory runs. This plan does not authorize spending or
+claim that model access has been arranged.
+
+Stretch work includes additional verifier variants or ablations, multiple
+models, new fault mechanisms, extra domains, full toxic-flow/egress evaluation,
+trace-attribution comparisons, or a publication submission.
 Start stretch work only after core dependencies are secure. Novelty and
 publication depend on evidence and are not promised semester deliverables.
 
@@ -41,13 +45,13 @@ the calendar date.
 
 | Milestone | Work and dependencies | Evidence required to pass the gate |
 | --- | --- | --- |
-| **M1 — Onboard and reproduce** | Self-enroll through [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), reproduce the starter in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and claim a first task. | Reproduction commands, environment, commit, artifact checks, and a reviewed contribution from each active student; setup gaps captured as issues. |
-| **M2 — Review evidence and freeze protocol** | Depends on M1 apparatus understanding. Literature [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2) selects a reproduction [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); both inform protocol [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). Choose a feasible empirical backend and resolve access/resources. | Linked primary sources and reproduction lessons; one question and explicit claim boundary; frozen protocol revision with scenario selection, treatment assignment, outcomes/denominators, repeats, analysis, exclusions, stopping rules, backend settings, and run budget. Method lead records review. |
-| **M3 — Implement and validate** | Depends on the M2 protocol. Implement and validate the minimum empirical backend, traces, and analysis in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7). | Passing relevant tests; inspected smoke traces; treatment and authority checks; correct clean-run behavior; documented errors/retries and resource use; reproducible analysis from a small artifact set. Research and Engineering review implementation against the protocol. |
+| **M1 — Onboard and reproduce** | Self-enroll through [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), reproduce the starter in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and claim a first task. Start literature, backend-access checks, and report outline in parallel. | Reproduction commands, environment, commit, artifact checks, and a reviewed contribution from the active kickoff group; named owners for research and engineering tasks; access/setup blockers raised early. Late enrollment does not restart the cohort schedule. |
+| **M2 — Review evidence and freeze protocol** | Literature [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), a bounded reproduction [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and feasibility work inform protocol [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). They run alongside onboarding. | Pinned source assumptions and independent literature; reproduction result or explicit feasibility limitation; reviewed question, outcomes, utility tolerance, scenario construction plan, pairing, analysis, failure/retry rules, backend access/settings, and run budget. At least one genuine-model development trace if access is feasible; otherwise a recorded scope/access decision. |
+| **M3 — Implement and validate** | Integrate core backend [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) with the practical gate [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4). Adapter and trace work starts before M2; final study behavior must match the reviewed protocol. | Four primary conditions run end to end; genuine model inputs/outputs recorded; source evidence separated from evaluator labels; isolated paired replay; clean-task checks, failure handling, hashes, and analysis smoke validated. Freeze evaluation cases before confirmatory runs. |
 | **M4 — Run and analyze** | Depends on M3 validation and the recorded M2 protocol. Execute and analyze the study in [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), retaining failures and exclusions. | Versioned experiment records and manifests; accessible reviewed artifacts; counts, denominators, paired comparisons and uncertainty appropriate to the design; utility alongside containment; protocol deviations linked and explained. A peer reproduces the analysis. |
-| **M5 — Report and hand off** | Depends on M4 evidence. Consolidate one report, student credit, reproduction instructions, and next steps in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources and results; limitations and null findings are retained; another contributor follows the handoff successfully; open work has owners or explicit unassigned status; student credit is reviewed against linked contributions. |
+| **M5 — Report and hand off** | Draft the report from M1; add evidence as it arrives. Complete draft by October 23, then reproduce, review, revise, and hand off in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources/results; source-author relationship and claim limits are disclosed; null/adverse findings retained; another analyst follows the handoff; open work has owners or explicit unassigned status; student credit is reviewed. |
 
-Practical verifier [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) stays in the `stretch` backlog without a delivery milestone. Adopt it through a reviewed scope decision after the core implementation is feasible; optional work does not distort the completion status of required milestones.
+One practical verifier is core because an oracle-only comparison cannot establish practical containment effectiveness. Additional variants remain optional and enter delivery milestones only through a scope decision.
 
 ## Calendar and working targets
 
@@ -57,28 +61,34 @@ The targets below organize this repository's work from its September 15 setup. T
 
 | Milestone | Working window | Target date |
 | --- | --- | --- |
-| M1 — Onboard and reproduce | September 15–25 | September 25 |
-| M2 — Review evidence and freeze protocol | September 28–October 9 | October 9 |
-| M3 — Implement and validate | October 13–30 | October 30 |
-| M4 — Run and analyze | November 2–20 | November 20 |
-| M5 — Report and hand off | November 23–December 14 | December 14 |
+| M1 — Onboard and reproduce | September 15–18 | September 18 |
+| M2 — Review evidence and freeze protocol | September 15–25, alongside onboarding | September 25 |
+| M3 — Implement and validate | September 15–October 2; early feasibility, then integration | October 2 |
+| M4 — Run and analyze | October 5–16 | October 16 |
+| M5 — Report and hand off | Outline from September 18; complete draft October 23; revise and reproduce | November 6 |
 
-Use November 23–25 for the report outline and evidence review, then resume after Thanksgiving. Complete the handoff by the last day of classes so the plan does not add project delivery during exams. A late-joining student starts with the same short onboarding path and a scoped task in the current milestone.
+The critical front-loaded outputs are an empirical feasibility trace by September 25, a validated four-condition study by October 2, and a dataset with analysis by October 16. Use the period after the October 23 full draft for criticism, reproduction, and correction instead of starting the report near term end.
+
+November 9–December 14 is buffer for presentations, onboarding late contributors into bounded work, justified repairs, and a small follow-up selected from results. No core build or dataset is scheduled for that buffer. Avoid required work during Thanksgiving recess; finish all course obligations by the instructor's actual deadline.
 
 ## Passing each milestone
 
-Literature reading, documentation, and contributor onboarding may run in parallel.
-Protocol-sensitive implementation waits for M2. Confirmatory runs wait for M3;
-exploratory smoke runs must be labeled as such and must not quietly enter the
-final study. Each gate closes only when its evidence is linked from the relevant
-issues and reviewed. The method lead confirms scientific gates; maintainers
-confirm repository and reproducibility checks. These are required reviews, not
-reviews this document asserts have happened.
+Literature reading, protocol drafting, candidate-case writing, backend feasibility,
+the evidence adapter, documentation, and onboarding begin together. Keep the
+early paper reproduction bounded to a relevant result/component; do not wait for
+an entire benchmark reimplementation before making a protocol decision. Record
+infeasibility and choose a narrower reviewed target by M2 if needed.
 
-If empirical access or another core dependency cannot be resolved, open a scope
-decision issue and revise this plan with instructor/method-lead review. An
-apparatus-only deliverable must be named as a reduced outcome, with the reason
-recorded; it must not be described as a completed empirical study.
+Do not spend on model calls until access and a bounded smoke budget are agreed.
+Development smoke runs may precede the frozen protocol but stay labeled and
+outside held-out confirmatory evidence. Final implementation conforms to M2;
+confirmatory runs wait for validated M3 and a frozen evaluation set. Each gate
+closes only when linked evidence is reviewed. Dates alone never mark a task done.
+
+Raise unresolved access, scenario, or scope issues at the September 18 check-in;
+choose a feasible alternative by September 25. If a core dependency still cannot
+be met, record a method-lead scope decision immediately. An apparatus-only
+deliverable is a documented reduction in scope, not a completed empirical study.
 
 ## Responsibility and student visibility
 

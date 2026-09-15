@@ -6,18 +6,29 @@ The program asks:
 
 > How do failures propagate through agentic AI systems, when do they become consequential, and which assurance controls contain them?
 
-Keep the project hierarchy explicit:
-
-1. **Agent Assurance** is the broader research program: evidence that an agentic system remains acceptably controlled despite failures, uncertainty, and delegated autonomy.
-2. **Risk propagation** is the central research problem.
-3. **The VIP cohort** is the vehicle for producing cumulative evidence, code, traces, and writing.
-4. **A simulated financial-control workflow** is the first experimental environment. It gives actions clear consequences without using real accounts, money, or production systems.
+The VIP is an empirical research project on risk propagation and containment. A simulated financial-control workflow is the first environment, giving decisions observable consequences. Academic literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply hypotheses and methods. Neither source predetermines the findings or requires the cohort to validate an entire framework.
 
 A useful conceptual chain is:
 
 > Failure → Propagation → Authority boundary → Consequence → Control
 
-The first cohort should build a small experimental apparatus, not a general platform. Its contribution is a reproducible method and careful pilot evidence.
+The first cohort's contribution is a bounded, reproducible study with clear methods, data, conclusions, and limitations.
+
+## The first empirical research path
+
+The actionable question is:
+
+> When a corrupted upstream summary reaches an execution-capable workflow, does independent-evidence gating reduce incorrect actions without unacceptable loss of correct task completion?
+
+The [Study 1 proposal](studies/01-runtime-containment.md) defines hypotheses, candidate scenarios, the architecture/authority map, predicted propagation path, four comparison cells, metrics, and decisions needed before running. It is a starting protocol for student review, not an already completed experiment.
+
+1. **Select and critique a claim.** Read IA-02/IA-03/CF-01 as motivation, AT-01 as an evidence practice, and relevant independent literature. Distinguish literal source controls from our narrower experimental adaptation.
+2. **Make the machinery work early.** Reproduce the existing scripted pilot; investigate backend access, draft scenarios, and run a small genuine-model feasibility smoke alongside literature/protocol work.
+3. **Freeze one test.** Compare clean versus corrupted inputs and gate off versus a practical gate, with the same execution opportunity in every primary condition. Freeze outcomes, utility tolerance, scenarios, pairing, and analysis before confirmatory runs.
+4. **Produce and inspect evidence.** Capture observable inputs, outputs, tool use, authority enforcement, final actions, failures, and provenance. Analyze safety and utility together.
+5. **Report the finding and its limits.** Explain whether the evidence supports, qualifies, or challenges the tested assumption. Keep method critique, negative results, and next questions visible.
+
+The first empirical effect is the effect of the **configured control package**, with authority held constant. The gate includes an additional model call and evidence; the design does not isolate those contributions or measure a behavioral response to different authority levels. A causal authority or authentication-strength comparison is a later, separate design decision.
 
 ## Common research cycle
 
@@ -33,7 +44,7 @@ Every study follows the same cycle:
 | **Compare** | Use the same scenarios and declared analysis across conditions. Report counts and uncertainty, not just examples. |
 | **Generalize** | State only what the design supports, identify limitations, and propose the next test. |
 
-## First pilot
+## Current scripted pilot
 
 Use a deterministic, simulated credit-limit decision with explicit ground truth. The workflow passes a signal through monitoring, analysis, approval, and execution roles. “Execution” applies an explicit `reduce_limit` or `keep_limit` operation to simulated state. Keeping the limit unchanged is a decision too: it is incorrect when the ground-truth policy requires a reduction.
 
@@ -90,7 +101,7 @@ Treat a causal authority study as a separate experiment after the apparatus work
 6. analyze paired or blocked comparisons by scenario and report uncertainty;
 7. distinguish behavioral effects from the mechanical protection supplied by enforcement.
 
-This design can test a causal claim. The first pilot should be described as apparatus and enforcement validation.
+Those requirements are necessary before making a causal authority claim. The current scripted pilot is apparatus and enforcement validation; Study 1 instead estimates a containment-control effect under fixed authority.
 
 ## Semester delivery
 
@@ -99,3 +110,5 @@ The [Fall 2026 semester plan](semester-plan.md) is the single operational plan f
 ## Claim discipline
 
 Do not claim that the cohort discovered multi-agent propagation, that finance alone creates novelty, or that one workflow establishes a universal Agent Assurance framework. Separate observed results from interpretation, and describe conclusions at the level supported by the scenarios, models, controls, and outcome definitions actually tested.
+
+Disclose the research group's relationship to Agent Assurance. An affiliated cohort's experiments can scrutinize assumptions but are not automatically external validation or peer review. A static risk path is a hypothesis about possible propagation, not proof of actual traversal. See the [source map](agent-assurance-bridge.md) for exact control meanings and limitations.

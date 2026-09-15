@@ -1,9 +1,11 @@
 # Semester report and handoff
 
-Maintain one evolving report at `fall-2026.md`, created when students begin the
-report. Link supporting analyses and figures to that report. Slides may summarize
-it; the report and versioned evidence are the durable deliverable. This directory
-currently defines the report structure and does not contain study findings.
+Maintain one evolving report at `fall-2026.md`. Start its question, source map,
+method outline, and contribution section during M1. Add actual evidence as it
+arrives, deliver a complete draft by **October 23**, and finish reviewed report
+and handoff by **November 6**. Those are working targets in the semester plan.
+Link supporting analyses and figures. This directory currently defines the
+report structure and does not contain study findings.
 
 Use the following outline. Fill sections with observed evidence; mark anything
 pending explicitly instead of supplying illustrative results as findings.
@@ -16,6 +18,7 @@ Question, study status, and conclusions supported by the evidence.
 
 ## Research question and related work
 Primary sources, hypotheses, contribution, and limits on the intended claim.
+Pinned source assumptions and the group's relationship to Agent Assurance.
 
 ## Method
 Frozen protocol revision; scenarios and ground truth; backend/model settings;
@@ -32,6 +35,9 @@ paired comparisons, task utility, failures, and null findings.
 ## Interpretation and limitations
 Observed results versus interpretation; structural effects of permission caps;
 oracle limitations; protocol deviations and the claims the design supports.
+For each tested assumption: evidence that supports, qualifies, or challenges it;
+alternative explanations, including the gate's added evidence/compute;
+limits on describing affiliated-cohort work as independent or external review.
 
 ## Contributions
 Student names/handles, contribution roles, and links to attributable evidence.
