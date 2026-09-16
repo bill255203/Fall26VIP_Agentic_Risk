@@ -2,6 +2,24 @@
 
 You can read and clone this public repository immediately. To contribute, use your own GitHub account; your first pull request adds you to the visible roster. A pull request (PR) is a proposed change that someone else reviews before it joins the shared project.
 
+## Before and after the first meeting
+
+Before the first meeting, browsing the README or trying the starter is optional.
+There is no repository submission due before we meet. The kickoff includes a project
+introduction, a starter demonstration, and a check of students' Git/Python experience,
+interests, and access needs. Setup support is part of onboarding.
+
+Your first-week checklist, with a full week after kickoff:
+
+- Open an introduction PR with your roster row and profile, following steps 2–3.
+- Try the starter in step 1 and save the result or exact setup error for help.
+- Bring one observation or question, and agree on one small next task.
+
+The cohort shares the later literature and reproduction work; each student starts
+with a scoped task. The [semester plan](semester-plan.md#calendar-and-working-targets)
+sets the milestones from kickoff, while the [selection guide](studies/README.md)
+explains how the cohort chooses its study.
+
 ## 1. Clone and run
 
 Install Git and Python 3.11 or later, then follow the [README run commands](../README.md#run-the-pilot). They clone the official repo, create an isolated Python environment, install the package, and run the pilot. No model account or API key is needed for the starter.
@@ -53,13 +71,15 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 Choose a task in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones). Start with a scoped part of reproducing the pilot, exploring or critiquing a proposed question, checking a source or feasibility assumption, a test, or a documentation improvement. Identify yourself and collaborators in its issue and agree the deliverable with a maintainer. Research and writing are visible contributions too.
 
 Follow the [selection and protocol guide](studies/README.md#selection-and-protocol).
-By **September 18**, the active kickoff group reproduces the starter and begins
-reading, critique, and feasibility checks. These checks continue through the
-**September 25** review of at most two developed cohort proposals, when the cohort
-selects one question and freezes its reviewed protocol. Candidate A may be selected,
-revised, or rejected; other feasible agentic-risk questions can qualify.
+Reading, critique, and feasibility checks lead to the M2 review of at most two
+developed cohort proposals. Candidate A may be selected, revised, or rejected;
+other feasible agentic-risk questions can qualify.
 
-The remaining working targets stay fixed: the smallest validated form of the chosen study by **October 2**, evidence and analysis by **October 16**, a complete draft by **October 23**, and reviewed handoff by **November 6**. A sourced exploration, substantive critique, bounded reproduction attempt, or reasoned rejection is useful work when linked to its evidence. A proposal that is not selected does not need extra tasks or a progress scoreboard. If you join later, enroll through the same PR workflow and take a bounded current task without restarting the [semester targets](semester-plan.md#calendar-and-working-targets).
+A sourced exploration, substantive critique, bounded reproduction attempt, or
+reasoned rejection is useful work when linked to evidence. If you join later,
+use the same onboarding path and agree an individual setup target with a maintainer
+while taking a bounded current task. The cohort's [schedule](semester-plan.md#calendar-and-working-targets)
+continues; new students are not expected to complete work before joining.
 
 Add one short portfolio row for each meaningful outcome, linked to its issue, PR, review, or artifact. Those links show the actual review status; you do not need a second progress log. For shared work, say who did what. The [portfolio guide](contributors/README.md) has examples.
 

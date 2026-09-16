@@ -2,10 +2,10 @@
 
 Maintain one evolving report at `fall-2026.md`. Start its selection record,
 source map, provisional method notes, and contribution section during M1. Add
-the selected question and frozen protocol after the September 25 decision, then
-add actual evidence as it arrives. Deliver a complete draft by **October 23**
-and finish reviewed report and handoff by **November 6**. Those are working
-targets in the semester plan.
+the selected question and frozen protocol after the M2 decision, then
+add actual evidence as it arrives. The [semester schedule](../semester-plan.md#calendar-and-working-targets)
+sets the draft and M5 handoff checkpoints from the first cohort meeting. The outline
+is shared cohort work started after kickoff; nothing is due before students meet.
 Link supporting analyses and figures. This directory currently defines the
 report structure and does not contain study findings.
 
