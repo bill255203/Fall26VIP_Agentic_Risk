@@ -1,5 +1,7 @@
 ## Objective and plan
 
+<!-- Introduction-only PR? Include your roster/profile changes, a short introduction, and Relates to #5. You can omit the research/evidence/credit sections below. -->
+
 <!-- State the question/problem, link its issue, and name M1–M5 or Candidate (pending selection). Use Closes #123 only if this completes the whole issue. -->
 
 ## Change

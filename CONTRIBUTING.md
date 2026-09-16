@@ -1,16 +1,24 @@
 # Contributing
 
-This is the canonical Fall 2026 VIP workspace. Follow the [semester plan](docs/semester-plan.md), keep work in its milestone or explicitly pending selection, and preserve evidence and credit for the people who did it. Begin with the [study selection guide](docs/studies/README.md): no empirical study has been selected yet.
+This is the canonical Fall 2026 VIP workspace. New students begin with the
+[quick start](docs/student-start.md). Orientation and setup support happen at the
+first cohort meeting, followed by a full week for onboarding; no repository submission
+is due beforehand. The [semester plan](docs/semester-plan.md) and [selection guide](docs/studies/README.md)
+support the tasks agreed after kickoff. No empirical study has been selected yet.
 
 ## Your first contribution
 
-1. Read the README and semester plan, then follow the pilot setup.
+1. Follow the [student quick start](docs/student-start.md) after kickoff, with setup help as needed. Advance preparation is optional.
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [portfolio guide](docs/contributors/README.md) to add your public roster entry and profile. Share only your preferred display name and GitHub username.
 4. Submit the introduction-only PR, linking the shared onboarding issue with `Relates to #5`. No completed research task or separate issue is required. A maintainer reviews onboarding and can arrange repository access separately.
 5. Then pick a small issue in the current milestone. Identify yourself as its proposed owner; a maintainer confirms ownership. List collaborators so overlapping work is visible.
 
 ## Workflow
+
+The steps below apply to work after onboarding. An introduction PR needs only the
+roster/profile changes, a short introduction, and `Relates to #5`; it does not need
+a separate issue, research result, or full evidence/role table.
 
 1. Start from an issue with one deliverable, a milestone or candidate/backlog status, a lead owner, dependencies, acceptance criteria, and planned evidence. The shared onboarding issue covers introduction PRs. Everyone can see collaborators in its body; GitHub assignees identify the accountable owner where access permits.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.

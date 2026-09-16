@@ -4,7 +4,7 @@ This is a seed list, not a completed literature review. The links below point to
 
 ## Start by choosing a question
 
-Use the [selection guide](studies/README.md) to compare at most two developed cohort proposals by September 25. Divide a focused reading/reproduction task between students; nobody needs to survey every resource below. Select sources because they inform a question, baseline, or feasibility decision. Record contrary findings and the work's actual limits.
+Use the [selection guide](studies/README.md) to compare at most two developed cohort proposals at M2, on the [schedule measured from kickoff](semester-plan.md#calendar-and-working-targets). Divide focused reading/reproduction tasks after the first meeting; nobody needs to survey every resource below. Select sources because they inform a question, baseline, or feasibility decision. Record contrary findings and the work's actual limits.
 
 For [Candidate A](studies/01-runtime-containment.md), begin with propagation, consequential actions, practical containment, and safety/utility tradeoffs. The [Agent Assurance source map](agent-assurance-bridge.md) identifies related assumptions in IA-02/IA-03/CF-01 and the AT-01 evidence practice. Their literal scopes differ from parts of this adaptation. Other questions should choose their own relevant sources.
 

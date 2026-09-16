@@ -1,6 +1,13 @@
 # Candidate A: runtime containment
 
-**Status: unselected and unimplemented candidate protocol.** This maintainer-authored proposal is one starting point for student critique under the [study-selection and protocol process](README.md#selection-and-protocol). It does not become the semester study automatically because it is detailed. By September 25, the cohort considers at most two serious candidates and selects one based on primary evidence, novelty or replication value, feasibility, measurable outcomes, access, and schedule. If Candidate A is selected, its model/backend choice, resource limits, scenario set, repetitions, and analysis thresholds must be reviewed and frozen in [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs. The executable code currently implements only the scripted pilot in `experiments/pilot.toml`; it does not implement Candidate A.
+**Status: unselected and unimplemented candidate protocol.** This maintainer-authored
+proposal is a starting point for student critique under the [selection process](README.md#selection-and-protocol).
+The executable code implements only the scripted pilot in `experiments/pilot.toml`.
+
+If Candidate A is selected at M2, its model/backend choice, resource limits, scenario
+set, repetitions, and analysis thresholds must be reviewed and frozen in
+[issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs.
+Its existing detail does not make it selected automatically.
 
 ## The question and the possible answers
 
@@ -89,13 +96,13 @@ Malformed responses, missing evidence, and timeouts must be visible. The propose
 ## Evaluate the candidate, then deliver if selected
 
 Steps 1–2 inform selection. Steps 3–5 apply only if Candidate A is selected.
-All dates follow the common semester targets:
+All checkpoints use the [semester schedule measured from kickoff](../semester-plan.md#calendar-and-working-targets):
 
-1. **By September 18:** reproduce and critique the starter, inspect the relevant controls and independent literature, identify backend/access blockers, and test whether this proposal merits selection alongside at most one other serious candidate.
-2. **By September 25:** select the semester study. Candidate A needs confirmed backend access and a small genuine-model feasibility smoke to be selected; a recorded access failure is evidence against its feasibility. If selected, freeze a reviewed protocol recording its hypotheses, primary outcomes, utility tolerance, model/settings/resources, scenario plan, failure handling, pairing, and analysis. If neither candidate is viable, the method lead records a narrower scope decision.
-3. **By October 2:** demonstrate Candidate A's four conditions end to end, including the practical gate, source/answer separation, traces, isolated replay, and an analysis smoke test. Finalize the frozen evaluation set before confirmatory runs.
-4. **By October 16:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
-5. **By October 23:** assemble a full report draft. Use the period through November 6 for reproduction, review, revisions, and handoff; keep the rest of term as buffer for presentations and narrowly justified repairs.
+1. **M1:** try and critique the starter after the first meeting, raise setup/access blockers, and share small reading and feasibility tasks relevant to this proposal.
+2. **M2:** select the semester study. Candidate A needs confirmed backend access and a small genuine-model feasibility smoke to be selected; a recorded access failure is evidence against its feasibility. If selected, freeze a reviewed protocol recording its hypotheses, primary outcomes, utility tolerance, model/settings/resources, scenario plan, failure handling, pairing, and analysis. If neither candidate is viable, the method lead records a narrower scope decision.
+3. **M3:** demonstrate Candidate A's four conditions end to end, including the practical gate, source/answer separation, traces, isolated replay, and an analysis smoke test. Finalize the frozen evaluation set before confirmatory runs.
+4. **M4:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
+5. **Report draft checkpoint, then M5:** assemble a full draft, reproduce, review, revise, and hand off; reserve the remaining term for presentations and justified repairs.
 
 These are working project targets, not NYU course deadlines. See the [semester plan](../semester-plan.md) for gate ownership and dependencies. A late student can join an active task without restarting the cohort's sequence.
 

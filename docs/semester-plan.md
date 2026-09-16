@@ -6,6 +6,11 @@ This document defines delivery gates; the [selection guide](studies/README.md)
 explains how students choose the question, and the [research plan](research-plan.md)
 defines research standards and the starter's claim limits.
 
+**Kickoff: not scheduled yet.** The cohort has not met yet. There is no required
+repository submission before that meeting. The instructor introduces the project
+and demonstrates the starter at kickoff; students then have a full week for
+onboarding. The schedule below starts from that meeting, not repository creation.
+
 ## Semester outcome and scope
 
 The core outcome is one bounded empirical investigation of agentic risk, with a
@@ -27,8 +32,8 @@ both risk and useful-task outcomes. Other questions justify their own primary
 measure and relevant tradeoffs. The domain, control, model/backend, and framework
 remain choices to justify rather than universal requirements.
 
-Access to data or models and the smallest feasibility check begin in the first
-week. Study settings and resources are frozen in M2; evaluation data/cases are
+Access to data or models and the smallest feasibility check begin during the first
+week after kickoff. Study settings and resources are frozen in M2; evaluation data/cases are
 frozen before confirmatory work. This plan does not authorize spending or claim
 that access has been arranged. Existing artifacts can support feasibility without
 new paid calls when suitable for the question.
@@ -49,11 +54,11 @@ the calendar date.
 
 | Milestone | Work and dependencies | Evidence required to pass the gate |
 | --- | --- | --- |
-| **M1 — Onboard and reproduce** | Self-enroll through [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), reproduce and critique the starter in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and claim a first task. Begin literature, data/model-access checks, and the report outline in parallel. | Reproduction commands, environment, commit, artifact checks, and a reviewed contribution from the active kickoff group; critique of what the starter establishes; named owners; early access/setup blockers. Late enrollment does not restart the cohort schedule. |
+| **M1 — Onboard and reproduce** | After the first meeting, self-enroll through [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), try the starter in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and bring a question or setup blocker. Agree small reading, reproduction, and feasibility tasks across the cohort. | Introduction PRs and linked starter evidence from the active kickoff group; one shared reviewed trace walkthrough; recorded setup blockers with a help plan; named next-task owners. Students report blocked attempts honestly. Unresolved reproduction needs remain visible and the gate closes only when required evidence is reviewed. Late enrollment has an agreed individual onboarding target. |
 | **M2 — Select a question and freeze protocol** | Literature [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one bounded reproduction [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and feasibility checks inform selection [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3), alongside onboarding. | Compare at most two developed proposals; record source evidence, reproduction/probe findings or concrete limitations, selection rationale, and method review. Freeze one feasible protocol with comparison, outcomes, labels/data, analysis, failure rules, access/resources, and claim limits; align study tasks with the decision. Neither candidate selection nor feasibility is assumed. |
 | **M3 — Implement and validate** | Build the smallest selected experiment or analysis pipeline in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7). Reusable feasibility work starts before M2; final behavior follows the selected protocol. If A is chosen, activate practical gate [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) here. | End-to-end development evidence and analysis smoke; validated labels/outcomes, failure handling, provenance, and appropriate comparison. Freeze evaluation cases/data before confirmatory work. For A specifically: all four conditions, genuine model traces, source/answer separation, and isolated paired replay with the practical gate. |
 | **M4 — Run and analyze** | Depends on M3 validation and the recorded M2 protocol. Collect or assemble the planned evidence and analyze it in [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), retaining failures and exclusions. | Versioned records and accessible reviewed artifacts; counts, denominators, comparisons and uncertainty appropriate to the design; relevant utility/cost tradeoffs; protocol deviations linked and explained. A peer reproduces the analysis. |
-| **M5 — Report and hand off** | Draft the report from M1; add evidence as it arrives. Complete draft by October 23, then reproduce, review, revise, and hand off in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources/results; source-author relationship and claim limits are disclosed; null/adverse findings retained; another analyst follows the handoff; open work has owners or explicit unassigned status; student credit is reviewed. |
+| **M5 — Report and hand off** | Start a shared outline during onboarding and add evidence as it arrives. Complete the draft at the checkpoint below, then reproduce, review, revise, and hand off in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources/results; source-author relationship and claim limits are disclosed; null/adverse findings retained; another analyst follows the handoff; open work has owners or explicit unassigned status; student credit is reviewed. |
 
 Issue #4 has no delivery milestone while Candidate A is unselected. If A is
 selected, its practical gate becomes required M3 work: an oracle-only comparison
@@ -65,29 +70,40 @@ is adopted automatically because it already has a document or issue.
 
 NYU Tandon's published Fall 2026 calendar has classes from **September 2 through December 14**, reading day on **December 15**, and final exams **December 16–22**. Fall break is October 12, October 14 follows a Monday class schedule, and Thanksgiving recess is November 26–27. Source: [NYU Tandon School Calendar](https://engineering.nyu.edu/academics/registration/school-calendar), checked September 15, 2026.
 
-The targets below organize this repository's work from its September 15 setup. They are proposed project checkpoints, not published NYU course deadlines. Instructor deadlines take precedence; update this plan and the matching GitHub milestone together when dates change.
+Let **T be the confirmed date of the first cohort meeting**. These are proposed
+project targets measured in calendar days after T; the instructor checks holidays,
+student availability, and the actual course deadline when assigning calendar dates.
+No GitHub milestone has a calendar due date until T is confirmed. Descriptions
+retain the offsets so the work remains planned and visible.
 
-| Milestone | Working window | Target date |
+| Checkpoint | Work | Target from kickoff |
 | --- | --- | --- |
-| M1 — Onboard and reproduce | September 15–18 | September 18 |
-| M2 — Select a question and freeze protocol | September 15–25, alongside onboarding | September 25 |
-| M3 — Implement and validate | September 15–October 2; early feasibility, then integration | October 2 |
-| M4 — Run and analyze | October 5–16 | October 16 |
-| M5 — Report and hand off | Outline from September 18; complete draft October 23; revise and reproduce | November 6 |
+| First meeting | Orientation, starter demo, interests, setup support, task allocation | T |
+| M1 — Onboard and reproduce | Introduction PR, starter attempt, shared trace walkthrough, blockers and small next tasks | T + 7 days (1 week) |
+| M2 — Select a question and freeze protocol | Focused reading, one shared bounded reproduction, feasibility, selection, and reviewed protocol | T + 14 days (2 weeks) |
+| M3 — Implement and validate | Smallest end-to-end selected experiment or analysis pipeline | T + 21 days (3 weeks) |
+| M4 — Run and analyze | Planned evidence and first complete analysis | T + 35 days (5 weeks) |
+| Full report draft | Assemble the evolving report for criticism and reproduction | T + 42 days (6 weeks) |
+| M5 — Report and hand off | Reviewed report, reproducible handoff, and contribution credit | T + 56 days (8 weeks) |
 
-The critical early outputs are feasibility evidence and a selected protocol by
-September 25, the smallest validated selected study by October 2, and a dataset
-with analysis by October 16. For a live-agent study, feasibility includes a genuine
-model development trace; an existing-data study instead needs accessible data,
-usable labels, and an analysis probe. Use the period after the October 23 full draft
-for criticism, reproduction, and correction.
+This keeps selection and evidence early while giving onboarding a real starting
+point. The first two weeks are shared cohort work: students take small complementary
+tasks rather than each completing a full literature review, reproduction, and proposal.
+For a live-agent study, feasibility includes a genuine model development trace;
+an existing-data study needs accessible data, usable labels, and an analysis probe.
 
-November 9–December 14 is buffer for presentations, onboarding late contributors into bounded work, justified repairs, and a small follow-up selected from results. No core build or dataset is scheduled for that buffer. Avoid required work during Thanksgiving recess; finish all course obligations by the instructor's actual deadline.
+At kickoff, record T and the checked calendar dates in this section and the GitHub
+milestones together; issue descriptions refer back here. Schedule around recess
+and finish by the instructor's actual deadline. If a late start or access constraint
+makes the eight-week sequence infeasible, record a narrower scope or adjusted targets
+immediately rather than compressing onboarding or silently moving work into exams.
+Use remaining term time for presentations, justified repairs, and review. No required
+work should be assigned during Thanksgiving recess.
 
 ## Passing each milestone
 
-Literature reading, candidate proposals, data/model feasibility, reusable tooling,
-documentation, and onboarding begin together. Keep the
+After kickoff, divide literature reading, candidate proposals, data/model feasibility,
+reusable tooling, documentation, and onboarding across the cohort. Keep the
 early paper reproduction bounded to a relevant result/component; do not wait for
 an entire benchmark reimplementation before making a protocol decision. Record
 infeasibility and choose a narrower reviewed target by M2 if needed.
@@ -98,8 +114,8 @@ outside held-out confirmatory evidence. Final implementation conforms to M2;
 confirmatory runs or analysis wait for validated M3 and frozen evaluation data. Each gate
 closes only when linked evidence is reviewed. Dates alone never mark a task done.
 
-Raise unresolved access, data, or scope issues at the September 18 check-in;
-select a feasible study by September 25. If a core dependency still cannot
+Raise unresolved access, data, or scope issues during M1;
+select a feasible study at M2. If a core dependency still cannot
 be met, record a method-lead scope decision immediately. An apparatus-only
 deliverable is a documented reduction in scope, not a completed empirical study.
 

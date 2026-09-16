@@ -6,9 +6,15 @@ New students can start with the [quick start](student-start.md). The [semester p
 
 The existing scripted pilot is a deterministic, runnable starter for setup, traces, and mechanism checks. It is not the selected empirical study. [Candidate A](studies/01-runtime-containment.md) is one unselected proposal built from that starting point; the selected study may instead address attribution, replication, another containment question, or a different feasible agentic-risk question.
 
-Use the [selection and protocol guide](studies/README.md#selection-and-protocol) to keep the choice bounded. By **September 18**, finish onboarding and begin sourced critique, reproduction, and feasibility checks for at most two cohort-level proposals. Continue those checks through the selection review, select one question, and freeze its reviewed protocol by **September 25**. Record the reason for the choice and any reasoned rejection; a rejected proposal needs no replacement busywork.
+The first meeting introduces the project and starter; no repository submission is
+required beforehand. Students have a full week afterward to introduce themselves,
+try the starter, and raise setup questions. Divide focused reading, reproduction,
+and feasibility checks across the cohort rather than assigning all of them to each student.
 
-The shared delivery targets remain: the smallest validated chosen study by **October 2**, evidence and analysis by **October 16**, a complete report draft by **October 23**, and reviewed handoff by **November 6**. These are working project targets from the semester plan.
+Use the [selection guide](studies/README.md#selection-and-protocol) to compare at
+most two developed proposals and freeze one reviewed protocol at M2. Record the
+selection rationale and reasoned rejections. The [semester schedule](semester-plan.md#calendar-and-working-targets)
+sets all targets from the first meeting; calendar dates remain unset until kickoff is confirmed.
 
 ## Two teams, one selected study
 
@@ -23,6 +29,9 @@ Every research requirement must be implementable, and every implementation choic
 ## Lightweight GitHub workflow
 
 Use Issues as the work queue and pull requests as the reviewable record.
+
+Introduction PRs use the shared onboarding issue #5 and the [quick start](student-start.md).
+The workflow below applies to subsequent research, engineering, and writing tasks.
 
 1. Create one focused Issue with a problem, owner, acceptance criteria, and relevant experiment or document.
 2. Make a small branch and commit changes that address that Issue.

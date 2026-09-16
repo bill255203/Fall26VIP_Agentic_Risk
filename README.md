@@ -6,10 +6,16 @@ This is the **canonical repository for the Fall 2026 VIP: Agentic AI for Risk Ma
 
 ## Start here
 
-**New student?** Follow the [student quick start](docs/student-start.md): clone the repo, run the pilot, and add your name through a first pull request. No advance registration of your GitHub username or repository invitation is needed for that path.
+**New student?** Start with this overview. At the first cohort meeting, we will
+introduce the project, demonstrate the starter, and help with setup. There is no
+required repository submission before that meeting; reading or trying the starter
+in advance is optional.
 
-Then read the [selection guide](docs/studies/README.md) and choose a small current
-task. Use the detailed methods and candidate documents as references for that work.
+During the following week, use the [student quick start](docs/student-start.md)
+to clone and run the pilot, open an introduction PR, and note one question or setup
+blocker. No advance GitHub username list or repository invitation is needed.
+Read the [selection guide](docs/studies/README.md) next; detailed method and candidate
+documents are references for the tasks the cohort takes on.
 
 | Need | Authoritative location |
 |---|---|
@@ -34,11 +40,12 @@ Chat, slides, notebooks, and external storage may support the work. Link their d
 | --- | --- |
 | Scripted credit-limit pilot | Runnable now, with tests and traces; no real model calls. |
 | Candidate A: runtime containment | Proposed research design; not selected, frozen, or implemented. |
-| Semester study | Students compare bounded proposals and select one with the method lead by September 25. |
+| Semester study | Students compare bounded proposals and select one with the method lead at M2, after onboarding and feasibility work. |
 | Empirical results and report | Still to be produced and reviewed; the starter's output is apparatus validation. |
 
-Students begin by running and criticizing the pilot, reading primary research,
-attempting one bounded reproduction, and proposing a feasible question. The
+After orientation, students share the work of running and criticizing the pilot,
+reading primary research, attempting one bounded reproduction, and proposing a
+feasible question. The
 [selection guide](docs/studies/README.md) explains how this becomes one shared study.
 
 ## Research question
@@ -132,11 +139,10 @@ literature synthesis, or a documented research decision.
 Start with the [cohort guide](docs/cohort-guide.md), record experiments using [the experiment record](docs/experiment-record.md), and review the current [literature map](docs/literature.md). Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The [semester task queue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues)
-targets onboarding and starter critique by **September 18**, selection and protocol
-by **September 25**, the smallest validated selected study by **October 2**, dataset
-and analysis by **October 16**, a full draft by **October 23**, and report/handoff by
-**November 6**. These are working project targets in the [semester plan](docs/semester-plan.md#calendar-and-working-targets).
-The rest of term provides review, presentation, and recovery time.
+starts from the **first cohort meeting**, with a full week for onboarding.
+The [semester plan](docs/semester-plan.md#calendar-and-working-targets) is the single
+schedule for selection, validation, evidence, draft, and handoff. Calendar dates
+will be set once the meeting date is confirmed, with early evidence and time for review.
 
 ## Current scope
 

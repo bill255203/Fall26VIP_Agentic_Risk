@@ -28,7 +28,7 @@ framework or control is required by the program.
 
 ## Selection and protocol
 
-1. **Explore and test feasibility through September 25.** Reproduce and critique
+1. **Explore and test feasibility from kickoff through M2.** Reproduce and critique
    the starter, read relevant primary sources, and attempt one bounded published
    reproduction. Divide that work between students. Small development probes or
    checks on existing data should inform the proposals; a feasibility failure is
@@ -39,9 +39,9 @@ framework or control is required by the program.
    findings; calling a study a replication does not remove that limitation.
 2. **Compare the candidates in issue #3.** Use the short outline below. Select on
    importance, what prior work leaves unresolved, measurable outcomes, credible
-   comparisons, accessible resources, and an end-to-end validation path by October 2.
+   comparisons, accessible resources, and an end-to-end validation path by M3.
    A deliberate replication can be selected for its value without claiming novelty.
-3. **Record one decision and freeze its protocol by September 25.** The method
+3. **Record one decision and freeze its protocol at M2.** The method
    lead records the rationale and review, with student research and engineering
    input. Link the chosen protocol revision and alternatives considered from the
    [decision log](../decisions.md). Candidate A needs the same review as any alternative;
@@ -51,7 +51,7 @@ framework or control is required by the program.
    [gate issue #4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) in M3.
    If another study is selected, keep #4 deferred and define only its needed tasks.
 5. **Validate before collecting confirmatory evidence.** Complete the smallest
-   selected experiment or analysis pipeline by October 2. Freeze its evaluation
+   selected experiment or analysis pipeline by M3. Freeze its evaluation
    cases/data before confirmatory runs or analysis; keep development results separate.
    Changes after inspecting evaluation results must be recorded as amendments.
 
@@ -71,7 +71,7 @@ detailed document; critique and amend it rather than duplicating it in a new for
 | Prior work | Relevant primary sources, what is established, and the remaining uncertainty or replication purpose. |
 | Smallest comparison | Conditions or baselines, what stays fixed, and the unit being compared. |
 | Evidence and measures | Data/trace access, defensible truth or labels, primary outcome, useful-task or other relevant tradeoff, and claim limits. |
-| Feasibility | Reproduction/probe evidence or concrete limitation, owners, access/resources, and the smallest October 2 deliverable. |
+| Feasibility | Reproduction/probe evidence or concrete limitation, owners, access/resources, and the smallest M3 deliverable. |
 
 The selected proposal becomes a reviewed protocol: specify the hypothesis or
 analysis question, data/scenario construction, conditions, outcomes and denominators,

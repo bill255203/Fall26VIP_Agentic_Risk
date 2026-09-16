@@ -30,7 +30,7 @@ The pinned [control matrix](https://github.com/zhongnz/agent_assurance/blob/4c23
 | **LT-01 — Lethal trifecta architectural review; LT-02 — Egress-channel inventory and control** | Vary sensitive-data access and egress routes in a synthetic sandbox and measure unauthorized disclosure, alongside legitimate task outcomes. |
 | **AT-03 — Evidence-store reconstruction queryability**, with AT-01 | Test reconstruction by session ID, output, network anomaly, or input pattern, measuring completeness and latency without custom per-query code. An evidence-view attribution comparison is a distinct AT-01-inspired study with blinded labels and attribution accuracy. |
 
-These are research directions, not a syllabus, a promise to implement each control, or a fixed sequence for future cohorts. The Fall 2026 cohort considers no more than two serious proposals and selects one by September 25. Any proposal drawn from this table still needs primary literature, a feasible evidence source, measurable outcomes, and a frozen protocol.
+These are research directions, not a syllabus, a promise to implement each control, or a fixed sequence for future cohorts. The Fall 2026 cohort considers no more than two serious proposals and selects one at M2 on the [semester schedule](semester-plan.md#calendar-and-working-targets). Any proposal drawn from this table still needs primary literature, a feasible evidence source, measurable outcomes, and a frozen protocol.
 
 ## Three small artifacts to borrow
 
