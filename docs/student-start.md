@@ -8,6 +8,8 @@ Install Git and Python 3.11 or later, then follow the [README run commands](../R
 
 The checks should report 10 passing tests. The default pilot produces 480 scripted trials and 12 summary rows. Look at `results/local/pilot/summary.csv`, then read one trial from `trials.jsonl`. Local output stays on your computer; record a concise reproduction note when it becomes part of a task.
 
+This runnable starter is a deterministic mechanism check that gives the cohort a shared setup and trace format. It does not choose the semester's research question. [Candidate A](studies/01-runtime-containment.md) is a proposed runtime-containment study, not an implemented or preselected continuation of the starter.
+
 ## 2. Make your first visible contribution
 
 On [the repository page](https://github.com/zhongnz/Fall26VIP_Agentic_Risk), click **Fork** to create a working copy in your GitHub account. The official repository remains the shared destination for everyone's work. Forking lets you contribute before being invited as a collaborator.
@@ -40,7 +42,7 @@ If Git asks you to authenticate, use GitHub Desktop's sign-in or GitHub CLI's `g
 
 ## 3. Open a pull request
 
-GitHub shows a **Compare & pull request** link after you push. Choose **base repository** `zhongnz/Fall26VIP_Agentic_Risk`, **base** `main`, and your fork/branch as the source. Describe what you changed, name milestone **M1**, and link the [onboarding issue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) with `Relates to #5`. Do not close the whole cohort's onboarding issue for one person's enrollment. If you cannot edit GitHub's milestone or assignee fields, put the information in the PR description and a maintainer will set them.
+GitHub shows a **Compare & pull request** link after you push. Choose **base repository** `zhongnz/Fall26VIP_Agentic_Risk`, **base** `main`, and your fork/branch as the source. Describe what you changed, name the current milestone (**M1** during kickoff), and link the [onboarding issue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) with `Relates to #5`. Do not close the whole cohort's onboarding issue for one person's enrollment. If you cannot edit GitHub's milestone or assignee fields, put the information in the PR description and a maintainer will set them.
 
 A maintainer reviews the PR. If they request edits, make another commit on the same branch and push it; the PR updates automatically. CI for a first-time fork contributor may wait for a maintainer to approve running it. Once merged, your roster/profile and original commit appear in the canonical repository.
 
@@ -48,9 +50,16 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 
 ## 4. Pick a small task and keep the evidence
 
-Choose a task in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones). Start with a scoped part of reproducing the pilot, a paper note, a test, or a documentation improvement. Identify yourself and collaborators in its issue and agree the deliverable with a maintainer. Research and writing are visible contributions too.
+Choose a task in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones). Start with a scoped part of reproducing the pilot, exploring or critiquing a proposed question, checking a source or feasibility assumption, a test, or a documentation improvement. Identify yourself and collaborators in its issue and agree the deliverable with a maintainer. Research and writing are visible contributions too.
 
-Read the question and four-condition table in [Study 1](studies/01-runtime-containment.md) before choosing research work. The cohort is working toward early evidence and an October report draft; the [semester targets](semester-plan.md#calendar-and-working-targets) show the dates. If you join later, enroll through the same PR workflow and take a bounded current task without restarting the cohort's milestones.
+Follow the [selection and protocol guide](studies/README.md#selection-and-protocol).
+By **September 18**, the active kickoff group reproduces the starter and begins
+reading, critique, and feasibility checks. These checks continue through the
+**September 25** review of at most two developed cohort proposals, when the cohort
+selects one question and freezes its reviewed protocol. Candidate A may be selected,
+revised, or rejected; other feasible agentic-risk questions can qualify.
+
+The remaining working targets stay fixed: the smallest validated form of the chosen study by **October 2**, evidence and analysis by **October 16**, a complete draft by **October 23**, and reviewed handoff by **November 6**. A sourced exploration, substantive critique, bounded reproduction attempt, or reasoned rejection is useful work when linked to its evidence. A proposal that is not selected does not need extra tasks or a progress scoreboard. If you join later, enroll through the same PR workflow and take a bounded current task without restarting the [semester targets](semester-plan.md#calendar-and-working-targets).
 
 Add one short portfolio row for each meaningful outcome, linked to its issue, PR, review, or artifact. Those links show the actual review status; you do not need a second progress log. For shared work, say who did what. The [portfolio guide](contributors/README.md) has examples.
 

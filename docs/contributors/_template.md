@@ -16,7 +16,10 @@ contribution using YYYY-MM-DD dates. Describe what you did and your role in plai
 language. Link the issue, PR, review, or artifact; its state is authoritative.
 If a PR URL does not exist yet, an issue or artifact link is enough. Describe
 future work as Planned rather than completed. Name collaborators when relevant.
-No separate status column or follow-up PR to mark completion is needed. -->
+Sourced exploration, substantive critique, bounded reproduction attempts, and
+reasoned rejection of a proposal can count when evidence-linked. Do not create
+extra work or rows for an unselected idea. No separate status column or follow-up
+PR to mark completion is needed. -->
 
 | Date | Contribution and role | Evidence | Collaborators (optional) |
 | --- | --- | --- | --- |

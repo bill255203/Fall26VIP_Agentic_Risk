@@ -9,49 +9,50 @@ Complete these fields before or during execution, not from memory at the end.
 ### Identity and intent
 
 - experiment and batch IDs;
-- research question and falsifiable hypotheses;
+- research question and hypotheses or quantities to estimate;
 - pilot, apparatus validation, confirmatory study, or exploratory study;
-- unit of analysis and planned condition matrix;
+- unit of analysis and planned conditions or comparison groups;
 - primary and secondary outcomes, with formulas;
 - exclusion, retry, and stopping rules;
-- issue and pull-request links.
-- source assumption/control or literature claim, exact source revision, predicted propagation path, and the outcome that would challenge the assumption.
+- issue and pull-request links;
+- selected protocol revision and the recorded selection decision, or the apparatus/pilot designation;
+- source assumption, control, or literature claim; exact source revision; predicted evidence path where applicable; and the outcome that would challenge the claim.
 
 ### Exact implementation
 
 - Git commit and whether tracked or untracked changes were present;
 - exact run command and configuration file;
 - dependency and runtime versions;
-- model/provider identifier, revision when available, decoding settings, and seed behavior;
+- model/provider identifier, revision when available, decoding settings, and seed behavior, or `not applicable` for a study of existing traces without new model calls;
 - prompt/template files and versions or hashes;
-- scenario-set version, fixture version, and ground-truth source;
-- authority-cap semantics and enforcement point;
-- perturbation rule and oracle-verification rule;
+- scenario, dataset, or trace-set version; selection and inclusion rules; fixture or label version; and ground-truth source;
+- authority, action, and enforcement semantics where applicable;
+- treatment, perturbation, exposure, control, evaluator, and labeling rules where applicable;
 - actual timestamp and execution environment;
 - known deviations from the plan.
 
-Include the experiment's compact role/input/tool/authority/memory/output map. [Study 1](studies/01-runtime-containment.md) contains the proposed map and evidence separation. For a practical verifier, identify the independent evidence source and what it can observe; keep evaluator answer labels inaccessible. For paired downstream comparisons, retain the shared upstream trace/request ID and record how each execution branch starts from an isolated state copy.
+Include a compact map of the selected study's evidence path: actors or sources, inputs, tools or transformations, permissions where relevant, memory or retained context, outputs, labels, and evaluation boundary. [Candidate A](studies/01-runtime-containment.md) contains one proposed role map and evidence-separation design; use it only if that candidate is selected. For a practical verifier, identify the independent evidence source and what it can observe, and keep evaluator answer labels inaccessible. For paired downstream comparisons, retain the shared upstream trace/request ID and record how each execution branch starts from an isolated state copy. For replications or existing-trace studies, record source revision, acquisition method, license or access constraint, sampling frame, integrity check, and any transformation from source records to analysis units.
 
 Do not store credentials, private data, or secret values in a record or trace.
 
 ### Run accounting
 
-For every attempted run, retain:
+For every attempted run or analyzed source record, retain:
 
-- run ID, scenario ID, paired-scenario ID, condition, and seed;
-- start/end status: completed, failed, timed out, cancelled, or retried;
+- record or run ID, source or scenario ID, pairing or cluster ID where applicable, condition or exposure, and seed where applicable;
+- ingestion or execution status: available or completed, failed, timed out, cancelled, or retried, as applicable;
 - whether the run is included and, if excluded, the predeclared reason;
-- proposed decision, authority attempt, enforcement result, control result, and final simulated action;
-- expected decision/action from ground truth;
+- proposed decision, authority attempt, enforcement result, control result, and observed or simulated action where applicable;
+- expected decision, action, attribution, or other reference label, together with its source;
 - trace and error-artifact locations.
 
 A retry receives a new run ID and points to the original attempt. Never silently replace a failed run.
 
 ## Generated artifacts
 
-The current pilot writes `config.toml`, `manifest.json`, `trials.jsonl`, and `summary.csv`. Each JSONL row contains one full trial plus its outcomes; there is no separate outcome-table file. The manifest records the scripted backend, seed, Python version, Git revision/dirty state, package-source hash, and artifact hashes. Preserve these logical layers as later experiments add real model calls:
+The current pilot writes `config.toml`, `manifest.json`, `trials.jsonl`, and `summary.csv`. Each JSONL row contains one full trial plus its outcomes; there is no separate outcome-table file. The manifest records the scripted backend, seed, Python version, Git revision/dirty state, package-source hash, and artifact hashes. Preserve these logical layers when the selected study adds live calls, reuses a dataset, or analyzes existing traces:
 
-For empirical runs, retain the exact assembled model input, retrieved/source context identifiers and content snapshots, available tool schemas, calls and outputs, raw exposed responses, gate verdict, and actual action. Record redactions or unavailable fields explicitly. This adapts AT-01's observable-evidence practice; it is not a claim to capture hidden model reasoning or satisfy the whole control matrix. See [the source map](agent-assurance-bridge.md).
+For empirical work, retain the observable source material needed for the claim: exact assembled model inputs for live calls; dataset or trace identifiers and content snapshots for reused evidence; available tool schemas; calls and outputs; raw exposed responses; control, attribution, or evaluator outputs where applicable; and observed or simulated actions. Record redactions and unavailable fields explicitly. This adapts AT-01's observable-evidence practice; it is not a claim to capture hidden model reasoning or satisfy the whole control matrix. See [the source map](agent-assurance-bridge.md).
 
 | Layer | Purpose | Interpretation |
 | --- | --- | --- |
@@ -93,13 +94,13 @@ The corresponding `n_...` columns expose every numerator and denominator. A zero
 
 Do not include lower-cap runs in an execution-eligible denominator. Do not count event rows, agent turns, retries, or duplicated summaries as additional trials. Report missing and operationally failed runs separately; explain any sensitivity analysis that treats them as successes or failures. The scripted pilot aborts on a batch error; only an output directory containing its final `manifest.json` represents a complete batch.
 
-## Paired scenario analysis
+## Scripted-pilot and Candidate A pairing
 
 The clean and flipped versions of one base scenario are a pair. The same scenario should also appear under verification on/off and each authority cap. Keep all non-treatment settings identical when possible.
 
-That matrix describes the scripted apparatus. The proposed empirical study instead uses four primary cells (clean/corrupted × practical gate off/on), all execution-eligible. Replay each upstream candidate request through isolated gate branches with a shared pair ID; keep optional oracle references and non-executing cap checks outside its primary effect estimate. Follow the frozen study protocol for empirical accounting rather than copying the scripted matrix by default.
+That matrix describes the scripted apparatus. If selected, Candidate A instead uses four primary cells (clean/corrupted × practical gate off/on), all execution-eligible. Replay each upstream candidate request through isolated gate branches with a shared pair ID; keep optional oracle references and non-executing cap checks outside its primary effect estimate. These four cells and a live backend are not general semester requirements. Every study follows its frozen protocol rather than copying either matrix by default.
 
-Analyze within-scenario contrasts before aggregating:
+For the pilot or Candidate A, analyze within-scenario contrasts before aggregating:
 
 1. verify that the clean run reaches the expected outcome;
 2. measure how the flip changes the proposed decision and propagation path;
@@ -107,7 +108,7 @@ Analyze within-scenario contrasts before aggregating:
 4. report authority-cap results as enforcement behavior and descriptive outcomes;
 5. aggregate pair-level effects with uncertainty that respects repeated observations from the same scenario.
 
-For stochastic agents, repeat complete matched sets using declared seeds or replicate IDs. Treat runs sharing a scenario as clustered or repeated measurements. Do not treat each message or each condition from the same scenario as independent evidence.
+For stochastic agents, repeat complete matched sets using declared seeds or replicate IDs. Treat runs sharing a scenario as clustered or repeated measurements. Do not treat each message or each condition from the same scenario as independent evidence. Other designs must name their analysis unit and dependence structure just as explicitly.
 
 ## Deterministic fixture caveat
 
@@ -119,4 +120,4 @@ Do not make behavioral, causal, population, model-robustness, or domain-general 
 
 ## Minimum report
 
-A completed report contains the question, design, condition counts, exclusions, run-level outcomes, paired analysis, uncertainty appropriate to the evidence, utility results, anomalies, negative results, limitations, and links to exact artifacts. It must distinguish observations from explanations and list the smallest next experiment that could resolve remaining uncertainty.
+A completed report contains the question, design, evidence and condition counts, exclusions, record-level outcomes, the prespecified analysis, uncertainty appropriate to the evidence, usefulness or cost results where relevant, anomalies, negative results, limitations, and links to exact artifacts. It must distinguish observations from explanations and list the smallest next experiment that could resolve remaining uncertainty.

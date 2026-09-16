@@ -1,12 +1,12 @@
-# Study 1: contain an information error before execution
+# Candidate A: runtime containment
 
-**Status: proposed empirical protocol.** This is a maintainer-authored starting point for student critique and refinement. Model/backend choice, resource limits, scenario set, repetitions, and analysis thresholds must be reviewed and frozen in [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs. The executable code currently implements only the scripted pilot in `experiments/pilot.toml`; it does not yet implement this study.
+**Status: unselected and unimplemented candidate protocol.** This maintainer-authored proposal is one starting point for student critique under the [study-selection and protocol process](README.md#selection-and-protocol). It does not become the semester study automatically because it is detailed. By September 25, the cohort considers at most two serious candidates and selects one based on primary evidence, novelty or replication value, feasibility, measurable outcomes, access, and schedule. If Candidate A is selected, its model/backend choice, resource limits, scenario set, repetitions, and analysis thresholds must be reviewed and frozen in [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs. The executable code currently implements only the scripted pilot in `experiments/pilot.toml`; it does not implement Candidate A.
 
 ## The question and the possible answers
 
 > In an execution-capable multi-agent workflow, does a gate that checks independent evidence reduce incorrect actions under a corrupted upstream summary, while preserving correct task completion on clean inputs?
 
-This tests one runtime containment package. Delegated authority defines where a recommendation becomes an action. Authority is held constant in the primary comparison, so both conditions can complete the same tasks.
+This would test one runtime containment package. Delegated authority defines where a recommendation becomes an action. Authority would be held constant in the primary comparison, so both conditions could complete the same tasks. Permission does not establish correctness: an authorized request can still be wrong.
 
 - **H1 — containment:** on faulted inputs, the practical gate reduces erroneous execution per assigned trial relative to no gate.
 - **H2 — utility:** on clean inputs, task-success loss from the gate is no larger than a prespecified tolerance, `delta`. The working proposal is 5 percentage points; the reviewed protocol must justify and freeze the tolerance and the precision needed to assess it.
@@ -64,7 +64,7 @@ Pair clean and corrupted inputs on base case and replicate as well; those upstre
 
 The gate adds evidence and a model invocation. An effect is attributable to that complete package, not separately to extra compute, evidence independence, or authentication strength. A same-source reviewer ablation is a possible later extension.
 
-Because this gate only blocks an unchanged request, it cannot introduce a new incorrect action in an otherwise identical replay. Reduced error alone is therefore insufficient: assess which wrong requests it stops together with the correct work it blocks. An always-block policy would also reduce errors, but would fail the required task-utility assessment.
+Because this gate only blocks an unchanged request, it cannot introduce a new incorrect action in an otherwise identical replay. Reduced error alone is therefore insufficient: assess which wrong requests it stops together with the correct work it blocks. An always-block policy would also reduce errors, but would fail the required task-utility assessment. Do not equate consequence with mutation: an explicit incorrect `keep_limit` operation is an erroneous execution even though state does not change; harmful state change remains a separate, narrower outcome.
 
 ## Outcomes and analysis
 
@@ -86,11 +86,14 @@ Retain cases on which the clean baseline fails. Do not filter evaluation cases o
 
 Malformed responses, missing evidence, and timeouts must be visible. The proposed gate fails closed on malformed/missing verdicts: execution is blocked and task success is false, with the operational cause recorded separately. A failed request is not evidence of semantic detection. Keep the full assigned-trial denominator, expose missing outcomes, and report a sensitivity analysis where missing outcomes could change the conclusion. Retry rules must not silently substitute successful attempts.
 
-## What students deliver, and when
+## Evaluate the candidate, then deliver if selected
 
-1. **By September 18:** reproduce the starter, begin reading the selected source controls and independent literature, identify a candidate backend/access path and blockers, and draft a few cases.
-2. **By September 25:** record the hypothesis, primary outcomes, utility tolerance, model/settings/resources, scenario plan, failure handling, pairing, and analysis in a reviewed protocol. Run one small genuine-model feasibility smoke if access is available; otherwise record the blocker and select a feasible scoped alternative immediately.
-3. **By October 2:** demonstrate all four conditions end to end, including the practical gate, source/answer separation, traces, isolated replay, and an analysis smoke test. Finalize the frozen evaluation set before confirmatory runs.
+Steps 1–2 inform selection. Steps 3–5 apply only if Candidate A is selected.
+All dates follow the common semester targets:
+
+1. **By September 18:** reproduce and critique the starter, inspect the relevant controls and independent literature, identify backend/access blockers, and test whether this proposal merits selection alongside at most one other serious candidate.
+2. **By September 25:** select the semester study. Candidate A needs confirmed backend access and a small genuine-model feasibility smoke to be selected; a recorded access failure is evidence against its feasibility. If selected, freeze a reviewed protocol recording its hypotheses, primary outcomes, utility tolerance, model/settings/resources, scenario plan, failure handling, pairing, and analysis. If neither candidate is viable, the method lead records a narrower scope decision.
+3. **By October 2:** demonstrate Candidate A's four conditions end to end, including the practical gate, source/answer separation, traces, isolated replay, and an analysis smoke test. Finalize the frozen evaluation set before confirmatory runs.
 4. **By October 16:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
 5. **By October 23:** assemble a full report draft. Use the period through November 6 for reproduction, review, revisions, and handoff; keep the rest of term as buffer for presentations and narrowly justified repairs.
 
@@ -98,4 +101,4 @@ These are working project targets, not NYU course deadlines. See the [semester p
 
 ## Relationship to Agent Assurance
 
-[The source map](../agent-assurance-bridge.md) motivates authority-boundary questions from IA-02/IA-03, the narrow containment assumption from CF-01, and evidence capture from AT-01. The study does not implement an authentication-strength experiment, assess all 26 controls, or certify a framework. It can support, qualify, or challenge a specific assumption; relevant academic work and contrary findings carry equal weight.
+[The source map](../agent-assurance-bridge.md) motivates authority-boundary questions from IA-02/IA-03, the narrow containment assumption from CF-01, and evidence capture from AT-01. Candidate A would not implement an authentication-strength experiment, assess all 26 controls, or certify a framework. If selected, it could support, qualify, or challenge a specific assumption; relevant academic work and contrary findings carry equal weight.

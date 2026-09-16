@@ -2,8 +2,9 @@
 
 This is the public contributor directory for the NYU Fall 2026 VIP. Each student's
 linked portfolio records the work they contributed and the evidence for it.
-Literature, experiments, design, code, tests, data, analysis, documentation,
-review, and presentations all belong in this record.
+Literature, pilot critique, reproduction attempts, reasoned proposals and rejections,
+experiments, design, code, tests, data, analysis, documentation, review, and
+presentations all belong in this record when linked to actual evidence.
 
 ## NYU Fall 2026 roster
 

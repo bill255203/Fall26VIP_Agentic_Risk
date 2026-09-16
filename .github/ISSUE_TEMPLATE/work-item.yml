@@ -5,14 +5,15 @@ body:
   - type: dropdown
     id: milestone
     attributes:
-      label: Semester milestone
+      label: Milestone or backlog status
       description: A maintainer also sets the GitHub milestone field. Changes to scope need a plan update.
       options:
         - M1 — Onboard and reproduce
-        - M2 — Review evidence and freeze protocol
+        - M2 — Select a question and freeze protocol
         - M3 — Implement and validate
         - M4 — Run and analyze
         - M5 — Report and hand off
+        - Candidate — pending study selection, no delivery milestone yet
         - Stretch backlog — no delivery milestone yet
     validations:
       required: true
@@ -38,7 +39,7 @@ body:
     id: rationale
     attributes:
       label: Research value
-      description: Explain how this supports the current research package.
+      description: Explain how this informs question selection or supports the selected study. A sourced critique, reproduction attempt, or rejected proposal can be a useful outcome.
     validations:
       required: true
   - type: input
@@ -50,7 +51,7 @@ body:
     id: dependencies
     attributes:
       label: Dependencies and scope
-      description: Link prerequisite issues and state whether this is required work or an optional extension.
+      description: Link prerequisite issues. State whether this is required work, conditional on selecting a candidate, or an optional extension.
   - type: textarea
     id: acceptance
     attributes:
@@ -64,4 +65,4 @@ body:
     id: evidence
     attributes:
       label: Reproducibility record
-      description: For experiments, list the intended config, traces, analysis, and held-constant variables.
+      description: For exploration, link sources, critique, and feasibility evidence. For experiments or data analysis, list the intended data/config, provenance, comparison, measures, and analysis.
