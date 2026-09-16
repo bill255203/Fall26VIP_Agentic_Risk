@@ -14,12 +14,19 @@ Use kickoff to establish a shared starting point:
 
 1. Introduce the broad question, the existing scripted starter, and what the cohort
    still gets to decide. Show where the README, quick start, and task queue live.
+   Present Candidate A as an example of a mature protocol. Early ideas need only
+   the [five-part proposal outline](../studies/README.md#short-proposal-outline)
+   to enter the comparison; students do not need a full protocol to propose a question.
 2. Demonstrate one pilot run and trace. Check Git/Python experience and provide a
    path for setup help; completed setup is not a prerequisite for attending.
 3. Hear students' interests and availability. Agree small onboarding tasks and
    tentative reading/reproduction responsibilities rather than assigning every
    document or candidate to every student.
-4. Confirm the kickoff date and the [working schedule](../semester-plan.md#calendar-and-working-targets),
+4. Explain contribution records simply: brief links preserve research work and help
+   everyone receive appropriate credit, including critiques, unsuccessful attempts,
+   and reviews. One short portfolio row per meaningful outcome is enough; activity
+   counts are not contribution scores.
+5. Confirm the kickoff date and the [working schedule](../semester-plan.md#calendar-and-working-targets),
    allowing a full week for onboarding and accounting for recess and course deadlines.
    Record actual dates in the plan and GitHub milestones together.
 

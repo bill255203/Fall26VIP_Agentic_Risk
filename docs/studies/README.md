@@ -31,8 +31,9 @@ framework or control is required by the program.
 1. **Explore and test feasibility from kickoff through M2.** Reproduce and critique
    the starter, read relevant primary sources, and attempt one bounded published
    reproduction. Divide that work between students. Small development probes or
-   checks on existing data should inform the proposals; a feasibility failure is
-   useful evidence when its cause and implications are recorded.
+   checks on existing data belong to [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3),
+   alongside inputs from starter critique #1, literature #2, and bounded reproduction #6.
+   A feasibility failure is useful evidence when its cause and implications are recorded.
    Use a declared development subset for feasibility probes and preserve held-out
    records for confirmatory analysis. If prior inspection prevents a clean holdout,
    disclose it and limit the affected conclusions to exploratory or replication
@@ -50,9 +51,11 @@ framework or control is required by the program.
    before committing to study-specific implementation. If A is selected, activate
    [gate issue #4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) in M3.
    If another study is selected, keep #4 deferred and define only its needed tasks.
-5. **Validate before collecting confirmatory evidence.** Complete the smallest
-   selected experiment or analysis pipeline by M3. Freeze its evaluation
-   cases/data before confirmatory runs or analysis; keep development results separate.
+5. **Build and validate after protocol freeze.** [Issue #7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)
+   starts after #3 records the selected study and frozen protocol. Complete the smallest
+   selected experiment or analysis pipeline by M3, reusing relevant feasibility work.
+   Freeze its evaluation cases/data before confirmatory runs or analysis; keep
+   development results separate.
    Changes after inspecting evaluation results must be recorded as amendments.
 
 If no candidate is feasible, the method lead records a narrower study or revised
@@ -63,7 +66,10 @@ empirical study. Resource access and any paid-call budget must be settled before
 ## Short proposal outline
 
 Use one concise issue entry or document per candidate. Candidate A already has a
-detailed document; critique and amend it rather than duplicating it in a new form.
+detailed document: it illustrates what a mature protocol can look like. Early student
+proposals need only the five-part outline below; they do not need to match A's level
+of detail to be considered. Compare candidates using this outline, then develop
+the selected proposal into a full protocol. Critique and amend A without duplicating it.
 
 | Item | What the cohort needs to know |
 | --- | --- |

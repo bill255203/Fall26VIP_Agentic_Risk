@@ -7,7 +7,9 @@ The executable code implements only the scripted pilot in `experiments/pilot.tom
 If Candidate A is selected at M2, its model/backend choice, resource limits, scenario
 set, repetitions, and analysis thresholds must be reviewed and frozen in
 [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs.
-Its existing detail does not make it selected automatically.
+Its detail illustrates what a mature protocol can look like. Early student ideas
+need only the [five-part candidate outline](README.md#short-proposal-outline), not a
+protocol of comparable length; selection assesses the question and evidence.
 
 ## The question and the possible answers
 
