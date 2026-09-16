@@ -1,6 +1,6 @@
 ## Objective and plan
 
-<!-- State the question/problem, link its issue, and name M1–M5. Use Closes #123 only if this completes the whole issue. -->
+<!-- State the question/problem, link its issue, and name M1–M5 or Candidate (pending selection). Use Closes #123 only if this completes the whole issue. -->
 
 ## Change
 
@@ -8,7 +8,7 @@
 
 ## Evidence
 
-<!-- List checks run. For experiments, link the config, manifest, traces, and analysis. -->
+<!-- For exploration, link sources, critique, feasibility evidence, or selection rationale. For experiments, link the config, manifest, traces/data, and analysis. List relevant checks run. -->
 
 ## Research interpretation
 

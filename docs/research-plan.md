@@ -4,31 +4,31 @@
 
 The program asks:
 
-> How do failures propagate through agentic AI systems, when do they become consequential, and which assurance controls contain them?
+> How do risks arise and propagate in agentic AI systems, when do they become consequential, and how can they be understood or controlled?
 
-The VIP is an empirical research project on risk propagation and containment. A simulated financial-control workflow is the first environment, giving decisions observable consequences. Academic literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply hypotheses and methods. Neither source predetermines the findings or requires the cohort to validate an entire framework.
+The VIP is an empirical research project on agentic risk and assurance. A simulated financial-control workflow is the starter environment, giving decisions observable consequences. Academic literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply hypotheses and methods. Neither source predetermines the question or findings or requires the cohort to validate an entire framework.
 
 A useful conceptual chain is:
 
 > Failure → Propagation → Authority boundary → Consequence → Control
 
-The first cohort's contribution is a bounded, reproducible study with clear methods, data, conclusions, and limitations.
+The first cohort's contribution is one bounded, reproducible study with clear methods, data, conclusions, and limitations. The cohort helps select that study through a short, evidence-producing discovery period rather than receiving a predetermined paper question.
 
-## The first empirical research path
+## Selecting the first empirical study
 
-The actionable question is:
+The cohort will select one study by **September 25** using the [study-selection and protocol process](studies/README.md#selection-and-protocol). Consider no more than two serious cohort candidate proposals. Each candidate must identify a testable question or deliberate replication purpose, relevant primary literature, a feasible empirical design, needed access and resources, measurable outcomes, and a credible path to the October 2 validation gate. A bounded replication, a controlled experiment, an analysis of existing genuine traces, or an attribution study can qualify when its question and evidence fit the program.
 
-> When a corrupted upstream summary reaches an execution-capable workflow, does independent-evidence gating reduce incorrect actions without unacceptable loss of correct task completion?
+[Candidate A: runtime containment](studies/01-runtime-containment.md) is a worked starting proposal, not the selected semester study. It asks whether independent-evidence gating reduces incorrect actions under corrupted input without unacceptable loss of clean task completion. Its detail makes it useful for critique and feasibility testing; it receives the same review of novelty or replication value, evidence, access, and schedule as any other candidate.
 
-The [Study 1 proposal](studies/01-runtime-containment.md) defines hypotheses, candidate scenarios, the architecture/authority map, predicted propagation path, four comparison cells, metrics, and decisions needed before running. It is a starting protocol for student review, not an already completed experiment.
+The scripted pilot remains common setup evidence. It gives every candidate a concrete apparatus to reproduce and criticize, but the selected study may adapt it, replace parts of it, reuse an established research asset, or analyze a suitable genuine trace set. If no candidate is viable by September 25, the method lead records a narrower scope decision; no candidate becomes selected merely because it is already documented.
 
-1. **Select and critique a claim.** Read IA-02/IA-03/CF-01 as motivation, AT-01 as an evidence practice, and relevant independent literature. Distinguish literal source controls from our narrower experimental adaptation.
-2. **Make the machinery work early.** Reproduce the existing scripted pilot; investigate backend access, draft scenarios, and run a small genuine-model feasibility smoke alongside literature/protocol work.
-3. **Freeze one test.** Compare clean versus corrupted inputs and gate off versus a practical gate, with the same execution opportunity in every primary condition. Freeze outcomes, utility tolerance, scenarios, pairing, and analysis before confirmatory runs.
-4. **Produce and inspect evidence.** Capture observable inputs, outputs, tool use, authority enforcement, final actions, failures, and provenance. Analyze safety and utility together.
-5. **Report the finding and its limits.** Explain whether the evidence supports, qualifies, or challenges the tested assumption. Keep method critique, negative results, and next questions visible.
+1. **Explore and critique.** Read primary literature, inspect relevant datasets or systems, and question the scripted pilot's assumptions.
+2. **Reproduce or probe feasibility.** Reproduce the starter and one bounded external result or component, or run another small feasibility check that directly informs a candidate.
+3. **Select and freeze one study.** Record the question, hypotheses or estimands, evidence source, units, comparisons, outcomes, resources, exclusions, failure handling, and analysis before confirmatory work.
+4. **Produce and inspect evidence.** Preserve the observable inputs, outputs, decisions, failures, labels, and provenance needed for the selected claim. Analyze adverse outcomes beside usefulness or other relevant costs.
+5. **Report the finding and its limits.** Explain whether the evidence supports, qualifies, or challenges the tested claim. Keep method critique, negative results, and next questions visible.
 
-The first empirical effect is the effect of the **configured control package**, with authority held constant. The gate includes an additional model call and evidence; the design does not isolate those contributions or measure a behavioral response to different authority levels. A causal authority or authentication-strength comparison is a later, separate design decision.
+If Candidate A is selected, its first empirical effect is the effect of the **configured control package**, with authority held constant. Its practical gate, live backend, and fixed four-cell comparison are Candidate A requirements, not program-wide requirements. A different selected study must provide equally explicit claim boundaries and a design appropriate to its question.
 
 ## Common research cycle
 
@@ -36,12 +36,12 @@ Every study follows the same cycle:
 
 | Stage | Required question or action |
 | --- | --- |
-| **Define** | State one falsifiable question, hypotheses, unit of analysis, outcomes, and exclusions before running the study. |
-| **Baseline** | Run the unchanged workflow against known ground truth. |
-| **Perturb** | Change one declared input or mechanism. |
-| **Observe** | Preserve the full trace needed to locate propagation, decisions, and interventions. |
-| **Control** | Add one assurance mechanism with a precise, testable rule. |
-| **Compare** | Use the same scenarios and declared analysis across conditions. Report counts and uncertainty, not just examples. |
+| **Define** | State one answerable question, prespecified hypotheses or estimands, unit of analysis, outcomes, and exclusions before running the study. |
+| **Evidence base** | Establish the baseline, source dataset, trace sample, or prior result against which the question will be assessed. |
+| **Vary or classify** | Apply a declared treatment or perturbation, or define a reproducible exposure, label, or comparison in existing evidence. |
+| **Observe** | Preserve the traces, records, labels, and provenance needed to locate outcomes and support re-analysis. |
+| **Test or analyze** | Apply the prespecified control, replication, attribution, or analysis procedure appropriate to the question. |
+| **Compare** | Use the declared units and analysis across conditions or evidence groups. Report counts and uncertainty, not just examples. |
 | **Generalize** | State only what the design supports, identify limitations, and propose the next test. |
 
 ## Current scripted pilot
@@ -89,9 +89,9 @@ Inspect clean execution-enabled runs for unnecessary blocking and verify that no
 
 Safety results must be read beside utility. A control that blocks every action may reduce harmful execution while also making the workflow useless.
 
-## A later empirical study of authority
+## Requirements for a causal authority study
 
-Treat a causal authority study as a separate experiment after the apparatus works. It should:
+A candidate that tests authority causally must treat it as a separate experiment rather than infer it from the scripted caps. It should:
 
 1. define whether the target is the effect of authority on reasoning, proposed decisions, or realized consequences;
 2. randomly assign the authority treatment within a shared set of scenarios;
@@ -101,7 +101,7 @@ Treat a causal authority study as a separate experiment after the apparatus work
 6. analyze paired or blocked comparisons by scenario and report uncertainty;
 7. distinguish behavioral effects from the mechanical protection supplied by enforcement.
 
-Those requirements are necessary before making a causal authority claim. The current scripted pilot is apparatus and enforcement validation; Study 1 instead estimates a containment-control effect under fixed authority.
+Those requirements are necessary before making a causal authority claim. The current scripted pilot is apparatus and enforcement validation. Candidate A would estimate a containment-control effect under fixed authority if the cohort selects and freezes it.
 
 ## Semester delivery
 
@@ -110,5 +110,7 @@ The [Fall 2026 semester plan](semester-plan.md) is the single operational plan f
 ## Claim discipline
 
 Do not claim that the cohort discovered multi-agent propagation, that finance alone creates novelty, or that one workflow establishes a universal Agent Assurance framework. Separate observed results from interpretation, and describe conclusions at the level supported by the scenarios, models, controls, and outcome definitions actually tested.
+
+Keep permission, correctness, mutation, and consequence distinct. An authorized action can still be wrong. An explicit wrong no-op, omission, or decision to preserve state can be consequential even though it is not a state mutation; report harmful state change as a narrower outcome where useful.
 
 Disclose the research group's relationship to Agent Assurance. An affiliated cohort's experiments can scrutinize assumptions but are not automatically external validation or peer review. A static risk path is a hypothesis about possible propagation, not proof of actual traversal. See the [source map](agent-assurance-bridge.md) for exact control meanings and limitations.

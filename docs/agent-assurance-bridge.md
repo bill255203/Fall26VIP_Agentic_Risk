@@ -1,6 +1,6 @@
 # Agent Assurance as a research source
 
-The VIP studies risk propagation and runtime containment. Agent Assurance supplies candidate assumptions, threat patterns, controls, and evidence practices alongside the academic literature. A result may support an assumption, narrow its applicability, or challenge it. Completing the methodology's institutional templates is not a semester deliverable.
+The VIP studies agentic risk and assurance through one bounded study selected by the cohort. Agent Assurance supplies candidate assumptions, threat patterns, controls, and evidence practices alongside independent academic literature; it does not select the semester question. A result may support an assumption, narrow its applicability, or challenge it. Completing the methodology's institutional templates is not a semester deliverable.
 
 ## Version inspected
 
@@ -8,7 +8,7 @@ This map summarizes and adapts [Fengze Zhong's Agent Assurance repository](https
 
 The pinned [control matrix](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/paper/control_matrix.md) contains 26 controls. [Minimum Viable Assurance](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/MINIMUM_VIABLE_ASSURANCE.md) selects ten; IA-03, MC-01, TF-01, ZC-01, and AT-01 are in that subset, while IA-02, CF-01, MC-02, IC-01, and AT-03 are outside it. MVA is an institutional adoption sequence, not the VIP syllabus.
 
-## What to use first
+## Examples relevant to Candidate A
 
 | Source control and exact title | Useful VIP question or practice | Limit of the connection |
 |---|---|---|
@@ -17,11 +17,11 @@ The pinned [control matrix](https://github.com/zhongnz/agent_assurance/blob/4c23
 | **CF-01 — Failure-domain isolation and cascade prevention** | Test whether one intervention prevents a local information error from becoming an incorrect simulated action. | One gate tests a narrow containment assumption, not every isolation, circuit-breaker, or recovery requirement. |
 | **AT-01 — Runtime evidence capture** | Preserve observable inputs, messages, tool definitions/calls/results, model responses, and final actions so traces can be audited. | Logging is a method requirement here; attribution accuracy is a separate future experiment. Capture exposed outputs only, not unavailable internal reasoning. |
 
-The [first study proposal](studies/01-runtime-containment.md) tests a practical containment package with authority held constant. This is more precise than describing a recommendation-only agent's inability to execute as proof of a control's effectiveness.
+[Candidate A](studies/01-runtime-containment.md) proposes a practical containment package with authority held constant. It is unselected and receives the same review as another serious cohort candidate under the [study-selection process](studies/README.md#selection-and-protocol). If selected, its design is more precise than describing a recommendation-only agent's inability to execute as proof of a control's effectiveness.
 
-## Candidate later studies
+## Other candidate directions
 
-| Source concept | Bounded experiment to consider later |
+| Source concept | Bounded question or experiment |
 |---|---|
 | **MC-01 — Retrieval-context integrity; MC-02 — Memory-poisoning detection and response** | Corrupt one retrieval item or memory entry; compare how source verification or memory isolation affects propagation and useful task completion. |
 | **IC-01 — Inter-agent message authentication and policy enforcement** | Manipulate sender identity or permitted message/action classes. Semantic contamination alone does not test message authentication. |
@@ -30,15 +30,17 @@ The [first study proposal](studies/01-runtime-containment.md) tests a practical 
 | **LT-01 — Lethal trifecta architectural review; LT-02 — Egress-channel inventory and control** | Vary sensitive-data access and egress routes in a synthetic sandbox and measure unauthorized disclosure, alongside legitimate task outcomes. |
 | **AT-03 — Evidence-store reconstruction queryability**, with AT-01 | Test reconstruction by session ID, output, network anomaly, or input pattern, measuring completeness and latency without custom per-query code. An evidence-view attribution comparison is a distinct AT-01-inspired study with blinded labels and attribution accuracy. |
 
-These are a backlog, not a promise to implement each control or a fixed sequence for future cohorts. Select the next study from unresolved evidence and relevant literature.
+These are research directions, not a syllabus, a promise to implement each control, or a fixed sequence for future cohorts. The Fall 2026 cohort considers no more than two serious proposals and selects one by September 25. Any proposal drawn from this table still needs primary literature, a feasible evidence source, measurable outcomes, and a frozen protocol.
 
 ## Three small artifacts to borrow
 
 1. **Architecture and authority map.** One table of roles, inputs, tools, permissions, memory, outputs, and outbound capability. Adapt the [agent inventory](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/assurance_kit/agent_inventory_template.md) to the experiment rather than collecting institutional governance fields.
-2. **Predicted propagation path.** Before running, name the injected fault, expected downstream path, intervention point, and assumptions that could fail. The [toxic-flow template](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/assurance_kit/toxic_flow_analysis_template.md) informs this practice. Its specific toxic flows require privileged-data access and egress: the first credit-limit study tests a propagation path, not exfiltration or a full TF-01 assessment.
+2. **Predicted propagation path.** Before running, name the injected fault, expected downstream path, intervention point, and assumptions that could fail. The [toxic-flow template](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/assurance_kit/toxic_flow_analysis_template.md) informs this practice. Its specific toxic flows require privileged-data access and egress: Candidate A would test a propagation path, not exfiltration or a full TF-01 assessment.
 3. **Evidence map.** Link each proposed claim to the needed fields in the trace and analysis. Adapt the [capture checklist](https://github.com/zhongnz/agent_assurance/blob/4c23d50cdc416586c389cca3ee4499ce45e7c621/assurance_kit/evidence_capture_checklist.md); distinguish missing evidence from evidence that no failure occurred.
 
-The first study's inventory and predicted path live in its proposal; the run record uses [experiment-record.md](experiment-record.md). Students do not need nine separate assurance documents.
+Candidate A's inventory and predicted path live in its proposal; another selected study should create only the compact artifacts its claim needs. The run record uses [experiment-record.md](experiment-record.md). Students do not need nine separate assurance documents.
+
+Authority permits an action; it does not establish that the action is correct. Likewise, consequence is broader than state mutation: an incorrect no-op, omission, or decision to retain the current state may still be consequential. Preserve those distinctions when turning any source control into an empirical outcome.
 
 ## Research independence and feedback
 

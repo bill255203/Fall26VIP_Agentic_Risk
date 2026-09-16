@@ -43,6 +43,12 @@ start its description with **Planned:** and link the issue; do not describe a
 planned run or result as completed. Negative findings and useful failed
 approaches also belong in the record when supported by evidence.
 
+Study-selection work counts when it leaves reviewable evidence: a sourced
+question exploration, substantive critique, bounded reproduction attempt, or
+reasoned recommendation to reject a proposal. If the cohort does not select a
+proposal, link the existing review or decision; do not invent follow-up work or
+add rows merely to increase activity counts.
+
 For shared work, say who did what. Multiple students can link the same PR or
 artifact while describing their own contributions. For reviewing or presenting,
 link the substantive review comment or saved slides and supporting research.
@@ -58,7 +64,8 @@ when helpful. These examples are guidance; select only roles you performed.
 | --- | --- | --- |
 | Literature search and synthesis | Investigation; Writing – original draft | Source-linked notes and a reviewed synthesis |
 | Reproducing the pilot or a published result | Validation; Investigation | Commands, provenance, comparison, and limitations |
-| Questions, hypotheses, and experiment design | Conceptualization; Methodology | Reviewed design and decision record |
+| Exploring, critiquing, selecting, or rejecting a proposed question | Conceptualization; Methodology; Investigation, as applicable | Sources, feasibility or reproduction evidence, review, and decision rationale |
+| Hypotheses and experiment design for the selected study | Conceptualization; Methodology | Reviewed design and decision record |
 | Harness, agents, tooling, or tests | Software; Validation where applicable | Implementation PR and relevant checks |
 | Scenario data and trace documentation | Data curation | Versioned data, schema, and provenance |
 | Statistical analysis and interpretation | Formal analysis | Analysis code, denominators, and findings |

@@ -2,11 +2,31 @@
 
 This is a seed list, not a completed literature review. The links below point to the primary arXiv records. Descriptions are deliberately limited to what the papers say they contribute; students should read and assess the methods before relying on any result.
 
-## Start with the first question
+## Start by choosing a question
 
-For [Study 1](studies/01-runtime-containment.md), review propagation, executable-action outcomes, runtime containment, and safety/utility tradeoffs. Use the [Agent Assurance source map](agent-assurance-bridge.md) to select testable assumptions from its pinned control matrix. Read IA-02, IA-03, CF-01, and AT-01 first; their literal scopes are narrower or different from some proposed VIP adaptations.
+Use the [selection guide](studies/README.md) to compare at most two developed cohort proposals by September 25. Divide a focused reading/reproduction task between students; nobody needs to survey every resource below. Select sources because they inform a question, baseline, or feasibility decision. Record contrary findings and the work's actual limits.
 
-Treat this methodology as one source alongside independent papers. Record which claim the first experiment could falsify and what alternative explanations remain. Time-box the initial review and reproduction selection to the September 25 protocol checkpoint; continue expanding the literature while feasible implementation proceeds. A full reproduction of an unrelated benchmark is not a prerequisite for the first experiment.
+For [Candidate A](studies/01-runtime-containment.md), begin with propagation, consequential actions, practical containment, and safety/utility tradeoffs. The [Agent Assurance source map](agent-assurance-bridge.md) identifies related assumptions in IA-02/IA-03/CF-01 and the AT-01 evidence practice. Their literal scopes differ from parts of this adaptation. Other questions should choose their own relevant sources.
+
+Time-box one bounded published reproduction so it can inform the selection. Record infeasibility rather than turning a full benchmark reimplementation into a prerequisite. Continue the literature review after choosing the study; evidence of an overlap or flaw can justify a recorded protocol amendment.
+
+## Additional resources to evaluate selectively
+
+These references serve different purposes. Reading a paper, reusing its data,
+running its code, and adopting a framework are separate decisions. No row is a
+mandatory integration or an established result about our own study.
+
+| Resource | Why inspect it | Scope to keep clear |
+| --- | --- | --- |
+| [SABER: Small Actions, Big Errors](https://arxiv.org/abs/2512.07850) | Studies state-changing actions and combines targeted verification, reflection, and context management. Relevant prior work for any claim about safeguards at action boundaries. | Its observations and combined intervention do not establish our proposed gate's effect. A consequential error can also be an incorrect no-change decision. |
+| [AgentDojo](https://agentdojo.spylab.ai/) | Reusable prompt-injection tasks, attacks, defenses, and a candidate for one small reproduction. | Prompt injection is a different fault mechanism from Candidate A's factual corruption; transferring a task or metric needs justification. |
+| [Inspect AI](https://inspect.aisi.org.uk/) | Evaluation infrastructure with datasets, agents, tools, scorers, and logs; consider it if it reduces work for the selected study. | It is infrastructure, not evidence of novelty or a required replacement for the starter. |
+| [CAGE](https://github.com/google/cybernetic-agent-governance-engine) | An architectural reference for execution mediation and other runtime controls. A bounded mechanism could inform a question or comparator. | A control-boundary invariant does not demonstrate practical detection or utility. Full integration, formal models, or richer routing need a selected scientific purpose. |
+
+Use exact paper/code/data revisions in a reproduction. Check actual access, setup,
+licensing, and resource requirements before selecting a dependency. A reused
+benchmark can support independent research when the question and interpretation
+are clear; a fresh framework implementation is not itself an academic contribution.
 
 ## Multi-agent adversarial risk and propagation
 
@@ -44,9 +64,12 @@ The first cohort should make the literature review an explicit research delivera
 - datasets, models, agent frameworks, controls, baselines, and outcome denominators;
 - whether code, data, prompts, and traces are available and reproducible;
 - what the evidence directly supports and what the discussion only proposes;
-- similarities to and differences from consequence-aware propagation across authority boundaries;
+- similarities to and differences from the candidate question and proposed comparison;
 - one concrete implication for this project’s experiment design.
 
 Then broaden the search systematically across multi-agent safety, cascading failures and prompt injection, delegated authorization and capability control, runtime verification, operational risk, failure attribution, trace observability, and safety–utility evaluation. Record search sources, query strings, inclusion criteria, and the version of each reviewed paper.
 
-Related work does not establish this project’s novelty. Only a documented review can show which questions are already answered, which methods can be reused, and where a defensible gap may remain. Until that review is complete, describe the project as investigating consequence-aware propagation and controls, not as the first work to do so.
+Related work does not establish this project's novelty. A documented review helps
+show what is answered, which methods can be reused, and where a defensible gap may
+remain. A deliberate replication is also a valid choice when its purpose is clear.
+Describe the selected study at the level its actual evidence supports.

@@ -1,18 +1,18 @@
 # Contributing
 
-This is the canonical Fall 2026 VIP workspace. Follow the [semester plan](docs/semester-plan.md), keep work in its milestone, and preserve evidence and credit for the people who did it.
+This is the canonical Fall 2026 VIP workspace. Follow the [semester plan](docs/semester-plan.md), keep work in its milestone or explicitly pending selection, and preserve evidence and credit for the people who did it. Begin with the [study selection guide](docs/studies/README.md): no empirical study has been selected yet.
 
 ## Your first contribution
 
 1. Read the README and semester plan, then follow the pilot setup.
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [portfolio guide](docs/contributors/README.md) to add your public roster entry and profile. Share only your preferred display name and GitHub username.
-4. Pick a small issue in the current milestone. Ask to be assigned or identify yourself as its proposed owner in the issue; a maintainer confirms ownership. List collaborators so overlapping work is visible.
-5. Submit your first contribution as a pull request. A maintainer reviews onboarding and can arrange repository access separately.
+4. Submit the introduction-only PR, linking the shared onboarding issue with `Relates to #5`. No completed research task or separate issue is required. A maintainer reviews onboarding and can arrange repository access separately.
+5. Then pick a small issue in the current milestone. Identify yourself as its proposed owner; a maintainer confirms ownership. List collaborators so overlapping work is visible.
 
 ## Workflow
 
-1. Start from an issue with one deliverable, a milestone, a lead owner, dependencies, acceptance criteria, and planned evidence. Everyone can see collaborators in its body; GitHub assignees identify the accountable owner where access permits.
+1. Start from an issue with one deliverable, a milestone or candidate/backlog status, a lead owner, dependencies, acceptance criteria, and planned evidence. The shared onboarding issue covers introduction PRs. Everyone can see collaborators in its body; GitHub assignees identify the accountable owner where access permits.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
 3. Make one focused change and document assumptions. Add a contribution-profile entry for a meaningful deliverable or review, linked to its evidence. This is one entry per outcome, not per commit.
 4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
@@ -30,6 +30,12 @@ Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board
 - `bug`: behavior that contradicts the documented design.
 
 Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. A change in research scope, planned outcomes, resources, or success criteria needs a linked plan-change issue and reviewed update to the semester plan/decision log.
+
+Issues marked `candidate` are conditional on the study-selection decision in #3.
+They have no delivery milestone until selected. The selected study's necessary
+tasks become required work; other candidates stay deferred. Sourced exploration,
+reproduction attempts, and selection rationale are M2 work and count as contributions
+even when a proposed direction is rejected.
 
 ## Make your contributions visible
 
@@ -53,12 +59,12 @@ The repository owner retains GitHub's administrator bypass for bootstrap or reco
 
 A research result is reviewable only when another person can identify exactly what produced it. Include:
 
-- the research question and falsifiable hypothesis;
-- the changed and held-constant variables;
-- ground truth and fault definition;
-- configuration and code revision;
-- backend, model, prompts, sampling parameters, and seeds when applicable;
-- raw trial traces and an analysis with explicit denominators;
+- the research question and hypothesis or quantity to estimate;
+- the treatment, evidence groups, or comparison, including what stays fixed;
+- defensible reference labels and any fault/perturbation definition where applicable;
+- configuration, code revision, source data/trace revisions, and transformations;
+- backend, model, prompts, sampling parameters, and seeds for new model runs;
+- source records or trial traces and analysis with explicit units and denominators;
 - negative results, limitations, and known threats to validity.
 
 Do not describe deterministic fixture runs as LLM evidence. Do not treat an ideal verifier with direct access to truth as a deployable control. See [the experiment record](docs/experiment-record.md) before interpreting results.
