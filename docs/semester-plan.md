@@ -139,7 +139,8 @@ outputs** (10 question presentation, 10 final written report/reproducibility,
 evidence-based rubric. The instructor confirms the final course policy before
 applying it. Shared outputs do not replace individually attributable work.
 Use the [individual report template](contributors/_individual-report-template.md)
-in each existing portfolio; no extra weekly log is required.
+to create each student’s report at the draft checkpoint, linking existing Issues/PRs;
+no ongoing portfolio table or extra weekly log is required.
 
 ## Responsibility and student visibility
 

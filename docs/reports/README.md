@@ -28,7 +28,7 @@ The [tentative grading scheme](../grading-proposal.md#two-group-presentations-an
 explains the content and criteria.
 
 Each student also writes an [individual contribution report](../contributors/_individual-report-template.md)
-in their existing portfolio: draft November 6, final November 20. Link it from their
+in `docs/contributors/YOUR-USERNAME.md`, linking existing tasks and PRs: draft November 6, final November 20. Link it from their
 own Individual report task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). The shared technical report, two shared presentations,
 and each student's report are distinct outputs. Reuse evidence links instead of
 copying logs; slides do not replace the written reports.

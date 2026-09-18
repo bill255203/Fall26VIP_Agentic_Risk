@@ -18,7 +18,7 @@ provides meeting logistics and course policies through the course's usual channe
 
 **By Friday, September 25 (M1), each student should:**
 
-- Open your **Individual onboarding task** under #5, then an introduction PR with your roster row and profile, following steps 2–3; link your task and [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
+- Open your **Individual onboarding task** under #5, then an introduction PR with your roster row, following steps 2–3; link your task and [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
 - Try the starter in step 1. Open an **Individual task** under [Group goal #1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), with your command, result or exact setup error, and one observation/question. Link any evidence already posted in #1 instead of copying or rerunning it; remove private paths or credentials before posting. Setup help does not wait for assignment.
 - Agree one small next task and record your name/handle and deliverable in your Individual task. If blocked, say what help you need so a maintainer can help or adjust your task.
 
@@ -45,7 +45,7 @@ your work. The instructor confirms the final course policy and submission detail
 - **10% individual collaboration/review:** keep agreed commitments, communicate
   blockers, and give useful, evidence-linked feedback.
 - **10% individual contribution report:** explain your own responsibilities,
-  decisions, evidence, collaboration, and learning. Extend your existing portfolio
+  decisions, evidence, collaboration, and learning. Write your report
   using the [report template](contributors/_individual-report-template.md);
   draft November 6, final November 20. No second weekly activity log is needed.
 - **30% shared group work:** research-question presentation **10**, final written
@@ -74,7 +74,7 @@ the group collects those links and produces the combined output.
 | **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The cohort gives one research-question presentation comparing at most two developed candidates; coordinate slides and roles in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21), then link its presentation/discussion from #3. The method lead and cohort then record one selected, reviewed protocol. |
 | **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
 | **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
-| **Full draft — November 6** | Write or review your assigned group report section and draft your individual contribution report in your portfolio. Link supporting evidence; build from material recorded throughout the project. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
+| **Full draft — November 6** | Write or review your assigned group report section and draft your individual report in `docs/contributors/YOUR-USERNAME.md`, linking task/PR evidence. Link supporting evidence; build from material recorded throughout the project. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
 | **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, complete your individual report, and contribute your agreed part to the final group presentation. | Reviewed group report and handoff in #9; final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); each student’s individual report and task linked from [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). |
 
 The question presentation targets **October 9** and the final presentation targets
@@ -96,9 +96,9 @@ Late joiners agree an individual onboarding target and join the current shared w
    Address comments on the same branch; review a peer's work as agreed. A maintainer
    closes your task when its criteria are met and the Group goal when the required
    individual contributions and combined output are reviewed.
-4. **Keep credit visible.** Add one portfolio row per meaningful outcome, including
-   research notes, failed reproduction attempts with useful evidence, writing, or review.
-   Link the same artifacts; no separate weekly portfolio log is needed.
+4. **Keep credit visible in the same task.** Identify your actual part, collaborators,
+   and relevant review links alongside your evidence. No portfolio table or second
+   weekly log is required. Use these links when writing your individual report.
 
 For setup questions, comment in #1; for roster/PR help, use #5; for a research,
 data, or model-access blocker, use your task issue (#3 before selection).
@@ -110,14 +110,14 @@ to the next meeting. Private information belongs in the instructor's course chan
 | Your task | Start here | Record the outcome here |
 | --- | --- | --- |
 | Understand the project and schedule | [README](../README.md), [semester plan](semester-plan.md), [cohort roles](cohort-guide.md) | Your task's issue; agreed changes in the [decision log](decisions.md). |
-| Understand assessment and prepare your individual report | [Tentative grading scheme](grading-proposal.md), [rubric](grading-proposal.md#one-scoring-rubric-applied-to-each-stage), [report template](contributors/_individual-report-template.md) | Agree stages in your own tasks; reuse portfolio evidence; keep scores and private feedback in the course channel. |
+| Understand assessment and prepare your individual report | [Tentative grading scheme](grading-proposal.md), [rubric](grading-proposal.md#one-scoring-rubric-applied-to-each-stage), [report template](contributors/_individual-report-template.md) | Agree stages in your own tasks; link existing task/PR evidence; keep scores and private feedback in the course channel. |
 | Claim work or attempt the same assignment as a classmate | [Group goals and individual tasks](issue-workflow.md) | Your own Individual task, linked to the parent Group goal; one student owner per task. |
 | Set up Git/Python and run the starter | Steps 1–3 below and [run commands](../README.md#run-the-pilot) | #1 for commands/results/help; #5 for your intro PR. |
 | Find papers, datasets, benchmarks, or tools | [Literature guide](literature.md): propagation and containment, failure attribution, AgentDojo, Inspect, CAGE, and other starting points | Short source-linked notes in #2; PRs to the literature guide for reviewed synthesis. Pick sources for your assigned question; this is not a mandatory reading list. |
 | Propose a question or test feasibility | [Five-part outline](studies/README.md#short-proposal-outline), [Candidate A example](studies/01-runtime-containment.md), [Agent Assurance source map](agent-assurance-bridge.md) | #3 for proposals and probes; the selected protocol goes in `docs/studies/` through review. |
 | Build, test, or analyze | [Code](../src/agentic_risk/), [configurations](../experiments/), [tests](../tests/), [research methods](research-plan.md), [experiment record](experiment-record.md) | PR linked to #7/#8, with exact commands and artifact links. The selected protocol determines the implementation. |
 | Save data and results | [Results policy](../results/README.md) and [experiment record](experiment-record.md) | Generated runs stay in ignored `results/local/`. Share concise evidence in the issue; commit only reviewed snapshots or document an accessible approved storage location and revision. |
-| Write, review, and hand off | [Report outline](reports/README.md), [meeting guide](meetings/README.md), [contribution guide](../CONTRIBUTING.md) | Report PRs in #9; actual meeting notes in `docs/meetings/`; evidence links in your [portfolio](contributors/README.md). |
+| Write, review, and hand off | [Report outline](reports/README.md), [meeting guide](meetings/README.md), [contribution guide](../CONTRIBUTING.md) | Report PRs in #9; actual meeting notes in `docs/meetings/`; evidence links in your Individual tasks; [individual reports](contributors/README.md) under #23. |
 
 Resources linked from the literature guide are starting points to evaluate; access
 to a particular dataset, service, or model is not assumed. The scripted starter needs
@@ -142,7 +142,10 @@ git switch -c onboarding/YOUR-USERNAME
 git remote add fork https://github.com/YOUR-USERNAME/Fall26VIP_Agentic_Risk.git
 ```
 
-Use the [portfolio template](contributors/_template.md) to create `docs/contributors/YOUR-USERNAME.md`. Fill in your public display name, GitHub link, and interests. Add your row to [CONTRIBUTORS.md](../CONTRIBUTORS.md). Your username alone is enough as a display name. Your first PR can just introduce you; no research result is required.
+Add one row to [CONTRIBUTORS.md](../CONTRIBUTORS.md) with your preferred public
+name and GitHub profile link, following the [enrollment guide](contributors/README.md#first-contribution).
+Your username is enough as a display name. Your first PR only needs this roster
+change; no personal profile file, report, or research result is required.
 
 Before committing, set your Git author name and account-associated email in this repository. A GitHub `noreply` address keeps your email private; copy the exact value from your account's email settings. See [the attribution guide](../CONTRIBUTING.md#make-your-contributions-visible).
 
@@ -154,8 +157,8 @@ git config user.email "YOUR-EXACT-GITHUB-NOREPLY-ADDRESS"
 ```
 
 ```bash
-git add CONTRIBUTORS.md docs/contributors/YOUR-USERNAME.md
-git commit -m "Add my Fall 2026 contributor profile"
+git add CONTRIBUTORS.md
+git commit -m "Add my Fall 2026 roster entry"
 git push -u fork onboarding/YOUR-USERNAME
 ```
 
@@ -165,9 +168,9 @@ If Git asks you to authenticate, use GitHub Desktop's sign-in or GitHub CLI's `g
 
 GitHub shows a **Compare & pull request** link after you push. Choose **base repository** `zhongnz/Fall26VIP_Agentic_Risk`, **base** `main`, and your fork/branch as the source. Describe what you changed, name the current milestone (**M1** during kickoff), and link the [onboarding issue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) with `Relates to #5`, plus `Closes #YOUR_TASK_NUMBER` for your own completed onboarding task (replace with its actual number). Do not close the whole cohort's onboarding issue for one person's enrollment. If you cannot edit GitHub's milestone or assignee fields, put the information in the PR description and a maintainer will set them.
 
-A maintainer reviews the PR. If they request edits, make another commit on the same branch and push it; the PR updates automatically. CI for a first-time fork contributor may wait for a maintainer to approve running it. Once merged, your roster/profile and original commit appear in the canonical repository.
+A maintainer reviews the PR. If they request edits, make another commit on the same branch and push it; the PR updates automatically. CI for a first-time fork contributor may wait for a maintainer to approve running it. Once merged, your roster entry and original commit appear in the canonical repository.
 
-For a documentation-only first contribution, you can also use GitHub's browser editor in your fork: create the profile, edit the roster, then open a PR. GitHub Desktop is another option if you prefer a graphical Git interface.
+For a documentation-only first contribution, you can also use GitHub's browser editor in your fork: edit the roster, then open a PR. GitHub Desktop is another option if you prefer a graphical Git interface.
 
 ## 4. Pick a small task and keep the evidence
 
@@ -184,7 +187,10 @@ use the same onboarding path and agree an individual setup target with a maintai
 while taking a bounded current task. The cohort's [schedule](semester-plan.md#calendar-and-working-targets)
 continues; new students are not expected to complete work before joining.
 
-Add one short portfolio row for each meaningful outcome, linked to its issue, PR, review, or artifact. Those links show the actual review status; you do not need a second progress log. For shared work, say who did what. The [portfolio guide](contributors/README.md) has examples.
+Keep evidence and review links in your Individual task. For shared work, say who
+did what. At the report checkpoints, use those links to explain your contributions
+in the [individual report](contributors/README.md#individual-contribution-report).
+No separate ongoing contribution table is required.
 
 Before starting the next branch, update from the official repository with a clean working tree:
 

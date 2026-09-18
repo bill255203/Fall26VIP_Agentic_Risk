@@ -17,7 +17,7 @@ plus the same three shared assessment marks; students do not receive identical o
 | --- | --- | --- | --- |
 | Individual issue contributions | **50%** | Foundation work (10); question/protocol (10); selected-study execution (20); analysis/synthesis/handoff (10). Each stage assesses quality, reasoning, and evidence using the rubric below. | The student's own Individual tasks and evidence, linked to parent Group goals. |
 | Individual collaboration and review | **10%** | Reliable communication and follow-through on agreed responsibilities (5); useful peer review and help that improves the work (5). | Issue updates, substantive review comments, documented coordination, and resolved feedback. |
-| Individual contribution report | **10%** | Accurate, specific attribution linked to evidence (5); explanation of decisions, limitations, learning, and next steps (5). | A short individual report using existing portfolio links. |
+| Individual contribution report | **10%** | Accurate, specific attribution linked to evidence (5); explanation of decisions, limitations, learning, and next steps (5). | A short individual report linking existing task/PR evidence. |
 | Group research-question presentation | **10%** | Evidence-based comparison and rationale (5); a feasible, testable plan and useful responses to questions (5). | One cohort presentation comparing at most two candidates, source/probe evidence, and the recorded selection discussion. |
 | Group final technical report and reproducibility | **10%** | Defensible method, analysis, and honest interpretation (5); a coherent written report and usable reproduction/handoff package (5). | The reviewed report, evidence, commands, and peer reproduction check. |
 | Group final presentation | **10%** | Clear, evidence-backed explanation of the study and findings (5); understanding of limitations, responses to questions, and next steps (5). | One cohort presentation with links to the final report and artifacts. |
@@ -63,7 +63,7 @@ or a small bundle of related deliverables for each stage; there is no issue-coun
 | **Individual issue contribution total** | **50** | | | |
 
 These are choices of contribution, not a requirement to complete every example or
-every linked issue. Onboarding issue #5 establishes access and attribution; a profile
+every linked issue. Onboarding issue #5 establishes access and attribution; a roster
 PR or successful installation alone does not earn a stage's research points. A
 student can earn full foundation or design credit for a strong alternative that the
 cohort rejects. After selection, each student contributes to the selected study.
@@ -112,9 +112,10 @@ with its own artifact can be individual work. The individual report's 10% assess
 attribution and explanation; it does not repeat the artifact-quality score. The
 group 30% separately assesses the integrated presentations/report.
 
-Reuse the portfolio evidence table, starting each contribution description with
-its stage (Foundation, Question, Execution, or Synthesis). Link that row from the
-individual report. No extra weekly report or public grade spreadsheet is needed.
+State the stage (Foundation, Question, Execution, or Synthesis) in the Individual
+task and link evidence there. The individual report links directly to those tasks,
+PRs, and reviews. No portfolio evidence table, extra weekly log, or public grade
+spreadsheet is needed.
 
 ## Two group presentations and the written report
 
@@ -175,11 +176,11 @@ Use **New issue → Individual task**. Record the parent goal, student owner, wo
 deliverable, acceptance criteria, target/check-in, proposed reviewer, and evidence.
 For assessment under this proposal, also state the agreed contribution stage in the
 objective: Foundation, Question, Execution, or Synthesis. Link each task from its
-Group goal and the student's portfolio; the maintainer confirms assignments and scope.
+Group goal; the maintainer confirms assignments and scope.
 
 One student finishing closes only their task. The Group goal closes after its required
 contributions and combined criteria are reviewed. Onboarding also uses an Individual
-task under #5, with the roster/profile PR linked as evidence; setup/profile work
+task under #5, with the roster-entry PR linked as evidence; setup/roster work
 alone does not earn a research stage’s points. Existing
 starter comments can be linked from a task without copying or rerunning the work.
 
@@ -201,24 +202,25 @@ assessment cutoff rather than treating the early handoff as the end of all cours
 The report answers:
 
 1. **What was I responsible for?** State agreed tasks and any reviewed scope changes.
-2. **What did I personally produce or decide?** Link the existing portfolio evidence;
+2. **What did I personally produce or decide?** Link the existing task/PR evidence;
    distinguish your work from collaborators' work and disclose material tool assistance.
 3. **How did it help the shared study?** Explain the result, decision, or reusable asset.
 4. **How did I review and support others?** Link specific review or coordination evidence.
 5. **What are the limits and next steps?** Discuss unsuccessful approaches, learning,
    unfinished work, and what another student needs to continue it.
 
-To keep this easy, extend the existing `docs/contributors/YOUR-USERNAME.md` portfolio
-with the report sections. Reuse its evidence table and fill its “Individual
-contribution report” section (or replace an older “Semester reflection” placeholder).
-Do not maintain a second activity log or duplicate the group report. The public version contains research contributions and evidence. The instructor
+At the draft checkpoint, create `docs/contributors/YOUR-USERNAME.md` from the
+report template, or add the report sections to an existing file while preserving
+earlier records. Link Issues/PRs directly; no ongoing portfolio or duplicate activity
+table is required. Explain your own work without repeating the group report.
+The public version contains research contributions and evidence. The instructor
 confirms the official submission route; marks, personal circumstances, and private
 feedback stay in that channel.
 
 ## Fair assessment and a simple routine
 
 - **Each week:** work on the agreed deliverable, post the existing short issue update,
-  submit evidence for review, and add a portfolio row when a meaningful outcome is ready.
+  submit evidence for review, and keep attribution in that same task.
 - **At the stage checkpoints above:** the instructor checks each student's agreed
   contributions and evidence, identifies gaps early, and agrees any change. These
   are progress conversations using existing issue records, not new reports.
