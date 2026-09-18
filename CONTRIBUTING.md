@@ -1,9 +1,9 @@
 # Contributing
 
 This is the canonical Fall 2026 VIP workspace. New students begin with the
-[quick start](docs/student-start.md). Orientation and setup support happen at the
-first cohort meeting, followed by a full week for onboarding; no repository submission
-is due beforehand. The [semester plan](docs/semester-plan.md) and [selection guide](docs/studies/README.md)
+[student guide](docs/student-start.md). Orientation and setup support begin at the
+September 18 kickoff, with onboarding targeted for September 25; no repository submission
+is due at kickoff. The [semester plan](docs/semester-plan.md) and [selection guide](docs/studies/README.md)
 support the tasks agreed after kickoff. No empirical study has been selected yet.
 
 ## Your first contribution

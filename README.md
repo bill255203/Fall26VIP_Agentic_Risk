@@ -6,16 +6,22 @@ This is the **canonical repository for the Fall 2026 VIP: Agentic AI for Risk Ma
 
 ## Start here
 
-**New student?** Start with this overview. At the first cohort meeting, we will
-introduce the project, demonstrate the starter, and help with setup. There is no
-required repository submission before that meeting; reading or trying the starter
-in advance is optional.
+**First meeting: Friday, September 18, 2026. First student checkpoint: September 25.**
+Kickoff covers the project, a starter demonstration, and setup help. No repository
+submission is due at kickoff.
 
-During the following week, use the [student quick start](docs/student-start.md)
-to clone and run the pilot, open an introduction PR, and note one question or setup
-blocker. No advance GitHub username list or repository invitation is needed.
-Read the [selection guide](docs/studies/README.md) next; detailed method and candidate
-documents are references for the tasks the cohort takes on.
+Start with the [student guide](docs/student-start.md): it explains **what to do at
+each stage, where to submit work, and how to get help**. By September 25, open an
+introduction PR, try the starter and record the result or setup error, and bring one
+question and an agreed small next task. No advance username list or invitation is needed.
+
+Then read the [short proposal outline](docs/studies/README.md#short-proposal-outline)
+and choose an assigned source from the [literature and research resources](docs/literature.md).
+Reading is divided across the cohort; detailed methods and candidate protocols are
+references for your task. Use the [dated semester schedule](docs/semester-plan.md#calendar-and-working-targets)
+and [student roadmap](docs/student-start.md#throughout-the-project) throughout the project.
+
+## Resources and where work lives
 
 | Need | Authoritative location |
 |---|---|
@@ -23,10 +29,13 @@ documents are references for the tasks the cohort takes on.
 | Current work and completion status | [Issues](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) and [milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) |
 | Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [portfolio guide](docs/contributors/README.md) |
 | First contribution and review process | [Contributing](CONTRIBUTING.md) |
+| Papers, benchmarks, datasets, and evaluation tools | [Literature and resource guide](docs/literature.md), including propagation, containment, and failure attribution |
 | Research methods and claim limits | [Research plan](docs/research-plan.md) |
 | How students choose the research question | [Study selection guide](docs/studies/README.md) |
 | A worked proposal to critique | [Candidate A: runtime containment](docs/studies/01-runtime-containment.md) |
 | Ideas borrowed from Agent Assurance | [Source-to-experiment map](docs/agent-assurance-bridge.md) |
+| Runnable starter, configuration, and checks | [Run commands](#run-the-pilot), [source code](src/agentic_risk/), [pilot configuration](experiments/pilot.toml), and [tests](tests/) |
+| How to record experiments and store evidence | [Experiment record](docs/experiment-record.md) and [results policy](results/README.md) |
 | Accepted decisions and meeting actions | [Decision log](docs/decisions.md) and [meeting records](docs/meetings/README.md) |
 | Semester outputs and continuity | [Reports and handoff](docs/reports/README.md) |
 
@@ -139,10 +148,10 @@ literature synthesis, or a documented research decision.
 Start with the [cohort guide](docs/cohort-guide.md), record experiments using [the experiment record](docs/experiment-record.md), and review the current [literature map](docs/literature.md). Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The [semester task queue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues)
-starts from the **first cohort meeting**, with a full week for onboarding.
+starts from **September 18**, with a full week for onboarding.
 The [semester plan](docs/semester-plan.md#calendar-and-working-targets) is the single
-schedule for selection, validation, evidence, draft, and handoff. Calendar dates
-will be set once the meeting date is confirmed, with early evidence and time for review.
+schedule for selection, validation, evidence, draft, and handoff. Its dates are
+working project targets; course policies and any formal submission times come from the instructor.
 
 ## Current scope
 

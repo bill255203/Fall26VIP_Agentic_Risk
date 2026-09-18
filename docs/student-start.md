@@ -1,24 +1,91 @@
-# Student quick start
+# Student guide: kickoff through handoff
 
 You can read and clone this public repository immediately. To contribute, use your own GitHub account; your first pull request adds you to the visible roster. A pull request (PR) is a proposed change that someone else reviews before it joins the shared project.
 
-## Before and after the first meeting
+Jump to: [setup](#1-clone-and-run) · [first contribution](#2-make-your-first-visible-contribution) ·
+[project roadmap](#throughout-the-project) · [weekly workflow](#every-week-work-share-evidence-and-get-review) ·
+[resources](#resources-what-to-read-and-where-to-save-work).
 
-Before the first meeting, browsing the README or trying the starter is optional.
-There is no repository submission due before we meet. The kickoff includes a project
+## First meeting: September 18, 2026
+
+No repository submission is due at kickoff. The meeting includes a project
 introduction, a starter demonstration, and a check of students' Git/Python experience,
 interests, and access needs. Setup support is part of onboarding.
 
-Your first-week checklist, with a full week after kickoff:
+At the meeting, share an interest or question and any setup/access difficulty.
+Agree with a maintainer on a small first task and who can help. The instructor
+provides meeting logistics and course policies through the course's usual channels.
 
-- Open an introduction PR with your roster row and profile, following steps 2–3.
-- Try the starter in step 1 and save the result or exact setup error for help.
-- Bring one observation or question, and agree on one small next task.
+**By Friday, September 25 (M1), each student should:**
+
+- Open an introduction PR with your roster row and profile, following steps 2–3; link [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
+- Try the starter in step 1. Post your command, result or exact setup error, and one observation/question in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1). A short comment is enough to start; remove private paths or credentials before posting.
+- Agree one small next task and record your name/handle and deliverable in its issue. If blocked, say what help you need so a maintainer can help or adjust your task.
 
 The cohort shares the later literature and reproduction work; each student starts
 with a scoped task. The [semester plan](semester-plan.md#calendar-and-working-targets)
 sets the milestones from kickoff, while the [selection guide](studies/README.md)
 explains how the cohort chooses its study.
+
+## Throughout the project
+
+The dates below are **2026 working project targets** from the [canonical schedule](semester-plan.md#calendar-and-working-targets).
+M1–M5 are shared checkpoints. A **protocol** is the agreed study plan: the question,
+comparison, data, measures, and analysis. Freezing it means recording a reviewed
+version before the evidence collection or analysis used for final claims.
+Each student owns an agreed part of the shared work and reviews another contributor's
+work as agreed with the task owner. The cohort produces one study and one report;
+you are not expected to complete every row's deliverable alone.
+
+| Stage and target | What you do | Shared output and where it goes |
+| --- | --- | --- |
+| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Intro PR in #5; starter evidence, questions, and cohort critique in #1. |
+| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The method lead and cohort compare at most two developed candidates and record one selected, reviewed protocol. |
+| **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
+| **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
+| **Full draft — November 6** | Write or review your assigned report section and link the evidence supporting its claims. Add material throughout the project, starting with the shared outline in M1. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
+| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, confirm your contribution credit, and document open questions. | Reviewed report, artifact links, reproduction instructions, and next steps in #9; your [portfolio](contributors/README.md) links your actual contributions. |
+
+After handoff, use remaining term time for instructor-agreed presentation preparation,
+review, or repairs. Presentation dates are not set here. No required project work is
+scheduled during Thanksgiving recess, November 26–27. Raise a missed target or access
+blocker in the relevant issue early; the method lead records any change to scope or dates.
+Late joiners agree an individual onboarding target and join the current shared work.
+
+## Every week: work, share evidence, and get review
+
+1. **Agree a task.** In the current issue, identify your small deliverable, collaborators,
+   reviewer, and next check-in with a maintainer. You can comment even if you cannot assign yourself.
+2. **Keep evidence.** Save source links, commands, findings, or exact errors as you work.
+   Post one short weekly issue update: **evidence produced; next step; blocker/help needed**.
+   For shared tasks, the owner can combine updates while naming each person's work.
+3. **Submit for review.** Put a small code/document change in a PR linked to the issue.
+   Address comments on the same branch; review a peer's work as agreed. A maintainer
+   closes a shared issue only after the whole task meets its acceptance criteria.
+4. **Keep credit visible.** Add one portfolio row per meaningful outcome, including
+   research notes, failed reproduction attempts with useful evidence, writing, or review.
+   Link the same artifacts; no separate weekly portfolio log is needed.
+
+For setup questions, comment in #1; for roster/PR help, use #5; for a research,
+data, or model-access blocker, use your task issue (#3 before selection).
+Include what you tried and the error or decision needed. Bring unresolved blockers
+to the next meeting. Private information belongs in the instructor's course channel.
+
+## Resources: what to read and where to save work
+
+| Your task | Start here | Record the outcome here |
+| --- | --- | --- |
+| Understand the project and schedule | [README](../README.md), [semester plan](semester-plan.md), [cohort roles](cohort-guide.md) | Your task's issue; agreed changes in the [decision log](decisions.md). |
+| Set up Git/Python and run the starter | Steps 1–3 below and [run commands](../README.md#run-the-pilot) | #1 for commands/results/help; #5 for your intro PR. |
+| Find papers, datasets, benchmarks, or tools | [Literature guide](literature.md): propagation and containment, failure attribution, AgentDojo, Inspect, CAGE, and other starting points | Short source-linked notes in #2; PRs to the literature guide for reviewed synthesis. Pick sources for your assigned question; this is not a mandatory reading list. |
+| Propose a question or test feasibility | [Five-part outline](studies/README.md#short-proposal-outline), [Candidate A example](studies/01-runtime-containment.md), [Agent Assurance source map](agent-assurance-bridge.md) | #3 for proposals and probes; the selected protocol goes in `docs/studies/` through review. |
+| Build, test, or analyze | [Code](../src/agentic_risk/), [configurations](../experiments/), [tests](../tests/), [research methods](research-plan.md), [experiment record](experiment-record.md) | PR linked to #7/#8, with exact commands and artifact links. The selected protocol determines the implementation. |
+| Save data and results | [Results policy](../results/README.md) and [experiment record](experiment-record.md) | Generated runs stay in ignored `results/local/`. Share concise evidence in the issue; commit only reviewed snapshots or document an accessible approved storage location and revision. |
+| Write, review, and hand off | [Report outline](reports/README.md), [meeting guide](meetings/README.md), [contribution guide](../CONTRIBUTING.md) | Report PRs in #9; actual meeting notes in `docs/meetings/`; evidence links in your [portfolio](contributors/README.md). |
+
+Resources linked from the literature guide are starting points to evaluate; access
+to a particular dataset, service, or model is not assumed. The scripted starter needs
+no API key. Agree any paid-model access and budget with the instructor before spending.
 
 ## 1. Clone and run
 

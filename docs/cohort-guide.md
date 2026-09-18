@@ -6,15 +6,18 @@ New students can start with the [quick start](student-start.md). The [semester p
 
 The existing scripted pilot is a deterministic, runnable starter for setup, traces, and mechanism checks. It is not the selected empirical study. [Candidate A](studies/01-runtime-containment.md) is one unselected proposal built from that starting point; the selected study may instead address attribution, replication, another containment question, or a different feasible agentic-risk question.
 
-The first meeting introduces the project and starter; no repository submission is
-required beforehand. Students have a full week afterward to introduce themselves,
+The September 18 first meeting introduces the project and starter; no repository submission is
+required beforehand. Students have until September 25 to introduce themselves,
 try the starter, and raise setup questions. Divide focused reading, reproduction,
 and feasibility checks across the cohort rather than assigning all of them to each student.
 
 Use the [selection guide](studies/README.md#selection-and-protocol) to compare at
 most two developed proposals and freeze one reviewed protocol at M2. Record the
 selection rationale and reasoned rejections. The [semester schedule](semester-plan.md#calendar-and-working-targets)
-sets all targets from the first meeting; calendar dates remain unset until kickoff is confirmed.
+sets dated targets from the confirmed September 18 kickoff. The [student roadmap](student-start.md#throughout-the-project)
+shows what each student contributes, the shared outputs, and where to submit them;
+its [resource directory](student-start.md#resources-what-to-read-and-where-to-save-work)
+links the relevant guides, code, papers, and templates.
 
 ## Two teams, one selected study
 
