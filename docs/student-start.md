@@ -6,6 +6,10 @@ Jump to: [setup](#1-clone-and-run) · [first contribution](#2-make-your-first-vi
 [project roadmap](#throughout-the-project) · [weekly workflow](#every-week-work-share-evidence-and-get-review) ·
 [resources](#resources-what-to-read-and-where-to-save-work).
 
+You do not need write access to start: use your own fork and ask a maintainer to
+set issue fields. Peer feedback is welcome; required merge approval comes from an
+eligible reviewer. See [access and protection](access-management.md).
+
 ## First meeting: September 18, 2026
 
 No repository submission is due at kickoff. The meeting includes a project
@@ -27,7 +31,7 @@ with a scoped task. The [semester plan](semester-plan.md#calendar-and-working-ta
 sets the milestones from kickoff, while the [selection guide](studies/README.md)
 explains how the cohort chooses its study.
 
-**Two students may do the same assignment independently.** Each opens their own
+**Multiple students may do the same assignment independently.** Each opens their own
 Individual task under the same Group goal, with separate evidence and review.
 Use [Group goals and individual tasks](issue-workflow.md) for examples and the
 steps to claim work, including onboarding under #5. The [complete task map](issue-workflow.md#complete-task-and-assessment-map) identifies every deliverable, assessment component, parent issue, and checkpoint. You do not need a task under every Group goal.
@@ -52,7 +56,7 @@ your work. The instructor confirms the final course policy and submission detail
   report/reproducibility **10**, and final presentation **10**. The whole cohort
   creates these outputs together; agree and record each student's part.
 
-Two students doing the same assignment independently can both earn full individual
+Multiple students doing the same assignment independently can each earn full individual
 credit through separate tasks and evidence. Joint work must identify each person's
 actual contribution. Grades and private feedback stay outside GitHub.
 

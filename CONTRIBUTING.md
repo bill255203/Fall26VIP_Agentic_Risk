@@ -12,7 +12,7 @@ support the tasks agreed after kickoff. No empirical study has been selected yet
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [enrollment guide](docs/contributors/README.md#first-contribution) to add your public roster entry. No personal profile file is required. Share only your preferred display name and GitHub username.
 4. Open your own Individual task under #5, then submit the introduction PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5` (use your actual task number). No completed research result is required. A maintainer reviews onboarding and can arrange repository access separately.
-5. Choose a Group goal in the current milestone and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): two students attempting the same assignment use two tasks under the same goal.
+5. Choose a Group goal in the current milestone and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): multiple students attempting the same assignment each use their own task under the same goal.
 
 ## Workflow
 
@@ -57,6 +57,9 @@ For work jointly authored in one commit, use `Co-authored-by` trailers with each
 Keep original authors when integrating student changes. If a maintainer must cherry-pick or import work, preserve author metadata and link the original PR. Do not replace students' work with a maintainer-authored aggregate commit. If tools materially assisted the work, describe their role and what the contributor verified; credit named people only for their actual work.
 
 ## Repository review settings
+
+The [access guide](docs/access-management.md) records current GitHub settings,
+onboarding and removal of access, reviewer eligibility, and the owner bypass.
 
 `main` requires a pull request, one approving review, resolved conversations, and passing `test (3.11)` and `test (3.13)` CI checks. New commits dismiss stale approvals. Force pushes and branch deletion are disabled. The repository uses merge commits and disables squash/rebase merging to preserve the original contribution history.
 

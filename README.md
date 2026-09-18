@@ -27,8 +27,9 @@ and [student roadmap](docs/student-start.md#throughout-the-project) throughout t
 |---|---|
 | Semester scope, deliverables, and dependencies | [Fall 2026 plan](docs/semester-plan.md) |
 | All student deliverables, assessment components, and parent issues | [Complete task and assessment map](docs/issue-workflow.md#complete-task-and-assessment-map) |
+| Access, reviewers, and main protection | [Access management](docs/access-management.md) |
 | Current work and completion status | [Issues](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) and [milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) |
-| Two students doing the same assignment; ownership and completion | [Group goals and individual tasks](docs/issue-workflow.md): one Group goal, a separate task per student |
+| Multiple students doing the same assignment; ownership and completion | [Group goals and individual tasks](docs/issue-workflow.md): one Group goal, a separate task per student |
 | Tentative grading, individual responsibilities, and presentations | [70% individual / 30% group scheme](docs/grading-proposal.md) and [individual report template](docs/contributors/_individual-report-template.md) |
 | Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [individual report guide](docs/contributors/README.md) |
 | First contribution and review process | [Contributing](CONTRIBUTING.md) |

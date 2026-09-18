@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Two students doing the same assignment independently open two Individual tasks under the same Group goal. One task has one student owner. Read the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Multiple students doing the same assignment independently each open their own Individual task under the same Group goal. One task has one student owner. Read the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
         Onboarding also uses an Individual task under #5. Link your introduction PR; no research result is required. Find the parent for every deliverable in the [task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map).
   - type: input
     id: parent
