@@ -2,7 +2,7 @@
 
 <!-- Introduction-only PR? Include your roster/profile changes, a short introduction, and Relates to #5. You can omit the research/evidence/credit sections below. -->
 
-<!-- State the question/problem, link its issue, and name M1–M5 or Candidate (pending selection). Use Closes #123 only if this completes the whole issue. -->
+<!-- State the question/problem and name M1–M5 or Candidate. Link your Individual task with Closes #TASK only if complete; link its Group goal with Relates to #GROUP. Replace placeholders with actual numbers. A student's PR must not close the group. For a joint PR, link each student's task and verify each person's completion separately. -->
 
 ## Change
 
