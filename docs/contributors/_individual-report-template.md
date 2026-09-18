@@ -5,9 +5,10 @@ Working targets: draft **November 6**, final **November 20, 2026**. The instruct
 confirms the official submission arrangements. Target about 1–2 pages plus links;
 length is not a grading criterion.
 
-Fill the “Individual contribution report” section of your existing contributor
-portfolio with the sections below (replace an older “Semester reflection” placeholder). Keep your existing contribution table as the evidence index. Link specific rows, issues, PRs, reviews, or artifacts instead of
-copying their contents. Submit through the instructor's confirmed course channel
+At the draft checkpoint, copy this template to `docs/contributors/YOUR-GITHUB-USERNAME.md`.
+If that file already exists, preserve its content and add the report sections.
+Link your Individual tasks, PRs, reviews, and artifacts directly; no contribution
+table or repeated activity log is required. Submit through the instructor's confirmed course channel
 as required; keep marks and private feedback out of the public repository.
 
 ## Individual contribution report
@@ -15,15 +16,15 @@ as required; keep marks and private feedback out of the public repository.
 - Author / GitHub username:
 - Individual report task (parent Group goal #23):
 - Reporting period:
-- Portfolio / evidence index:
+- Key Individual task / PR links:
 
 ### My responsibilities
 
 What work did you agree to own? Link your own Individual tasks and their parent
 Group goals. State whether each was an independent attempt or a contribution to
 shared work. Identify the agreed deliverable for each contribution stage:
-**Foundation, Question, Execution, and Synthesis**. Link the corresponding rows in
-your existing portfolio; explain any agreed change of scope or unfinished work.
+**Foundation, Question, Execution, and Synthesis**. Link the relevant tasks and
+their evidence; explain any agreed change of scope or unfinished work.
 These stages map to the proposed individual-work 10 + 10 + 20 + 10 points; do not
 publish scores or claim credit simply because an issue was assigned or closed.
 

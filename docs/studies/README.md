@@ -89,7 +89,7 @@ questions must justify their own measures and precision.
 ## Credit and continuity
 
 Link source notes, critiques, reproduction attempts, proposals, selection rationale,
-and substantive review in student [portfolios](../contributors/README.md). A proposal
+and substantive review in students’ [Individual tasks](../issue-workflow.md). A proposal
 can be a valuable contribution even when it is rejected. Record who did what and
 the evidence; reading volume, positive findings, or adoption of a proposal are not
 contribution scores. Keep the [semester targets](../semester-plan.md#calendar-and-working-targets)

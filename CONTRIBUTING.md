@@ -10,21 +10,21 @@ support the tasks agreed after kickoff. No empirical study has been selected yet
 
 1. Follow the [student quick start](docs/student-start.md) after kickoff, with setup help as needed. Advance preparation is optional.
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
-3. Follow the [portfolio guide](docs/contributors/README.md) to add your public roster entry and profile. Share only your preferred display name and GitHub username.
+3. Follow the [enrollment guide](docs/contributors/README.md#first-contribution) to add your public roster entry. No personal profile file is required. Share only your preferred display name and GitHub username.
 4. Open your own Individual task under #5, then submit the introduction PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5` (use your actual task number). No completed research result is required. A maintainer reviews onboarding and can arrange repository access separately.
 5. Choose a Group goal in the current milestone and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): two students attempting the same assignment use two tasks under the same goal.
 
 ## Workflow
 
 Use the same task/PR workflow for onboarding and later work. An introduction PR
-needs roster/profile changes, a short introduction, its Individual task link, and
+needs a roster change, a short introduction, its Individual task link, and
 `Relates to #5`; it can omit the research interpretation and full evidence/role table.
 
 1. Start from an Individual task with one student owner, a parent Group goal, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Group goal's assignee coordinates the group; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
-3. Make one focused change and document assumptions. Add a contribution-profile entry for a meaningful deliverable or review, linked to its evidence. This is one entry per outcome, not per commit.
+3. Make one focused change and document assumptions. Link deliverables and substantive reviews in your Individual task. Keep the evidence there; no separate contribution log is required.
 4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
-5. Open a pull request with its issue, milestone, evidence, and a short contributor-role table. Credit collaborators by their actual contributions; each person can update their own portfolio in this PR or a linked follow-up.
+5. Open a pull request with its issue, milestone, evidence, and a brief attribution statement where needed. For shared work, identify each person’s part and link their tasks. No duplicate portfolio update is required.
 6. Obtain review from someone other than the author. A contributor from the other subteam should review methodological changes. Resolve review discussions and pass CI before merging.
 7. Merge with a **merge commit** to preserve individual commit authors. Use `Closes #123` for a completed Individual task and `Relates to #456` for its Group goal, substituting actual numbers. One student's PR does not close the Group goal. A joint PR closes each student's task only after that task's own criteria are checked.
 
@@ -48,11 +48,11 @@ even when a proposed direction is rejected.
 
 ## Make your contributions visible
 
-The [roster](CONTRIBUTORS.md) links each student's portfolio. Literature synthesis, experiment design, reproductions, datasets, analysis, validation, writing, reviews, and presentations all count as visible work when they link to an inspectable artifact. Commit counts and lines of code are not measures of research value or a grading rubric.
+The [roster](CONTRIBUTORS.md) identifies students and their GitHub accounts; Individual tasks and linked PRs record their work. Literature synthesis, experiment design, reproductions, datasets, analysis, validation, writing, reviews, and presentations all count as visible work when they link to an inspectable artifact. Commit counts and lines of code are not measures of research value or a grading rubric.
 
-Use a commit email associated with your own GitHub account; GitHub's private `noreply` address works. Configure it for this checkout, rather than using a shared team identity. Copy the exact address from your GitHub email settings; do not guess it or put private addresses in the roster. GitHub also has [other conditions for profile contributions](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/troubleshooting-missing-contributions), including the branch and repository relationship. The reviewed portfolio is the record for work that a commit graph cannot express.
+Use a commit email associated with your own GitHub account; GitHub's private `noreply` address works. Configure it for this checkout, rather than using a shared team identity. Copy the exact address from your GitHub email settings; do not guess it or put private addresses in the roster. GitHub also has [other conditions for profile contributions](https://docs.github.com/en/account-and-profile/how-tos/contribution-settings/troubleshooting-missing-contributions), including the branch and repository relationship. Task evidence and substantive review links capture work that a commit graph cannot express.
 
-For work jointly authored in one commit, use `Co-authored-by` trailers with each person's chosen account-associated address. Confirm the credit with them first. See [GitHub's co-author instructions](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors). Reviews and other contributions belong in the PR credit table and portfolio even when they do not justify commit co-authorship.
+For work jointly authored in one commit, use `Co-authored-by` trailers with each person's chosen account-associated address. Confirm the credit with them first. See [GitHub's co-author instructions](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors). Link reviews and other contributions in the relevant tasks even when they do not justify commit co-authorship.
 
 Keep original authors when integrating student changes. If a maintainer must cherry-pick or import work, preserve author metadata and link the original PR. Do not replace students' work with a maintainer-authored aggregate commit. If tools materially assisted the work, describe their role and what the contributor verified; credit named people only for their actual work.
 
@@ -90,4 +90,4 @@ Do not describe deterministic fixture runs as LLM evidence. Do not treat an idea
 
 An issue is done when its code or document is reviewed, its validation is recorded, and its result can be located without private context. At the end of a research package, update the open questions and preserve the configuration, code, traces, findings, limitations, and next hypotheses.
 
-Discuss authorship expectations before manuscript work begins. Track contributions using the CRediT roles described in the [cohort guide](docs/cohort-guide.md).
+Discuss authorship expectations before manuscript work begins. Use plain role descriptions in tasks and the final report’s contribution summary. CRediT labels are optional; see the [cohort guide](docs/cohort-guide.md#credit-and-authorship).

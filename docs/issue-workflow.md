@@ -25,7 +25,7 @@ inside someone else's issue. Native sub-issues are optional.
 
 | Work / assessment | Parent goal or tracker | Who does it? | Checkpoint |
 | --- | --- | --- | --- |
-| Onboarding and profile (access/attribution; not a research score) | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) | Every student, own task and introduction PR | M1, September 25 |
+| Onboarding and roster entry (access/attribution; not a research score) | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) | Every student, own task and introduction PR | M1, September 25 |
 | Starter attempt and critique | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) | Every student, own attempt/evidence | M1, September 25; Foundation evidence reviewed by M2 |
 | Literature and bounded reproduction | [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) | Divide scoped work across students; not every student does both | M2, October 9 |
 | Candidate feasibility, question, and protocol | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) | Every student has an agreed design contribution; cohort selects one study | M2, October 9 |
@@ -35,7 +35,7 @@ inside someone else's issue. Native sub-issues are optional.
 | Final presentation — **10% shared** | [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) | One cohort deck; every student has an agreed preparation/presentation role | M5, November 20 |
 | Individual contribution report — **10% individual** | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) | Every student writes their own report and opens their own report task | Draft November 6; M5 November 20 |
 | Individual research work — **50% individual** | Own tasks under the research goals above | Every student: Foundation 10, Question 10, Execution 20, Synthesis 10; agree distinct outputs | Four stage checkpoints in the [rubric](grading-proposal.md#how-the-individual-50-maps-to-issues) |
-| Collaboration/review — **10% individual** | Existing tasks, reviews, and portfolio; instructor checks in [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) | Every student records useful reviews, communication, and follow-through | Ongoing; reviewed at checkpoints |
+| Collaboration/review — **10% individual** | Existing tasks and reviews; instructor checks in [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) | Every student records useful reviews, communication, and follow-through | Ongoing; reviewed at checkpoints |
 | Confirm policy, slots, scope reviews, and private assessment | [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) | Instructor/maintainer; no student tasks under this administrative issue | M1 through announced assessment cutoff |
 
 Milestones are **date-based collections and review gates**, not additional student
@@ -108,13 +108,14 @@ meaningful work package, not per commit, comment, or small edit.
    only when it finishes your task, and `Relates to #GROUP_NUMBER` for the Group goal
    (replace the placeholders with actual numbers). A joint PR may close multiple
    Individual tasks only when each one's criteria are independently checked.
-6. Link the task/artifact in your portfolio, describing your actual contribution.
-   Keep scores and private assessment feedback in the course's private channel.
+6. Keep attribution and evidence in the task; link collaborators and relevant reviews.
+   Reuse those links in your individual report at the report checkpoints. No separate
+   contribution log is required. Keep scores and private feedback in the course channel.
 
 **Onboarding follows the same rule:** open an Individual task under #5, then link
-your roster/profile PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5`. Choose
+your roster-entry PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5`. Choose
 Independent attempt, M1, and Documentation / onboarding; state “Onboarding” as the
-component. Done means your roster/profile PR is reviewed and merged. No research
+component. Done means your roster-entry PR is reviewed and merged. No personal profile file or research
 result is required for this task. If your introduction PR already exists or is
 merged, link it as evidence; do not submit it again. For the starter reproduction,
 use a separate Individual task under #1. If you already posted your starter

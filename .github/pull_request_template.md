@@ -1,6 +1,6 @@
 ## Objective and plan
 
-<!-- Introduction-only PR? Include your roster/profile changes, a short introduction, Closes #YOUR_INDIVIDUAL_TASK (use its actual number), and Relates to #5. You can omit the research/evidence/credit sections below. -->
+<!-- Introduction-only PR? Include your roster change, a short introduction, Closes #YOUR_INDIVIDUAL_TASK (use its actual number), and Relates to #5. You can omit the research/evidence/credit sections below. -->
 
 <!-- State the question/problem and name M1–M5 or Candidate. Link your Individual task with Closes #TASK only if complete; link its Group goal with Relates to #GROUP. Replace placeholders with actual numbers. A student's PR must not close the group. For a joint PR, link each student's task and verify each person's completion separately. -->
 
@@ -18,10 +18,9 @@
 
 ## Contribution credit
 
-<!-- List actual contributions, including research, analysis, validation, writing, and review. Use CRediT roles where helpful. Link meaningful work in the contributors' portfolios; a linked follow-up is fine. Do not invent contributors. -->
-
-| Contributor | Work and role | Evidence / portfolio |
-|---|---|---|
+<!-- Link each contributor's Individual task. For shared work, briefly say who did what.
+For solo work, the linked task and its evidence are sufficient. No duplicate portfolio
+entry or CRediT labels are required. Credit only actual work. -->
 
 ## Review
 

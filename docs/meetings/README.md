@@ -24,8 +24,8 @@ Use kickoff to establish a shared starting point:
    document or candidate to every student.
 4. Explain contribution records simply: brief links preserve research work and help
    everyone receive appropriate credit, including critiques, unsuccessful attempts,
-   and reviews. One short portfolio row per meaningful outcome is enough; activity
-   counts are not contribution scores.
+   and reviews. Keep evidence in Individual tasks and linked PRs; no separate
+   portfolio table is required. Activity counts are not contribution scores.
 5. Walk through the [student roadmap and resource directory](../student-start.md#throughout-the-project)
    and [dated schedule](../semester-plan.md#calendar-and-working-targets). The first
    checkpoint is September 25; show where to post the introduction PR (#5), starter

@@ -12,7 +12,7 @@ submission is due at kickoff.
 
 Start with the [student guide](docs/student-start.md): it explains **what to do at
 each stage, where to submit work, and how to get help**. By September 25, open an
-introduction PR, try the starter and record the result or setup error, and bring one
+introduction PR adding your roster entry, try the starter and record the result or setup error, and bring one
 question and an agreed small next task. No advance username list or invitation is needed.
 
 Then read the [short proposal outline](docs/studies/README.md#short-proposal-outline)
@@ -30,7 +30,7 @@ and [student roadmap](docs/student-start.md#throughout-the-project) throughout t
 | Current work and completion status | [Issues](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) and [milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) |
 | Two students doing the same assignment; ownership and completion | [Group goals and individual tasks](docs/issue-workflow.md): one Group goal, a separate task per student |
 | Tentative grading, individual responsibilities, and presentations | [70% individual / 30% group scheme](docs/grading-proposal.md) and [individual report template](docs/contributors/_individual-report-template.md) |
-| Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [portfolio guide](docs/contributors/README.md) |
+| Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [individual report guide](docs/contributors/README.md) |
 | First contribution and review process | [Contributing](CONTRIBUTING.md) |
 | Papers, benchmarks, datasets, and evaluation tools | [Literature and resource guide](docs/literature.md), including propagation, containment, and failure attribution |
 | Research methods and claim limits | [Research plan](docs/research-plan.md) |
@@ -166,6 +166,7 @@ scientific purpose and an agreed scope change after selection.
 
 Literature synthesis, pilot criticism, reproduction attempts, and well-supported
 rejected proposals are visible contributions alongside code and results. Link them
-from [student portfolios](docs/contributors/README.md), with each person's role.
+from each student's [Individual tasks](docs/issue-workflow.md), with their role
+and linked evidence. Summarize decisions and learning in the individual report.
 
 The repository contains no production financial integration and should not contain personal, confidential, regulated, or proprietary data.
