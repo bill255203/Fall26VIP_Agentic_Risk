@@ -6,10 +6,10 @@ This document defines delivery gates; the [selection guide](studies/README.md)
 explains how students choose the question, and the [research plan](research-plan.md)
 defines research standards and the starter's claim limits.
 
-**Kickoff: not scheduled yet.** The cohort has not met yet. There is no required
-repository submission before that meeting. The instructor introduces the project
-and demonstrates the starter at kickoff; students then have a full week for
-onboarding. The schedule below starts from that meeting, not repository creation.
+**Kickoff: Friday, September 18, 2026.** No repository submission is due at kickoff.
+The instructor introduces the project and demonstrates the starter; students have
+until **September 25** for the first onboarding checkpoint. The [student guide](student-start.md)
+explains individual tasks, the shared deliverables, where to submit work, and resources.
 
 ## Semester outcome and scope
 
@@ -68,23 +68,23 @@ is adopted automatically because it already has a document or issue.
 
 ## Calendar and working targets
 
-NYU Tandon's published Fall 2026 calendar has classes from **September 2 through December 14**, reading day on **December 15**, and final exams **December 16–22**. Fall break is October 12, October 14 follows a Monday class schedule, and Thanksgiving recess is November 26–27. Source: [NYU Tandon School Calendar](https://engineering.nyu.edu/academics/registration/school-calendar), checked September 15, 2026.
+NYU Tandon's published Fall 2026 calendar has classes from **September 2 through December 14**, reading day on **December 15**, and final exams **December 16–22**. Fall break is October 12, October 14 follows a Monday class schedule, and Thanksgiving recess is November 26–27. Source: [NYU Tandon School Calendar](https://engineering.nyu.edu/academics/registration/school-calendar), checked September 18, 2026.
 
-Let **T be the confirmed date of the first cohort meeting**. These are proposed
-project targets measured in calendar days after T; the instructor checks holidays,
-student availability, and the actual course deadline when assigning calendar dates.
-No GitHub milestone has a calendar due date until T is confirmed. Descriptions
-retain the offsets so the work remains planned and visible.
+**T = September 18, 2026**, the confirmed first cohort meeting. The dates below
+apply the agreed offsets and are working project targets in New York local dates,
+not grading deadlines or a newly prescribed submission time. GitHub milestones
+use the same target dates. The instructor confirms course-specific requirements
+and adjusts scope or targets if student availability or access requires it.
 
-| Checkpoint | Work | Target from kickoff |
-| --- | --- | --- |
-| First meeting | Orientation, starter demo, interests, setup support, task allocation | T |
-| M1 — Onboard and reproduce | Introduction PR, starter attempt, shared trace walkthrough, blockers and small next tasks | T + 7 days (1 week) |
-| M2 — Select a question and freeze protocol | Focused reading, one shared bounded reproduction, feasibility, selection, and reviewed protocol | T + 21 days (3 weeks) |
-| M3 — Implement and validate | Smallest end-to-end selected experiment or analysis pipeline | T + 28 days (4 weeks) |
-| M4 — Run and analyze | Planned evidence and first complete analysis | T + 42 days (6 weeks) |
-| Full report draft | Assemble the evolving report for criticism and reproduction | T + 49 days (7 weeks) |
-| M5 — Report and hand off | Reviewed report, reproducible handoff, and contribution credit | T + 63 days (9 weeks) |
+| Checkpoint | Work | Target from kickoff | 2026 target date |
+| --- | --- | --- | --- |
+| First meeting | Orientation, starter demo, interests, setup support, task allocation | T | September 18 |
+| M1 — Onboard and reproduce | Introduction PR, starter attempt, shared trace walkthrough, blockers and small next tasks | T + 7 days (1 week) | September 25 |
+| M2 — Select a question and freeze protocol | Focused reading, one shared bounded reproduction, feasibility, selection, and reviewed protocol | T + 21 days (3 weeks) | October 9 |
+| M3 — Implement and validate | Smallest end-to-end selected experiment or analysis pipeline | T + 28 days (4 weeks) | October 16 |
+| M4 — Run and analyze | Planned evidence and first complete analysis | T + 42 days (6 weeks) | October 30 |
+| Full report draft | Assemble the evolving report for criticism and reproduction | T + 49 days (7 weeks) | November 6 |
+| M5 — Report and hand off | Reviewed report, reproducible handoff, and contribution credit | T + 63 days (9 weeks) | November 20 |
 
 The founding cohort has three weeks to form the research question: week 1 centers
 on onboarding and pilot critique; week 2 on literature, bounded reproduction, and
@@ -92,17 +92,17 @@ exploration; week 3 on candidate formation, feasibility, selection, and protocol
 Students take small complementary tasks rather than each completing a full literature
 review, reproduction, and proposal. This gives emerging alternatives time to develop;
 Candidate A's longer protocol is a teaching example, not an entry requirement.
-Later checkpoints also move by one week to preserve the experiment and review windows.
+This preserves time for implementation, experiments, and review after selection.
 For a live-agent study, feasibility includes a genuine model development trace;
 an existing-data study needs accessible data, usable labels, and an analysis probe.
 
-At kickoff, record T and the checked calendar dates in this section and the GitHub
-milestones together; issue descriptions refer back here. Schedule around recess
-and finish by the instructor's actual deadline. If a late start or access constraint
-makes the nine-week sequence infeasible, record a narrower scope or adjusted targets
-immediately rather than compressing onboarding or silently moving work into exams.
-Use remaining term time for presentations, justified repairs, and review. No required
-work should be assigned during Thanksgiving recess.
+All targets fall on Fridays and the core handoff precedes Thanksgiving recess.
+The M3 week includes fall break on October 12 and the October 14 schedule change;
+plan task capacity around them and raise blockers at the M2 review. If access or
+availability makes the sequence infeasible, record a narrower scope or adjusted
+targets in this plan and GitHub together. Use remaining term time for instructor-agreed
+presentations, justified repairs, and review; presentation dates remain to be arranged.
+No required work should be assigned during Thanksgiving recess or moved into exams.
 
 ## Passing each milestone
 

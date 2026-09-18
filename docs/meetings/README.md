@@ -8,7 +8,7 @@ Link notes from the current milestone's work. Record actual attendees only.
 Credit the note author and reviewers through the pull request. Do not include
 private student information, grades, credentials, or attendance assessments.
 
-## First meeting
+## First meeting — September 18, 2026
 
 Use kickoff to establish a shared starting point:
 
@@ -26,9 +26,11 @@ Use kickoff to establish a shared starting point:
    everyone receive appropriate credit, including critiques, unsuccessful attempts,
    and reviews. One short portfolio row per meaningful outcome is enough; activity
    counts are not contribution scores.
-5. Confirm the kickoff date and the [working schedule](../semester-plan.md#calendar-and-working-targets),
-   allowing a full week for onboarding and accounting for recess and course deadlines.
-   Record actual dates in the plan and GitHub milestones together.
+5. Walk through the [student roadmap and resource directory](../student-start.md#throughout-the-project)
+   and [dated schedule](../semester-plan.md#calendar-and-working-targets). The first
+   checkpoint is September 25; show where to post the introduction PR (#5), starter
+   result/error and question (#1), and next-task ownership. Review availability and
+   any course-specific requirements; record agreed adjustments in the plan and milestones.
 
 There is no required repository submission before kickoff. Record decisions and
 participants only after the meeting takes place; this agenda is not evidence it occurred.
