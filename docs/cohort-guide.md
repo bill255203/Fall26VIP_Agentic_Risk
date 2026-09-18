@@ -32,10 +32,11 @@ Every research requirement must be implementable, and every implementation choic
 ## Lightweight GitHub workflow
 
 Use [Group goals and Individual tasks](issue-workflow.md) as the work queue and
-pull requests as the reviewable record. Two students can do the same assignment
+pull requests as the reviewable record. Multiple students can do the same assignment
 independently using separate tasks under one goal, with separate evidence and reviews.
 
-Introduction PRs use the shared onboarding issue #5 and the [quick start](student-start.md).
+Introduction PRs link each student’s Individual onboarding task under #5; follow
+the [quick start](student-start.md).
 The workflow below applies to subsequent research, engineering, and writing tasks.
 
 1. Create an Individual task under an existing Group goal, with one student owner, work mode, deliverable, acceptance criteria, and reviewer. For joint work, each student's task describes their own part and can link the same shared artifact.

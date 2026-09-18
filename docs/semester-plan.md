@@ -154,7 +154,7 @@ no ongoing portfolio table or extra weekly log is required.
 Students may work across roles. [Group goals and Individual tasks](issue-workflow.md)
 separate cohort completion from each student's completion. Each Individual task has
 one student owner and names collaborators and reviewer; the Group goal has a coordinator.
-Two students independently attempting the same assignment use two Individual tasks.
+Multiple students independently attempting the same assignment each use their own Individual task.
 Research and Engineering review together
 when a change affects treatment, measures, traces, or interpretation. Contributions
 can be code, research synthesis, validation, analysis, documentation, or review;

@@ -159,10 +159,10 @@ shared assignment/outcome; an **Individual task** records one student's own work
 evidence, review, and completion. Use the complete task map for Group goals; #4 remains conditional.
 The Group goal has at most one coordinator; each Individual task has one student owner.
 
-**Two students may complete the same assignment independently.** Open two Individual
-tasks under the same Group goal and select **Independent attempt**. Each student
+**Multiple students may complete the same assignment independently.** Each student opens an Individual
+task under the same Group goal and selects **Independent attempt**. Each student
 submits their own evidence and explanation and is assessed against the same agreed
-criteria. They can both earn full credit without needing different topics or results.
+criteria. They can each earn full credit without needing different topics or results.
 The starter is assigned to everyone; other repeated work needs an agreed learning
 or research purpose. Same-topic tasks are not automatically duplicate issues.
 

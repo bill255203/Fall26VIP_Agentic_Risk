@@ -1,6 +1,6 @@
 # Group goals and individual tasks
 
-**Two students can complete the same assignment independently. Each student uses
+**Multiple students can complete the same assignment independently. Each student uses
 a separate Individual task linked to the same Group goal.** Each task has its own
 owner, evidence, review, and completion status.
 
@@ -59,21 +59,25 @@ report or shared grade. Keep all scores and private feedback out of GitHub.
 
 ## Same assignment, separate attempts
 
-Example only; Student A and Student B below are not actual assignments:
+Example only; any number of students may participate within the agreed scope.
+These are examples, not actual assignments:
 
 ```text
 [Group] #1 — Reproduce and critique the scripted starter
   ├─ [Individual] Student A — My starter reproduction and critique
   │    owner: A; evidence: A's commands, output/error, and critique
-  └─ [Individual] Student B — My starter reproduction and critique
-       owner: B; evidence: B's commands, output/error, and critique
+  ├─ [Individual] Student B — My starter reproduction and critique
+  │    owner: B; evidence: B's commands, output/error, and critique
+  ├─ [Individual] Student C — My starter reproduction and critique
+  │    owner: C; evidence: C's commands, output/error, and critique
+  └─ ... one task per participating student
 ```
 
-Both students may run the same configuration or study the same paper. They submit
+Students may run the same configuration or study the same paper. They submit
 their own attempt and explanation, and each task is reviewed separately. Agreement
 between results is fine; a different answer or unique topic is not required. Mark
 these tasks **Independent attempt** and link any sources or assistance used. Do not
-close a second student's planned attempt as a duplicate merely because its topic matches.
+close another student's planned attempt as a duplicate merely because its topic matches.
 
 The starter attempt is for every student. Other repeated work needs an agreed purpose,
 such as an independent reproduction, comparison, or learning task; confirm it with
@@ -86,9 +90,9 @@ Individual task describing their part. Mark it **Contribution to shared work** a
 link the other students' tasks. For example, under #7 one student owns case/label
 construction and another owns runner implementation and tests.
 
-Pair work can produce one shared artifact or PR. Each task identifies what its owner
-actually contributed and links the common evidence. Credit both people where justified;
-do not describe joint work as two independent attempts. Incidental help or a review
+Joint work can produce one shared artifact or PR. Each task identifies what its owner
+actually contributed and links the common evidence. Credit each person’s actual part;
+do not describe joint work as multiple independent attempts. Incidental help or a review
 comment can be credited directly without creating another task. Use one task per
 meaningful work package, not per commit, comment, or small edit.
 
@@ -133,7 +137,7 @@ hold the goal open. Late joiners receive an agreed task/target without reopening
 earlier goal. Preserve each student's evidence when ownership or scope changes.
 
 Assignment or closure alone does not establish contribution quality or a grade.
-Two students can each receive credit for their own sound work under one Group goal;
+Multiple students can each receive credit for their own sound work under one Group goal;
 credit is not a pool divided among its contributors. The [tentative grading
 scheme](grading-proposal.md) defines the four individual-work stages and assessment
 criteria; include the agreed stage in your task objective. Grades remain private. See [contribution records](contributors/README.md)
