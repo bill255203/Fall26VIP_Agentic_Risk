@@ -1,12 +1,12 @@
 # Individual contribution report — template
 
-**Draft template for the [tentative grading proposal](../grading-proposal.md).**
-Use after the instructor adopts the report requirement. Target about 1–2 pages
-plus links; length is not a grading criterion.
+Use this template for the [tentative grading scheme](../grading-proposal.md).
+Working targets: draft **November 6**, final **November 20, 2026**. The instructor
+confirms the official submission arrangements. Target about 1–2 pages plus links;
+length is not a grading criterion.
 
-Add the sections below to your existing contributor portfolio, replacing its
-“Semester reflection” placeholder. Keep your existing contribution table as the
-evidence index. Link specific rows, issues, PRs, reviews, or artifacts instead of
+Fill the “Individual contribution report” section of your existing contributor
+portfolio with the sections below (replace an older “Semester reflection” placeholder). Keep your existing contribution table as the evidence index. Link specific rows, issues, PRs, reviews, or artifacts instead of
 copying their contents. Submit through the instructor's confirmed course channel
 as required; keep marks and private feedback out of the public repository.
 

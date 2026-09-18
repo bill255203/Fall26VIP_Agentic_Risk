@@ -1,9 +1,11 @@
 # Tentative grading and individual responsibility
 
-**Status: proposal for discussion, September 18, 2026.** These weights and individual
-report expectations are not yet adopted course policy. The instructor confirms and
-announces the final scheme through the course's official channel before applying it.
-The existing [project schedule](semester-plan.md#calendar-and-working-targets) continues.
+**Status: tentative working scheme, published September 18, 2026.** Use this plan
+to agree responsibilities, collect evidence, and prepare the reports and presentations.
+The instructor confirms and announces the final grading policy through the course's
+official channel before applying it. Publishing this plan does not assert that course
+approval has occurred. Dates follow the [project schedule](semester-plan.md#calendar-and-working-targets);
+presentation times and official submission arrangements are still to be confirmed.
 
 ## Proposed grade: 70% individual, 30% group
 
@@ -203,9 +205,9 @@ The report answers:
    unfinished work, and what another student needs to continue it.
 
 To keep this easy, extend the existing `docs/contributors/YOUR-USERNAME.md` portfolio
-with the report sections. Reuse its evidence table and replace its short “Semester
-reflection” placeholder; do not maintain a second activity log or duplicate the group
-report. The public version contains research contributions and evidence. The instructor
+with the report sections. Reuse its evidence table and fill its “Individual
+contribution report” section (or replace an older “Semester reflection” placeholder).
+Do not maintain a second activity log or duplicate the group report. The public version contains research contributions and evidence. The instructor
 confirms the official submission route; marks, personal circumstances, and private
 feedback stay in that channel.
 
@@ -230,10 +232,11 @@ Peer feedback can help verify attribution and collaboration; classmates do not a
 one another's grades. Resolve disputed credit using artifact history and a private
 instructor discussion. Paper authorship remains a separate contribution-based decision.
 
-## Adoption checklist for the instructor
+## Course confirmation and changes
 
-Confirm the weights and criteria, the assessed period, presentation slots, official
-report/slide submission route, and how extensions or adjustments follow course policy. Then announce the
-adopted version and update the student guide, contribution template, selection issue
-#3, and shared report issue #9 together. Until then, this document remains a proposal and the existing
-student instructions and live issue assignments continue to apply.
+The student guide, contribution templates, #3, and #9 use this tentative working
+scheme so students can plan now. The instructor still confirms the final weights
+and criteria, assessed period, presentation slots, official report/slide submission
+route, and how extensions or adjustments follow course policy, then announces them
+through the official course channel. Record any resulting changes in this document,
+the student guide, and affected issues together. Do not publish student scores here.

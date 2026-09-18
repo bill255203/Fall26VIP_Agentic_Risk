@@ -32,6 +32,30 @@ Individual task under the same Group goal, with separate evidence and review.
 Use [Group goals and individual tasks](issue-workflow.md) for examples and the
 steps to claim work. Introduction-only PRs use #5 without a separate task.
 
+## Your individual responsibilities and tentative grading
+
+Use the [tentative 70% individual / 30% group scheme](grading-proposal.md) to plan
+your work. The instructor confirms the final course policy and submission details.
+
+- **50% individual work:** Foundation **10**, Question/protocol **10**, Execution
+  **20**, and Synthesis/handoff **10**. Agree a substantive contribution in each
+  stage through your own Individual tasks; include the stage in each task's objective.
+  The [rubric](grading-proposal.md#one-scoring-rubric-applied-to-each-stage) assesses
+  quality, reasoning, and evidence. More issues or commits do not earn more points.
+- **10% individual collaboration/review:** keep agreed commitments, communicate
+  blockers, and give useful, evidence-linked feedback.
+- **10% individual contribution report:** explain your own responsibilities,
+  decisions, evidence, collaboration, and learning. Extend your existing portfolio
+  using the [report template](contributors/_individual-report-template.md);
+  draft November 6, final November 20. No second weekly activity log is needed.
+- **30% shared group work:** research-question presentation **10**, final written
+  report/reproducibility **10**, and final presentation **10**. The whole cohort
+  creates these outputs together; agree and record each student's part.
+
+Two students doing the same assignment independently can both earn full individual
+credit through separate tasks and evidence. Joint work must identify each person's
+actual contribution. Grades and private feedback stay outside GitHub.
+
 ## Throughout the project
 
 The dates below are **2026 working project targets** from the [canonical schedule](semester-plan.md#calendar-and-working-targets).
@@ -47,15 +71,16 @@ the group collects those links and produces the combined output.
 | Stage and target | What you do | Shared output and where it goes |
 | --- | --- | --- |
 | **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Intro PR in #5; your starter evidence in your Individual task, linked from Group goal #1 alongside the cohort critique. |
-| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The method lead and cohort compare at most two developed candidates and record one selected, reviewed protocol. |
+| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The cohort gives one research-question presentation comparing at most two developed candidates; link slides and discussion in #3. The method lead and cohort then record one selected, reviewed protocol. |
 | **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
 | **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
-| **Full draft — November 6** | Write or review your assigned report section and link the evidence supporting its claims. Add material throughout the project, starting with the shared outline in M1. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
-| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, confirm your contribution credit, and document open questions. | Reviewed report, artifact links, reproduction instructions, and next steps in #9; your [portfolio](contributors/README.md) links your actual contributions. |
+| **Full draft — November 6** | Write or review your assigned group report section and draft your individual contribution report in your portfolio. Link supporting evidence; build from material recorded throughout the project. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
+| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, complete your individual report, and contribute your agreed part to the final group presentation. | Reviewed group report, final presentation/slides, artifact links, reproduction instructions, and next steps in #9; each student links their individual report from their own task under #9. |
 
-After handoff, use remaining term time for instructor-agreed presentation preparation,
-review, or repairs. Presentation dates are not set here. No required project work is
-scheduled during Thanksgiving recess, November 26–27. Raise a missed target or access
+The question presentation targets **October 9** and the final presentation targets
+**November 20**; the instructor confirms actual slots, length, and submission routes.
+After handoff, use remaining term time for instructor-agreed review or repairs.
+No required project work is scheduled during Thanksgiving recess, November 26–27. Raise a missed target or access
 blocker in the relevant issue early; the method lead records any change to scope or dates.
 Late joiners agree an individual onboarding target and join the current shared work.
 
@@ -85,6 +110,7 @@ to the next meeting. Private information belongs in the instructor's course chan
 | Your task | Start here | Record the outcome here |
 | --- | --- | --- |
 | Understand the project and schedule | [README](../README.md), [semester plan](semester-plan.md), [cohort roles](cohort-guide.md) | Your task's issue; agreed changes in the [decision log](decisions.md). |
+| Understand assessment and prepare your individual report | [Tentative grading scheme](grading-proposal.md), [rubric](grading-proposal.md#one-scoring-rubric-applied-to-each-stage), [report template](contributors/_individual-report-template.md) | Agree stages in your own tasks; reuse portfolio evidence; keep scores and private feedback in the course channel. |
 | Claim work or attempt the same assignment as a classmate | [Group goals and individual tasks](issue-workflow.md) | Your own Individual task, linked to the parent Group goal; one student owner per task. |
 | Set up Git/Python and run the starter | Steps 1–3 below and [run commands](../README.md#run-the-pilot) | #1 for commands/results/help; #5 for your intro PR. |
 | Find papers, datasets, benchmarks, or tools | [Literature guide](literature.md): propagation and containment, failure attribution, AgentDojo, Inspect, CAGE, and other starting points | Short source-linked notes in #2; PRs to the literature guide for reviewed synthesis. Pick sources for your assigned question; this is not a mandatory reading list. |

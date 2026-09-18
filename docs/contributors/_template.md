@@ -24,11 +24,14 @@ PR to mark completion is needed. -->
 | Date | Contribution and role | Evidence | Collaborators (optional) |
 | --- | --- | --- | --- |
 
-## Semester reflection
+## Individual contribution report
 
-<!-- Complete at handoff: summarize the main outcomes, what you learned, and
-useful next steps. Link existing entries and artifacts instead of duplicating
-task logs. This is a research handoff, not a place for grades or private feedback.
-Leave this section empty until there is a useful reflection to share. -->
+<!-- Leave empty in your introduction PR. Draft by the November 6 working target;
+final target November 20. Use _individual-report-template.md for the sections,
+reusing the contribution table as evidence. Link your own tasks, decisions,
+collaboration, presentation roles, learning, and next steps. The instructor
+confirms official submission details. Keep grades and private feedback out. -->
+
+[Individual report template](_individual-report-template.md)
 
 [Student guide](../student-start.md) · [Portfolio guide](README.md) · [Contributor directory](../../CONTRIBUTORS.md)

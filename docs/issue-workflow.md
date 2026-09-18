@@ -87,6 +87,7 @@ earlier goal. Preserve each student's evidence when ownership or scope changes.
 
 Assignment or closure alone does not establish contribution quality or a grade.
 Two students can each receive credit for their own sound work under one Group goal;
-credit is not a pool divided among its contributors. The grading proposal remains
-separate from this task workflow. See [contribution records](contributors/README.md)
+credit is not a pool divided among its contributors. The [tentative grading
+scheme](grading-proposal.md) defines the four individual-work stages and assessment
+criteria; include the agreed stage in your task objective. Grades remain private. See [contribution records](contributors/README.md)
 and the [student guide](student-start.md) for attribution and the semester roadmap.

@@ -55,10 +55,10 @@ the calendar date.
 | Milestone | Work and dependencies | Evidence required to pass the gate |
 | --- | --- | --- |
 | **M1 — Onboard and reproduce** | After the first meeting, self-enroll through [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), try the starter in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and bring a question or setup blocker. Agree small reading, reproduction, and feasibility tasks across the cohort. | Introduction PRs and linked starter evidence from the active kickoff group; one shared reviewed trace walkthrough; recorded setup blockers with a help plan; named next-task owners. Students report blocked attempts honestly. Unresolved reproduction needs remain visible and the gate closes only when required evidence is reviewed. Late enrollment has an agreed individual onboarding target. |
-| **M2 — Select a question and freeze protocol** | Pilot critique [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), literature [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), and one bounded reproduction [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) inform [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3), which owns pre-selection feasibility probes, candidate comparison, selection, and protocol freeze. | Compare at most two developed proposals; record source evidence, reproduction/probe findings or concrete limitations, selection rationale, and method review. Freeze one feasible protocol with comparison, outcomes, labels/data, analysis, failure rules, access/resources, and claim limits; align study tasks with the decision. Neither candidate selection nor feasibility is assumed. |
+| **M2 — Select a question and freeze protocol** | Pilot critique [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), literature [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), and one bounded reproduction [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) inform [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3), which owns pre-selection feasibility probes, candidate comparison, selection, and protocol freeze. | Give one group research-question presentation comparing at most two developed proposals before selection; link slides and discussion in #3. Record source evidence, reproduction/probe findings or concrete limitations, selection rationale, and method review. Freeze one feasible protocol with comparison, outcomes, labels/data, analysis, failure rules, access/resources, and claim limits; align study tasks with the decision. Neither candidate selection nor feasibility is assumed. |
 | **M3 — Implement and validate** | After #3 selects a study and freezes its protocol, build and validate the smallest selected experiment or analysis pipeline in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7). Reuse suitable probes from #3; #7 starts only after M2. If A is chosen, activate practical gate [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) here. | End-to-end development evidence and analysis smoke; validated labels/outcomes, failure handling, provenance, and appropriate comparison. Freeze evaluation cases/data before confirmatory work. For A specifically: all four conditions, genuine model traces, source/answer separation, and isolated paired replay with the practical gate. |
 | **M4 — Run and analyze** | Depends on M3 validation and the recorded M2 protocol. Collect or assemble the planned evidence and analyze it in [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), retaining failures and exclusions. | Versioned records and accessible reviewed artifacts; counts, denominators, comparisons and uncertainty appropriate to the design; relevant utility/cost tradeoffs; protocol deviations linked and explained. A peer reproduces the analysis. |
-| **M5 — Report and hand off** | Start a shared outline during onboarding and add evidence as it arrives. Complete the draft at the checkpoint below, then reproduce, review, revise, and hand off in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources/results; source-author relationship and claim limits are disclosed; null/adverse findings retained; another analyst follows the handoff; open work has owners or explicit unassigned status; student credit is reviewed. |
+| **M5 — Report and hand off** | Start a shared outline during onboarding and add evidence as it arrives. Complete the draft at the checkpoint below, then reproduce, review, revise, and hand off in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). | Report claims link to sources/results; source-author relationship and claim limits are disclosed; null/adverse findings retained; another analyst follows the handoff; open work has owners or explicit unassigned status; student credit is reviewed; the group gives its final presentation and links slides; each student completes an evidence-linked individual contribution report through their own task under #9. |
 
 Issue #4 has no delivery milestone while Candidate A is unselected. If A is
 selected, its practical gate becomes required M3 work: an oracle-only comparison
@@ -80,11 +80,11 @@ and adjusts scope or targets if student availability or access requires it.
 | --- | --- | --- | --- |
 | First meeting | Orientation, starter demo, interests, setup support, task allocation | T | September 18 |
 | M1 — Onboard and reproduce | Introduction PR, starter attempt, shared trace walkthrough, blockers and small next tasks | T + 7 days (1 week) | September 25 |
-| M2 — Select a question and freeze protocol | Focused reading, one shared bounded reproduction, feasibility, selection, and reviewed protocol | T + 21 days (3 weeks) | October 9 |
+| M2 — Select a question and freeze protocol | Focused reading, bounded reproduction, feasibility, group question presentation, selection, and reviewed protocol | T + 21 days (3 weeks) | October 9 |
 | M3 — Implement and validate | Smallest end-to-end selected experiment or analysis pipeline | T + 28 days (4 weeks) | October 16 |
 | M4 — Run and analyze | Planned evidence and first complete analysis | T + 42 days (6 weeks) | October 30 |
-| Full report draft | Assemble the evolving report for criticism and reproduction | T + 49 days (7 weeks) | November 6 |
-| M5 — Report and hand off | Reviewed report, reproducible handoff, and contribution credit | T + 63 days (9 weeks) | November 20 |
+| Full report draft | Group technical report draft and each student's individual contribution report draft | T + 49 days (7 weeks) | November 6 |
+| M5 — Report and hand off | Reviewed group report, final group presentation, individual contribution reports, and reproducible handoff | T + 63 days (9 weeks) | November 20 |
 
 The founding cohort has three weeks to form the research question: week 1 centers
 on onboarding and pilot critique; week 2 on literature, bounded reproduction, and
@@ -100,8 +100,10 @@ All targets fall on Fridays and the core handoff precedes Thanksgiving recess.
 The M3 week includes fall break on October 12 and the October 14 schedule change;
 plan task capacity around them and raise blockers at the M2 review. If access or
 availability makes the sequence infeasible, record a narrower scope or adjusted
-targets in this plan and GitHub together. Use remaining term time for instructor-agreed
-presentations, justified repairs, and review; presentation dates remain to be arranged.
+targets in this plan and GitHub together. Group presentations target October 9
+and November 20; actual presentation slots and official submission arrangements
+remain for the instructor to confirm. Use remaining term time for instructor-agreed
+justified repairs and review.
 No required work should be assigned during Thanksgiving recess or moved into exams.
 
 ## Passing each milestone
@@ -122,6 +124,17 @@ Raise unresolved access, data, or scope issues during M1;
 select a feasible study at M2. If a core dependency still cannot
 be met, record a method-lead scope decision immediately. An apparatus-only
 deliverable is a documented reduction in scope, not a completed empirical study.
+
+## Assessment and reports
+
+The [tentative grading scheme](grading-proposal.md) allocates **70% individually**
+(50 work, 10 collaboration/review, 10 contribution report) and **30% to shared
+outputs** (10 question presentation, 10 final written report/reproducibility,
+10 final presentation). It defines four stages for each student's work and one
+evidence-based rubric. The instructor confirms the final course policy before
+applying it. Shared outputs do not replace individually attributable work.
+Use the [individual report template](contributors/_individual-report-template.md)
+in each existing portfolio; no extra weekly log is required.
 
 ## Responsibility and student visibility
 
