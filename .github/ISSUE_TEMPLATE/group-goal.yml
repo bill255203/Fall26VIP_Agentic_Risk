@@ -1,0 +1,40 @@
+name: Group goal (maintainer)
+description: Coordinate a shared assignment or cohort outcome with linked Individual tasks
+title: "[Group] Outcome"
+labels: [group-goal]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check existing Group goals #1–#9 before adding another. Students use the Individual task form under an existing goal. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+  - type: textarea
+    id: objective
+    attributes:
+      label: Shared outcome and participation
+      description: Define the outcome and whether every student attempts it, work is divided, or selected independent replications are wanted. State participant coverage needed for completion.
+    validations:
+      required: true
+  - type: input
+    id: coordinator
+    attributes:
+      label: Coordinator
+      description: At most one confirmed coordinator, or unassigned. This role does not own every contributor's work.
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Milestone, dependencies, and target
+      description: Link prerequisites and the semester plan. The maintainer sets workstream labels and milestone; conditional or stretch work stays deferred until adopted.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Group acceptance criteria
+      description: Define combined evidence and required student-task coverage. One student's completion does not close this goal.
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Individual tasks
+      description: Link each student's task and name its owner. Keep completed and open required tasks visible. Do not invent assignments before students claim work.

@@ -130,10 +130,13 @@ deliverable is a documented reduction in scope, not a completed empirical study.
 | Instructor / method lead | Confirm roster, calendar, scientific scope, access/resources, protocol, changes to claims, and gate reviews. Assign people to these responsibilities in the task queue; no names are assumed here. |
 | Research | Literature evidence, question and protocol, scenario rationale, analysis, interpretation, and report. |
 | Engineering | Workflow/backend, instrumentation, controls, test coverage, run tooling, artifact provenance, and reproducibility. |
-| Every student | Own a scoped issue, update its evidence and blockers, submit attributable work, review peer work, and keep contribution records current. |
+| Every student | Own an Individual task under a Group goal, update its evidence and blockers, submit attributable work, review peer work, and keep contribution records current. |
 
-Students may work across roles. Each task has one accountable issue owner and
-names collaborators and reviewers. Research and Engineering review together
+Students may work across roles. [Group goals and Individual tasks](issue-workflow.md)
+separate cohort completion from each student's completion. Each Individual task has
+one student owner and names collaborators and reviewer; the Group goal has a coordinator.
+Two students independently attempting the same assignment use two Individual tasks.
+Research and Engineering review together
 when a change affects treatment, measures, traces, or interpretation. Contributions
 can be code, research synthesis, validation, analysis, documentation, or review;
 link the actual artifact and describe the student's role. Follow

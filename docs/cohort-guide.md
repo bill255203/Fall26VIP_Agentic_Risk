@@ -31,16 +31,18 @@ Every research requirement must be implementable, and every implementation choic
 
 ## Lightweight GitHub workflow
 
-Use Issues as the work queue and pull requests as the reviewable record.
+Use [Group goals and Individual tasks](issue-workflow.md) as the work queue and
+pull requests as the reviewable record. Two students can do the same assignment
+independently using separate tasks under one goal, with separate evidence and reviews.
 
 Introduction PRs use the shared onboarding issue #5 and the [quick start](student-start.md).
 The workflow below applies to subsequent research, engineering, and writing tasks.
 
-1. Create one focused Issue with a problem, owner, acceptance criteria, and relevant experiment or document.
+1. Create an Individual task under an existing Group goal, with one student owner, work mode, deliverable, acceptance criteria, and reviewer. For joint work, each student's task describes their own part and can link the same shared artifact.
 2. Make a small branch and commit changes that address that Issue.
 3. Open a pull request that links the Issue and states what changed, why it matters, and how it was checked.
 4. Request review from the other team when a change affects hypotheses, data, traces, outcomes, controls, or interpretation.
-5. Merge after the acceptance criteria and checks pass. Record follow-up work as new Issues instead of hiding it in comments.
+5. Merge after the acceptance criteria and checks pass; close the completed Individual task. A maintainer closes the Group goal after its required contributions and combined output are reviewed. Record follow-up work as new tasks instead of hiding it in comments.
 
 Issues and pull requests are sufficient to start. If a Project board is enabled, use `To Do → In Progress → Review → Done`. Useful labels include `research`, `engineering`, `experiment`, and `bug`.
 
