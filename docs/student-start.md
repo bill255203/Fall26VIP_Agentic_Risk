@@ -19,13 +19,18 @@ provides meeting logistics and course policies through the course's usual channe
 **By Friday, September 25 (M1), each student should:**
 
 - Open an introduction PR with your roster row and profile, following steps 2–3; link [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
-- Try the starter in step 1. Post your command, result or exact setup error, and one observation/question in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1). A short comment is enough to start; remove private paths or credentials before posting.
-- Agree one small next task and record your name/handle and deliverable in its issue. If blocked, say what help you need so a maintainer can help or adjust your task.
+- Try the starter in step 1. Open an **Individual task** under [Group goal #1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), with your command, result or exact setup error, and one observation/question. Link any evidence already posted in #1 instead of copying or rerunning it; remove private paths or credentials before posting. Setup help does not wait for assignment.
+- Agree one small next task and record your name/handle and deliverable in your Individual task. If blocked, say what help you need so a maintainer can help or adjust your task.
 
 The cohort shares the later literature and reproduction work; each student starts
 with a scoped task. The [semester plan](semester-plan.md#calendar-and-working-targets)
 sets the milestones from kickoff, while the [selection guide](studies/README.md)
 explains how the cohort chooses its study.
+
+**Two students may do the same assignment independently.** Each opens their own
+Individual task under the same Group goal, with separate evidence and review.
+Use [Group goals and individual tasks](issue-workflow.md) for examples and the
+steps to claim work. Introduction-only PRs use #5 without a separate task.
 
 ## Throughout the project
 
@@ -35,11 +40,13 @@ comparison, data, measures, and analysis. Freezing it means recording a reviewed
 version before the evidence collection or analysis used for final claims.
 Each student owns an agreed part of the shared work and reviews another contributor's
 work as agreed with the task owner. The cohort produces one study and one report;
-you are not expected to complete every row's deliverable alone.
+you are not expected to complete every row's deliverable alone. Issue numbers in
+the tables below are Group goals: put personal work in your linked Individual task;
+the group collects those links and produces the combined output.
 
 | Stage and target | What you do | Shared output and where it goes |
 | --- | --- | --- |
-| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Intro PR in #5; starter evidence, questions, and cohort critique in #1. |
+| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Intro PR in #5; your starter evidence in your Individual task, linked from Group goal #1 alongside the cohort critique. |
 | **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The method lead and cohort compare at most two developed candidates and record one selected, reviewed protocol. |
 | **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
 | **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
@@ -54,14 +61,16 @@ Late joiners agree an individual onboarding target and join the current shared w
 
 ## Every week: work, share evidence, and get review
 
-1. **Agree a task.** In the current issue, identify your small deliverable, collaborators,
-   reviewer, and next check-in with a maintainer. You can comment even if you cannot assign yourself.
+1. **Agree a task.** Choose a Group goal and open an Individual task naming your
+   deliverable, work mode, collaborators, reviewer, and next check-in. A maintainer
+   confirms your scope and assignment; you can comment even if you cannot assign yourself.
 2. **Keep evidence.** Save source links, commands, findings, or exact errors as you work.
-   Post one short weekly issue update: **evidence produced; next step; blocker/help needed**.
-   For shared tasks, the owner can combine updates while naming each person's work.
+   Post one short weekly update in your task: **evidence produced; next step; blocker/help needed**.
+   The coordinator summarizes group progress using links to the individual tasks.
 3. **Submit for review.** Put a small code/document change in a PR linked to the issue.
    Address comments on the same branch; review a peer's work as agreed. A maintainer
-   closes a shared issue only after the whole task meets its acceptance criteria.
+   closes your task when its criteria are met and the Group goal when the required
+   individual contributions and combined output are reviewed.
 4. **Keep credit visible.** Add one portfolio row per meaningful outcome, including
    research notes, failed reproduction attempts with useful evidence, writing, or review.
    Link the same artifacts; no separate weekly portfolio log is needed.
@@ -76,6 +85,7 @@ to the next meeting. Private information belongs in the instructor's course chan
 | Your task | Start here | Record the outcome here |
 | --- | --- | --- |
 | Understand the project and schedule | [README](../README.md), [semester plan](semester-plan.md), [cohort roles](cohort-guide.md) | Your task's issue; agreed changes in the [decision log](decisions.md). |
+| Claim work or attempt the same assignment as a classmate | [Group goals and individual tasks](issue-workflow.md) | Your own Individual task, linked to the parent Group goal; one student owner per task. |
 | Set up Git/Python and run the starter | Steps 1–3 below and [run commands](../README.md#run-the-pilot) | #1 for commands/results/help; #5 for your intro PR. |
 | Find papers, datasets, benchmarks, or tools | [Literature guide](literature.md): propagation and containment, failure attribution, AgentDojo, Inspect, CAGE, and other starting points | Short source-linked notes in #2; PRs to the literature guide for reviewed synthesis. Pick sources for your assigned question; this is not a mandatory reading list. |
 | Propose a question or test feasibility | [Five-part outline](studies/README.md#short-proposal-outline), [Candidate A example](studies/01-runtime-containment.md), [Agent Assurance source map](agent-assurance-bridge.md) | #3 for proposals and probes; the selected protocol goes in `docs/studies/` through review. |
@@ -135,7 +145,7 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 
 ## 4. Pick a small task and keep the evidence
 
-Choose a task in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones). Start with a scoped part of reproducing the pilot, exploring or critiquing a proposed question, checking a source or feasibility assumption, a test, or a documentation improvement. Identify yourself and collaborators in its issue and agree the deliverable with a maintainer. Research and writing are visible contributions too.
+Choose a Group goal in the current [milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones), then use **New issue → Individual task** for your own deliverable. Follow [the issue guide](issue-workflow.md). Start with reproducing the pilot, exploring or critiquing a proposed question, checking a source or feasibility assumption, a test, or a documentation improvement. Name your own part and agree its scope with a maintainer. Research and writing are visible contributions too.
 
 Follow the [selection and protocol guide](studies/README.md#selection-and-protocol).
 Reading, critique, and feasibility checks lead to the M2 review of at most two

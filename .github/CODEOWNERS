@@ -1,6 +1,7 @@
 # Initial policy maintainer: repository owner. Add appointed maintainers by PR.
 /.github/ @zhongnz
 /CONTRIBUTING.md @zhongnz
+/docs/issue-workflow.md @zhongnz
 /CONTRIBUTORS.md @zhongnz
 /docs/semester-plan.md @zhongnz
 /docs/research-plan.md @zhongnz

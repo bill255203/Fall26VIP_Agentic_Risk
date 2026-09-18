@@ -12,7 +12,7 @@ support the tasks agreed after kickoff. No empirical study has been selected yet
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [portfolio guide](docs/contributors/README.md) to add your public roster entry and profile. Share only your preferred display name and GitHub username.
 4. Submit the introduction-only PR, linking the shared onboarding issue with `Relates to #5`. No completed research task or separate issue is required. A maintainer reviews onboarding and can arrange repository access separately.
-5. Then pick a small issue in the current milestone. Identify yourself as its proposed owner; a maintainer confirms ownership. List collaborators so overlapping work is visible.
+5. Choose a Group goal in the current milestone and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): two students attempting the same assignment use two tasks under the same goal.
 
 ## Workflow
 
@@ -20,15 +20,15 @@ The steps below apply to work after onboarding. An introduction PR needs only th
 roster/profile changes, a short introduction, and `Relates to #5`; it does not need
 a separate issue, research result, or full evidence/role table.
 
-1. Start from an issue with one deliverable, a milestone or candidate/backlog status, a lead owner, dependencies, acceptance criteria, and planned evidence. The shared onboarding issue covers introduction PRs. Everyone can see collaborators in its body; GitHub assignees identify the accountable owner where access permits.
+1. Start from an Individual task with one student owner, a parent Group goal, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Group goal's assignee coordinates the group; each Individual task's sole assignee owns that student's work. Introduction PRs use #5 directly.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
 3. Make one focused change and document assumptions. Add a contribution-profile entry for a meaningful deliverable or review, linked to its evidence. This is one entry per outcome, not per commit.
 4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
 5. Open a pull request with its issue, milestone, evidence, and a short contributor-role table. Credit collaborators by their actual contributions; each person can update their own portfolio in this PR or a linked follow-up.
 6. Obtain review from someone other than the author. A contributor from the other subteam should review methodological changes. Resolve review discussions and pass CI before merging.
-7. Merge with a **merge commit** to preserve individual commit authors. Close the issue only after its acceptance criteria and evidence are complete. Use `Closes #123` only when this PR finishes the entire issue.
+7. Merge with a **merge commit** to preserve individual commit authors. Use `Closes #123` for a completed Individual task and `Relates to #456` for its Group goal, substituting actual numbers. One student's PR does not close the Group goal. A joint PR closes each student's task only after that task's own criteria are checked.
 
-For each active issue, post one short weekly update: evidence produced, next step, and blocker or decision needed. Keep work status in Issues and pull requests; milestone completion records delivery. Use the [meeting guide](docs/meetings/README.md) to capture decisions and assign follow-up actions.
+For each active Individual task, post one short weekly update: evidence produced, next step, and blocker or decision needed. The coordinator links these updates from the Group goal as needed. Keep work status in Issues and pull requests; milestone completion records delivery. Use the [meeting guide](docs/meetings/README.md) to capture decisions and assign follow-up actions.
 
 Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board is enabled. Issues and pull requests are sufficient to start. An issue should have at least one of these labels:
 

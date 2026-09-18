@@ -1,7 +1,30 @@
-name: Research work item
-description: Propose a focused research, engineering, or experiment task
-title: "[Work]: "
+name: Individual task
+description: One student's own attempt or contribution under a Group goal
+title: "[Individual] YOUR-USERNAME — outcome"
+labels: [individual-task]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Two students doing the same assignment independently open two Individual tasks under the same Group goal. One task has one student owner. Read the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Introduction-only roster/profile PRs use `Relates to #5` without a separate task.
+  - type: input
+    id: parent
+    attributes:
+      label: Parent Group goal
+      description: Link the existing goal. A maintainer links your task from its Individual tasks section.
+      placeholder: "#1"
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Work mode
+      options:
+        - Independent attempt at a shared assignment
+        - Contribution to shared work
+    validations:
+      required: true
   - type: dropdown
     id: milestone
     attributes:
@@ -32,7 +55,7 @@ body:
     id: objective
     attributes:
       label: Objective
-      description: State one question, problem, or durable deliverable.
+      description: State what you personally will produce or investigate. For joint work, name your part and link collaborators' tasks.
     validations:
       required: true
   - type: textarea
@@ -45,18 +68,33 @@ body:
   - type: input
     id: people
     attributes:
-      label: Proposed owner and collaborators
-      description: Use GitHub usernames and roles. Leave unclaimed if no owner is known; a maintainer confirms assignments.
+      label: Student owner
+      description: One GitHub username. A maintainer confirms scope and sets this person as the sole assignee before work begins.
+      placeholder: "@YOUR-USERNAME"
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: Target or check-in
+      description: Propose a date or checkpoint for confirmation with the maintainer.
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Proposed reviewer
+      description: Name someone other than yourself, or write awaiting assignment. A maintainer confirms the reviewer.
   - type: textarea
     id: dependencies
     attributes:
-      label: Dependencies and scope
-      description: Link prerequisite issues. State whether this is required work, conditional on selecting a candidate, or an optional extension.
+      label: Collaborators, dependencies, and scope
+      description: Name helpers and their actual roles; link related tasks and prerequisites. State whether work is required, conditional, or optional. Disclose shared work rather than calling it independent.
   - type: textarea
     id: acceptance
     attributes:
       label: Acceptance criteria
-      description: List observable conditions that make this work complete and reviewable.
+      description: List observable conditions that make your own work complete and reviewable. A recorded blocked attempt may need revised criteria agreed with the maintainer.
       placeholder: |
         - [ ] ...
     validations:

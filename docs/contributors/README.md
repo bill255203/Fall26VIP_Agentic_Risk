@@ -49,8 +49,10 @@ reasoned recommendation to reject a proposal. If the cohort does not select a
 proposal, link the existing review or decision; do not invent follow-up work or
 add rows merely to increase activity counts.
 
-For shared work, say who did what. Multiple students can link the same PR or
-artifact while describing their own contributions. For reviewing or presenting,
+For shared work, link your [Individual task](../issue-workflow.md) and say who did
+what. Multiple students can link the same PR or artifact from their separate tasks
+while describing their own contributions. Independent attempts at the same assignment
+have separate tasks and their own evidence. For reviewing or presenting,
 link the substantive review comment or saved slides and supporting research.
 One entry per useful outcome is enough; no per-commit log is needed.
 
