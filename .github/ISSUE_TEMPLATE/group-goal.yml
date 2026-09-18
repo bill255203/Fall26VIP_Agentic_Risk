@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Check existing Group goals #1–#9 before adding another. Students use the Individual task form under an existing goal. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Students use the Individual task form under an existing goal. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
   - type: textarea
     id: objective
     attributes:

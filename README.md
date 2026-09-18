@@ -26,6 +26,7 @@ and [student roadmap](docs/student-start.md#throughout-the-project) throughout t
 | Need | Authoritative location |
 |---|---|
 | Semester scope, deliverables, and dependencies | [Fall 2026 plan](docs/semester-plan.md) |
+| All student deliverables, assessment components, and parent issues | [Complete task and assessment map](docs/issue-workflow.md#complete-task-and-assessment-map) |
 | Current work and completion status | [Issues](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) and [milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) |
 | Two students doing the same assignment; ownership and completion | [Group goals and individual tasks](docs/issue-workflow.md): one Group goal, a separate task per student |
 | Tentative grading, individual responsibilities, and presentations | [70% individual / 30% group scheme](docs/grading-proposal.md) and [individual report template](docs/contributors/_individual-report-template.md) |

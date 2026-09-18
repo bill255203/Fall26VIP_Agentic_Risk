@@ -13,6 +13,7 @@ as required; keep marks and private feedback out of the public repository.
 ## Individual contribution report
 
 - Author / GitHub username:
+- Individual report task (parent Group goal #23):
 - Reporting period:
 - Portfolio / evidence index:
 
