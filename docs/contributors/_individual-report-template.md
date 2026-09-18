@@ -18,8 +18,9 @@ as required; keep marks and private feedback out of the public repository.
 
 ### My responsibilities
 
-What work did you agree to own? Link the individual tasks or named entries in
-shared issues. Identify the agreed deliverable for each contribution stage:
+What work did you agree to own? Link your own Individual tasks and their parent
+Group goals. State whether each was an independent attempt or a contribution to
+shared work. Identify the agreed deliverable for each contribution stage:
 **Foundation, Question, Execution, and Synthesis**. Link the corresponding rows in
 your existing portfolio; explain any agreed change of scope or unfinished work.
 These stages map to the proposed individual-work 10 + 10 + 20 + 10 points; do not

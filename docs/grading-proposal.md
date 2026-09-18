@@ -13,7 +13,7 @@ plus the same three shared assessment marks; students do not receive identical o
 
 | Component | Weight | What is assessed | Evidence |
 | --- | --- | --- | --- |
-| Individual issue contributions | **50%** | Foundation work (10); question/protocol (10); selected-study execution (20); analysis/synthesis/handoff (10). Each stage assesses quality, reasoning, and evidence using the rubric below. | The student's named deliverables and evidence linked to shared issues or individual tasks. |
+| Individual issue contributions | **50%** | Foundation work (10); question/protocol (10); selected-study execution (20); analysis/synthesis/handoff (10). Each stage assesses quality, reasoning, and evidence using the rubric below. | The student's own Individual tasks and evidence, linked to parent Group goals. |
 | Individual collaboration and review | **10%** | Reliable communication and follow-through on agreed responsibilities (5); useful peer review and help that improves the work (5). | Issue updates, substantive review comments, documented coordination, and resolved feedback. |
 | Individual contribution report | **10%** | Accurate, specific attribution linked to evidence (5); explanation of decisions, limitations, learning, and next steps (5). | A short individual report using existing portfolio links. |
 | Group research-question presentation | **10%** | Evidence-based comparison and rationale (5); a feasible, testable plan and useful responses to questions (5). | One cohort presentation comparing at most two candidates, source/probe evidence, and the recorded selection discussion. |
@@ -91,15 +91,15 @@ does not prevent assessment of an individual's completed, reviewable contributio
 ### What each issue contribution must show
 
 Before work begins, agree **the student, stage, specific deliverable, acceptance
-criteria, target/check-in, and reviewer** in the individual task or a named entry
-in the shared issue. Once work is ready, add the artifact/PR and validation links,
+criteria, target/check-in, and reviewer** in the student's own Individual task,
+linked to a parent Group goal. Once work is ready, add the artifact/PR and validation links,
 identify the student's actual part, and link the review. The instructor uses this
 record to assess the appropriate stage. Store scores and assessment feedback privately.
 
 For example, under #7, one student may own case construction and label validation,
 and another the runner and its tests. Both can earn the full **20 execution points**
-for their own agreed, substantive work. The coordinator's name or shared assignee
-list does not establish either student's contribution.
+for their own agreed, substantive work. The Group goal's coordinator
+assignment does not establish either student's contribution.
 
 Assign each deliverable to one stage. If a task spans stages, identify its distinct
 outputs in advance—for example, implementation of an analysis pipeline under
@@ -146,80 +146,41 @@ Save reviewed slides or an accessible export/link in `docs/reports/`, with links
 technical report and the individual contribution reports remain separate outputs;
 slides do not replace either report. No additional weekly slide deck is needed.
 
-## Two levels of issues
+## Group goals and individual tasks
 
-**Shared parent issue = what the cohort delivers. Individual task = who delivers which part.**
+Use the adopted [issue workflow](issue-workflow.md). A **Group goal** defines the
+shared assignment/outcome; an **Individual task** records one student's own work,
+evidence, review, and completion. Existing #1–#9 are Group goals, with #4 conditional.
+The Group goal has at most one coordinator; each Individual task has one student owner.
 
-Keep the existing issues #1–#9 as the shared work queue; #4 remains conditional on
-Candidate A selection. Multiple students may join a shared issue. Name one coordinator
-to keep its contributor/task links and blockers current. Coordination alone does not
-give that person credit for other students' work.
+**Two students may complete the same assignment independently.** Open two Individual
+tasks under the same Group goal and select **Independent attempt**. Each student
+submits their own evidence and explanation and is assessed against the same agreed
+criteria. They can both earn full credit without needing different topics or results.
+The starter is assigned to everyone; other repeated work needs an agreed learning
+or research purpose. Same-topic tasks are not automatically duplicate issues.
 
-For each substantial, separable deliverable, use the existing **Research work item**
-form to create a linked individual task with **one accountable owner**. A native
-sub-issue or a normal issue with a parent link works. Give it the parent's milestone
-when active; conditional tasks remain outside delivery milestones until selected.
-List collaborators and a reviewer separately. Students can own several tasks over
-the term; agree a manageable active workload rather than claiming many tasks at once.
+For joint work, each student opens an Individual task with mode **Contribution to
+shared work**, identifies their actual part, and links collaborators' tasks. A shared
+artifact or PR may support several tasks; each is reviewed separately. A joint artifact
+is not presented as several independent attempts. Incidental help and review comments
+can be credited directly, without creating an issue for every small interaction.
 
-For small work, use a named row in the shared issue instead of opening another issue:
+Use **New issue → Individual task**. Record the parent goal, student owner, work mode,
+deliverable, acceptance criteria, target/check-in, proposed reviewer, and evidence.
+For assessment under this proposal, also state the agreed contribution stage in the
+objective: Foundation, Question, Execution, or Synthesis. Link each task from its
+Group goal and the student's portfolio; the maintainer confirms assignments and scope.
 
-| Contributor | Stage | Agreed deliverable and done criteria | Target/check-in | Evidence or task link | Reviewer |
-| --- | --- | --- | --- | --- | --- |
-| @student | Foundation / Question / Execution / Synthesis | A specific outcome and how it will be checked | Agreed date | Link when available | @reviewer or awaiting assignment |
+One student finishing closes only their task. The Group goal closes after its required
+contributions and combined criteria are reviewed. Introduction-only roster/profile PRs
+keep the `Relates to #5` shortcut, while substantive work uses Individual tasks. Existing
+starter comments can be linked from a task without copying or rerunning the work.
 
-This is an illustrative row, not an actual student assignment. Both routes provide
-the same individual accountability and assessment opportunity. Onboarding stays
-simple: the existing introduction PR and starter comment are enough; students do
-not need extra issues to repeat that record.
-
-### How a student claims work
-
-1. Comment on the relevant shared issue: **“I propose to deliver X by Y; evidence
-   will be Z. I would like to work with …”**
-2. A maintainer confirms the scope, named owner, collaborators, target/check-in, and
-   reviewer, including the contribution stage and acceptance criteria. Before
-   usernames are known, work remains explicitly unassigned.
-3. Put the agreed responsibility in a named row or individual task. For an individual
-   task, the sole assignee is its owner; list helpers and the reviewer in the body.
-4. Link the PR or other artifact and explain who did what. Use `Closes #TASK` only
-   when that entire task is complete; use `Relates to #PARENT` for the shared issue.
-5. The reviewer checks the result against the agreed criteria. A maintainer closes
-   the shared issue only when all required parts and the shared acceptance criteria
-   are complete. Reassignment preserves the original contributor's evidence and credit.
-
-GitHub supports [multiple assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users).
-For a shared issue, additional assignees may show participation, but the named
-deliverables establish responsibility. Clicking several names is not a division of work.
-Students without assignment permissions can comment; a maintainer sets the fields.
-
-### What to put in an individual task
-
-Use these fields in the existing issue form; no second task-management system is needed:
-
-```markdown
-Parent/shared issue: #...
-Owner: @...
-Collaborators and their distinct parts: ...
-Reviewer: @... / awaiting assignment
-Milestone and target/check-in: ...
-Individual contribution stage: Foundation / Question / Execution / Synthesis
-My deliverable: ...
-Done when: ...
-Evidence to provide: ...
-Dependencies or help needed: ...
-```
-
-Example under literature issue #2: one student owns a comparison of relevant papers,
-another checks the selected paper's available data/code, and another reviews whether
-the proposed metric supports the intended claim. Each has a distinct output and
-evidence link. For pair programming or joint analysis, one task can name a lead and
-describe both people's actual work; split it only when there are separable deliverables.
-
-Shared artifacts may appear in several portfolios, with each person's contribution
-identified. There is no automatic equal split of individual credit and no requirement
-to invent contribution percentages. Credit is not a fixed pool: several people can
-earn strong marks for different substantive contributions to the same artifact.
+The number of tasks is not a grading target. Use one task per meaningful work package,
+with separate outputs identified if it spans assessment stages. Credit is not a fixed
+pool: several students can each receive full individual marks for their own sound
+contributions under one Group goal. Store scores and private feedback outside GitHub.
 
 ## Individual contribution report
 
