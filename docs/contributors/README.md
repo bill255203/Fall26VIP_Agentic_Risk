@@ -19,8 +19,10 @@ request instructions. Your first PR can just introduce you:
 3. Add an alphabetical row to [CONTRIBUTORS.md](../../CONTRIBUTORS.md) linking
    your GitHub profile and your portfolio file. Remove the empty-roster notice
    if yours is the first entry.
-4. Open a pull request with those two files and a short introduction. A separate
-   issue or completed research deliverable is not required for enrollment.
+4. Open your Individual onboarding task under #5, then a PR with those two files
+   and a short introduction. Use `Closes #YOUR_TASK_NUMBER` and `Relates to #5`,
+   substituting your task number. No completed research result is required.
+   Link an existing introduction PR rather than submitting it again.
 
 Use only your preferred public name and GitHub profile. Keep private emails,
 student IDs, grades, and personal academic records outside the repository.
@@ -67,8 +69,9 @@ presentation roles, and next steps; distinguish collaborators' work.
 
 The [tentative grading scheme](../grading-proposal.md) explains the individual
 50% work rubric, 10% collaboration, 10% report, and 30% shared outputs. Link your
-report from your Individual task under Group goal #9; a task can include your
-handoff work and report if its separate outputs are clear. The instructor confirms
+report from your own Individual report task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). This task has a
+separate completion/review state from your group-report work under #9. Reuse
+existing evidence; if a report task already uses #9, change its parent to #23. The instructor confirms
 official submission arrangements. Keep grades and private feedback out of the portfolio.
 
 ## Optional: CRediT roles

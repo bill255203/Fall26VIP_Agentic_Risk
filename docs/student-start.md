@@ -18,7 +18,7 @@ provides meeting logistics and course policies through the course's usual channe
 
 **By Friday, September 25 (M1), each student should:**
 
-- Open an introduction PR with your roster row and profile, following steps 2–3; link [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
+- Open your **Individual onboarding task** under #5, then an introduction PR with your roster row and profile, following steps 2–3; link your task and [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5).
 - Try the starter in step 1. Open an **Individual task** under [Group goal #1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), with your command, result or exact setup error, and one observation/question. Link any evidence already posted in #1 instead of copying or rerunning it; remove private paths or credentials before posting. Setup help does not wait for assignment.
 - Agree one small next task and record your name/handle and deliverable in your Individual task. If blocked, say what help you need so a maintainer can help or adjust your task.
 
@@ -30,7 +30,7 @@ explains how the cohort chooses its study.
 **Two students may do the same assignment independently.** Each opens their own
 Individual task under the same Group goal, with separate evidence and review.
 Use [Group goals and individual tasks](issue-workflow.md) for examples and the
-steps to claim work. Introduction-only PRs use #5 without a separate task.
+steps to claim work, including onboarding under #5. The [complete task map](issue-workflow.md#complete-task-and-assessment-map) identifies every deliverable, assessment component, parent issue, and checkpoint. You do not need a task under every Group goal.
 
 ## Your individual responsibilities and tentative grading
 
@@ -70,12 +70,12 @@ the group collects those links and produces the combined output.
 
 | Stage and target | What you do | Shared output and where it goes |
 | --- | --- | --- |
-| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Intro PR in #5; your starter evidence in your Individual task, linked from Group goal #1 alongside the cohort critique. |
-| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The cohort gives one research-question presentation comparing at most two developed candidates; link slides and discussion in #3. The method lead and cohort then record one selected, reviewed protocol. |
+| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Your onboarding task and intro PR linked from #5; your starter evidence in your Individual task, linked from Group goal #1 alongside the cohort critique. |
+| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The cohort gives one research-question presentation comparing at most two developed candidates; coordinate slides and roles in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21), then link its presentation/discussion from #3. The method lead and cohort then record one selected, reviewed protocol. |
 | **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
 | **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
 | **Full draft — November 6** | Write or review your assigned group report section and draft your individual contribution report in your portfolio. Link supporting evidence; build from material recorded throughout the project. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
-| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, complete your individual report, and contribute your agreed part to the final group presentation. | Reviewed group report, final presentation/slides, artifact links, reproduction instructions, and next steps in #9; each student links their individual report from their own task under #9. |
+| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, complete your individual report, and contribute your agreed part to the final group presentation. | Reviewed group report and handoff in #9; final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); each student’s individual report and task linked from [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). |
 
 The question presentation targets **October 9** and the final presentation targets
 **November 20**; the instructor confirms actual slots, length, and submission routes.
@@ -163,7 +163,7 @@ If Git asks you to authenticate, use GitHub Desktop's sign-in or GitHub CLI's `g
 
 ## 3. Open a pull request
 
-GitHub shows a **Compare & pull request** link after you push. Choose **base repository** `zhongnz/Fall26VIP_Agentic_Risk`, **base** `main`, and your fork/branch as the source. Describe what you changed, name the current milestone (**M1** during kickoff), and link the [onboarding issue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) with `Relates to #5`. Do not close the whole cohort's onboarding issue for one person's enrollment. If you cannot edit GitHub's milestone or assignee fields, put the information in the PR description and a maintainer will set them.
+GitHub shows a **Compare & pull request** link after you push. Choose **base repository** `zhongnz/Fall26VIP_Agentic_Risk`, **base** `main`, and your fork/branch as the source. Describe what you changed, name the current milestone (**M1** during kickoff), and link the [onboarding issue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) with `Relates to #5`, plus `Closes #YOUR_TASK_NUMBER` for your own completed onboarding task (replace with its actual number). Do not close the whole cohort's onboarding issue for one person's enrollment. If you cannot edit GitHub's milestone or assignee fields, put the information in the PR description and a maintainer will set them.
 
 A maintainer reviews the PR. If they request edits, make another commit on the same branch and push it; the PR updates automatically. CI for a first-time fork contributor may wait for a maintainer to approve running it. Once merged, your roster/profile and original commit appear in the canonical repository.
 

@@ -143,8 +143,11 @@ The group receives the shared presentation mark, while each person's preparation
 analysis, review, and follow-through support their individual assessment. Neither
 speaking longest nor being the coordinator confers ownership of the whole project.
 
-Save reviewed slides or an accessible export/link in `docs/reports/`, with links from
-#3 for the question presentation and #9 for the final presentation/report. The written
+Save reviewed slides or an accessible export/link in `docs/reports/`. Track the
+question presentation in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) and final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22), linking
+their outputs from #3 and #9 respectively. Track individual reports in [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23).
+The [complete task map](issue-workflow.md#complete-task-and-assessment-map) connects
+every assessment component to its issues; instructor checkpoint actions are in [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24). The written
 technical report and the individual contribution reports remain separate outputs;
 slides do not replace either report. No additional weekly slide deck is needed.
 
@@ -152,7 +155,7 @@ slides do not replace either report. No additional weekly slide deck is needed.
 
 Use the adopted [issue workflow](issue-workflow.md). A **Group goal** defines the
 shared assignment/outcome; an **Individual task** records one student's own work,
-evidence, review, and completion. Existing #1–#9 are Group goals, with #4 conditional.
+evidence, review, and completion. Use the complete task map for Group goals; #4 remains conditional.
 The Group goal has at most one coordinator; each Individual task has one student owner.
 
 **Two students may complete the same assignment independently.** Open two Individual
@@ -175,8 +178,9 @@ objective: Foundation, Question, Execution, or Synthesis. Link each task from it
 Group goal and the student's portfolio; the maintainer confirms assignments and scope.
 
 One student finishing closes only their task. The Group goal closes after its required
-contributions and combined criteria are reviewed. Introduction-only roster/profile PRs
-keep the `Relates to #5` shortcut, while substantive work uses Individual tasks. Existing
+contributions and combined criteria are reviewed. Onboarding also uses an Individual
+task under #5, with the roster/profile PR linked as evidence; setup/profile work
+alone does not earn a research stage’s points. Existing
 starter comments can be linked from a task without copying or rerunning the work.
 
 The number of tasks is not a grading target. Use one task per meaningful work package,
@@ -186,7 +190,7 @@ contributions under one Group goal. Store scores and private feedback outside Gi
 
 ## Individual contribution report
 
-Each student prepares **one short report**, about **1–2 pages plus evidence links**.
+Each student opens their own Individual report task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) and prepares **one short report**, about **1–2 pages plus evidence links**.
 Length is a guide, not a scoring criterion. Use the
 [individual report template](contributors/_individual-report-template.md).
 Draft target: **November 6**; final target: **November 20**, aligned with the shared
