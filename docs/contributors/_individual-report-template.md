@@ -19,14 +19,19 @@ as required; keep marks and private feedback out of the public repository.
 ### My responsibilities
 
 What work did you agree to own? Link the individual tasks or named entries in
-shared issues. Explain any agreed change of scope and current completion status.
+shared issues. Identify the agreed deliverable for each contribution stage:
+**Foundation, Question, Execution, and Synthesis**. Link the corresponding rows in
+your existing portfolio; explain any agreed change of scope or unfinished work.
+These stages map to the proposed individual-work 10 + 10 + 20 + 10 points; do not
+publish scores or claim credit simply because an issue was assigned or closed.
 
 ### My work and decisions
 
 Describe your substantive contributions and the decisions you made. For each,
 link evidence, explain what you personally did, and distinguish collaborators'
 parts. Describe material tool assistance and what you checked yourself. Explain
-how you know the result is sound, or what remains unresolved.
+how you know the result is sound, or what remains unresolved. Each deliverable
+belongs to one stage; distinguish separate outputs when one issue spans stages.
 
 ### Contribution to the shared study
 
