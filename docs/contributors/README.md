@@ -56,6 +56,21 @@ have separate tasks and their own evidence. For reviewing or presenting,
 link the substantive review comment or saved slides and supporting research.
 One entry per useful outcome is enough; no per-commit log is needed.
 
+## Individual contribution report
+
+Extend this same portfolio with the [individual report template](_individual-report-template.md):
+working draft target **November 6**, final target **November 20, 2026**. You can
+leave this section empty in your introduction PR. Reuse the contribution table as
+your evidence index and start work descriptions with the agreed stage: Foundation,
+Question, Execution, or Synthesis. Explain your own decisions, results, collaboration,
+presentation roles, and next steps; distinguish collaborators' work.
+
+The [tentative grading scheme](../grading-proposal.md) explains the individual
+50% work rubric, 10% collaboration, 10% report, and 30% shared outputs. Link your
+report from your Individual task under Group goal #9; a task can include your
+handoff work and report if its separate outputs are clear. The instructor confirms
+official submission arrangements. Keep grades and private feedback out of the portfolio.
+
 ## Optional: CRediT roles
 
 For research reports, the [CRediT roles](https://credit.niso.org/contributor-roles-defined/)

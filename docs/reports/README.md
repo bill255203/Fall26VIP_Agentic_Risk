@@ -16,6 +16,24 @@ The deterministic starter is runnable infrastructure, while
 Use candidate-specific concepts only if the selected question and evidence make
 them applicable.
 
+## Presentations and individual reports
+
+The cohort prepares **one research-question presentation for October 9 (M2)**,
+before selection/protocol freeze, and **one final presentation for November 20 (M5)**.
+These are working targets; the instructor confirms actual slots and submission details.
+Save reviewed slides or an accessible export/link here and link them from #3 and #9,
+respectively. Record each student's preparation/presentation role and supporting work.
+The [tentative grading scheme](../grading-proposal.md#two-group-presentations-and-the-written-report)
+explains the content and criteria.
+
+Each student also writes an [individual contribution report](../contributors/_individual-report-template.md)
+in their existing portfolio: draft November 6, final November 20. Link it from their
+own Individual task under #9. The shared technical report, two shared presentations,
+and each student's report are distinct outputs. Reuse evidence links instead of
+copying logs; slides do not replace the written reports.
+
+## Shared technical report outline
+
 Use the following outline. Fill sections with observed evidence; mark anything
 pending explicitly instead of supplying illustrative results as findings.
 
