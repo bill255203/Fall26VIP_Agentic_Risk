@@ -7,11 +7,11 @@ linked PRs, reviews, and artifacts record each student's actual contributions.
 
 Students add themselves through their first pull request using the
 [enrollment steps](docs/contributors/README.md#first-contribution).
-The roster is currently awaiting student enrollment. Remove that sentence when
-the first student joins. Keep rows alphabetical by preferred public name.
+Keep rows alphabetical by preferred public name.
 
 | Preferred public name | GitHub |
 | --- | --- |
+| Yusuke Katsuki | [@katsukii](https://github.com/katsukii) |
 
 A GitHub username is sufficient as a public display name. Link the GitHub profile;
 keep private emails, student IDs, grades, and other student records outside this file.
