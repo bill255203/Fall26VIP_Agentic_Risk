@@ -19,12 +19,13 @@ Then read the [short proposal outline](docs/studies/README.md#short-proposal-out
 and choose an assigned source from the [literature and research resources](docs/literature.md).
 Reading is divided across the cohort; detailed methods and candidate protocols are
 references for your task. Use the [dated semester schedule](docs/semester-plan.md#calendar-and-working-targets)
-and [student roadmap](docs/student-start.md#throughout-the-project) throughout the project.
+and [weekly student goals](docs/student-start.md#weekly-goals) throughout the project.
 
 ## Resources and where work lives
 
 | Need | Authoritative location |
 |---|---|
+| What to focus on this week | [Weekly goals: individual evidence and shared outcomes](docs/student-start.md#weekly-goals) |
 | Semester scope, deliverables, and dependencies | [Fall 2026 plan](docs/semester-plan.md) |
 | All student deliverables, assessment components, and parent issues | [Complete task and assessment map](docs/issue-workflow.md#complete-task-and-assessment-map) |
 | Access, reviewers, and main protection | [Access management](docs/access-management.md) |

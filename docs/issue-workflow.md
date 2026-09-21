@@ -19,7 +19,9 @@ confirms a person. No student roster or reviewer is assumed in advance.
 
 **Every student owns their work; no student completes every Group goal alone.**
 Start with your onboarding task under #5 and starter task under #1. Agree later
-work at the relevant checkpoint instead of creating the whole semester's tasks now.
+work using the [weekly goals](student-start.md#weekly-goals) instead of creating the
+whole semester’s tasks now. A meaningful task can span multiple weeks; update its
+next check-in rather than creating a duplicate weekly task.
 An Individual task is a separate GitHub issue with a parent link, not a checkbox
 inside someone else's issue. Native sub-issues are optional.
 
