@@ -165,6 +165,21 @@ are not measures of research contribution.
 
 ## Weekly rhythm
 
+Use the [student guide's weekly goals](student-start.md#weekly-goals) to turn the
+milestones above into scoped work. Week 1 ends September 25; Weeks 2–3 cover
+exploration and selection, Week 4 validation, Weeks 5–6 evidence and analysis,
+Week 7 drafts, Week 8 review/reproduction, and Week 9 presentation/handoff.
+October 2, October 23, and November 13 are intermediate planning check-ins;
+they add no milestone, graded assessment, or separate submission requirement.
+
+This plan remains authoritative for milestone dates and gate requirements. The
+guide explains weekly student actions; Issues/PRs remain the progress/evidence
+record. Reuse tasks across weeks, divide cohort work by agreed roles, and adjust
+individual scope for access, preparation, and availability. After M5, use remaining
+term time only for instructor-agreed review or repairs within the existing calendar.
+
+### Meeting routine
+
 1. Before the cohort meeting, each active owner updates their issue with work
    completed, evidence links, blockers, and the next concrete step.
 2. At the meeting, inspect progress against the current gate, resolve cross-team

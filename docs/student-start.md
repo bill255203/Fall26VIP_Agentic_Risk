@@ -3,7 +3,7 @@
 You can read and clone this public repository immediately. To contribute, use your own GitHub account; your first pull request adds you to the visible roster. A pull request (PR) is a proposed change that someone else reviews before it joins the shared project.
 
 Jump to: [setup](#1-clone-and-run) · [first contribution](#2-make-your-first-visible-contribution) ·
-[project roadmap](#throughout-the-project) · [weekly workflow](#every-week-work-share-evidence-and-get-review) ·
+[weekly goals](#weekly-goals) · [weekly workflow](#every-week-work-share-evidence-and-get-review) ·
 [resources](#resources-what-to-read-and-where-to-save-work).
 
 You do not need write access to start: use your own fork and ask a maintainer to
@@ -72,14 +72,37 @@ you are not expected to complete every row's deliverable alone. Issue numbers in
 the tables below are Group goals: put personal work in your linked Individual task;
 the group collects those links and produces the combined output.
 
-| Stage and target | What you do | Shared output and where it goes |
+### Weekly goals
+
+Weeks below end on Fridays and count from the September 18 kickoff; **Week 1 ends
+September 25**. No work was due at kickoff. Use the row for the current week to
+agree your next achievable contribution with your reviewer. The dates are planning
+targets, not additional weekly graded submissions or confirmed meeting times.
+
+| Week ending / focus | Your individual goal and evidence | Shared cohort outcome / parent goals |
 | --- | --- | --- |
-| **M1 — September 25: onboard and critique** | Complete the checklist above; take part in the shared trace walkthrough. | Your onboarding task and intro PR linked from #5; your starter evidence in your Individual task, linked from Group goal #1 alongside the cohort critique. |
-| **M2 — October 9: form and select the question** | During weeks 2–3, take a small reading, reproduction, or feasibility task; use evidence to propose or critique a question. | Source-linked reading notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), one shared bounded reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and short proposals/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). The cohort gives one research-question presentation comparing at most two developed candidates; coordinate slides and roles in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21), then link its presentation/discussion from #3. The method lead and cohort then record one selected, reviewed protocol. |
-| **M3 — October 16: build and validate** | After #3 records protocol approval, implement or check your part: data, labels, code, measures, or reproducibility. | Reviewed implementation and an end-to-end development check in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7); freeze evaluation data before final evidence collection. [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) is used only if Candidate A is selected. |
-| **M4 — October 30: collect and analyze** | Follow the agreed protocol, keep failures and deviations visible, analyze your assigned outcomes, or reproduce a peer's analysis. | Versioned evidence, commands, counts, uncertainty, and interpretation linked from [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), following the [experiment record](experiment-record.md). |
-| **Full draft — November 6** | Write or review your assigned group report section and draft your individual report in `docs/contributors/YOUR-USERNAME.md`, linking task/PR evidence. Link supporting evidence; build from material recorded throughout the project. | One shared report in `docs/reports/fall-2026.md`, created from the [report guide](reports/README.md), coordinated in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). The report is still to be written. |
-| **M5 — November 20: review and hand off** | Resolve review comments, check reproduction instructions, complete your individual report, and contribute your agreed part to the final group presentation. | Reviewed group report and handoff in #9; final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); each student’s individual report and task linked from [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). |
+| **Week 1 — September 25: onboard and critique (M1)** | Open your onboarding and starter tasks. Submit your roster PR; try the starter and link your command, result/error, and one observation or limitation. Agree one small next task and who can help. | Onboard in [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5); review a shared trace walkthrough and setup blockers in [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1). Assign initial reading/probe roles and someone to start the shared report outline in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9). |
+| **Week 2 — October 2: explore and test feasibility** | Complete an agreed reading, reproduction, or feasibility slice. Link sources/commands, a finding or diagnosed blocker, and what it means for a possible question. You do not need to do every type of task. | Combine literature notes in [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), the bounded published reproduction in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), and candidate outlines/probes in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). Identify access gaps early; develop at most two candidate questions. |
+| **Week 3 — October 9: compare, present, and select (M2)** | Finish your agreed design contribution: for example a candidate comparison, probe, metric definition, or analysis plan. Link the reasoning/evidence and prepare your part of the question presentation. Agree your selected-study execution task and reviewer. | Give one research-question presentation in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21); then the cohort and method lead record one selected question and reviewed frozen protocol in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). Review Foundation and Question evidence. Feedback that prevents approval keeps the gate open. |
+| **Week 4 — October 16: build and validate (M3)** | Once #3 is approved, implement or validate your scoped part—code, data, labels, scenarios, or analysis tooling. Link development checks, failures, and reproducible commands; report access/capacity blockers promptly. | Validate the smallest end-to-end selected study in [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) and freeze evaluation data before confirmatory work. Activate [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) only if Candidate A is selected. Plan around the existing fall-break/schedule-change caveat in the semester plan. |
+| **Week 5 — October 23: produce and check early evidence** | After the M3 gate passes, complete an agreed first evidence batch or analysis slice. Link artifacts, provenance, counts, failures, and an early interpretation labeled provisional. If collection is blocked, agree a useful validation or analysis-preparation task. | In [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), check that the protocol can produce interpretable evidence and that the analysis works; expose missing data, access, or quality problems while there is time to address them. Record any protocol amendment before affected work. |
+| **Week 6 — October 30: complete planned evidence and analysis (M4)** | Finish your agreed Execution deliverable and address its review. Link the planned evidence, appropriate comparisons/uncertainty, failures, deviations, and limitations. Agree your remaining Synthesis contribution. | Complete the first full analysis in [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) and have an assigned peer reproduce it. Identify which claims the evidence supports and which remain unresolved; carry those limits into the shared report. |
+| **Week 7 — November 6: write the drafts** | Draft or review your assigned group-report section with evidence links. Draft your own individual contribution report under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23), explaining your work, decisions, collaboration, and learning using existing tasks/PRs. | Assemble the full shared technical report in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9); collect individual drafts in #23. Agree reviewers and preparation/presentation roles for the final shared presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22). |
+| **Week 8 — November 13: reproduce, review, and revise** | Resolve feedback on your assigned work and individual report. Complete an agreed peer review or reproduction check, link the result or problem, and prepare your part of the final presentation. | Check the report's claims and handoff instructions in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9), review individual reports in [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23), and rehearse the presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22). Record remaining corrections and owners. |
+| **Week 9 — November 20: present and hand off (M5)** | Finalize your individual report and any agreed synthesis/handoff work; link the reviewed evidence in your task. Deliver your agreed presentation role, confirm accurate credit, and document unfinished work. | Finish the shared report/reproduction package in [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9), final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22), and individual report collection in [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23). Review all required evidence before closing M5; a date alone does not complete a goal. |
+
+**Use your existing task.** A task may span multiple weeks; update its next check-in
+instead of opening another issue just because the week changed. Each student owns
+their part, while the cohort divides the shared output. Research and Engineering
+roles can both meet these goals; not everyone needs to code, reproduce every paper,
+or write a separate slide deck.
+
+If a prerequisite is unfinished, state the blocker and agree a smaller scope,
+alternative useful task, or revised target with the method lead. Do not start
+confirmatory evidence work before protocol approval, M3 validation, and the required
+data freeze. Update the [canonical plan](semester-plan.md#calendar-and-working-targets)
+and affected issues if a milestone changes. Late joiners agree a feasible individual
+entry plan rather than being assigned every past week's work.
 
 The question presentation targets **October 9** and the final presentation targets
 **November 20**; the instructor confirms actual slots, length, and submission routes.
@@ -90,11 +113,14 @@ Late joiners agree an individual onboarding target and join the current shared w
 
 ## Every week: work, share evidence, and get review
 
-1. **Agree a task.** Choose a Group goal and open an Individual task naming your
-   deliverable, work mode, collaborators, reviewer, and next check-in. A maintainer
-   confirms your scope and assignment; you can comment even if you cannot assign yourself.
+1. **Agree the week's goal.** Use the weekly row and continue your existing Individual
+   task, setting the next deliverable and check-in. Open a new task only for a new
+   meaningful work package, with its Group goal, work mode, reviewer, and scope.
+   A maintainer confirms assignment; you can comment even if you cannot assign yourself.
 2. **Keep evidence.** Save source links, commands, findings, or exact errors as you work.
    Post one short weekly update in your task: **evidence produced; next step; blocker/help needed**.
+   Link review feedback when relevant. A useful diagnosed blocker is honest progress;
+   no extra weekly report, portfolio log, or new grading component is required.
    The coordinator summarizes group progress using links to the individual tasks.
 3. **Submit for review.** Put a small code/document change in a PR linked to the issue.
    Address comments on the same branch; review a peer's work as agreed. A maintainer
