@@ -116,6 +116,8 @@ not a planned completion schedule.
   repository review. No new deliverable, approval gate or grading component.
 - Refines: the broad risk-question framing in D017; the cohort shares a research
   theme while pairs retain their own business cases and methods.
+- Implementation/review record: [PR #36](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/36),
+  including validation and the documented owner bootstrap merge exception.
 
 ## New entry template
 
