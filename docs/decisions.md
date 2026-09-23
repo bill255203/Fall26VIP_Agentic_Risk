@@ -50,7 +50,7 @@ not a planned completion schedule.
 - Supersedes: D003's pending cohort selection; the single-study/two-subteam aspects
   of D006/D009; the cohort-wide shared grading split of D012; and D016's old weekly
   outputs. Retains D010 dates, individual attribution and no-duplicate-log principles.
-- Implementation/review record: link the pair-case transition PR here before merge.
+- Implementation/review record: [PR #32](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/32) records validation and the documented owner bootstrap merge exception.
   Pair-specific plan approvals are recorded separately, not inferred from this decision.
 
 ## New entry template
