@@ -17,13 +17,12 @@ Who needs what done? Cite the business process or policy. Map inputs → agent/t
 and allowed actions → outcome. State which parts are simulated and what lies outside
 the study. A compact table can record roles, tools, permissions, and information sources.
 
-## 2. Propagation or containment question
+## 2. Risk question
 
-In a few sentences or a small workflow sketch, identify the origin of an error or
-untrusted input, the later steps it might influence, a possible consequence, and
-where a control might help. Choose one answerable question about part of that path.
-State whether the path is hypothesized or observed. One agent can be enough; a
-finding of correction or no observed propagation is valid. See the [shared theme](../research-plan.md#shared-theme).
+Name one failure, its potential consequence, and one answerable question. Explain
+one possible improvement and what evidence could support or challenge it.
+Use the [broad research scope](../research-plan.md#shared-theme). A propagation path
+is useful only when it fits the question; it is not a required case field.
 
 ## 3. Prior work
 
@@ -33,9 +32,7 @@ is this question or replication useful? Disclose an Agent Assurance connection i
 ## 4. Evidence and comparison
 
 Describe the baseline/groups, source of traces or tasks, and the failure and useful
-outcomes. Explain how the evidence could show spread, correction, containment or
-an unresolved path. Distinguish observations from proposed explanations and label
-an untested control as a recommendation.
+outcomes. Distinguish observations from proposed explanations.
 
 ## 5. Feasibility and individual roles
 
@@ -64,8 +61,6 @@ applicable fields from the [experiment record](../experiment-record.md).
 Add actual evidence links, counts, comparisons and appropriate uncertainty. Include
 failures, missing data, null findings and deviations. State what the evidence supports,
 what it does not establish, and whether the proposed improvement was actually tested.
-Distinguish evidence of a stopped/corrected path from missing visibility into it;
-report useful completion and unmet required actions alongside containment.
 
 ## 8. Contributions, reproduction and next steps
 

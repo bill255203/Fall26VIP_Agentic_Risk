@@ -51,9 +51,6 @@ These are options, not a requirement to complete every example. Onboarding [#5](
 establishes access and attribution; installation or a roster row alone is not full
 Foundation credit. Strong negative findings or useful rejected ideas can earn full
 marks. Neither publication nor a working positive-result intervention is required.
-The [propagation theme](research-plan.md#shared-theme) focuses the case question;
-it adds no grading component. Observed correction, containment or no propagation
-can earn full credit for sound work within its stated limits.
 Both students must understand the method/evidence and contribute substantively;
 neither is permanently assigned only coding or only writing.
 

@@ -4,52 +4,46 @@
 
 The program asks:
 
-> How do errors or untrusted inputs influence later steps in an agentic workflow,
-> when do they become consequential, and what can interrupt that path?
+> How can we identify, assess and manage risks in agentic business workflows while preserving their usefulness?
 
 The VIP is an empirical research project on agentic risk and assurance. A simulated financial-control workflow is the starter environment, giving decisions observable consequences. Academic literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply hypotheses and methods. Neither source predetermines the question or findings or requires the cohort to validate an entire framework.
 
 ## Shared theme
 
-**Risk propagation and containment in agentic business workflows** is the common
-research theme. Here, propagation means an error, incorrect assumption or untrusted
-input is carried into later reasoning, tool use, memory or communication and may
-affect a later decision or action. Untrusted input is not necessarily false or an
-attack; define the particular error or threat being studied.
+**Agentic risk and assurance in business workflows** is the broad research scope.
+Here, assurance means gathering evidence about a workflow's risks and safeguards;
+it does not require implementing the Agent Assurance framework or certifying a system.
 
-A useful starting path is **origin → later decision/action → possible consequence**.
-A control can act at any point along the path. The four questions below belong in
-the existing case document, not an additional assignment:
+Possible directions include:
 
-| Question | What to identify |
+| Direction | Example question to narrow for a case |
 | --- | --- |
-| **Origin** | Where could an error or untrusted input enter, and what evidence identifies it? |
-| **Path** | Which later steps might use it, and what records could show spread, correction or a stop? |
-| **Consequence** | Which action, omission or unchanged state could matter to the business or user? |
-| **Control** | Where might a check interrupt the path, and what useful work could it disrupt? |
+| Reliability and task quality | Under which conditions does the workflow make incorrect decisions or fail to complete useful work? |
+| Permissions and tool use | Do action limits prevent unauthorized operations while preserving legitimate work? |
+| Human oversight | When is review or escalation useful, and what tradeoffs does it create? |
+| Security and privacy | How does untrusted content affect behavior or inappropriate information disclosure? |
+| Observability and accountability | What evidence is needed to detect, reconstruct or explain a failure? |
+| Propagation and containment | How can an error affect later steps, and what interrupts that path? |
+
+These are starting points, not separate tracks, mandatory categories or an exhaustive
+list. Other relevant questions can fit. Each pair still selects **one business
+workflow and one manageable risk question**, with accessible evidence and clear
+claim limits. A useful case connects a business need, a risk, a comparison and
+evidence about a possible improvement. A control may remain a recommendation if
+it is not tested.
+
+Risk propagation remains a useful optional lens. When relevant, trace an error's
+origin, later influence, consequence and possible control. Other cases need no
+propagation path or cascade metric. The starter and Candidate A illustrate one
+part of the research space; they do not define which questions students may choose.
 
 Each pair produces one bounded, reproducible case study with clear methods,
-evidence, conclusions, and limitations. Focus the empirical work on one link,
-boundary or intervention; the four questions do not require four experiments.
-A single agent using information across several steps or tools can qualify.
-Multiple agents, injected attacks and a new control implementation are optional.
-
-A study can examine propagation patterns, a containment tradeoff, or which trace
-evidence is sufficient to reconstruct a path. Natural correction, no observed
-propagation and ineffective controls are valid findings. Limit such findings to
-the evidence inspected: missing records are not proof that propagation did not
-occur, and a small sample cannot establish universal safety.
-
-Distinguish a **hypothesized path** from an **observed sequence** and a **tested
-causal effect**. Repeated text or a wrong final answer alone does not establish
-that an upstream error caused a downstream action. A trace analysis can describe
-patterns or evidence gaps; it cannot show that an untested proposed control works.
-Keep useful task completion beside containment, including unmet required actions.
-
-The theme connects different business cases while the [adaptation rules](semester-plan.md#adaptation-and-decision-making)
-preserve instructor flexibility. It adds no approval gate, grading component or
-cohort-wide report. Existing contributions remain useful; relate later case work
-to the theme as questions develop.
+evidence, conclusions, and limitations. The common question is how risk assessment
+and controls can improve business workflows involving agents. A single-agent
+workflow can qualify; multiple agents are not a complexity requirement.
+The cohort stays cohesive through shared methods, source notes, reusable tools,
+peer review and evidence standards. Instructor adaptation and existing student
+contributions remain valid; broadening the scope adds no deliverable or grading component.
 
 ## Developing a pair case
 
@@ -69,8 +63,8 @@ is an optional advanced example; its live backend, practical gate and four condi
 apply only if a pair explicitly adopts that design with a reviewer. There is no
 requirement to build it or implement an assurance framework.
 
-1. Understand a workflow and ground the possible error path in literature/business sources.
-2. Form one propagation/containment question and inspect accessible evidence or a small development probe.
+1. Understand a workflow and ground the risk in literature/business sources.
+2. Form one question and inspect accessible evidence or a small development probe.
 3. Record a dated method, including measures, labels, comparisons and claim limits.
 4. Produce/check evidence, preserving failures and relevant usefulness/cost tradeoffs.
 5. Report the result and limitations; let another pair check the analysis or handoff.
