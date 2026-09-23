@@ -8,6 +8,10 @@ This is a seed list, not a completed literature review. Paper links point to pri
 - **Tool:** an operation it can request, such as looking up an order or changing a record.
 - **Authority:** what actions it is permitted to take; permission does not ensure correctness.
 - **Risk:** a possible failure and its consequence for the business or user.
+- **Risk propagation:** an error or untrusted input is carried into later steps
+  and may influence decisions or actions; trace the particular path being studied.
+- **Containment:** interrupting that path. It does not necessarily repair the
+  error or complete the required task.
 - **Control:** a check or restriction intended to reduce a failure or consequence.
 - **Trace:** a record of observable inputs, tool calls/results, responses and actions.
 - **Baseline:** the comparison used to judge whether a proposed change helps.
@@ -16,6 +20,8 @@ This is a seed list, not a completed literature review. Paper links point to pri
 ## A small reading path
 
 Read with a question in mind; nobody is assigned this whole list.
+Use the [shared theme](research-plan.md#shared-theme) to choose sources about an
+error's origin, later influence, consequences, containment or trace evidence.
 
 1. **Common guided methods reading:** [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
    (Kapoor et al., 2024). Focus on cost, held-out evaluation and reproducibility.

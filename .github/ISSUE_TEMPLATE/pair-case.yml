@@ -1,6 +1,6 @@
 name: Pair case
-description: Register one pair's business case and keep its semester outputs together
-title: "[Pair] CASE-SLUG — business workflow and risk question"
+description: Register a business case on risk propagation or containment and keep its outputs together
+title: "[Pair] CASE-SLUG — workflow and propagation question"
 labels: [pair-case, research]
 body:
   - type: markdown
@@ -18,10 +18,10 @@ body:
     id: outline
     attributes:
       label: Short case outline
-      description: Half a page is enough initially. Link your case document when available; do not duplicate a maintained plan here.
+      description: Half a page is enough. Relate the question to origin, path, possible consequence and control; focus the study on one part. Link the case document when available. One agent and findings of correction/no observed propagation can qualify.
       value: |
         - Business workflow and source:
-        - One risk question / possible improvement:
+        - Propagation or containment question (origin, path, possible consequence, control):
         - Relevant prior work:
         - Evidence and comparison:
         - Feasibility, help needed, and next individual roles:

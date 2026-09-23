@@ -6,12 +6,20 @@ adapts the course. Existing student contributions remain valid evidence.
 
 ## Semester outcome and scope
 
-Each pair investigates **one business workflow, one risk question, and one possible
-improvement**. Produce a sourced case description, a dated evidence plan, a small
+The shared theme is **risk propagation and containment in agentic business workflows**.
+Each pair investigates **one business workflow, one propagation or containment
+question, and one possible improvement**. Produce a sourced case description, a dated evidence plan, a small
 empirical investigation, and a report with reproducible evidence and limitations.
 A controlled experiment, deliberate replication, or systematic analysis of genuine
 agent traces can qualify. A hypothetical risk narrative or scripted demonstration
 alone does not establish empirical findings.
+
+Use origin, possible path, consequence and control to connect the pair cases;
+focus each investigation on one part. A single agent can qualify, and correction
+or no observed propagation can be a useful finding. These prompts belong in the
+existing case outline and report, with no extra submission or approval. See the
+[shared research question](research-plan.md#shared-theme). The instructor retains
+the adaptation authority described below.
 
 Ground the business use case in public policies, documented processes, or other
 approved sources. Distinguish the real-world motivation from the simulated or

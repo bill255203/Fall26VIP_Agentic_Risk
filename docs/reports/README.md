@@ -15,7 +15,10 @@ assumed by this template.
 
 Use the case document for business motivation, question, sources, reviewed method,
 validation, evidence/analysis, limitations, contribution summary, reproduction and
-next steps. Mark pending work explicitly. Suggested scope is a concise 4–6 page
+next steps. Explain the connection to [risk propagation and containment](../research-plan.md#shared-theme):
+origin, possible path, consequence and control. Distinguish observed propagation,
+correction or containment from an unobserved or untested path. This belongs in the
+same report, not an extra assessment. Mark pending work explicitly. Suggested scope is a concise 4–6 page
 report plus evidence/appendices; this is guidance, not an additional grading criterion.
 Follow current course direction for scope, format and submission arrangements;
 the instructor can adapt them without a separate repository approval.

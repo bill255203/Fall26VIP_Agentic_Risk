@@ -5,11 +5,14 @@ case; the cohort shares learning, reusable assets, and research standards.
 
 ## What connects the pairs
 
-- Common theme: how evidence-based risk assessment and controls can improve agentic business workflows.
+- Common theme: [risk propagation and containment](research-plan.md#shared-theme)
+  in agentic business workflows: where errors enter, how later steps may use them,
+  when they matter, and what can interrupt the path.
 - Shared guided introduction: inspect an execution, distinguish a wrong answer from
   a consequential action, and explain a safeguard's usefulness tradeoff.
-- Shared reporting questions: what was the workflow, failure, comparison, evidence,
-  result, and limitation? Metrics may differ when cases require it; do not pool
+- Shared reporting questions: what were the origin, path, possible consequence,
+  control, comparison, evidence and limitations? Compare where paths spread, stop
+  or are corrected, including cases with insufficient visibility. Metrics may differ; do not pool
   incompatible results into a cohort score.
 - Reuse: source notes, task subsets, trace readers, analysis utilities and documented setup.
 - Cross-pair review: share a useful finding in meetings and have another pair check
@@ -17,6 +20,9 @@ case; the cohort shares learning, reusable assets, and research standards.
 
 No extra combined paper, custom agent framework, or weekly presentation is required.
 The reports index links each pair's contribution so future cohorts can build on it.
+Different workflows can reveal similar mechanisms or different boundary conditions.
+Discuss those connections in existing meetings and peer reviews; there is no need
+for all pairs to use the same model, benchmark or agent architecture.
 
 ## How partners share work
 
