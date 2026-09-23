@@ -5,7 +5,7 @@
 Students contribute through their own accounts, forks, Individual tasks, and PRs.
 The repository is public, so reading and cloning need no invitation. Joining the
 roster does not grant write access. Multiple students may attempt the same agreed
-assignment: each owns a separate task and evidence under the shared Group goal.
+assignment: each owns a separate task and evidence under their Pair case or the shared cohort goal. Pair membership does not grant repository permissions.
 
 | Person | Access / responsibilities |
 | --- | --- |

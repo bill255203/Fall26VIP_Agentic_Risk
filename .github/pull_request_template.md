@@ -2,7 +2,7 @@
 
 <!-- Introduction-only PR? Include your roster change, a short introduction, Closes #YOUR_INDIVIDUAL_TASK (use its actual number), and Relates to #5. You can omit the research/evidence/credit sections below. -->
 
-<!-- State the question/problem and name M1–M5 or Candidate. Link your Individual task with Closes #TASK only if complete; link its Group goal with Relates to #GROUP. Replace placeholders with actual numbers. A student's PR must not close the group. For a joint PR, link each student's task and verify each person's completion separately. -->
+<!-- State the question/problem and name M1–M5 or Candidate. Link your Individual task with Closes #TASK only if complete; link its Pair case or cohort goal with Relates to #PARENT. Replace placeholders with actual numbers. A student's PR must not close the pair or cohort goal. For a joint PR, link each student's task and verify each person's completion separately. -->
 
 ## Change
 

@@ -39,7 +39,7 @@ draft checkpoint, copy the [report template](_individual-report-template.md) to
 preserve its existing content and add the report sections. Existing portfolio
 tables may remain as historical evidence; they need no further routine updates.
 
-Explain your responsibilities, decisions, evidence, effect on the group study,
+Explain your responsibilities, decisions, evidence, effect on the pair case and shared cohort resources,
 collaboration/presentation roles, limitations, and learning. Link directly to
 your Individual tasks, PRs, reviews, and artifacts instead of copying activity logs.
 Distinguish your work from collaborators' work. About 1–2 pages plus links is guidance.
@@ -49,9 +49,9 @@ at **10%**, assessing attribution and explanation separately from work quality.
 Submit the report through a PR linked to your report task; the instructor confirms
 any official course submission route. Keep scores and private feedback outside GitHub.
 
-## Final group credit and corrections
+## Final pair credit and corrections
 
-The [shared report](../reports/README.md) retains a short contribution summary:
+The [pair report](../reports/README.md) retains a short contribution summary:
 who did what, with evidence links reviewed by the people involved. Plain role
 descriptions are enough; CRediT labels are optional for a later publication.
 See the [credit and authorship guidance](../cohort-guide.md#credit-and-authorship).
