@@ -9,10 +9,11 @@ scope and proceed with peer feedback; instructor sign-off is not a prerequisite.
 The instructor can redirect or adapt the work as needed. See
 [review responsibilities](../issue-workflow.md#who-reviews-what).
 
-The [overarching theme](../research-plan.md#shared-theme) is **Agentic AI for Risk
-Management**. Choose one question about agents helping manage a business risk,
-or about managing a risk introduced by agents. A case does not need both lenses
-or an error-propagation path; its question determines the evidence and comparison.
+Under **Agentic AI for Risk Management**, the [research focus](../research-plan.md#shared-theme)
+is risk assessment and improvement of agentic business workflows. Start with a
+real business use case, explain the agent's role and intended benefit, and choose
+one risk question. Its question determines the evidence and comparison; propagation
+is one possible direction.
 
 ## Short proposal outline
 
@@ -23,8 +24,8 @@ it becomes the final report, avoiding a separate proposal/report to maintain.
 
 1. **Business workflow:** who needs what done, which actions the agent can take,
    and the policy/source supporting this real business need.
-2. **Risk question:** one business risk or agent-related failure, why it matters,
-   and one answerable question about the agent's role.
+2. **Risk question:** one risk in the agentic workflow, its business consequence,
+   and one answerable question about how to assess or address it.
 3. **Prior work:** a few relevant sources; what remains uncertain or why replication helps.
 4. **Evidence and comparison:** what will be observed, compared, or labeled; how
    decision quality, failures and useful outcomes will be judged; one possible improvement to assess.
@@ -40,8 +41,8 @@ These are illustrative ideas, not selected studies or ready datasets:
 
 | Possible case | Bounded question | Evidence to seek |
 | --- | --- | --- |
-| Invoice review: agents help manage business risk | Can a tool-using agent flag duplicate-payment risks more accurately than a fixed-rule baseline? | The same documented test invoices for both methods; justified reference labels; missed duplicates, false alarms on legitimate invoices and review effort. |
-| Refund workflow: manage risks introduced by agents | Does checking source evidence before an agent's refund action reduce incorrect refunds? | The same tasks with and without the check; incorrect actions, correct completion and relevant cost. |
+| Order-processing workflow | When order details conflict, does an agent escalate appropriately or act on unsupported information? | Compare genuine records with conflicting versus consistent order details, using a declared sampling rule, documented policy and checked labels. Report incorrect actions, appropriate escalation and useful completion. Observed differences do not establish causes; recommendations remain untested unless evaluated separately. |
+| Refund workflow | Does checking source evidence before an agent's refund action reduce incorrect refunds? | The same tasks with and without the check; incorrect actions, correct completion and relevant cost. |
 
 Start with one workflow, one main comparison and a small development example.
 Establish that the evidence is accessible before expanding the study. Choose enough
@@ -85,10 +86,10 @@ their own measures and claim boundaries.
 
 **Small comparison or replication:** reuse a supported environment, reproduce its
 baseline, and assess one change or prior claim. Use genuine model runs when making
-claims about model behavior. Measure the quality of risk assessment or decisions,
-errors, useful outcomes and relevant cost as the question requires. Test the
-evaluator itself on known examples. A rules-based baseline can be a meaningful
-comparison; document the information and resources available to each method.
+claims about model behavior. Measure decision quality, errors, useful outcomes
+and relevant cost as the question requires. Test the evaluator itself on known
+examples. A rules-based baseline can be a meaningful comparison; document the
+information and resources available to each method.
 
 **Structured trace analysis:** use genuine accessible execution records, a declared
 sampling rule and comparison, and a clear labeling guide. Have another person label

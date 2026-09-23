@@ -8,7 +8,7 @@ This is a seed list, not a completed literature review. Paper links point to pri
 - **Tool:** an operation it can request, such as looking up an order or changing a record.
 - **Authority:** what actions it is permitted to take; permission does not ensure correctness.
 - **Risk:** a possible adverse outcome for the business or user, including poor decisions, losses or failures.
-- **Risk-management task:** identifying, assessing, monitoring or responding to a business risk; a case can test whether an agent helps with one such task.
+- **Risk assessment:** examining where an agentic workflow can fail, the potential consequences, and what evidence supports that assessment.
 - **Control:** a check or restriction intended to reduce a failure or consequence.
 - **Trace:** a record of observable inputs, tool calls/results, responses and actions.
 - **Baseline:** the comparison used to judge whether a proposed change helps.
@@ -19,16 +19,16 @@ This is a seed list, not a completed literature review. Paper links point to pri
 Read with a question in mind; nobody is assigned this whole list.
 Choose sources for your own question within the [broad research scope](research-plan.md#shared-theme).
 The propagation and attribution references below are useful options, not a required focus.
-This seed list is strongest on agent evaluation and safeguards. A case about agents
-helping manage a business risk should also find sources on that particular risk
-and how assessment quality is judged; these agent-safety references cannot establish
-business effectiveness by themselves.
+This seed list emphasizes agent evaluation and safeguards. Use business-process
+and policy sources to establish the workflow's purpose, intended benefit and
+consequences of failure; use relevant research to design the investigation.
+Benchmark results alone do not establish effectiveness in a real business.
 
 1. **Common guided methods reading:** [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
    (Kapoor et al., 2024). Focus on cost, held-out evaluation and reproducibility.
    Discuss selected sections with a partner or in the cohort; students need not master every method first.
 2. **One methods or application paper relevant to your case:** choose research on
-   your risk-management task or a relevant environment. Examples include
+   the workflow's risks, evaluation method or a relevant environment. Examples include
    [tau-bench](https://arxiv.org/abs/2406.12045) (Yao et al., 2024) for business
    interactions with policies/tools and final-state evaluation, and
    [AgentDojo](https://arxiv.org/abs/2406.13352) for prompt-injection attacks/defenses
@@ -121,11 +121,10 @@ For a deeper case-specific review, record the applicable details:
 - similarities to and differences from the candidate question and proposed comparison;
 - one concrete implication for this project’s experiment design.
 
-If the case requires a broader search, start with its business risk and assessment
-task (for example, invoice exceptions, operational risk or risk-informed decision
-support). For agent-risk cases, useful terms include multi-agent safety, cascading
-failures, prompt injection, delegated authorization, runtime verification, failure
-attribution and safety–utility evaluation. Record search sources, query strings,
+If the case requires a broader search, combine its business workflow with the
+relevant research topic: reliability, decision quality, human oversight, tool
+permissions, security/privacy, failure attribution, propagation or safety–utility
+evaluation. Record search sources, query strings,
 inclusion criteria, and the version of each reviewed paper.
 
 Related work does not establish this project's novelty. A documented review helps

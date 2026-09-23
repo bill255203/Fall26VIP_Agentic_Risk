@@ -5,9 +5,9 @@ case; the cohort shares learning, reusable assets, and research standards.
 
 ## What connects the pairs
 
-- Common theme: [Agentic AI for Risk Management](research-plan.md#shared-theme),
-  including agents helping manage business risks and managing risks introduced by
-  agents. Each pair chooses one small question; propagation is optional.
+- Common focus under **Agentic AI for Risk Management**: [risk assessment and
+  improvement of agentic business workflows](research-plan.md#shared-theme).
+  Each pair chooses one use case and one small risk question; propagation is optional.
 - Shared guided introduction: inspect an execution, distinguish a wrong answer from
   a consequential action, and explain a safeguard's usefulness tradeoff.
 - Shared reporting questions: what was the workflow, risk question, comparison, evidence,
