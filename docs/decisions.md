@@ -184,6 +184,8 @@ not a planned completion schedule.
   current working targets, existing contribution credit and instructor flexibility.
 - Supersedes: D022's extra research direction. The current guides, case examples,
   forms and live coordination issues use the corrected focus.
+- Implementation/review record: [PR #39](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/39),
+  including validation and the documented owner bootstrap merge exception.
 
 ## New entry template
 
