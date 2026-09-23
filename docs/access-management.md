@@ -49,7 +49,7 @@ Setup help and the already-agreed starter attempt do not wait for a permission c
 
 ## Current main protection
 
-**Verified through the GitHub API on September 18, 2026.** This is the observed
+**Verified through the GitHub API on September 23, 2026.** This is the observed
 configuration; recheck Settings after any change. At this check, `@zhongnz` is
 the only active collaborator. Pending invitations do not count as active reviewers.
 

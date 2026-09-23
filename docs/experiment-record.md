@@ -2,6 +2,19 @@
 
 An experiment is reproducible only when another contributor can identify the exact inputs, rerun the same procedure, reconstruct every reported denominator, and explain how the summary was derived. Keep one versioned record for each experiment batch and link it to its code, raw artifacts, and analysis.
 
+## How to use this reference
+
+This is a field guide, not another report to submit. Link the applicable record from
+your pair case. For the scripted starter, keep the generated files and record your
+command, source revision, result/error and interpretation in your task; do not fill
+model/API fields that do not apply. For a trace study, record source IDs, selection,
+labels and analysis instead of inventing model-call settings. Generated provenance
+can be linked rather than copied into a second log.
+
+Here, a **paired comparison** means matched experimental cases/conditions, not the
+two student partners. Repeated messages and deterministic repetitions are not extra
+independent samples.
+
 ## Required record
 
 Complete these fields before or during execution, not from memory at the end.
@@ -106,7 +119,7 @@ For the pilot or Candidate A, analyze within-scenario contrasts before aggregati
 2. measure how the flip changes the proposed decision and propagation path;
 3. measure how verification changes the flipped outcome;
 4. report authority-cap results as enforcement behavior and descriptive outcomes;
-5. aggregate pair-level effects with uncertainty that respects repeated observations from the same scenario.
+5. for empirical studies, aggregate matched-case effects with uncertainty that respects repeated observations from the same scenario; for the scripted pilot, report descriptive validation counts only.
 
 For stochastic agents, repeat complete matched sets using declared seeds or replicate IDs. Treat runs sharing a scenario as clustered or repeated measurements. Do not treat each message or each condition from the same scenario as independent evidence. Other designs must name their analysis unit and dependence structure just as explicitly.
 

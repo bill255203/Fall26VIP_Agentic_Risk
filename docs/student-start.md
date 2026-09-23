@@ -13,9 +13,9 @@ specific task, not required introductory reading.
 Kickoff was scheduled for **September 18, 2026**. By the **September 25 working
 checkpoint**, each student should:
 
-1. Open **New issue → Individual task**, parent **#5**. Add your roster row through
+1. Open **New issue → Individual task**, parent **[#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)**. Add your roster row through
    a PR using the instructions below. No personal profile file is needed.
-2. Open an Individual task under **#1**. Try the starter with help; record the command
+2. Open an Individual task under **[#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)**. Try the starter with help; record the command
    and result or exact setup error, plus one observation or question. A guided trace
    walkthrough can help while setup is blocked. The starter makes no paid model calls.
 3. Share a business interest and any support need. Agree one achievable next task.
@@ -33,10 +33,10 @@ collaborator invitation; a maintainer can set issue fields. See [access](access-
   others, and write a short individual contribution report.
 - **As a cohort:** share useful sources and tools and review another pair's work.
 
-The [tentative grading proposal](grading-proposal.md) is **70% individual / 30% pair**:
-individual work 50 (Foundation 10, Question 10, Execution 20, Synthesis 10),
+The [tentative grading proposal](grading-proposal.md) is **75% individual / 25% pair**:
+individual work 55 (Foundation 10, Question 10, Execution 25, Synthesis 10),
 collaboration 10, individual report 10; pair midterm presentation 10 and final
-report/evidence 20. The final presentation has feedback but no separate weight.
+report/evidence 15. The final presentation has feedback but no separate weight.
 The instructor confirms the policy; issues and commits are not points.
 
 ## Throughout the project
@@ -54,15 +54,15 @@ submissions or confirmed meeting times. Agree a small scope suited to your exper
 
 | Week ending | Your individual goal | Pair or cohort outcome |
 | --- | --- | --- |
-| **Sep 25 — learn the basics (M1)** | Roster PR; starter attempt or blocker; one trace observation/question. | Shared walkthrough and setup help (#5, #1). |
-| **Oct 2 — explore a business case** | Read an agreed source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; instructor tests teaching resources (#6). |
-| **Oct 9 — outline the case (M2)** | Contribute a sourced question, workflow map, measure, or feasibility check. | Register the Pair case under #3; complete its short outline and agree who does what. |
-| **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation (#21), reviewed plan and development validation (#7). |
+| **Sep 25 — learn the basics (M1)** | Roster PR; starter attempt or blocker; one trace observation/question. | Shared walkthrough and setup help ([#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)). |
+| **Oct 2 — explore a business case** | Read an agreed source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; instructor tests teaching resources ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
+| **Oct 9 — outline the case (M2)** | Contribute a sourced question, workflow map, measure, or feasibility check. | Register the Pair case under [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); complete its short outline and agree who does what. |
+| **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation ([#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21)), reviewed plan and development validation ([#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)). |
 | **Oct 23 — collect/check evidence** | Complete a small agreed implementation, trace-labeling, validation, or analysis task. | Begin final evidence only after the pair's plan and validation are approved. Record early findings and blockers. |
-| **Oct 30 — analyze (M4)** | Produce and check your evidence/analysis contribution, including failures. | Pair's first analysis, counts, relevant risk/utility tradeoffs, and limitations (#8). |
-| **Nov 6 — draft** | Write your contribution to the pair report and your own individual report. | Pair draft (#9) and individual drafts (#23); identify evidence gaps. |
+| **Oct 30 — analyze (M4)** | Produce and check your evidence/analysis contribution, including failures. | Pair's first analysis, counts, relevant risk/utility tradeoffs, and limitations ([#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8)). |
+| **Nov 6 — draft** | Write your contribution to the pair report and your own individual report. | Pair draft ([#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9)) and individual drafts ([#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)); identify evidence gaps. |
 | **Nov 13 — review and repair** | Review agreed work from another pair or check a handoff; address feedback. | Reproduction/source checks and revised reports. Share reusable improvements. |
-| **Nov 20 — explain and hand off (M5)** | Finalize evidence and your individual report; explain your contribution. | Pair report/evidence (#9), final presentation (#22), and individual reports (#23). |
+| **Nov 20 — explain and hand off (M5)** | Finalize evidence and your individual report; explain your contribution. | Pair report/evidence ([#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9)), final presentation ([#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22)), and individual reports ([#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)). |
 
 If setup, data, or a partner dependency blocks you, post what happened and what help
 you need in your task. Agree a smaller or alternative contribution with the instructor.
@@ -86,9 +86,9 @@ actual part. There is no issue quota and no extra contribution log.
 | --- | --- |
 | Basic concepts and a small reading path | [Resource guide](literature.md); one guided methods reading plus sources relevant to your case |
 | Choose the case and write the evidence plan | [Case guide](studies/README.md); copy [template](studies/_case-template.md) to `docs/studies/pair-CASE-SLUG.md` |
-| Guided external example / saved genuine traces | Pending instructor preparation in #6; do not assume a platform or API budget is available |
+| Guided external example / saved genuine traces | Pending instructor preparation in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); do not assume a platform or API budget is available |
 | Starter commands and code | [README](../README.md#run-the-pilot), `src/agentic_risk/`, `experiments/pilot.toml`, `tests/` |
-| Personal work and review | Your Individual task under your Pair case; common onboarding #5, starter #1, and individual report #23 |
+| Personal work and review | Your Individual task under your Pair case; common onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and individual report [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) |
 | Source notes | Your task or case document, linked to sources; shared reusable notes can go in [literature](literature.md) |
 | Experiment/analysis provenance | [Experiment record](experiment-record.md), only applicable fields; link from the case document |
 | Data, traces, figures | [Results policy](../results/README.md); use `results/local/` for local runs and pair-specific names for reviewed artifacts |
@@ -101,7 +101,7 @@ no one must implement all its controls or complete its institutional templates.
 
 ## 1. Clone and run
 
-Install Git and Python 3.11 or later, then follow the [README run commands](../README.md#run-the-pilot). They clone the official repo, create an isolated Python environment, install the package, and run the pilot. No model account or API key is needed for the starter.
+Install Git and Python 3.11 or later, then follow the [README run commands](../README.md#run-the-pilot). Choose the macOS/Linux or Windows PowerShell commands; they clone the repo, create a Python environment, install the package, run the pilot and check it. No model account or API key is needed for the starter.
 
 The checks should report 10 passing tests. The default pilot produces 480 scripted trials and 12 summary rows. Look at `results/local/pilot/summary.csv`, then read one trial from `trials.jsonl`. Local output stays on your computer; record a concise reproduction note when it becomes part of a task.
 
@@ -147,7 +147,6 @@ GitHub shows a **Compare & pull request** link after you push. Choose **base rep
 A maintainer reviews the PR. If they request edits, make another commit on the same branch and push it; the PR updates automatically. CI for a first-time fork contributor may wait for a maintainer to approve running it. Once merged, your roster entry and original commit appear in the canonical repository.
 
 For a documentation-only first contribution, you can also use GitHub's browser editor in your fork: edit the roster, then open a PR. GitHub Desktop is another option if you prefer a graphical Git interface.
-
 
 ## 4. Pick a small task and keep the evidence
 

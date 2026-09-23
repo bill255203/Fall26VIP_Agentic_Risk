@@ -5,7 +5,7 @@ interpretation. Routine task progress belongs in issues. Link the issue or PR
 that contains the reasoning and actual review; meeting discussion alone does
 not establish approval.
 
-Current direction: **D017**. Earlier entries record the historical plan; references
+Current direction: **D017** (pair cases), with **D018** (75/25 grading and coherence fixes). Earlier entries record the historical plan; references
 to one cohort study or D003 pending selection are superseded as specified below.
 
 Use `proposed`, `accepted`, `rejected`, or `superseded`. An accepted decision
@@ -44,7 +44,7 @@ not a planned completion schedule.
   none is adopted or funded by this update.
 - Schedule: retain Sep 25, Oct 9, Oct 16, Oct 30, Nov 6 and Nov 20 targets. M2 is
   the case outline; M3 includes the midterm presentation and reviewed evidence plan.
-- Tentative assessment: retain individual 50/10/10; propose pair midterm 10 and
+- Historical tentative assessment (replaced by D018): retain individual 50/10/10; propose pair midterm 10 and
   report/evidence 20. Final presentation remains required with feedback, no separate
   weight. Formal instructor confirmation and presentation slots remain pending.
 - Supersedes: D003's pending cohort selection; the single-study/two-subteam aspects
@@ -52,6 +52,27 @@ not a planned completion schedule.
   outputs. Retains D010 dates, individual attribution and no-duplicate-log principles.
 - Implementation/review record: [PR #32](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/32) records validation and the documented owner bootstrap merge exception.
   Pair-specific plan approvals are recorded separately, not inferred from this decision.
+
+## D018 — Increase individual grading to 75% and align the working guides
+
+- Date: 2026-09-23
+- Status: accepted for the repository proposal; formal course confirmation remains pending
+- Basis: the owner explicitly requested 75% individual / 25% pair and a thorough
+  review of coherence, correctness and structure.
+- Decision: individual work 55 (Foundation 10, Question 10, Execution 25, Synthesis 10),
+  collaboration 10, individual report 10; pair midterm 10 and final report/evidence 15.
+  Move five points from the integrated pair report to individual execution evidence.
+  Final presentation stays required with feedback and no separate grade weight.
+- Preserve: D017 pair-case approach, dates, credit for existing work, and one evidence
+  record per task. Do not apply new grading retrospectively without announced policy.
+- Coherence fixes: clarify study-plan/task/merge review responsibilities, collection
+  issue links, prior-inspected evidence, platform support status and beginner setup.
+  Keep the grading proposal and semester plan authoritative for weights and dates.
+- Implementation/review record: [PR #33](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/33) records the audit, validation and owner bootstrap merge exception.
+  Checked documents, live issue/milestone descriptions, source references, protection
+  settings and the scripted starter. External-platform preparation remains pending.
+- Supersedes: the weight/rubric portions of D012 and D017 only; retain those entries
+  as historical records, not current student instructions.
 
 ## New entry template
 

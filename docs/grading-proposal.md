@@ -5,39 +5,43 @@ announce the policy before applying it. Dates are [project targets](semester-pla
 presentation slots, official submissions, accommodations and the assessed period
 remain for the instructor to confirm. Grades and private feedback stay outside GitHub.
 
-## Proposed grade: 70% individual, 30% pair
+## Proposed grade: 75% individual, 25% pair
 
 “Shared” means **the two partners' case**, not the whole cohort. Each student receives
 individual marks plus their pair's shared marks; overall grades can differ.
 
 | Component | Weight | What is assessed |
 | --- | ---: | --- |
-| Individual work through tasks | **50%** | Foundation 10; Question 10; Execution 20; Synthesis 10, using the rubric below. |
+| Individual work through tasks | **55%** | Foundation 10; Question 10; Execution 25; Synthesis 10, using the rubric below. |
 | Individual collaboration/review | **10%** | Communication and follow-through (5); useful review/help improving the work (5). |
 | Individual contribution report | **10%** | Accurate attribution and evidence (5); explanation of decisions, limitations, learning and next steps (5). |
 | Pair midterm case/question presentation | **10%** | Sourced business problem and clear question (5); feasible evidence plan, initial check and response to feedback (5). |
-| Pair final report and evidence | **20%** | Sound question/method (5); checked evidence/analysis (5); interpretation and limitations (5); clear report and reproducible handoff (5). |
-| **Total** | **100%** | **70 individual + 30 pair** |
+| Pair final report and evidence | **15%** | Sound method and checked evidence/analysis (5); interpretation and limitations (5); clear report and reproducible handoff (5). |
+| **Total** | **100%** | **75 individual + 25 pair** |
 
-This replaces the earlier tentative cohort-wide 10/10/10 presentation/report split.
+This moves five percentage points from the pair final report to individual Execution
+work. The [grading table above](#proposed-grade-75-individual-25-pair) is the canonical
+weight/rubric reference; other guides summarize it. Earlier weights remain only in
+the historical decision log and prior PRs.
+
 The final pair presentation is still required for explanation, discussion and handoff,
 with feedback but **no separate grade weight or unannounced extra points**. Its
 preparation can evidence a distinct agreed individual contribution; do not score the
-same output twice within the individual 50%.
+same output twice within the individual 55%.
 
-## How the individual 50% maps to issues
+## How the individual 55% maps to issues
 
 Each student agrees substantive work in each stage, suited to their experience,
 role and enrolled commitment. A work package can span weeks; there is no issue quota.
 
 | Stage | Points | Examples of personal evidence | Checkpoint |
 | --- | ---: | --- | --- |
-| **Foundation** | **10** | A sourced business/paper critique, documented reproduction with interpretation, or useful diagnosis of a failed attempt. Starter #1 or tasks under the Pair case/shared resources. | Review by M2, Oct 9 |
+| **Foundation** | **10** | A sourced business/paper critique, documented reproduction with interpretation, or useful diagnosis of a failed attempt. Starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) or tasks under the Pair case/shared resources. | Review by M2, Oct 9 |
 | **Question** | **10** | Justified risk question, workflow/authority map, meaningful comparison, label definition or evidence-plan contribution under the Pair case. | Outline M2; review by M3, Oct 16 |
-| **Execution** | **20** | Checked implementation, scenario/label package, experiment batch, systematic trace analysis or reproducible analysis tooling under the Pair case. | Scope M3; progress/evidence M4, Oct 30 |
+| **Execution** | **25** | Checked implementation, scenario/label package, experiment batch, systematic trace analysis or reproducible analysis tooling under the Pair case. | Scope M3; progress/evidence M4, Oct 30 |
 | **Synthesis** | **10** | Evidence-backed interpretation, figure with explanation, limitations, robustness check, or validated reproduction/handoff contribution under the Pair case. | Draft Nov 6; final Nov 20 |
 
-These are options, not a requirement to complete every example. Onboarding #5
+These are options, not a requirement to complete every example. Onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)
 establishes access and attribution; installation or a roster row alone is not full
 Foundation credit. Strong negative findings or useful rejected ideas can earn full
 marks. Neither publication nor a working positive-result intervention is required.
@@ -46,16 +50,16 @@ neither is permanently assigned only coding or only writing.
 
 ### One scoring rubric, applied to each stage
 
-| Criterion | Foundation /10 | Question /10 | Execution /20 | Synthesis /10 | Total /50 |
+| Criterion | Foundation /10 | Question /10 | Execution /25 | Synthesis /10 | Total /55 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Quality/correctness: sound work and agreed criteria met | 4 | 4 | 8 | 4 | 20 |
-| Reasoning/research value: justified choices and claims | 4 | 4 | 8 | 4 | 20 |
-| Evidence/usability: attributable, checkable and reusable | 2 | 2 | 4 | 2 | 10 |
-| **Maximum** | **10** | **10** | **20** | **10** | **50** |
+| Quality/correctness: sound work and agreed criteria met | 4 | 4 | 10 | 4 | 22 |
+| Reasoning/research value: justified choices and claims | 4 | 4 | 10 | 4 | 22 |
+| Evidence/usability: attributable, checkable and reusable | 2 | 2 | 5 | 2 | 11 |
+| **Maximum** | **10** | **10** | **25** | **10** | **55** |
 
 Score each criterion from zero to its maximum against the agreed substantive scope.
-Explain gaps privately and agree support early. No identifiable contribution earns
-zero for that stage. Reviewers verify work; the instructor assigns marks. An open
+Explain gaps privately and agree support early. A stage with no identifiable
+contribution receives zero. Reviewers verify work; the instructor assigns marks. An open
 pair/collection issue does not prevent assessing completed individual work.
 
 Before a task, agree owner, stage, deliverable, done criteria, target and reviewer.
@@ -66,12 +70,12 @@ Routine peer review belongs in collaboration; a planned validation study with it
 own artifact can be individual work. Report marks assess attribution/reflection;
 pair marks assess the integrated output. Do not award points by issue/commit counts.
 
-For example: 43/50 work + 8/10 collaboration + 9/10 individual report + 8/10 pair
-midterm + 17/20 pair report = **85/100**. No public grade table is needed.
+For example: 48/55 work + 8/10 collaboration + 9/10 individual report + 8/10 pair
+midterm + 12/15 pair report = **85/100**. No public grade table is needed.
 
 ## Two group presentations and the written report
 
-Here, each “group” is a pair. The retained heading supports older links.
+Each pair gives the midterm and final presentations and submits one written report.
 
 | Output | Working target | Expected content |
 | --- | --- | --- |
@@ -82,12 +86,12 @@ Here, each “group” is a pair. The retained heading supports older links.
 Instructor confirms slots/lengths. A starting suggestion is 8–10 minutes per pair
 plus discussion, adjusted to cohort size. Both partners have agreed preparation and
 speaking/question roles and explain their own work. Record slides and feedback in
-the Pair case and link from #21 or #22. No weekly deck or cohort-wide final paper.
+the Pair case and link from [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) or [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22). No weekly deck or cohort-wide final paper.
 The final slides do not replace the report.
 
 ## Individual contribution report
 
-Each student creates an Individual task under #23, cross-linked to their Pair case.
+Each student creates an Individual task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23), cross-linked to their Pair case.
 Use the [template](contributors/_individual-report-template.md) for a short report
 (about 1–2 pages plus links; length is guidance), draft Nov 6 and final Nov 20.
 Create `docs/contributors/YOUR-USERNAME.md` at the draft checkpoint; preserve any
@@ -117,7 +121,7 @@ not peer grading. Authorship of a later paper is a separate contribution-based d
 
 ## Course confirmation and changes
 
-Instructor tracker #24 covers final weights, criteria, workload, presentation slots,
+Instructor tracker [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) covers final weights, criteria, workload, presentation slots,
 submission arrangements, support and private assessments. Review Foundation at M2,
 Question at M3, Execution at M4, drafts Nov 6, and Synthesis/reports at M5. Announce
 policy before applying it; update this guide, schedule, templates and live issues

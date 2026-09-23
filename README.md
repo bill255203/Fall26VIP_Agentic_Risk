@@ -39,7 +39,7 @@ explain what makes a small study rigorous.
 | Choose and plan a pair case | [Case guide](docs/studies/README.md) and [short template](docs/studies/_case-template.md) |
 | Find registered pairs and cases | [Case registry issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) |
 | Track personal work and shared outcomes | [Issue workflow and task map](docs/issue-workflow.md) |
-| Tentative 70% individual / 30% pair grading | [Grading proposal](docs/grading-proposal.md) |
+| Tentative 75% individual / 25% pair grading | [Grading proposal](docs/grading-proposal.md) |
 | Beginner concepts, reading, and platform candidates | [Resource guide](docs/literature.md) |
 | Agent Assurance as a source of hypotheses | [Source map](docs/agent-assurance-bridge.md) — optional reference |
 | Code and setup | [Run the pilot](#run-the-pilot), [source](src/agentic_risk/), [tests](tests/) |
@@ -53,8 +53,8 @@ explain what makes a small study rigorous.
 | Item | Status |
 | --- | --- |
 | Scripted credit-limit starter | Runnable with tests and traces; no model API needed. Teaching apparatus, not empirical agent evidence. |
-| Guided external-platform example and genuine saved traces | Preparation pending; instructor support tracked in #6. No platform adopted or paid access promised. |
-| Pair membership, questions, and study plans | Recorded as agreed in #3 and each Pair case issue; no assignments or approvals assumed. |
+| Guided external-platform example and genuine saved traces | Preparation pending; instructor support tracked in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6). No platform adopted or paid access promised. |
+| Pair membership, questions, and study plans | Recorded as agreed in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and each Pair case issue; no assignments or approvals assumed. |
 | Candidate A: runtime containment | Optional advanced example, unselected and unimplemented; not the standard an early student outline must match. |
 | Findings | To be produced and reviewed by each pair. |
 
@@ -65,20 +65,41 @@ See [pilot definitions](docs/research-plan.md#current-scripted-pilot).
 
 ## Run the pilot
 
-Python 3.11 or later is required. The initial harness has no runtime dependencies.
+Python 3.11 or later and Git are required. The starter has no runtime dependencies;
+installation may download Python build tools. No model account or API key is needed.
+
+Clone once (macOS/Linux terminal or Windows PowerShell):
 
 ```bash
 git clone https://github.com/zhongnz/Fall26VIP_Agentic_Risk.git
 cd Fall26VIP_Agentic_Risk
+```
+
+If already cloned, open a terminal in that folder. Then choose your operating system.
+
+**macOS / Linux**
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
-python -m agentic_risk \
-  --config experiments/pilot.toml \
-  --output results/local/pilot
+python -m agentic_risk --config experiments/pilot.toml --output results/local/pilot
+python -m unittest discover -s tests -v
 ```
 
-If you already cloned the repository, start with the virtual-environment command. On Windows, use `py -3 -m venv .venv` and activate with `.venv\Scripts\Activate.ps1` in PowerShell. To run directly from a checkout without installation on macOS/Linux, prefix the run and test commands with `PYTHONPATH=src`.
+**Windows PowerShell** — these commands use the virtual environment directly,
+so activation is not required:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -e .
+.\.venv\Scripts\python.exe -m agentic_risk --config experiments/pilot.toml --output results/local/pilot
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+For a macOS/Linux checkout without installation, prefix the run and test commands
+with `PYTHONPATH=src` and use `python3`. If blocked, post the exact command and error
+in your starter task without credentials or private paths; setup help is part of onboarding.
 
 The output directory must be new. Each run creates:
 
@@ -89,11 +110,10 @@ The output directory must be new. Each run creates:
 
 Local artifacts are ignored by Git. Promote only reviewed, documented result snapshots into version control.
 
-Run the checks with:
-
-```bash
-python -m unittest discover -s tests -v
-```
+The checks should report 10 passing tests. The default run writes 480 scripted
+trials and 12 summary rows. Open `summary.csv`, then inspect a trial in `trials.jsonl`.
+For another run, choose a new output path such as `results/local/pilot-02`; existing
+runs are deliberately not overwritten.
 
 ## Repository map
 
@@ -105,7 +125,6 @@ results/              policy for reviewed result snapshots
 docs/                 research plan, cohort guide, records, and literature
 .github/               issue, pull-request, and CI workflow templates
 ```
-
 
 ## Working together
 
