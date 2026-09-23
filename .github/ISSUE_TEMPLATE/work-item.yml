@@ -43,7 +43,7 @@ body:
     id: milestone
     attributes:
       label: Milestone or backlog status
-      description: Choose the next output checkpoint; a maintainer sets the actual field. Reuse tasks across weeks.
+      description: Choose the next working checkpoint; a maintainer sets the actual field. Reuse tasks across weeks and adjust the target as work or course direction changes.
       options:
         - M1 — Onboard and understand
         - M2 — Propose pair cases
@@ -56,15 +56,15 @@ body:
   - type: input
     id: target
     attributes:
-      label: Target and reviewer
-      description: Agreed date or next check-in; reviewer other than yourself, or awaiting assignment. Raise setup blockers immediately.
+      label: Working target and peer check
+      description: State a date or next check-in. Add a peer reviewer when arranged; no instructor approval or appointed mentor is needed to start. Note blockers here.
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
       label: Done when
-      description: Two or three observable checks for your contribution. Scope and support are agreed with the reviewer.
+      description: Two or three observable checks for your contribution, agreed with your partner. Refine scope as needed; arrange a peer check as work develops.
       placeholder: |
         - [ ] Artifact/source/analysis linked
         - [ ] Result or diagnosed limitation explained and checked

@@ -7,10 +7,10 @@ contribution record. Do not create an issue for every meeting, comment, or weekl
 
 | Issue type | Purpose | Ownership and completion |
 | --- | --- | --- |
-| **Pair case** | One pair's workflow, question, plan, report links, and milestone checklist for the semester. Create after partners agree; register its link in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). | Names both partners and a reviewer. Both may be assigned. Stays open until the case outputs are reviewed. Assignment alone does not allocate individual credit. |
+| **Pair case** | One pair's workflow, question, plan, report links, and adjustable checkpoint checklist. Create after partners agree; register its link in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). | Names both partners; add peer reviewers when arranged. Both partners may be assigned. Stays open until the agreed case outputs are reviewed. Assignment alone does not allocate individual credit. |
 | **Individual task** | One student's meaningful contribution or independent attempt. | Exactly one student owner; separate evidence and review. Name collaborators separately. |
 | **Group goal** | Existing cohort onboarding, shared resources, or collection of outputs across pairs. | Maintainer coordinates required coverage; it is not a single research project or cohort-wide grade. |
-| **Instructor task** | Teaching setup, access/budget, assessment and support. | Instructor/maintainer owns it. Students are not automatically responsible for preparing the platform. |
+| **Course notes (#24)** | Current arrangements, instructor announcements and adjustments. | Maintainers record changes; no instructor task checklist or separate approval queue. Grades stay private. |
 
 GitHub calls the templates **Pair case**, **Individual task**, and **Group goal (maintainer)**.
 The parent is an issue link in the form; native GitHub sub-issues or a Project board
@@ -20,11 +20,11 @@ pair issue identify partners; personal credit still comes from one-owner tasks.
 ## Simple student workflow
 
 1. Onboard with your Individual task under [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) and starter task under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1).
-2. When partners are confirmed, **one partner** opens **New issue → Pair case**,
-   names both partners, and links it in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). A maintainer confirms membership, reviewer,
-   and scope. Choose a stable short slug such as `retail-refunds`.
+2. When partners agree, **one partner** opens **New issue → Pair case**,
+   names both partners, and links it in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). Start with a small scope; the instructor
+   can adjust pairings or direction. Choose a stable short slug such as `retail-refunds`.
 3. Each partner opens **Individual tasks** under that Pair case for their meaningful
-   work. Include stage, deliverable, done criteria, target, and reviewer. Reuse a task
+   work. Include stage, deliverable, done criteria, target, and a peer reviewer when arranged. Reuse a task
    across weeks; no minimum number of tasks is required.
 4. Link the artifact and review in the Individual task. Update the Pair case with
    links to its outputs; cohort collection goals link those same outputs.
@@ -60,8 +60,8 @@ Cohort issues are retained to keep existing links and show coverage. Students do
 | Roster and onboarding | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5); M1 Sep 25 | Access/attribution; setup alone is not research credit |
 | Starter attempt and critique | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1); M1 Sep 25 | Foundation evidence |
 | Reading / business workflow | Pair case (or [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2) for shared resources) | [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2) resources; M2 Oct 9 | Foundation 10 |
-| Question and evidence plan | Pair case | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) case registry; outline M2, reviewed plan M3 Oct 16 | Question 10 |
-| Guided platform / trace package | Instructor [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); agreed student help may have a task under [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) | [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) before requiring platform use | Student credit only for actual agreed work |
+| Question and evidence plan | Pair case | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) case registry; outline M2, working method and feedback M3 Oct 16 | Question 10 |
+| Optional reusable examples / setup help | Pair case for case-specific work; [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) for a shared resource contribution | Share when useful; no required teaching package or fixed delivery date | Credit for actual contribution; no additional assignment |
 | Feasibility and execution | Pair case | [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) validation; M3 then M4 | Execution 25 |
 | Analysis | Pair case | [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) first analysis; M4 Oct 30 | Execution or Synthesis; distinct outputs, no double counting |
 | Midterm case/question presentation | Pair case; reuse design task if it covers the role | [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) collects each pair's deck/feedback; M3 Oct 16 | Pair 10 |
@@ -69,7 +69,7 @@ Cohort issues are retained to keep existing links and show coverage. Students do
 | Final presentation | Pair case; reuse report task if it covers the role | [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); M5 Nov 20 | Required, feedback only; no separate weight |
 | Individual contribution report | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); cross-link Pair case | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); draft Nov 6, final Nov 20 | Individual 10 |
 | Collaboration and substantive peer review | Existing relevant task; substantial review package may have its own task | Ongoing, with cross-pair review before M5 | Individual 10 |
-| Course policy, support, private assessment | Instructor [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24); students do not open tasks for course administration | Checkpoints through official cutoff | Private instructor assessment |
+| Course arrangements and adjustments | Course notes [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24); no student administration tasks | Updated when arrangements change; not a milestone deliverable | Announced policy; private instructor assessment |
 | Candidate A practical gate | Pair case only if explicitly adopted; related [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) | [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) deferred, no delivery milestone | Optional scope; no additional points |
 
 The [grading proposal](grading-proposal.md) defines the rubric and stage boundaries.
@@ -80,11 +80,14 @@ different purposes; closing issues does not award points.
 
 - **Personal task:** an agreed reviewer other than its owner checks the evidence;
   a partner can provide this review. A substantial cross-pair review is useful too.
-- **Study plan and method changes:** the instructor or a designated method mentor
-  records approval. Partner agreement alone does not approve the final evidence plan.
-- **Final handoff:** another pair or an instructor checks the analysis/source trail.
+- **Study plan and method changes:** partners record the method and changes, seek
+  peer feedback and proceed within their scope. No instructor sign-off or appointed
+  mentor is required. Ask for guidance when the question or evidence remains unclear.
+- **Final handoff:** a peer, preferably from another pair, checks the analysis/source
+  trail. Record the actual check and any limits; an instructor need not perform it.
 - **PR merge:** an eligible GitHub reviewer approves according to [access rules](access-management.md).
-  Peer feedback and study-plan approval do not automatically grant merge permissions.
+  Peer feedback does not automatically grant merge permissions. A routine research
+  step need not wait for a documentation PR to merge; retain the dated issue record.
 - **Grades:** the instructor assesses evidence privately using announced policy.
 
 ## Milestones, review, and closing
@@ -95,14 +98,17 @@ separate pair issues. Cohort collectors use their relevant milestone. Milestones
 organize work, not new assignments.
 
 A reviewer checks a student's evidence separately from the pair's overall progress.
-The pair may proceed after its own plan/validation review without waiting for the
-cohort's [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3)/#7 to close. A maintainer closes collection goals only after every required
+The pair may proceed with a recorded method and feasibility check, arranging peer
+feedback as work develops, without waiting for instructor approval or the cohort's
+[#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3)/#7 to close. A maintainer closes collection goals only after every required
 participant/pair is covered or an explicit scope adjustment is recorded.
 
 Use one short weekly update in each active task: evidence, next step, blocker. Keep
 completed links visible. No duplicate portfolio, public gradebook, or weekly report.
-When a partner or dependency blocks progress, preserve the existing work and agree
-an alternative scope with the instructor. Late joiners get agreed targets.
+When a dependency blocks progress, preserve the existing work, narrow the next
+task and record why. Ask the instructor for unresolved workload/partnership issues
+or changes to assessed expectations. Late joiners get suitable targets. Course
+adjustments follow the [adaptation rules](semester-plan.md#adaptation-and-decision-making).
 
 ## Transition from the previous plan
 
@@ -110,4 +116,5 @@ Existing student [#28](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/
 records or require resubmission. Existing research tasks can be re-parented by agreement,
 with a note and original evidence retained. Previous cohort goals become coordination
 and output collections; [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) stays optional. No pair membership or completed result is
-inferred from an old assignment. Confirm partners in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before creating a Pair case.
+inferred from an old assignment. Agree partners, create the Pair case, then register
+its link in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3).

@@ -14,8 +14,13 @@ Read the [student guide](docs/student-start.md) first. It explains this week's w
 setup, resources, and submissions. Kickoff was scheduled for **September 18, 2026**;
 the first working checkpoint is **September 25**. Try the starter with help, add your
 roster entry, and bring an observation or question. Existing work counts; no resubmission
-is needed because the plan changed. Pair formation is coordinated by the instructor;
-you can onboard before you have a partner.
+is needed because the plan changed. Students agree partners and register their case;
+the instructor can adjust pairings or help when needed. You can onboard first.
+
+The roadmap provides starting targets. Students own their plans and seek peer
+feedback; routine progress does not need instructor sign-off. The instructor can
+adapt scope, timing and activities through course announcements or discussion.
+Maintainers keep the repository aligned. See [how adjustments work](docs/semester-plan.md#adaptation-and-decision-making).
 
 ## What students will do
 
@@ -54,8 +59,8 @@ explain what makes a small study rigorous.
 | Item | Status |
 | --- | --- |
 | Scripted credit-limit starter | Runnable with tests and traces; no model API needed. Teaching apparatus, not empirical agent evidence. |
-| Guided external-platform example and genuine saved traces | Preparation pending; instructor support tracked in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6). No platform adopted or paid access promised. |
-| Pair membership, questions, and study plans | Recorded as agreed in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and each Pair case issue; no assignments or approvals assumed. |
+| Optional external examples and genuine saved traces | Share useful resources in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) as cases need them. No central package, adopted platform or paid access is promised. |
+| Pair membership, questions, and study plans | Partners record these in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and their Pair case; refine with feedback as work develops. |
 | Candidate A: runtime containment | Optional advanced example, unselected and unimplemented; not the standard an early student outline must match. |
 | Findings | To be produced and reviewed by each pair. |
 

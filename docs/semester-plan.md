@@ -1,13 +1,13 @@
 # Fall 2026 semester plan
 
-**Current approach, September 23:** one bounded case study per pair, with common
-teaching resources and cross-pair review. This replaces the earlier plan to select
-one cohort-wide experiment. Existing student contributions remain valid evidence.
+**Current approach, September 23:** one bounded case study per pair, with shared
+resources and peer feedback. Students own the work; the instructor guides and
+adapts the course. Existing student contributions remain valid evidence.
 
 ## Semester outcome and scope
 
 Each pair investigates **one business workflow, one risk question, and one possible
-improvement**. Produce a sourced case description, a reviewed evidence plan, a small
+improvement**. Produce a sourced case description, a dated evidence plan, a small
 empirical investigation, and a report with reproducible evidence and limitations.
 A controlled experiment, deliberate replication, or systematic analysis of genuine
 agent traces can qualify. A hypothetical risk narrative or scripted demonstration
@@ -22,6 +22,31 @@ reporting practices, reusable tools, and peer review. Pairs choose their own bou
 questions; they need not compete for one winning proposal. Agent Assurance and
 external benchmarks are optional sources, not required frameworks to implement.
 
+## Adaptation and decision-making
+
+This plan supplies useful defaults. The instructor may adjust topics, pairings,
+scope, sequence, dates, presentation format and support as the cohort develops.
+An announcement or discussion is enough to make a course adjustment; a GitHub PR,
+committee review or completed checklist is not a prerequisite.
+
+- **Students:** agree a small next task with their partner, record the plan, test
+  feasibility and proceed. Seek peer feedback as work develops; routine tasks,
+  case plans and method refinements do not need instructor sign-off.
+- **Instructor:** gives direction and feedback where useful, handles exceptions,
+  and makes course/assessment decisions. There is no obligation to review every
+  issue, approve each research stage or build a custom teaching platform.
+- **Maintainers:** handle GitHub access/merges and keep the shared record current.
+  Record an adjustment once, as a short dated note in the affected Pair case or
+  [course notes #24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24), then update affected guidance. Students
+  follow the announced change while the repository catches up.
+
+Keep ownership, attributable evidence, honest claim limits and announced grading
+expectations clear. Explain assessment changes before applying them and preserve
+credit for completed work. Pairs can narrow or refine a question in their existing
+case; record what changed, why, and whether evidence had already been inspected.
+Escalate unresolved scope/workload questions and requests for institutional access
+or spending to the responsible person. No unapproved spending is assumed.
+
 ## Calendar and working targets
 
 Kickoff: **September 18, 2026**. These New York local dates are **working project
@@ -32,8 +57,8 @@ availability. Late joiners agree individual targets; no work is due before joini
 | Checkpoint | Target | What is expected |
 | --- | --- | --- |
 | **M1 — Onboard and understand** | **September 25** | Roster PR, starter attempt or recorded blocker, guided trace discussion, and one observation/question per student. |
-| **M2 — Propose pair cases** | **October 9** | Confirm partners, register one Pair case, complete its short outline, assign individual contributions, and agree a feasible evidence route with a reviewer. This is a scope check, not a full finished protocol. |
-| **M3 — Present cases and validate plans** | **October 16** | Each pair presents its question, business motivation, reading, evidence plan, and a small feasibility result or diagnosed limitation. Instructor/designated method mentor approves the revised plan and validation before final evidence work. |
+| **M2 — Propose pair cases** | **October 9** | Agree partners, register one Pair case, outline the question and accessible evidence, and divide the next individual contributions. Seek feedback; a full protocol is not needed. |
+| **M3 — Present cases and validate plans** | **October 16** | Present the case and a small feasibility result or diagnosed limitation. Record the working method and act on feedback; no instructor approval gate. |
 | **M4 — Analyze first evidence** | **October 30** | Each pair produces a first complete analysis with counts, failures, relevant risk/utility tradeoffs, and limitations. |
 | **Full draft checkpoint** | **November 6** | Pair report and individual contribution report drafts for feedback. |
 | **M5 — Report and hand off** | **November 20** | Reviewed pair report/evidence, final pair presentation, individual reports, and a peer check of the handoff. |
@@ -49,45 +74,47 @@ do not create new required work during recess or exams.
 
 ## Milestones and dependencies
 
-Each pair progresses on its own reviewed evidence. One pair's blocker does not
+Each pair progresses on its own plan and evidence. One pair's blocker does not
 prevent another pair from proceeding. A cohort collection issue remains open until
 all required pairs are covered, but its closure is not a prerequisite for a ready pair.
 
 - **M1:** shared onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) and starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1); pair formation can follow.
 - **M2:** [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) registers Pair case issues. Each pair uses the [short outline](studies/README.md#short-proposal-outline).
 - **M3:** [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) collects midterm decks and feedback; [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) collects validation links. Each
-  pair records its approved plan revision, reviewer, data/access, and development
-  check in its own case issue. Freeze evaluation data/rules before final analysis.
+  pair records its plan revision, data/access, development check and feedback in
+  its case. Specify evaluation rules before using them; record later changes.
 - **M4:** [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) collects first-analysis links. Preserve failures and deviations; counts
   and uncertainty must match the units of evidence. Do not treat repeated messages
   or repeated deterministic runs as independent observations.
 - **M5:** [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9) collects pair reports/handoffs, [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) final decks/discussion, and [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)
   individual reports. Required outputs are reviewed separately.
 
-Exploratory probes may precede plan approval and must be labeled exploratory.
+Exploratory probes can begin early and must be labeled exploratory.
 Changes after inspecting evaluation data are recorded, with their effect on claims.
-The instructor narrows scope when access or setup fails. Existing-trace analysis
+Pairs can narrow scope when access or setup fails and seek help if needed. Existing-trace analysis
 requires actual accessible traces, usable labels, and a meaningful comparison;
 it is not an automatic fallback based on the scripted starter.
 
-## Instructor preparation and support
+## Resources and support as needed
 
-Track the teaching package in **[#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)** and assessment arrangements in **[#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24)**.
-Before assigning an external platform, the instructor/maintainer must:
+Start with the runnable starter and [walkthrough](starter-walkthrough.md). Pairs
+choose accessible sources and the smallest useful example from [resources](literature.md).
+They can read, map a workflow and test feasibility without waiting for a centrally
+prepared platform or saved-trace package.
 
-1. Test a pinned version and a small task subset; record installation and runtime.
-2. Provide exact instructions, a guided example, and permitted saved executions with
-   provenance. Clearly distinguish genuine model traces from scripted fixtures.
-3. Arrange model access and a bounded budget if paid runs are needed. Students are
-   not expected to buy access or commit API keys.
-4. Explain the workflow and one paper in plain language; offer setup help.
-5. Demonstrate that another person can run or analyze the example. If not, select a
-   narrower supported route before requiring it of students.
+Use **[#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)** to share optional reusable examples, setup findings or help requests.
+A student, pair, maintainer or instructor may contribute when useful; nobody owes
+a new teaching package by a fixed checkpoint. Test the particular resource a case
+needs and record its version, instructions and limitations. Share successful work
+so other pairs can reuse it; do not make every pair build the same infrastructure.
 
-The existing starter is ready; the external-platform package is **pending**, not
-implemented or funded. Tau-bench is a candidate for a text-based business example;
-AgentDojo is an alternative for injection-focused questions. No integration of
-multiple frameworks is required. See [resources](literature.md).
+No external platform, saved genuine-agent dataset or model budget is provisioned
+by this plan. Students are not expected to purchase access. Prefer an accessible
+route, and obtain authorization before paid use. A case claiming empirical agent
+behavior still needs genuine runs or trace evidence; the scripted starter cannot
+substitute for that evidence. If it remains inaccessible, discuss a narrower
+deliverable and label its limits. The instructor may adapt the scope without
+undertaking platform development.
 
 ## Assessment and reports
 
@@ -110,8 +137,10 @@ Each pair shares responsibility for its case and rotates research/technical role
 where practical. Each student owns a reviewable contribution in all four stages;
 agree scope suited to enrolled commitment and experience. There are no permanent
 Research versus Engineering subteams. Both partners explain the evidence and method.
-The instructor confirms pair membership, scope, reviewers, access, and assessments.
-No partner or reviewer is assigned without agreement.
+Partners agree membership and personal work, then register the case. Arrange peer
+checks as needed; no appointed mentor is required to start. The instructor can
+adjust pairings or scope and handle unresolved needs. Do not name a partner or
+reviewer without their agreement.
 
 Use [Pair cases and Individual tasks](issue-workflow.md). Record work once in Issues
 and PRs; no weekly slide deck, portfolio table, or separate activity log is required.
@@ -127,9 +156,10 @@ before adding scope. Weekly targets do not add graded submissions or assumed hou
 
 ## Changes and definition of done
 
-Use a reviewed PR and [decision log](decisions.md) for program changes; case-specific
-amendments stay in the pair's document and issue, preserving prior versions and
-identifying affected evidence. A pair finishes when its reviewed report, evidence,
+Use the [adaptation rules](#adaptation-and-decision-making) above. Maintainers use
+normal PR review to update repository files and the [decision log](decisions.md)
+for substantial program changes; routine adjustments need only the existing issue
+note. Preserve prior evidence and identify affected results. A pair finishes when its reviewed report, evidence,
 individual tasks, presentation, and handoff are linked. Unfinished work stays visible.
 The cohort leaves an index of pair reports and reusable assets, not an extra combined
 research paper. See [reports](reports/README.md).

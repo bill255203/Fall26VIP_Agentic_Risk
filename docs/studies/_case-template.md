@@ -2,9 +2,9 @@
 
 - Pair case issue:
 - Partners / GitHub usernames:
-- Study-plan reviewer (instructor/designated method mentor; awaiting assignment until confirmed):
-- Status: outline / feasibility / reviewed plan / analysis / draft / reviewed report
-- Plan revision and review link (pending until reviewed):
+- Peer feedback / reviewer (when arranged; no mentor assignment needed to start):
+- Status: outline / feasibility / working plan / analysis / draft / reviewed report
+- Dated plan revision and available feedback:
 - Individual task links:
 
 Start with sections 1–5, about half a page. Expand this same document into the report.
@@ -37,9 +37,11 @@ outcomes. Distinguish observations from proposed explanations.
 What is accessible now? Link the smallest probe or diagnosed blocker. What setup,
 API budget, or help is still pending? Link each partner's next task and actual role.
 
-## 6. Reviewed study plan
+## 6. Working method
 
-Before final evidence work, agree with the reviewer:
+As the study develops, record the applicable details below. This is a working
+method, not an instructor approval form. State evaluation rules before applying
+them, seek peer feedback and record changes after inspecting evidence.
 
 - Evidence route; exact platform/data/model versions as applicable.
 - Unit of analysis, data selection, development versus evaluation split; prior inspection and its effect on claims.
@@ -47,7 +49,7 @@ Before final evidence work, agree with the reviewer:
 - Measures with numerators/denominators; risk, utility and relevant cost.
 - Sample/repetition plan, treatment of dependent observations, uncertainty/claim limits.
 - Failure, exclusion, retry, stopping and analysis rules.
-- Resources, validation evidence, review link, and dated amendments.
+- Resources, validation evidence, available feedback, and dated changes with reasons.
 
 For existing-trace work, specify labeling rules and an agreement check. Use only
 applicable fields from the [experiment record](../experiment-record.md).

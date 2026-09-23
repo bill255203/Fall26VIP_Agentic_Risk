@@ -5,6 +5,12 @@ announce the policy before applying it. Dates are [project targets](semester-pla
 presentation slots, official submissions, accommodations and the assessed period
 remain for the instructor to confirm. Grades and private feedback stay outside GitHub.
 
+The instructor may adapt activities, timing and assessed scope as the course
+develops, communicating changes clearly and preserving credit for completed work.
+No repository approval process is required to make that decision. Maintainers
+record announced arrangements in [course notes #24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) and update the guides;
+the rubric is a shared reference, not an instructor administration checklist.
+
 ## Proposed grade: 75% individual, 25% pair
 
 “Shared” means **the two partners' case**, not the whole cohort. Each student receives
@@ -77,7 +83,8 @@ an untested claim of completion cannot. Agree scope before work and provide
 actionable feedback at checkpoints.
 Extra issues or a more elaborate software system do not raise the maximum.
 
-Before a task, agree owner, stage, deliverable, done criteria, target and reviewer.
+Before a task, agree owner, stage, deliverable, done criteria and target with your
+partner. Arrange a peer check as work develops; no instructor countersignature is needed.
 Afterward, link artifact, validation and review; distinguish collaborators' parts.
 Assign each output to one stage. If one task spans stages, identify separate outputs
 (e.g. analysis code under Execution and its interpretation under Synthesis).
@@ -128,16 +135,18 @@ complete the same agreed assignment with separate personal tasks and evidence;
 each can earn full credit. Joint work uses separate personal tasks linked to shared
 artifacts, describing actual roles. One student's completion closes their task only.
 
-If a partner, setup or data dependency blocks work, report it early and agree an
-alternative contribution. Another student's missing work does not erase your
+If setup or data blocks work, report it early and narrow the next task. Seek help
+for unresolved partnership/workload issues or changes to assessed expectations.
+Another student's missing work does not erase your
 individual credit. Shared marks still reflect the pair outcome; exceptional
 adjustments follow the instructor's announced policy. Peer feedback informs review,
 not peer grading. Authorship of a later paper is a separate contribution-based decision.
 
 ## Course confirmation and changes
 
-Instructor tracker [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) covers final weights, criteria, workload, presentation slots,
-submission arrangements, support and private assessments. Review Foundation at M2,
-Question at M3, Execution at M4, drafts Nov 6, and Synthesis/reports at M5. Announce
-policy before applying it; update this guide, schedule, templates and live issues
-together when arrangements change. Publication of this proposal is not formal approval.
+Course notes [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) summarize announced arrangements and changes; they are not a checklist
+the instructor must complete. Foundation at M2, Question at M3, Execution at M4,
+drafts Nov 6 and Synthesis/reports at M5 are useful feedback opportunities. The
+instructor chooses the feedback cadence and assesses existing evidence; there is
+no required sign-off at each stage. Maintainers synchronize affected guides and
+issues after changes. Publication of this proposal is not formal course approval.

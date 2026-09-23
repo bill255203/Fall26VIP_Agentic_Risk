@@ -1,13 +1,18 @@
 # Candidate A: runtime containment
 
 > **Optional advanced example (September 23 update).** A pair may adapt this design
-> with reviewer agreement. It is not the cohort assignment, a selected study, or the
+> with peer feedback. It is not the cohort assignment, a selected study, or the
 > expected detail of a beginner outline. Use the [pair case guide](README.md) and
 > current schedule; no platform or backend is implemented by this document.
 
 **Status: unselected and unimplemented candidate protocol.** This maintainer-authored
 proposal is a starting point for student critique under the [selection process](README.md#selection-and-protocol).
 The executable code implements only the scripted pilot in `experiments/pilot.toml`.
+
+This advanced protocol does not add an instructor sign-off requirement. A pair can
+narrow or adapt it with peer feedback and dated method notes. Its prespecification
+requirements apply to the confirmatory claims below; simpler exploratory work
+should state its own narrower question and limits.
 
 If a pair adopts Candidate A, its model/backend choice, resource limits, scenario
 set, repetitions, and analysis thresholds must be reviewed and frozen in

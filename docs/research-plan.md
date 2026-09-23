@@ -20,8 +20,8 @@ workflow can qualify; multiple agents are not a complexity requirement.
 ## Developing a pair case
 
 Use the [case guide](studies/README.md) and [schedule](semester-plan.md). Begin with
-a short sourced outline, test feasibility, then review the plan before final evidence
-collection or analysis. Each pair chooses its question; no cohort-wide winner or
+a short sourced outline, test feasibility, and record a working method with peer
+feedback as it develops. No instructor approval gate is required. Each pair chooses its question; no cohort-wide winner or
 maximum of two cohort proposals applies. Keep only one active bounded question per pair.
 
 A small experiment, deliberate replication, or structured analysis of genuine traces
@@ -37,7 +37,7 @@ requirement to build it or implement an assurance framework.
 
 1. Understand a workflow and ground the risk in literature/business sources.
 2. Form one question and inspect accessible evidence or a small development probe.
-3. Record a reviewed plan, including measures, labels, comparisons and claim limits.
+3. Record a dated method, including measures, labels, comparisons and claim limits.
 4. Produce/check evidence, preserving failures and relevant usefulness/cost tradeoffs.
 5. Report the result and limitations; let another pair check the analysis or handoff.
 
@@ -47,13 +47,17 @@ Every study follows the same cycle:
 
 | Stage | Required question or action |
 | --- | --- |
-| **Define** | State one answerable question, prespecified hypotheses or estimands, unit of analysis, outcomes, and exclusions before running the study. |
+| **Define** | State one answerable question, unit of analysis, outcomes and exclusions. For a confirmatory test, specify hypotheses and analysis before inspecting test outcomes; label question-forming work exploratory. |
 | **Evidence base** | Establish the baseline, source dataset, trace sample, or prior result against which the question will be assessed. |
 | **Vary or classify** | Apply a declared treatment or perturbation, or define a reproducible exposure, label, or comparison in existing evidence. |
 | **Observe** | Preserve the traces, records, labels, and provenance needed to locate outcomes and support re-analysis. |
-| **Test or analyze** | Apply the prespecified control, replication, attribution, or analysis procedure appropriate to the question. |
+| **Test or analyze** | Apply the recorded control, replication, attribution, or analysis procedure. Document refinements and whether outcomes had already been inspected. |
 | **Compare** | Use the declared units and analysis across conditions or evidence groups. Report counts and uncertainty, not just examples. |
 | **Generalize** | State only what the design supports, identify limitations, and propose the next test. |
+
+Flexibility changes the scope or method, not what the evidence establishes. A short
+dated note explaining a change and its effect on claims is sufficient; no separate
+amendment form or instructor approval is needed. See [adaptation rules](semester-plan.md#adaptation-and-decision-making).
 
 ## Current scripted pilot
 

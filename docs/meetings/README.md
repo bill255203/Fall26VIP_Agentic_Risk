@@ -15,7 +15,8 @@ or completed work. See the [student guide](../student-start.md) for onboarding.
 
 Use meetings for a guided trace or reading discussion, brief pair findings/blockers,
 and a small next action per student. Rotate which pairs share useful evidence.
-The instructor helps with setup, pair formation, scope and access. Midterm and final
+Students share setup help and agree partners; the instructor can guide, redirect
+or address unresolved needs as useful. Midterm and final
 presentations use the [working schedule](../semester-plan.md); ordinary meetings
 require no new slide deck or activity log. A pair's early outline uses the
 [five-part guide](../studies/README.md#short-proposal-outline), not Candidate A's full detail.
@@ -35,7 +36,7 @@ require no new slide deck or activity log. A pair's early outline uses the
 
 ## Decisions
 
-- Decision, responsible reviewer, and linked decision-log entry:
+- Decision or instructor direction, affected work, and issue link:
 - Pending decisions and what evidence or review is still needed:
 
 ## Next actions
@@ -49,6 +50,7 @@ require no new slide deck or activity log. A pair's early outline uses the
 - Blocker, affected task, and next step / owner:
 ```
 
-Publish notes through a PR so participants can correct their contributions or
-the record. A proposed decision remains pending until the responsible reviewer
-agrees in the linked issue or PR.
+Publish notes through a PR so participants can correct the record. Distinguish
+suggestions from decisions actually made. Instructor direction takes effect when
+communicated; it does not wait for the notes PR. Record routine adjustments in
+the existing issue and reserve the decision log for substantial program changes.

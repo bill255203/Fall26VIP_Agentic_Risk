@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Create one case issue after agreeing partners with the instructor; link it in #3. Each student then opens their own Individual tasks under this case. Use the [case guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/studies/README.md). No platform or paid access is assumed.
+        Partners agree one case and link it in #3. Each student opens their own Individual tasks under it. Start small and refine with peer feedback; no instructor sign-off or appointed mentor is required. The instructor may adapt scope, pairings and timing. Use the [case guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/studies/README.md). No platform or paid access is assumed.
   - type: input
     id: partners
     attributes:
-      label: Partners and reviewer
-      description: Name both GitHub usernames and the study-plan reviewer (instructor/designated method mentor), or awaiting assignment.
+      label: Partners and peer feedback
+      description: Name both GitHub usernames. Add peer reviewers when arranged; an unassigned reviewer does not block starting.
     validations:
       required: true
   - type: textarea
@@ -35,12 +35,12 @@ body:
   - type: textarea
     id: checkpoints
     attributes:
-      label: Semester checklist
-      description: Working targets; actual presentation slots and grading need instructor confirmation. Use M5 for this semester-long issue.
+      label: Working checkpoints
+      description: Adapt targets and activities to course direction and progress; note changes here. Use M5 for this semester-long issue. This is not an approval checklist.
       value: |
-        - [ ] M2 Oct 9 — short outline, partners, reviewer and feasible scope agreed
-        - [ ] M3 Oct 16 — midterm slides/feedback linked (#21); plan revision and validation reviewed (#7)
-        - [ ] Before final evidence — evaluation data/rules fixed; resources confirmed; development evidence separated
+        - [ ] M2 Oct 9 — partners, short outline, accessible evidence route and next tasks recorded
+        - [ ] M3 Oct 16 — midterm slides/feedback linked (#21); dated method and feasibility check linked (#7)
+        - [ ] During evidence work — evaluation rules recorded before use; exploratory work and later changes identified
         - [ ] M4 Oct 30 — first checked analysis, failures and limitations linked (#8)
         - [ ] Nov 6 — pair report draft and both individual report drafts linked
         - [ ] M5 Nov 20 — reviewed report/evidence and peer handoff check linked (#9)
@@ -50,5 +50,5 @@ body:
   - type: textarea
     id: evidence
     attributes:
-      label: Plan review, evidence, and amendments
-      description: Link instructor/designated method mentor approval and plan revision before final evidence; label exploratory results and record changes. Do not infer approval from a date.
+      label: Method, evidence, feedback, and changes
+      description: Link the dated working method and available peer feedback. Record what changed, why, and whether results had been inspected. Routine refinements need no instructor sign-off.

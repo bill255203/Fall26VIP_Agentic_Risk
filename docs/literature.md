@@ -19,7 +19,7 @@ Read with a question in mind; nobody is assigned this whole list.
 
 1. **Common guided methods reading:** [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
    (Kapoor et al., 2024). Focus on cost, held-out evaluation and reproducibility.
-   The instructor guides selected sections; students need not master every method first.
+   Discuss selected sections with a partner or in the cohort; students need not master every method first.
 2. **One environment paper relevant to your case:** [tau-bench](https://arxiv.org/abs/2406.12045)
    (Yao et al., 2024) for business interactions with policies/tools and final-state
    evaluation, or [AgentDojo](https://arxiv.org/abs/2406.13352) for prompt-injection
@@ -32,7 +32,7 @@ For each assigned reading, write a short note in your task or case document:
 **question; evidence/method; one limitation; implication for our case**. Link the
 source and relevant section. Expand only when the case needs deeper review.
 
-## Platform candidates: instructor trial before student adoption
+## Platform candidates: test only what your case needs
 
 | Resource | Possible use | Preparation needed |
 | --- | --- | --- |
@@ -40,11 +40,13 @@ source and relevant section. Expand only when the case needs deeper review.
 | [AgentDojo](https://agentdojo.spylab.ai/) | Alternative for risks caused by malicious content in tool outputs. | Test a narrow suite, attack/defense and utility evaluation; API/setup may change. |
 | [Inspect AI](https://inspect.aisi.org.uk/) | Optional evaluation machinery for a custom case. | Requires defining tasks/agents/scorers; not itself a ready business-case curriculum. |
 
-**None is adopted or installed by this plan.** Instructor preparation is tracked in
-#6. Start with a benchmark's native runner if selected; no multi-framework integration
-is required. Platform trial success and paid access must be recorded before students
-are asked to use it. The existing local scripted starter is available without an API.
-Genuine saved agent traces for an external example remain to be sourced and reviewed.
+**None is adopted or installed by this plan.** A pair can try an accessible resource
+and share useful instructions or a help request in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6). There is no requirement for
+the instructor or each pair to prepare a platform package. Start with a benchmark's
+native runner if useful; keep setup bounded and choose another route if it dominates
+the work. Record actual access and versions; obtain authorization before paid use.
+The local scripted starter needs no API. Genuine saved agent traces must be sourced
+and checked for a case that relies on them; no central dataset is promised.
 
 Use [the case guide](studies/README.md) to choose a bounded question. Reusing a
 benchmark can support rigorous replication or extension, but it does not establish
