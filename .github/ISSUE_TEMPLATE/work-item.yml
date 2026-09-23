@@ -35,8 +35,24 @@ body:
   - type: textarea
     id: objective
     attributes:
-      label: My deliverable and stage
-      description: State your own output and why it helps. Name Foundation, Question, Execution, Synthesis, or onboarding/report/collaboration. For joint work, distinguish your part and link your partner's task. If spanning stages, identify distinct outputs.
+      label: My deliverable
+      description: State your own output and why it helps. For joint work, distinguish your part and link your partner's task. If spanning assessment categories, identify a distinct output for each; one output is not counted twice within individual work.
+    validations:
+      required: true
+  - type: dropdown
+    id: assessment
+    attributes:
+      label: Assessment category
+      description: Select the category from the tentative rubric. Weights apply to semester components, not individual issues. Pair grades come from the integrated pair outputs. Existing tasks can keep their recorded stage.
+      options:
+        - Foundation
+        - Question
+        - Execution
+        - Synthesis
+        - Collaboration / review
+        - Individual contribution report
+        - Onboarding / administration — no separate grade
+        - Multiple categories — distinct outputs explained in My deliverable
     validations:
       required: true
   - type: dropdown
@@ -74,4 +90,4 @@ body:
     id: evidence
     attributes:
       label: Evidence, collaborators, and help needed
-      description: Link sources, commands/config/data, artifacts/PRs and review as applicable. State collaborators' actual roles and material tool assistance. Weekly updates can be comments with evidence, next step and blocker. No private data or grades.
+      description: Link sources, commands/config/data, artifacts/PRs and review as applicable. State collaborators' actual roles and material tool assistance. Use existing weekly updates for evidence, next step and blocker. Say when you need help or the evidence is ready for review; a maintainer can set the attention label. No private data or grades.

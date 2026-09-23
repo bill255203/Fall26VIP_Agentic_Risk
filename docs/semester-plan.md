@@ -83,16 +83,19 @@ do not create new required work during recess or exams.
 Each pair progresses on its own plan and evidence. One pair's blocker does not
 prevent another pair from proceeding. A cohort collection issue remains open until
 all required pairs are covered, but its closure is not a prerequisite for a ready pair.
+Keep each pair's shared output links in its Pair case checklist. Registry #3 points
+to those cases; the collection issues below define coverage and assessment roles
+without requiring students to repost the same outputs in each issue.
 
 - **M1:** shared onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) and starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1); pair formation can follow.
 - **M2:** [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) registers Pair case issues. Each pair uses the [short outline](studies/README.md#short-proposal-outline).
-- **M3:** [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) collects midterm decks and feedback; [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) collects validation links. Each
+- **M3:** [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) tracks midterm presentation coverage; [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) tracks method/feasibility coverage. Each
   pair records its plan revision, data/access, development check and feedback in
   its case. Specify evaluation rules before using them; record later changes.
-- **M4:** [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) collects first-analysis links. Preserve failures and deviations; counts
+- **M4:** [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) tracks first-analysis coverage. Preserve failures and deviations; counts
   and uncertainty must match the units of evidence. Do not treat repeated messages
   or repeated deterministic runs as independent observations.
-- **M5:** [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9) collects pair reports/handoffs, [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) final decks/discussion, and [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)
+- **M5:** [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9) tracks pair report/handoff coverage, [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) final decks/discussion, and [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)
   individual reports. Required outputs are reviewed separately.
 
 Exploratory probes can begin early and must be labeled exploratory.

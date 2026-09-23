@@ -30,11 +30,11 @@ body:
     id: acceptance
     attributes:
       label: Group acceptance criteria
-      description: Define required pair/participant coverage and evidence. One contribution does not close a cohort collection.
+      description: Define required pair/participant coverage and where to inspect it. For pair outputs, use the #3 registry and Pair case checkpoints. State the applicable assessment component or that there is no separate grade. One contribution does not close a cohort collection.
     validations:
       required: true
   - type: textarea
     id: tasks
     attributes:
       label: Pair cases, output links, or Individual tasks
-      description: For a collection, link Pair cases and their outputs. For a shared assignment, link personal tasks and owners. Reuse existing tasks; do not invent assignments.
+      description: For pair outputs, link the #3 registry or existing Pair case; keep artifact links in that case. For a shared assignment, link personal tasks and owners. Reuse existing records; do not invent assignments or duplicate output lists.

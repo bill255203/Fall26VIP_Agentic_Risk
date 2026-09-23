@@ -31,12 +31,12 @@ body:
     id: tasks
     attributes:
       label: Individual tasks and roles
-      description: Link each student's own tasks as agreed. Keep completed and open links; a shared artifact must say who did what.
+      description: Link each student's own tasks as agreed. Keep completed and open links, including common starter/report tasks. Each task identifies its assessment category; a shared artifact must say who did what.
   - type: textarea
     id: checkpoints
     attributes:
       label: Working checkpoints
-      description: Adapt targets and activities to course direction and progress; note changes here. Use M5 for this semester-long issue. This is not an approval checklist.
+      description: Keep output links beside these checkpoints and adapt targets to course direction. Register this case once in #3; cohort collection issues refer back here, so no repeated output posts are needed. Use M5 for this semester-long issue. This is not an approval checklist.
       value: |
         - [ ] M2 Oct 9 — partners, short outline, accessible evidence route and next tasks recorded
         - [ ] M3 Oct 16 — midterm slides/feedback linked (#21); dated method and feasibility check linked (#7)

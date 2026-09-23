@@ -39,6 +39,9 @@ same output twice within the individual 55%.
 
 Each student agrees substantive work in each stage, suited to their experience,
 role and enrolled commitment. A work package can span weeks; there is no issue quota.
+The Individual task form's **Assessment category** makes this mapping explicit.
+Its selection routes evidence; it does not award a grade. Each weight below is the
+maximum for that semester component across all tasks, not points per issue.
 
 | Stage | Points | Examples of personal evidence | Checkpoint |
 | --- | ---: | --- | --- |
@@ -113,7 +116,8 @@ Each pair gives the midterm and final presentations and submits one written repo
 Instructor confirms slots/lengths. A starting suggestion is 8–10 minutes per pair
 plus discussion, adjusted to cohort size. Both partners have agreed preparation and
 speaking/question roles and explain their own work. Record slides and feedback in
-the Pair case and link from [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) or [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22). No weekly deck or cohort-wide final paper.
+the Pair case. [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) and [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) track cohort coverage through the #3 registry;
+no repeated slide-link posts are needed. No weekly deck or cohort-wide final paper.
 The final slides do not replace the report.
 
 ## Individual contribution report
@@ -155,3 +159,5 @@ drafts Nov 6 and Synthesis/reports at M5 are useful feedback opportunities. The
 instructor chooses the feedback cadence and assesses existing evidence; there is
 no required sign-off at each stage. Maintainers synchronize affected guides and
 issues after changes. Publication of this proposal is not formal course approval.
+The [management view](issue-workflow.md#management-view) locates task and review
+evidence without requiring a second public gradebook or contribution log.

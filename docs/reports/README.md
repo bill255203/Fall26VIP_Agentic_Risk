@@ -23,7 +23,7 @@ the instructor can adapt them without a separate repository approval.
 ## Presentations and individual reports
 
 - **Oct 16 (M3):** each pair's midterm case/question presentation; link slides and
-  feedback in its Pair case and cohort collection #21.
+  feedback in its Pair case. Collection #21 finds it through the #3 registry.
 - **Nov 6:** pair report draft and each student's individual report draft.
 - **Nov 20 (M5):** final pair report/evidence (#9), final pair presentation (#22),
   and individual reports (#23). The final presentation is required with feedback,
@@ -33,6 +33,9 @@ Dates are working targets, not confirmed slots or official cutoffs. Store slides
 as `pair-CASE-SLUG-midterm.pdf` / `pair-CASE-SLUG-final.pdf`, or link an accessible
 version. Each student writes their own [individual report](../contributors/README.md)
 in `docs/contributors/USERNAME.md`; it is separate from the pair report.
+Keep the report index as the durable catalogue and the Pair case as the live
+checkpoint record. Cohort collection issues refer to the registered cases;
+students do not maintain another copy of each output list there.
 
 ## Handoff check
 
