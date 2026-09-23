@@ -95,6 +95,8 @@ not a planned completion schedule.
 - Supersedes: instructor sign-off and mandatory teaching-package provisions in
   D017/D018 and the administrative checklist aspect of D013. No faculty approval,
   new pair assignment, platform access or funding is asserted.
+- Implementation/review record: [PR #35](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/35),
+  including validation and the documented owner bootstrap merge exception.
 
 ## New entry template
 
