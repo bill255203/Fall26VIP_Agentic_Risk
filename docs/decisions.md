@@ -137,6 +137,8 @@ not a planned completion schedule.
   No new deliverable, approval requirement, resubmission or grading component.
 - Supersedes: D020's shared-theme requirement; preserves useful propagation methods
   for pairs that choose them.
+- Implementation/review record: [PR #37](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/37),
+  including validation and the documented owner bootstrap merge exception.
 
 ## New entry template
 
