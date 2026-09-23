@@ -1,12 +1,12 @@
 name: Group goal (maintainer)
-description: Coordinate a shared assignment or cohort outcome with linked Individual tasks
+description: Coordinate a shared support or collect outcomes across pairs with linked Individual tasks
 title: "[Group] Outcome"
 labels: [group-goal]
 body:
   - type: markdown
     attributes:
       value: |
-        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Students use the Individual task form under an existing goal. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
   - type: textarea
     id: objective
     attributes:

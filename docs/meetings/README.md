@@ -8,32 +8,17 @@ Link notes from the current milestone's work. Record actual attendees only.
 Credit the note author and reviewers through the pull request. Do not include
 private student information, grades, credentials, or attendance assessments.
 
-## First meeting — September 18, 2026
+## Meeting routine for pair cases
 
-Use kickoff to establish a shared starting point:
+The kickoff was scheduled for September 18; this guide does not establish attendance
+or completed work. See the [student guide](../student-start.md) for onboarding.
 
-1. Introduce the broad question, the existing scripted starter, and what the cohort
-   still gets to decide. Show where the README, quick start, and task queue live.
-   Present Candidate A as an example of a mature protocol. Early ideas need only
-   the [five-part proposal outline](../studies/README.md#short-proposal-outline)
-   to enter the comparison; students do not need a full protocol to propose a question.
-2. Demonstrate one pilot run and trace. Check Git/Python experience and provide a
-   path for setup help; completed setup is not a prerequisite for attending.
-3. Hear students' interests and availability. Agree small onboarding tasks and
-   tentative reading/reproduction responsibilities rather than assigning every
-   document or candidate to every student.
-4. Explain contribution records simply: brief links preserve research work and help
-   everyone receive appropriate credit, including critiques, unsuccessful attempts,
-   and reviews. Keep evidence in Individual tasks and linked PRs; no separate
-   portfolio table is required. Activity counts are not contribution scores.
-5. Walk through the [student roadmap and resource directory](../student-start.md#throughout-the-project)
-   and [dated schedule](../semester-plan.md#calendar-and-working-targets). The first
-   checkpoint is September 25; show where to post the introduction PR (#5), starter
-   result/error and question (#1), and next-task ownership. Review availability and
-   any course-specific requirements; record agreed adjustments in the plan and milestones.
-
-There is no required repository submission before kickoff. Record decisions and
-participants only after the meeting takes place; this agenda is not evidence it occurred.
+Use meetings for a guided trace or reading discussion, brief pair findings/blockers,
+and a small next action per student. Rotate which pairs share useful evidence.
+The instructor helps with setup, pair formation, scope and access. Midterm and final
+presentations use the [working schedule](../semester-plan.md); ordinary meetings
+require no new slide deck or activity log. A pair's early outline uses the
+[five-part guide](../studies/README.md#short-proposal-outline), not Candidate A's full detail.
 
 ## Meeting note template
 

@@ -23,7 +23,7 @@ keep private emails, student IDs, grades, and other student records outside this
 - **At the report checkpoints:** each student writes an [individual contribution
   report](docs/contributors/README.md#individual-contribution-report) explaining
   their decisions and learning with links to that evidence.
-- **At handoff:** the shared technical report includes a short, reviewed summary
+- **At handoff:** each pair report includes a short, reviewed summary
   of who did what. Potential paper authorship is a separate documented decision.
 
 There is no separate portfolio logging requirement. Preserve any existing records

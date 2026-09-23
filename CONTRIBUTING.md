@@ -4,7 +4,7 @@ This is the canonical Fall 2026 VIP workspace. New students begin with the
 [student guide](docs/student-start.md). Orientation and setup support begin at the
 September 18 kickoff, with onboarding targeted for September 25; no repository submission
 is due at kickoff. The [semester plan](docs/semester-plan.md) and [selection guide](docs/studies/README.md)
-support the tasks agreed after kickoff. No empirical study has been selected yet.
+support the tasks agreed after kickoff. Each pair develops its own case; no platform or study is adopted automatically.
 
 ## Your first contribution
 
@@ -12,7 +12,7 @@ support the tasks agreed after kickoff. No empirical study has been selected yet
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [enrollment guide](docs/contributors/README.md#first-contribution) to add your public roster entry. No personal profile file is required. Share only your preferred display name and GitHub username.
 4. Open your own Individual task under #5, then submit the introduction PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5` (use your actual task number). No completed research result is required. A maintainer reviews onboarding and can arrange repository access separately.
-5. Choose a Group goal in the current milestone and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): multiple students attempting the same assignment each use their own task under the same goal.
+5. Choose your Pair case (or a shared cohort goal) and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): multiple students attempting the same assignment each use their own task under the same goal.
 
 ## Workflow
 
@@ -20,13 +20,13 @@ Use the same task/PR workflow for onboarding and later work. An introduction PR
 needs a roster change, a short introduction, its Individual task link, and
 `Relates to #5`; it can omit the research interpretation and full evidence/role table.
 
-1. Start from an Individual task with one student owner, a parent Group goal, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Group goal's assignee coordinates the group; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
+1. Start from an Individual task with one student owner, a parent Pair case or cohort goal, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Pair case names both partners; the Group goal's assignee coordinates cohort coverage; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
 3. Make one focused change and document assumptions. Link deliverables and substantive reviews in your Individual task. Keep the evidence there; no separate contribution log is required.
 4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
 5. Open a pull request with its issue, milestone, evidence, and a brief attribution statement where needed. For shared work, identify each person’s part and link their tasks. No duplicate portfolio update is required.
-6. Obtain review from someone other than the author. A contributor from the other subteam should review methodological changes. Resolve review discussions and pass CI before merging.
-7. Merge with a **merge commit** to preserve individual commit authors. Use `Closes #123` for a completed Individual task and `Relates to #456` for its Group goal, substituting actual numbers. One student's PR does not close the Group goal. A joint PR closes each student's task only after that task's own criteria are checked.
+6. Obtain review from someone other than the author. A contributor from another pair or the instructor should review methodological changes. Resolve review discussions and pass CI before merging.
+7. Merge with a **merge commit** to preserve individual commit authors. Use `Closes #123` for a completed Individual task and `Relates to #456` for its Pair case or cohort goal, substituting actual numbers. One student's PR does not close the Group goal. A joint PR closes each student's task only after that task's own criteria are checked.
 
 For each active Individual task, post one short weekly update: evidence produced, next step, and blocker or decision needed. The coordinator links these updates from the Group goal as needed. Keep work status in Issues and pull requests; milestone completion records delivery. Use the [meeting guide](docs/meetings/README.md) to capture decisions and assign follow-up actions.
 
@@ -40,11 +40,11 @@ Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board
 
 Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. A change in research scope, planned outcomes, resources, or success criteria needs a linked plan-change issue and reviewed update to the semester plan/decision log.
 
-Issues marked `candidate` are conditional on the study-selection decision in #3.
-They have no delivery milestone until selected. The selected study's necessary
-tasks become required work; other candidates stay deferred. Sourced exploration,
-reproduction attempts, and selection rationale are M2 work and count as contributions
-even when a proposed direction is rejected.
+Issues marked `candidate` are optional proposals, with no delivery milestone until
+explicitly adopted by a pair and reviewer. Candidate A (#4) is an advanced example,
+not a cohort requirement. Early exploratory work counts when its evidence and
+purpose are clear, even if the idea is rejected. Each pair records its own reviewed
+plan before final evidence work; shared collection issues need not all close first.
 
 ## Make your contributions visible
 

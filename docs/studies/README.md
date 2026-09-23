@@ -1,96 +1,74 @@
-# Choosing the semester study
+# Choose and develop your pair case
 
-**Current status: no empirical study has been selected or frozen.**
-The code runs a scripted starter. [Candidate A: runtime containment](01-runtime-containment.md)
-is a detailed proposal for student critique; its real-model experiment is not implemented.
-[Issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) records the cohort's
-selection and protocol review.
-
-## What is open, and what is expected
-
-The research territory is how risks arise, propagate, and can be understood or
-controlled in agentic systems. Consequential decisions provide useful motivation;
-the credit-limit setting is one available example. Students help choose the question,
-environment, comparison, and tools from literature and early evidence.
-
-The cohort will select **one bounded empirical study** and leave reusable methods,
-evidence, analysis, and a report. A controlled replication, a control experiment,
-or a study using existing genuine execution traces can fit. A live model backend
-is needed only when the selected question requires new model runs. An attribution
-study needs defensible labels and an attribution measure; a control study needs
-both risk and useful-task outcomes. Every study needs a meaningful comparison.
-
-Keep Candidate A available and consider **at most one developed alternative**
-across the cohort. Reading can range more widely, but preparing many full proposals
-would consume the experiment time. Agent Assurance, CAGE, and the benchmarks in
-the [literature guide](../literature.md) are optional sources or tools. No named
-framework or control is required by the program.
-
-## Selection and protocol
-
-1. **Explore and test feasibility from kickoff through M2.** Reproduce and critique
-   the starter, read relevant primary sources, and attempt one bounded published
-   reproduction. Divide that work between students. Small development probes or
-   checks on existing data belong to [issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3),
-   alongside inputs from starter critique #1, literature #2, and bounded reproduction #6.
-   A feasibility failure is useful evidence when its cause and implications are recorded.
-   Use a declared development subset for feasibility probes and preserve held-out
-   records for confirmatory analysis. If prior inspection prevents a clean holdout,
-   disclose it and limit the affected conclusions to exploratory or replication
-   findings; calling a study a replication does not remove that limitation.
-2. **Compare the candidates in issue #3.** Use the short outline below. Select on
-   importance, what prior work leaves unresolved, measurable outcomes, credible
-   comparisons, accessible resources, and an end-to-end validation path by M3.
-   A deliberate replication can be selected for its value without claiming novelty.
-3. **Record one decision and freeze its protocol at M2.** The method
-   lead records the rationale and review, with student research and engineering
-   input. Link the chosen protocol revision and alternatives considered from the
-   [decision log](../decisions.md). Candidate A needs the same review as any alternative;
-   it is not selected automatically. Preserve reasons for rejecting or narrowing proposals.
-4. **Align the work queue with the decision.** Update the semester plan and issues
-   before committing to study-specific implementation. If A is selected, activate
-   [gate issue #4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) in M3.
-   If another study is selected, keep #4 deferred and define only its needed tasks.
-5. **Build and validate after protocol freeze.** [Issue #7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)
-   starts after #3 records the selected study and frozen protocol. Complete the smallest
-   selected experiment or analysis pipeline by M3, reusing relevant feasibility work.
-   Freeze its evaluation cases/data before confirmatory runs or analysis; keep
-   development results separate.
-   Changes after inspecting evaluation results must be recorded as amendments.
-
-If no candidate is feasible, the method lead records a narrower study or revised
-scope immediately. Neither the calendar nor a lack of alternatives makes a study
-valid. An apparatus-only outcome is an explicit scope reduction, not a completed
-empirical study. Resource access and any paid-call budget must be settled before use.
+Each pair chooses **one business workflow, one risk question, and one possible
+improvement**. The cohort shares methods and feedback; there is no competition to
+select a single cohort-wide study. Pair membership and reviewed plans are recorded
+in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and linked Pair case issues.
+No platform, case, or protocol is automatically adopted.
 
 ## Short proposal outline
 
-Use one concise issue entry or document per candidate. Candidate A already has a
-detailed document: it illustrates what a mature protocol can look like. Early student
-proposals need only the five-part outline below; they do not need to match A's level
-of detail to be considered. Compare candidates using this outline, then develop
-the selected proposal into a full protocol. Critique and amend A without duplicating it.
+Start with about half a page using the first five sections of the
+[case template](_case-template.md). Copy it to `docs/studies/pair-CASE-SLUG.md` and
+link it from the Pair case issue. Expand that same document as the study develops;
+it becomes the final report, avoiding a separate proposal/report to maintain.
 
-| Item | What the cohort needs to know |
-| --- | --- |
-| Question | One answerable question, why it matters, and what result could change our view. |
-| Prior work | Relevant primary sources, what is established, and the remaining uncertainty or replication purpose. |
-| Smallest comparison | Conditions or baselines, what stays fixed, and the unit being compared. |
-| Evidence and measures | Data/trace access, defensible truth or labels, primary outcome, useful-task or other relevant tradeoff, and claim limits. |
-| Feasibility | Reproduction/probe evidence or concrete limitation, owners, access/resources, and the smallest M3 deliverable. |
+1. **Business workflow:** who needs what done, which actions the agent can take,
+   and the policy/source supporting this real business need.
+2. **Risk question:** one failure and consequence, and one answerable question.
+3. **Prior work:** a few relevant sources; what remains uncertain or why replication helps.
+4. **Evidence and comparison:** what will be observed, compared, or labeled; how
+   failure and useful outcomes will be judged; one possible improvement to assess.
+5. **Feasibility and roles:** accessible environment/traces, smallest check, needed
+   support, and each partner's next Individual task.
 
-The selected proposal becomes a reviewed protocol: specify the hypothesis or
-analysis question, data/scenario construction, conditions, outcomes and denominators,
-sample/repeat counts, inference target, analysis and uncertainty, failure/exclusion/
-retry rules, stopping rule, resources, and provenance. Apply design-specific details
-where relevant. Candidate A's four cells and utility tolerance belong to A; other
-questions must justify their own measures and precision.
+Candidate A is an **optional advanced example** of a mature protocol, not a required
+continuation of the starter or the expected detail of a first student outline.
 
-## Credit and continuity
+## Selection and protocol
 
-Link source notes, critiques, reproduction attempts, proposals, selection rationale,
-and substantive review in students’ [Individual tasks](../issue-workflow.md). A proposal
-can be a valuable contribution even when it is rejected. Record who did what and
-the evidence; reading volume, positive findings, or adoption of a proposal are not
-contribution scores. Keep the [semester targets](../semester-plan.md#calendar-and-working-targets)
-and one shared report as the delivery plan.
+- **By M2 (Oct 9):** agree the short outline, partners, reviewer, scope, and evidence
+  route. Ground the case in public or approved business sources; do not promise
+  company access, a new framework, or publication.
+- **By M3 (Oct 16):** present the case and initial feasibility evidence. With the
+  reviewer, expand the plan to state comparison, data selection, units, labels,
+  measures/denominators, sample/repeat plan, failures/exclusions, analysis, resources,
+  and claim limits. Link the reviewed revision in the Pair case.
+- **Before final evidence:** validate the smallest analysis/run, fix evaluation
+  cases and rules, and separate development evidence. Plan sample size with guidance;
+  a few smoke-test examples establish feasibility, not a reliable effect estimate.
+- **Afterward:** record amendments and whether results had been inspected. If access
+  fails, narrow the question with the reviewer; do not invent missing evidence.
+
+Each pair progresses independently after its review. Do not wait for every pair's
+plan to be approved. Pairs may share an environment or compare complementary
+questions, while preserving their own measures and claim boundaries.
+
+## Two manageable evidence routes
+
+**Small comparison or replication:** reuse a supported environment, reproduce its
+baseline, and assess one change or prior claim. Use genuine model runs when making
+claims about model behavior. Measure harmful outcomes alongside useful completion
+and relevant cost. Test the evaluator itself on known examples.
+
+**Structured trace analysis:** use genuine accessible execution records, a declared
+sampling rule and comparison, and a clear labeling guide. Have another person label
+an overlapping subset; report agreement and resolve discrepancies transparently.
+This can identify failure patterns or evidence gaps. It cannot establish that an
+untested proposed control causally prevents failures. Frame the improvement as a
+recommendation unless there is suitable comparative evidence.
+
+Both routes require empirical evidence. Scripted starter results and hypothetical
+risk maps alone are teaching/design outputs. Any reduction to a non-empirical scope
+requires an explicit instructor decision and narrower claims.
+
+## Shared standards, flexible implementation
+
+Both partners should understand the workflow, evidence and analysis. Code is useful
+when it produces or checks evidence; no line-count target or large system is required.
+Scenario design, labels, validation, and a reproducible analysis can be substantial
+technical contributions. Rotate roles with guidance.
+
+Agent Assurance supplies hypotheses and evidence practices alongside other literature.
+No named framework or full control matrix is required. See [research standards](../research-plan.md),
+[resources](../literature.md), and the [schedule](../semester-plan.md).
