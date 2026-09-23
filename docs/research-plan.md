@@ -100,6 +100,15 @@ Inspect clean execution-enabled runs for unnecessary blocking and verify that no
 
 Safety results must be read beside utility. A control that blocks every action may reduce harmful execution while also making the workflow useless.
 
+**Containment is not recovery.** If a high-risk case requires a reduction, blocking
+an incorrect `keep_limit` leaves the old limit in place. The pilot records no
+erroneous execution in that blocked trial, but the final state still differs from
+`evaluator.expected_final_limit` and task success is false. Neither zero erroneous
+executions nor zero harmful state changes establishes a safe final state or absence
+of business harm. A study about unmet required actions needs a declared outcome
+for those omissions. The [starter walkthrough](starter-walkthrough.md) illustrates
+this distinction with the existing trace fields.
+
 ## Requirements for a causal authority study
 
 A candidate that tests authority causally must treat it as a separate experiment rather than infer it from the scripted caps. It should:

@@ -62,6 +62,21 @@ Explain gaps privately and agree support early. A stage with no identifiable
 contribution receives zero. Reviewers verify work; the instructor assigns marks. An open
 pair/collection issue does not prevent assessing completed individual work.
 
+Use these anchors for each criterion, within the agreed scope:
+
+- **Full credit:** the work is sound and checked; choices and limitations are
+  explained; the student's contribution and supporting evidence can be traced.
+- **Partial credit:** useful work is present, but identifiable errors, unsupported
+  choices, missing checks or unclear attribution limit that criterion. Explain
+  the specific gap and credit the sound portion.
+- **Little or no credit:** little or no assessable evidence meets that criterion.
+
+Apply each anchor to its own criterion, not as an automatic all-or-nothing stage
+score. A well-diagnosed failed attempt can earn full credit under the same criteria;
+an untested claim of completion cannot. Agree scope before work and provide
+actionable feedback at checkpoints.
+Extra issues or a more elaborate software system do not raise the maximum.
+
 Before a task, agree owner, stage, deliverable, done criteria, target and reviewer.
 Afterward, link artifact, validation and review; distinguish collaborators' parts.
 Assign each output to one stage. If one task spans stages, identify separate outputs

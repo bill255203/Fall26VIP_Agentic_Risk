@@ -95,6 +95,14 @@ inspects the proposed code/workflow before approving a waiting run; approving a 
 does not approve the PR. Later runs remain subject to the current GitHub policy.
 See [approving fork workflows](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/approve-runs-from-forks).
 
+For a student PR showing **no checks** or **awaiting approval**, inspect its changes,
+then use **Approve workflows to run** in the PR's merge status panel. If GitHub
+requires the branch to be updated with `main`, update it and recheck the latest run:
+the new commit may need workflow approval again. Confirm both required checks pass
+on the latest revision and that the approving review is still valid before merging.
+Students should keep the existing PR and ask for help there; no replacement PR,
+write-access grant or protection bypass is needed for this normal onboarding path.
+
 Repository write access does not grant model credits, data access, or course-system
 access. Agree those separately with the instructor. Keep credentials out of issues,
 commits, and public artifacts; the current deterministic CI needs no model API key.
