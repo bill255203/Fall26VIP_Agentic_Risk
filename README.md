@@ -1,10 +1,16 @@
 # Agentic AI for Risk Management
 
-This is the **canonical Fall 2026 VIP repository**. Students work in pairs to
-investigate a real business use case for an agentic workflow, identify one important
-risk, and use evidence to assess one possible improvement.
+This is the **canonical Fall 2026 VIP repository**. Our shared theme is
+**risk propagation and containment in agentic business workflows**:
 
-**One pair → one business workflow → one risk question → one bounded case study.**
+> How do errors or untrusted inputs influence later steps in an agentic workflow,
+> when do they become consequential, and what can interrupt that path?
+
+Students work in pairs on different business cases, investigating a small part of
+this question. A workflow may use one agent or several. Errors may spread, be
+corrected, or never reach a consequential action; each outcome is worth examining.
+
+**One pair → one business workflow → one propagation question → one bounded case study.**
 The cohort shares teaching resources, research standards, reusable tools, and peer
 review. Each pair produces its own report; each student owns visible individual work.
 
@@ -25,7 +31,7 @@ Maintainers keep the repository aligned. See [how adjustments work](docs/semeste
 ## What students will do
 
 1. Learn the basics together through a guided example and focused reading.
-2. In a pair, choose a business workflow and one answerable risk question.
+2. In a pair, choose a workflow and one answerable question about propagation or containment.
 3. Present the case, question, evidence plan, and initial feasibility around midterm.
 4. Complete a small experiment, replication, or structured analysis of genuine agent traces.
 5. Submit a pair report and evidence; each student submits an individual contribution report.
@@ -34,6 +40,10 @@ A simulation must be grounded in documented business needs or policies; it is no
 proof of effectiveness in a real deployment. Positive results, publication, and a
 large software system are not required. The [research standards](docs/research-plan.md)
 explain what makes a small study rigorous.
+
+Use **origin → path → possible consequence**, and identify where a control might
+help. Cover these in the existing case outline; focus the investigation on one
+link or intervention. See [the shared theme](docs/research-plan.md#shared-theme).
 
 ## Resources and where work lives
 

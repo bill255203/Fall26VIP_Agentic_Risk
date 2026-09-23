@@ -1,8 +1,15 @@
 # Student guide: your pair case study
 
 **Your semester in one sentence:** work with a partner to understand a business
-workflow, investigate one risk, and assess one possible improvement using evidence.
+workflow, investigate how an error might spread or be contained, and assess one
+possible improvement using evidence.
 You will learn the basics together before taking on a small research task.
+
+Our theme is **risk propagation and containment in agentic business workflows**.
+In your case outline, describe **origin → possible path → consequence**, and where
+a control might help. Investigate one part using a small experiment, replication
+or trace analysis. A single agent can qualify; correction and no observed
+propagation are useful findings too. See [the shared question](research-plan.md#shared-theme).
 
 Start with this guide. The [resource guide](literature.md) explains the basic terms
 and reading. Detailed protocols and framework documentation are references for a
@@ -65,8 +72,8 @@ progress; agree a small scope suited to your experience.
 | Week ending | Your individual goal | Pair or cohort outcome |
 | --- | --- | --- |
 | **Sep 25 — learn the basics (M1)** | Roster PR; starter attempt or blocker; one trace observation/question. | Shared walkthrough and setup help ([#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)). |
-| **Oct 2 — explore a business case** | Read a relevant source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; share useful examples or setup questions ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
-| **Oct 9 — outline the case (M2)** | Contribute a sourced question, workflow map, measure, or feasibility check. | Register the Pair case under [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); complete its short outline and agree who does what. |
+| **Oct 2 — explore a business case** | Read a relevant source or inspect an example; identify a possible error origin and later step it could affect. | Agree partners and a workflow; share useful examples or setup questions ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
+| **Oct 9 — outline the case (M2)** | Contribute a sourced propagation/containment question, workflow map, measure, or feasibility check. | Register the Pair case under [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); cover origin, path, consequence and possible control in its short outline and agree who does what. |
 | **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation ([#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21)), dated working method and small validation ([#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)). |
 | **Oct 23 — collect/check evidence** | Complete a small implementation, trace-labeling, validation, or analysis task. | Use the recorded method, check the evidence and seek peer feedback. Record findings and any changes; no instructor sign-off gate. |
 | **Oct 30 — analyze (M4)** | Produce and check your evidence/analysis contribution, including failures. | Pair's first analysis, counts, relevant risk/utility tradeoffs, and limitations ([#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8)). |

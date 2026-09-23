@@ -6,7 +6,7 @@ announcement or discussion; maintainers record it and synchronize the guides.
 This log does not create an approval process. Distinguish actual decisions from
 suggestions, and preserve dated method changes that affect research claims.
 
-Current direction: **D017** (pair cases), **D018** (75/25 grading) and **D019** (flexible, student-owned workflow). Earlier entries record the historical plan; references
+Current direction: **D017** (pair cases), **D018** (75/25 grading), **D019** (flexible workflow) and **D020** (shared propagation theme). Earlier entries record the historical plan; references
 to one cohort study or D003 pending selection are superseded as specified below.
 
 Use `proposed`, `accepted`, `rejected`, or `superseded`. An accepted decision
@@ -96,6 +96,27 @@ not a planned completion schedule.
   D017/D018 and the administrative checklist aspect of D013. No faculty approval,
   new pair assignment, platform access or funding is asserted.
 - Implementation/review record: [PR #35](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/35),
+  including validation and the documented owner bootstrap merge exception.
+
+## D020 — Risk propagation and containment as the shared theme
+
+- Date: 2026-09-23
+- Status: accepted (repository research direction)
+- Basis: after discussing that the pair-case framing had broadened to agentic
+  risk generally, the owner proposed adopting risk propagation as the theme.
+- Decision: each pair connects a business case to an error/input origin, possible
+  propagation path, consequence and possible control, then studies one bounded
+  question about that path. These prompts fit the existing outline and report.
+- Scientific scope: one agent can qualify; propagation, correction, containment,
+  no observed propagation and insufficient evidence must be distinguished. No
+  required multi-agent architecture, injected fault or successful control result.
+  Trace observations alone do not establish an intervention's causal effectiveness.
+- Preserve: D019 instructor flexibility, student-owned work and peer feedback;
+  the 75/25 proposal, dates, individual reports, existing contributions and normal
+  repository review. No new deliverable, approval gate or grading component.
+- Refines: the broad risk-question framing in D017; the cohort shares a research
+  theme while pairs retain their own business cases and methods.
+- Implementation/review record: [PR #36](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/36),
   including validation and the documented owner bootstrap merge exception.
 
 ## New entry template

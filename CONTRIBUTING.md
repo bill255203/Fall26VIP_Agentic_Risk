@@ -5,6 +5,8 @@ This is the canonical Fall 2026 VIP workspace. New students begin with the
 September 18 kickoff, with onboarding targeted for September 25; no repository submission
 is due at kickoff. The [semester plan](docs/semester-plan.md) and [selection guide](docs/studies/README.md)
 support the tasks agreed after kickoff. Each pair develops its own case; no platform or study is adopted automatically.
+Cases share the [risk propagation and containment theme](docs/research-plan.md#shared-theme),
+with different workflows and one bounded question per pair.
 
 ## Your first contribution
 
