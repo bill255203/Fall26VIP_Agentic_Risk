@@ -8,6 +8,12 @@ Start with this guide. The [resource guide](literature.md) explains the basic te
 and reading. Detailed protocols and framework documentation are references for a
 specific task, not required introductory reading.
 
+The roadmap gives starting targets. The instructor can adapt the scope, timing
+and activities through course announcements or discussion. Keep a brief dated note
+in the affected issue; maintainers update shared guidance. You can start small
+tasks with your partner and arrange peer feedback without waiting for instructor
+approval or an assigned mentor. See [how adjustments work](semester-plan.md#adaptation-and-decision-making).
+
 ## What to do first
 
 Kickoff was scheduled for **September 18, 2026**. By the **September 25 working
@@ -20,7 +26,8 @@ checkpoint**, each student should:
    [guided trace walkthrough](starter-walkthrough.md), including its worked example
    while setup is blocked. The starter makes no paid model calls.
 3. Share a business interest and any support need. Agree one achievable next task.
-   The instructor will coordinate pairs; you do not need a partner to start.
+   Agree a partner and register the case when ready; ask for pairing help if needed.
+   You do not need a partner to onboard.
 
 Existing onboarding/starter work counts. Link it rather than redo it. Late joiners
 agree a target after joining. Public reading, cloning, issues, and fork PRs need no
@@ -45,33 +52,37 @@ The instructor confirms the policy; issues and commits are not points.
 Each pair registers one **Pair case** issue through [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3).
 Use the [short case outline](studies/README.md#short-proposal-outline), then grow the
 same document into the report. A study plan specifies the question, evidence,
-comparison, measures, and analysis. A reviewed version is recorded before the
-final evidence work; early exploratory checks are allowed and labeled separately.
+comparison, measures, and analysis. Record a dated working version, then refine
+it as you learn. State evaluation rules before using them, label exploratory work,
+and record changes made after inspecting evidence. Peer checks support the findings.
 
 ### Weekly goals
 
 Weeks end on Fridays from kickoff. These are planning targets, not extra weekly
-submissions or confirmed meeting times. Agree a small scope suited to your experience.
+submissions or confirmed meeting times. Adjust them with course direction and
+progress; agree a small scope suited to your experience.
 
 | Week ending | Your individual goal | Pair or cohort outcome |
 | --- | --- | --- |
 | **Sep 25 — learn the basics (M1)** | Roster PR; starter attempt or blocker; one trace observation/question. | Shared walkthrough and setup help ([#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)). |
-| **Oct 2 — explore a business case** | Read an agreed source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; instructor tests teaching resources ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
+| **Oct 2 — explore a business case** | Read a relevant source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; share useful examples or setup questions ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
 | **Oct 9 — outline the case (M2)** | Contribute a sourced question, workflow map, measure, or feasibility check. | Register the Pair case under [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); complete its short outline and agree who does what. |
-| **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation ([#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21)), reviewed plan and development validation ([#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)). |
-| **Oct 23 — collect/check evidence** | Complete a small agreed implementation, trace-labeling, validation, or analysis task. | Begin final evidence only after the pair's plan and validation are approved. Record early findings and blockers. |
+| **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation ([#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21)), dated working method and small validation ([#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)). |
+| **Oct 23 — collect/check evidence** | Complete a small implementation, trace-labeling, validation, or analysis task. | Use the recorded method, check the evidence and seek peer feedback. Record findings and any changes; no instructor sign-off gate. |
 | **Oct 30 — analyze (M4)** | Produce and check your evidence/analysis contribution, including failures. | Pair's first analysis, counts, relevant risk/utility tradeoffs, and limitations ([#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8)). |
 | **Nov 6 — draft** | Write your contribution to the pair report and your own individual report. | Pair draft ([#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9)) and individual drafts ([#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)); identify evidence gaps. |
 | **Nov 13 — review and repair** | Review agreed work from another pair or check a handoff; address feedback. | Reproduction/source checks and revised reports. Share reusable improvements. |
 | **Nov 20 — explain and hand off (M5)** | Finalize evidence and your individual report; explain your contribution. | Pair report/evidence ([#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9)), final presentation ([#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22)), and individual reports ([#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23)). |
 
 If setup, data, or a partner dependency blocks you, post what happened and what help
-you need in your task. Agree a smaller or alternative contribution with the instructor.
+you need in your task. Narrow the next task with your partner; seek guidance for
+unresolved needs or changes to assessed expectations.
 A date does not make an unfinished study complete. See the [canonical schedule](semester-plan.md#calendar-and-working-targets).
 
 ## Every week: work, share evidence, and get review
 
-1. Agree one manageable next contribution and reviewer in your Individual task.
+1. Agree one manageable next contribution with your partner and record it in your
+   Individual task. Arrange a peer check as the work develops.
 2. Work on it and link the source note, code, analysis, review, or other artifact.
 3. Post a short update: **evidence produced; next step; blocker/help needed**.
 4. Submit a PR when repository files change; respond to feedback. Close only your
@@ -87,7 +98,7 @@ actual part. There is no issue quota and no extra contribution log.
 | --- | --- |
 | Basic concepts and a small reading path | [Resource guide](literature.md); one guided methods reading plus sources relevant to your case |
 | Choose the case and write the evidence plan | [Case guide](studies/README.md); copy [template](studies/_case-template.md) to `docs/studies/pair-CASE-SLUG.md` |
-| Guided external example / saved genuine traces | Pending instructor preparation in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); do not assume a platform or API budget is available |
+| Optional examples / setup support | Share tested resources or help requests in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); choose accessible evidence for your case without waiting for an instructor-prepared package |
 | Starter commands and code | [README](../README.md#run-the-pilot), `src/agentic_risk/`, `experiments/pilot.toml`, `tests/` |
 | Understand the starter outputs | [Trace walkthrough](starter-walkthrough.md); record the observation in your existing starter task |
 | Personal work and review | Your Individual task under your Pair case; common onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and individual report [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) |
@@ -153,7 +164,7 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 ## 4. Pick a small task and keep the evidence
 
 After pair formation, use **New issue → Individual task** with your **Pair case issue**
-as the primary parent. State your own deliverable, assessment stage, target, reviewer,
+as the primary parent. State your own deliverable, assessment stage, target, peer reviewer when arranged,
 and what evidence will show it is done. For common work, use the existing cohort goal
 instead. See the [complete task map](issue-workflow.md#complete-task-and-assessment-map).
 

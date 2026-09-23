@@ -111,7 +111,7 @@ Do not include lower-cap runs in an execution-eligible denominator. Do not count
 
 The clean and flipped versions of one base scenario are a pair. The same scenario should also appear under verification on/off and each authority cap. Keep all non-treatment settings identical when possible.
 
-That matrix describes the scripted apparatus. If selected, Candidate A instead uses four primary cells (clean/corrupted × practical gate off/on), all execution-eligible. Replay each upstream candidate request through isolated gate branches with a shared pair ID; keep optional oracle references and non-executing cap checks outside its primary effect estimate. These four cells and a live backend are not general semester requirements. Every study follows its frozen protocol rather than copying either matrix by default.
+That matrix describes the scripted apparatus. If selected, Candidate A instead uses four primary cells (clean/corrupted × practical gate off/on), all execution-eligible. Replay each upstream candidate request through isolated gate branches with a shared pair ID; keep optional oracle references and non-executing cap checks outside its primary effect estimate. These four cells and a live backend are not general semester requirements. Each study uses its own recorded method and dated changes; confirmatory claims require prespecified rules. Neither matrix is a default assignment.
 
 For the pilot or Candidate A, analyze within-scenario contrasts before aggregating:
 

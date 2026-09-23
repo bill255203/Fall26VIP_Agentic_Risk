@@ -26,11 +26,12 @@ cases and verifies labels, then exchange review/analysis responsibilities. Both 
 be able to explain the method and findings. There are no permanent Research and
 Engineering subteams and no expectation of equal commit counts.
 
-Use [one Pair case and individual tasks](issue-workflow.md). Agree personal outputs
-and a reviewer before work, keep short updates and link shared artifacts with actual
+Use [one Pair case and individual tasks](issue-workflow.md). Agree personal outputs,
+arrange peer checks as work develops, keep short updates and link shared artifacts with actual
 roles. Useful unsuccessful attempts and evidence-backed scope reductions count.
-Raise workload, missing access or partner dependencies early; the instructor helps
-agree a feasible contribution. Keep private circumstances out of public issues.
+Partners can refine the next task and record why. Raise unresolved workload,
+access or partner dependencies for help; instructor direction can adapt the plan
+without a separate approval process. Keep private circumstances out of public issues.
 
 ## Review and done
 

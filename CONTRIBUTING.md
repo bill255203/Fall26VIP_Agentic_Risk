@@ -12,7 +12,7 @@ support the tasks agreed after kickoff. Each pair develops its own case; no plat
 2. Use your own GitHub account. With repository write access, create a branch here; otherwise fork the repository and open a pull request back to this repository's `main`.
 3. Follow the [enrollment guide](docs/contributors/README.md#first-contribution) to add your public roster entry. No personal profile file is required. Share only your preferred display name and GitHub username.
 4. Open your own Individual task under #5, then submit the introduction PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5` (use your actual task number). No completed research result is required. A maintainer reviews onboarding and can arrange repository access separately.
-5. Choose your Pair case (or a shared cohort goal) and open an **Individual task** for your own work. A maintainer confirms scope and your assignment. Follow [the issue guide](docs/issue-workflow.md): multiple students attempting the same assignment each use their own task under the same goal.
+5. Choose your Pair case (or a shared cohort goal) and open an **Individual task** for your own work. Agree a small scope with your partner and arrange peer feedback as needed; routine work does not wait for a maintainer assignment. Follow [the issue guide](docs/issue-workflow.md): multiple students attempting the same assignment each use their own task under the same goal.
 
 ## Workflow
 
@@ -38,13 +38,14 @@ Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board
 - `bug`: behavior that contradicts the documented design;
 - `documentation`: onboarding, contribution reports, presentations, or administrative documentation.
 
-Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. For a program-wide change, link the review issue and update the semester plan/decision log. For a case-specific change, record the reason, affected evidence and instructor/designated method mentor approval in the existing Pair case and its document; no duplicate plan-change issue is required.
+Issues marked `stretch` are optional extensions; focus on the current case before adding scope. For a case-specific change, record the reason, affected evidence and any feedback in the existing Pair case; routine refinements need no instructor sign-off. The instructor can adapt course arrangements through an announcement or discussion. Maintainers record the change once and synchronize affected guidance through normal PR review; the course adjustment does not wait for a merge. See [adaptation rules](docs/semester-plan.md#adaptation-and-decision-making).
 
 Issues marked `candidate` are optional proposals, with no delivery milestone until
 explicitly adopted by a pair and reviewer. Candidate A (#4) is an advanced example,
 not a cohort requirement. Early exploratory work counts when its evidence and
-purpose are clear, even if the idea is rejected. Each pair records its own reviewed
-plan before final evidence work; shared collection issues need not all close first.
+purpose are clear, even if the idea is rejected. Each pair records its working
+method and evaluation rules, seeks peer checks and records changes. Shared
+collection issues and an unassigned mentor do not block progress.
 
 ## Make your contributions visible
 

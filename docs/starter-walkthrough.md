@@ -111,5 +111,5 @@ use without the answer key? What changes before this can test a real agent?
 
 Keep local generated output in `results/local/`; follow the [results guide](../results/README.md)
 if preserving a reviewed snapshot. No extra report, new framework, or paid access
-is needed for this walkthrough. The genuine-agent teaching package remains pending
-under [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6).
+is needed for this walkthrough. Share optional external examples or setup findings
+under [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) when useful; no central genuine-agent teaching package is promised.

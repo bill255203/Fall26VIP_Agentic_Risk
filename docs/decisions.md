@@ -1,15 +1,16 @@
 # Decision log
 
-Record decisions that change scope, method, resources, responsibilities, or
-interpretation. Routine task progress belongs in issues. Link the issue or PR
-that contains the reasoning and actual review; meeting discussion alone does
-not establish approval.
+Record substantial program decisions and their reasoning here. Routine adjustments
+belong in the affected issue. Instructor direction can be given in a course
+announcement or discussion; maintainers record it and synchronize the guides.
+This log does not create an approval process. Distinguish actual decisions from
+suggestions, and preserve dated method changes that affect research claims.
 
-Current direction: **D017** (pair cases), with **D018** (75/25 grading and coherence fixes). Earlier entries record the historical plan; references
+Current direction: **D017** (pair cases), **D018** (75/25 grading) and **D019** (flexible, student-owned workflow). Earlier entries record the historical plan; references
 to one cohort study or D003 pending selection are superseded as specified below.
 
 Use `proposed`, `accepted`, `rejected`, or `superseded`. An accepted decision
-needs the responsible reviewer's recorded agreement. Keep prior entries when
+records who made it and the source of that direction. Keep prior entries when
 a decision changes and link the replacement. Dates are the decision dates,
 not a planned completion schedule.
 
@@ -74,6 +75,29 @@ not a planned completion schedule.
 - Supersedes: the weight/rubric portions of D012 and D017 only; retain those entries
   as historical records, not current student instructions.
 
+## D019 — Flexible, student-owned work with adaptable course direction
+
+- Date: 2026-09-23
+- Status: accepted (repository working direction; course grading remains tentative)
+- Basis: the owner requested a logical, professional structure that allows the
+  instructor to adapt freely without an administrative or preparation burden.
+- Decision: partners register their case, own the working method and proceed with
+  peer checks. Remove mandatory instructor/mentor plan approvals. Keep methods,
+  changes, evidence and claim limits explicit; prespecify confirmatory tests.
+- Resources: the starter/walkthrough is available. #6 becomes optional shared
+  examples and setup help, not an instructor obligation to build a platform by M2.
+- Adaptation: instructor announcements/discussions can change direction, scope,
+  timing, pairings and activities. Maintainers record a short note and synchronize
+  affected guidance; the course does not wait for a PR. #24 becomes course notes,
+  not a checkpoint-by-checkpoint instructor checklist.
+- Preserve: 75/25 proposal, visible personal contributions, pair/individual reports,
+  current dates as adjustable targets, fair announced assessment and main protection.
+- Supersedes: instructor sign-off and mandatory teaching-package provisions in
+  D017/D018 and the administrative checklist aspect of D013. No faculty approval,
+  new pair assignment, platform access or funding is asserted.
+- Implementation/review record: [PR #35](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/35),
+  including validation and the documented owner bootstrap merge exception.
+
 ## New entry template
 
 ```markdown
@@ -81,12 +105,12 @@ not a planned completion schedule.
 
 - Date: YYYY-MM-DD (leave pending while proposed)
 - Status: proposed
-- Owner / required reviewer:
+- Decision-maker / participants:
 - Question and options:
 - Decision and rationale:
 - Evidence / issue / PR links:
 - Impact on scope, protocol, artifacts, resources, or credit:
-- Review record: (link recorded agreement before marking accepted)
+- Decision source: (link the actual direction before marking accepted)
 - Supersedes / follow-up:
 ```
 

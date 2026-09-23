@@ -7,7 +7,7 @@ and holds slides or accessible exports/links. No additional cohort-wide paper is
 
 ## Pair report index
 
-Add a row after partners and case are confirmed in #3. No pairs or findings are
+Add a row after partners agree and register the case in #3. No pairs or findings are
 assumed by this template.
 
 | Pair / partners | Case issue | Case document / final report | Midterm / final slides | Evidence / peer handoff check |
@@ -17,7 +17,8 @@ Use the case document for business motivation, question, sources, reviewed metho
 validation, evidence/analysis, limitations, contribution summary, reproduction and
 next steps. Mark pending work explicitly. Suggested scope is a concise 4–6 page
 report plus evidence/appendices; this is guidance, not an additional grading criterion.
-The instructor agrees scope and submission arrangements.
+Follow current course direction for scope, format and submission arrangements;
+the instructor can adapt them without a separate repository approval.
 
 ## Presentations and individual reports
 
@@ -35,7 +36,7 @@ in `docs/contributors/USERNAME.md`; it is separate from the pair report.
 
 ## Handoff check
 
-Before completion, a reviewer from another pair or an instructor checks the analysis
+Before completion, a peer, preferably from another pair, checks the analysis
 or source-to-claim path and follows the reproduction instructions. Link their actual
 result and any remaining limitation. Do not require new paid calls just to inspect
 already captured evidence; record access needed for a fresh empirical rerun.

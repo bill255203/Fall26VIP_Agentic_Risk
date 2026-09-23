@@ -2,11 +2,12 @@
 
 Each pair chooses **one business workflow, one risk question, and one possible
 improvement**. The cohort shares methods and feedback; there is no competition to
-select a single cohort-wide study. Pair membership and reviewed plans are recorded
+select a single cohort-wide study. Pair membership and working plans are recorded
 in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and linked Pair case issues.
-No platform, case, or protocol is automatically adopted. The instructor or a
-designated method mentor approves the study plan; partners and peers help review
-the evidence. See [review responsibilities](../issue-workflow.md#who-reviews-what).
+No platform, case, or protocol is automatically adopted. Partners choose a small
+scope and proceed with peer feedback; instructor sign-off is not a prerequisite.
+The instructor can redirect or adapt the work as needed. See
+[review responsibilities](../issue-workflow.md#who-reviews-what).
 
 ## Short proposal outline
 
@@ -29,18 +30,23 @@ continuation of the starter or the expected detail of a first student outline.
 
 ## Selection and protocol
 
-- **By M2 (Oct 9):** agree the short outline, partners, reviewer, scope, and evidence
+- **M2 target (Oct 9):** agree the short outline, partners, scope, and evidence
   route. Ground the case in public or approved business sources; do not promise
   company access, a new framework, or publication.
-- **By M3 (Oct 16):** present the case and initial feasibility evidence. With the
-  reviewer, expand the plan to state comparison, data selection, units, labels,
+- **M3 target (Oct 16):** present the case and initial feasibility evidence. Expand
+  the plan as needed to state comparison, data selection, units, labels,
   measures/denominators, sample/repeat plan, failures/exclusions, analysis, resources,
-  and claim limits. Link the reviewed revision in the Pair case.
-- **Before final evidence:** validate the smallest analysis/run, fix evaluation
-  cases and rules, and separate development evidence. Plan sample size with guidance;
-  a few smoke-test examples establish feasibility, not a reliable effect estimate.
+  and claim limits. Link a dated revision and feedback in the Pair case.
+- **As evidence work develops:** validate the smallest analysis/run, state evaluation
+  cases and rules before applying them, and distinguish development evidence. Seek
+  help with sample size when needed. A few smoke-test examples establish feasibility,
+  not a reliable effect estimate.
 - **Afterward:** record amendments and whether results had been inspected. If access
-  fails, narrow the question with the reviewer; do not invent missing evidence.
+  fails, narrow the question and seek help if needed; do not invent missing evidence.
+
+These are adjustable targets. Routine changes need a short note in the existing
+case, not an approval process. A claim described as confirmatory still requires
+its hypotheses and evaluation rules to be set before examining test outcomes.
 
 If evidence has already been inspected, document which records were used for
 development and reserve new records where feasible. Otherwise frame the affected
@@ -48,9 +54,10 @@ analysis as exploratory or replication work; do not claim a fresh held-out test.
 A trace analyst may read evaluation records to apply fixed labels, but changing the
 labeling guide or hypothesis after seeing them requires a recorded amendment.
 
-Each pair progresses independently after its review. Do not wait for every pair's
-plan to be approved. Pairs may share an environment or compare complementary
-questions, while preserving their own measures and claim boundaries.
+Each pair progresses independently; an unassigned mentor or open cohort issue does
+not block work. Arrange peer checks before presenting findings as checked. Pairs
+may share an environment or compare complementary questions, while preserving
+their own measures and claim boundaries.
 
 ## Two manageable evidence routes
 
@@ -67,8 +74,10 @@ untested proposed control causally prevents failures. Frame the improvement as a
 recommendation unless there is suitable comparative evidence.
 
 Both routes require empirical evidence. Scripted starter results and hypothetical
-risk maps alone are teaching/design outputs. Any reduction to a non-empirical scope
-requires an explicit instructor decision and narrower claims.
+risk maps alone are teaching/design outputs. If the instructor adapts the assessed
+scope to a literature/design study, record that direction and use narrower claims;
+do not present it as an empirical result. A course discussion or announcement can
+establish that change without a separate approval form.
 
 ## Shared standards, flexible implementation
 
