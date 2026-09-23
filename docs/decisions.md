@@ -68,8 +68,9 @@ not a planned completion schedule.
 - Coherence fixes: clarify study-plan/task/merge review responsibilities, collection
   issue links, prior-inspected evidence, platform support status and beginner setup.
   Keep the grading proposal and semester plan authoritative for weights and dates.
-- Implementation/review record: pending PR link; verify documents, live issue/milestone
-  descriptions, source references, protection settings and the scripted starter.
+- Implementation/review record: [PR #33](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/33) records the audit, validation and owner bootstrap merge exception.
+  Checked documents, live issue/milestone descriptions, source references, protection
+  settings and the scripted starter. External-platform preparation remains pending.
 - Supersedes: the weight/rubric portions of D012 and D017 only; retain those entries
   as historical records, not current student instructions.
 
