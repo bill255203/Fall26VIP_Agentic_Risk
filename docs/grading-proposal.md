@@ -1,248 +1,128 @@
 # Tentative grading and individual responsibility
 
-**Status: tentative working scheme, published September 18, 2026.** Use this plan
-to agree responsibilities, collect evidence, and prepare the reports and presentations.
-The instructor confirms and announces the final grading policy through the course's
-official channel before applying it. Publishing this plan does not assert that course
-approval has occurred. Dates follow the [project schedule](semester-plan.md#calendar-and-working-targets);
-presentation times and official submission arrangements are still to be confirmed.
+**Revised working proposal: September 23, 2026.** The instructor must confirm and
+announce the policy before applying it. Dates are [project targets](semester-plan.md#calendar-and-working-targets);
+presentation slots, official submissions, accommodations and the assessed period
+remain for the instructor to confirm. Grades and private feedback stay outside GitHub.
 
-## Proposed grade: 70% individual, 30% group
+## Proposed grade: 75% individual, 25% pair
 
-Here, **group** means the whole cohort's one selected study. Research and Engineering
-contribute to the same group output. Each student receives their own individual marks
-plus the same three shared assessment marks; students do not receive identical overall grades.
+“Shared” means **the two partners' case**, not the whole cohort. Each student receives
+individual marks plus their pair's shared marks; overall grades can differ.
 
-| Component | Weight | What is assessed | Evidence |
-| --- | --- | --- | --- |
-| Individual issue contributions | **50%** | Foundation work (10); question/protocol (10); selected-study execution (20); analysis/synthesis/handoff (10). Each stage assesses quality, reasoning, and evidence using the rubric below. | The student's own Individual tasks and evidence, linked to parent Group goals. |
-| Individual collaboration and review | **10%** | Reliable communication and follow-through on agreed responsibilities (5); useful peer review and help that improves the work (5). | Issue updates, substantive review comments, documented coordination, and resolved feedback. |
-| Individual contribution report | **10%** | Accurate, specific attribution linked to evidence (5); explanation of decisions, limitations, learning, and next steps (5). | A short individual report linking existing task/PR evidence. |
-| Group research-question presentation | **10%** | Evidence-based comparison and rationale (5); a feasible, testable plan and useful responses to questions (5). | One cohort presentation comparing at most two candidates, source/probe evidence, and the recorded selection discussion. |
-| Group final technical report and reproducibility | **10%** | Defensible method, analysis, and honest interpretation (5); a coherent written report and usable reproduction/handoff package (5). | The reviewed report, evidence, commands, and peer reproduction check. |
-| Group final presentation | **10%** | Clear, evidence-backed explanation of the study and findings (5); understanding of limitations, responses to questions, and next steps (5). | One cohort presentation with links to the final report and artifacts. |
-| **Total** | **100%** | **70 individual + 30 shared** | |
+| Component | Weight | What is assessed |
+| --- | ---: | --- |
+| Individual work through tasks | **55%** | Foundation 10; Question 10; Execution 25; Synthesis 10, using the rubric below. |
+| Individual collaboration/review | **10%** | Communication and follow-through (5); useful review/help improving the work (5). |
+| Individual contribution report | **10%** | Accurate attribution and evidence (5); explanation of decisions, limitations, learning and next steps (5). |
+| Pair midterm case/question presentation | **10%** | Sourced business problem and clear question (5); feasible evidence plan, initial check and response to feedback (5). |
+| Pair final report and evidence | **15%** | Sound method and checked evidence/analysis (5); interpretation and limitations (5); clear report and reproducible handoff (5). |
+| **Total** | **100%** | **75 individual + 25 pair** |
 
-Each number in parentheses is a maximum number of percentage points toward the
-course grade. For example, 43/50 for work, 8/10 for collaboration, 9/10 for the individual report,
-and group marks of 8/10, 8/10, and 9/10 produce **85/100**. The instructor records grades privately;
-letter-grade thresholds and other course policies are not defined by this proposal.
+This moves five percentage points from the pair final report to individual Execution
+work. The [grading table above](#proposed-grade-75-individual-25-pair) is the canonical
+weight/rubric reference; other guides summarize it. Earlier weights remain only in
+the historical decision log and prior PRs.
 
-Artifact quality is assessed in the individual-work component; report marks assess
-accurate attribution and the student's explanation of that work. The three group
-components separately assess selection reasoning, the written evidence/handoff,
-and the final presentation and discussion.
+The final pair presentation is still required for explanation, discussion and handoff,
+with feedback but **no separate grade weight or unannounced extra points**. Its
+preparation can evidence a distinct agreed individual contribution; do not score the
+same output twice within the individual 55%.
 
-Assess the body of work within each stage against the student's agreed scope, not
-by averaging scores for arbitrary numbers of issues. Agree the early contributions
-during M1, the selected-study contribution at M2, and check progress/scope at M3.
-Scope may be adjusted for role, preparation, enrolled commitment, or access, with
-the reason recorded. Each student needs a substantive contribution in every stage;
-tasks differ by role and do not require everyone to write code or review every paper.
+## How the individual 55% maps to issues
 
-Literature, design, code, data, analysis, validation, and writing can all earn full
-individual-work marks. Rigorous null results, failed reproductions with useful
-diagnoses, and evidence-backed rejection of a proposal can also earn full marks.
-Publication, positive findings, hours claimed, commit counts, issue counts, and lines
-of code do not determine the grade. A merged PR is evidence of review, not an automatic
-grade. Public evidence can support assessment without publishing marks or private feedback.
+Each student agrees substantive work in each stage, suited to their experience,
+role and enrolled commitment. A work package can span weeks; there is no issue quota.
 
-## How the individual 50% maps to issues
+| Stage | Points | Examples of personal evidence | Checkpoint |
+| --- | ---: | --- | --- |
+| **Foundation** | **10** | A sourced business/paper critique, documented reproduction with interpretation, or useful diagnosis of a failed attempt. Starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) or tasks under the Pair case/shared resources. | Review by M2, Oct 9 |
+| **Question** | **10** | Justified risk question, workflow/authority map, meaningful comparison, label definition or evidence-plan contribution under the Pair case. | Outline M2; review by M3, Oct 16 |
+| **Execution** | **25** | Checked implementation, scenario/label package, experiment batch, systematic trace analysis or reproducible analysis tooling under the Pair case. | Scope M3; progress/evidence M4, Oct 30 |
+| **Synthesis** | **10** | Evidence-backed interpretation, figure with explanation, limitations, robustness check, or validated reproduction/handoff contribution under the Pair case. | Draft Nov 6; final Nov 20 |
 
-The four stage budgets below are **for each student**, not a pool divided among
-assignees. One shared issue can support several students' assessments when their
-individual deliverables and evidence are clear. Each student agrees a deliverable
-or a small bundle of related deliverables for each stage; there is no issue-count quota.
-
-| Individual stage | Course points | Shared issues | Examples of an individually assessable contribution | Review checkpoint |
-| --- | --- | --- | --- | --- |
-| **Foundation work** | **10** | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) | A sourced comparison that identifies a design implication; a documented reproduction and critique; or a diagnosed reproduction failure with useful evidence. | Start at M1; review evidence by M2, October 9. |
-| **Question and protocol design** | **10** | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) | Own a candidate comparison, feasibility probe, metric/label definition, or analysis-design section; explain the evidence and tradeoffs behind your recommendation. | M2, October 9. |
-| **Selected-study execution** | **20** | [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7), [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8); [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) only if activated | Own a validated implementation, dataset/labeling package, experiment batch, or analysis pipeline with checks and a reproducible record. Research roles may own scenario design, label validation, or another agreed empirical deliverable. | Scope agreed at M2; progress at M3; evidence reviewed by M4, October 30. |
-| **Analysis, synthesis, and handoff** | **10** | [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8), [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9) | Own a supported interpretation/limitations section, evidence-backed figure and explanation, substantive robustness analysis, or independently checked reproduction/handoff instructions. | Draft November 6; final evidence November 20. |
-| **Individual issue contribution total** | **50** | | | |
-
-These are choices of contribution, not a requirement to complete every example or
-every linked issue. Onboarding issue #5 establishes access and attribution; a roster
-PR or successful installation alone does not earn a stage's research points. A
-student can earn full foundation or design credit for a strong alternative that the
-cohort rejects. After selection, each student contributes to the selected study.
+These are options, not a requirement to complete every example. Onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)
+establishes access and attribution; installation or a roster row alone is not full
+Foundation credit. Strong negative findings or useful rejected ideas can earn full
+marks. Neither publication nor a working positive-result intervention is required.
+Both students must understand the method/evidence and contribute substantively;
+neither is permanently assigned only coding or only writing.
 
 ### One scoring rubric, applied to each stage
 
-For each stage, the instructor scores the student's agreed contribution using:
-
-| Criterion | Foundation /10 | Question /10 | Execution /20 | Synthesis /10 | Total /50 |
+| Criterion | Foundation /10 | Question /10 | Execution /25 | Synthesis /10 | Total /55 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| **Quality and correctness:** sound methods/content; acceptance criteria met; important errors addressed | 4 | 4 | 8 | 4 | **20** |
-| **Reasoning and research value:** justified choices; useful result or diagnosis; claims match evidence | 4 | 4 | 8 | 4 | **20** |
-| **Evidence and usability:** attributable artifact, sources/commands/checks, limitations, and usable handoff | 2 | 2 | 4 | 2 | **10** |
-| **Maximum course points** | **10** | **10** | **20** | **10** | **50** |
+| Quality/correctness: sound work and agreed criteria met | 4 | 4 | 10 | 4 | 22 |
+| Reasoning/research value: justified choices and claims | 4 | 4 | 10 | 4 | 22 |
+| Evidence/usability: attributable, checkable and reusable | 2 | 2 | 5 | 2 | 11 |
+| **Maximum** | **10** | **10** | **25** | **10** | **55** |
 
-Award from zero to the listed maximum for each criterion. Full marks mean the
-agreed substantive scope is met with sound, justified, verifiable work. Reduce the
-relevant criterion for specific errors, incomplete agreed work, unsupported claims,
-or missing evidence, and explain the deduction privately. No identifiable contribution
-earns zero for that stage. Reviewers verify evidence; the instructor assigns marks.
+Score each criterion from zero to its maximum against the agreed substantive scope.
+Explain gaps privately and agree support early. A stage with no identifiable
+contribution receives zero. Reviewers verify work; the instructor assigns marks. An open
+pair/collection issue does not prevent assessing completed individual work.
 
-Example: a student earns 8/10 for foundation work, 9/10 for protocol design, 17/20
-for execution, and 9/10 for synthesis: **43/50** toward the course grade. Closing
-more issues does not increase the 50-point budget. A shared parent remaining open
-does not prevent assessment of an individual's completed, reviewable contribution.
+Before a task, agree owner, stage, deliverable, done criteria, target and reviewer.
+Afterward, link artifact, validation and review; distinguish collaborators' parts.
+Assign each output to one stage. If one task spans stages, identify separate outputs
+(e.g. analysis code under Execution and its interpretation under Synthesis).
+Routine peer review belongs in collaboration; a planned validation study with its
+own artifact can be individual work. Report marks assess attribution/reflection;
+pair marks assess the integrated output. Do not award points by issue/commit counts.
 
-### What each issue contribution must show
-
-Before work begins, agree **the student, stage, specific deliverable, acceptance
-criteria, target/check-in, and reviewer** in the student's own Individual task,
-linked to a parent Group goal. Once work is ready, add the artifact/PR and validation links,
-identify the student's actual part, and link the review. The instructor uses this
-record to assess the appropriate stage. Store scores and assessment feedback privately.
-
-For example, under #7, one student may own case construction and label validation,
-and another the runner and its tests. Both can earn the full **20 execution points**
-for their own agreed, substantive work. The Group goal's coordinator
-assignment does not establish either student's contribution.
-
-Assign each deliverable to one stage. If a task spans stages, identify its distinct
-outputs in advance—for example, implementation of an analysis pipeline under
-execution and a supported interpretation of its findings under synthesis. Do not
-score an identical output twice within the 50%. Ordinary peer-review comments and
-coordination belong in the separate collaboration 10%; a planned validation study
-with its own artifact can be individual work. The individual report's 10% assesses
-attribution and explanation; it does not repeat the artifact-quality score. The
-group 30% separately assesses the integrated presentations/report.
-
-State the stage (Foundation, Question, Execution, or Synthesis) in the Individual
-task and link evidence there. The individual report links directly to those tasks,
-PRs, and reviews. No portfolio evidence table, extra weekly log, or public grade
-spreadsheet is needed.
+For example: 48/55 work + 8/10 collaboration + 9/10 individual report + 8/10 pair
+midterm + 12/15 pair report = **85/100**. No public grade table is needed.
 
 ## Two group presentations and the written report
 
-| Assessment | Proposed checkpoint | What the cohort presents or submits |
+Each pair gives the midterm and final presentations and submits one written report.
+
+| Output | Working target | Expected content |
 | --- | --- | --- |
-| Research-question presentation | **October 9 (M2 review)**, before selection and protocol freeze | At most two candidate questions; why each matters; relevant literature and the uncertainty or replication purpose; reproduction/feasibility evidence; the smallest comparison and measures; access/resources; a recommendation and its tradeoffs. |
-| Final technical report and reproducibility | **Draft November 6; reviewed package November 20 (M5)** | The question, method, evidence and analysis, limitations, contribution credits, and the commands/artifacts needed to reproduce the work. |
-| Final presentation | **November 20 (M5)** | The selected question, what was done, the strongest evidence, what it supports, limitations and negative findings, and the next useful research step. Link the report and artifacts. |
+| Pair midterm case/question presentation | **Oct 16 (M3)** | Workflow and business sources; risk question; relevant literature; comparison/measures; feasibility evidence or diagnosed limitation; roles/support needed. |
+| Pair written report and evidence | **Draft Nov 6; final Nov 20** | Question, method, results, limitations, contributions and reproducible handoff. Evolve the case document into the report. |
+| Final pair presentation | **Nov 20 (M5)** | What was investigated, strongest evidence, limitations, what changed after feedback, and next steps. Required, feedback only. |
 
-These are proposed assessment targets aligned with the project schedule. The instructor
-confirms presentation slots, length, and official submission arrangements. A practical
-starting point is a 10-minute question presentation and a 15-minute final presentation,
-each followed by discussion, adjusted to cohort size.
-
-Prepare one shared deck for each occasion. At the question review, different students
-can present the two candidate sections, then the cohort compares them together. The
-method lead records the selection and reviewed protocol in #3 after considering the
-presentation and discussion. The pitch is assessed on its reasoning and feasibility;
-a candidate can earn strong credit even when it is not selected. If feedback requires
-more protocol work, keep the gate open and record the necessary target adjustment.
-
-For both presentations, name each student's agreed preparation/presentation role and
-link their contribution. Students should be able to explain the work they contributed;
-the instructor can distribute speaking and question-answering roles to fit the group.
-The group receives the shared presentation mark, while each person's preparation,
-analysis, review, and follow-through support their individual assessment. Neither
-speaking longest nor being the coordinator confers ownership of the whole project.
-
-Save reviewed slides or an accessible export/link in `docs/reports/`. Track the
-question presentation in [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) and final presentation in [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22), linking
-their outputs from #3 and #9 respectively. Track individual reports in [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23).
-The [complete task map](issue-workflow.md#complete-task-and-assessment-map) connects
-every assessment component to its issues; instructor checkpoint actions are in [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24). The written
-technical report and the individual contribution reports remain separate outputs;
-slides do not replace either report. No additional weekly slide deck is needed.
-
-## Group goals and individual tasks
-
-Use the adopted [issue workflow](issue-workflow.md). A **Group goal** defines the
-shared assignment/outcome; an **Individual task** records one student's own work,
-evidence, review, and completion. Use the complete task map for Group goals; #4 remains conditional.
-The Group goal has at most one coordinator; each Individual task has one student owner.
-
-**Multiple students may complete the same assignment independently.** Each student opens an Individual
-task under the same Group goal and selects **Independent attempt**. Each student
-submits their own evidence and explanation and is assessed against the same agreed
-criteria. They can each earn full credit without needing different topics or results.
-The starter is assigned to everyone; other repeated work needs an agreed learning
-or research purpose. Same-topic tasks are not automatically duplicate issues.
-
-For joint work, each student opens an Individual task with mode **Contribution to
-shared work**, identifies their actual part, and links collaborators' tasks. A shared
-artifact or PR may support several tasks; each is reviewed separately. A joint artifact
-is not presented as several independent attempts. Incidental help and review comments
-can be credited directly, without creating an issue for every small interaction.
-
-Use **New issue → Individual task**. Record the parent goal, student owner, work mode,
-deliverable, acceptance criteria, target/check-in, proposed reviewer, and evidence.
-For assessment under this proposal, also state the agreed contribution stage in the
-objective: Foundation, Question, Execution, or Synthesis. Link each task from its
-Group goal; the maintainer confirms assignments and scope.
-
-One student finishing closes only their task. The Group goal closes after its required
-contributions and combined criteria are reviewed. Onboarding also uses an Individual
-task under #5, with the roster-entry PR linked as evidence; setup/roster work
-alone does not earn a research stage’s points. Existing
-starter comments can be linked from a task without copying or rerunning the work.
-
-The number of tasks is not a grading target. Use one task per meaningful work package,
-with separate outputs identified if it spans assessment stages. Credit is not a fixed
-pool: several students can each receive full individual marks for their own sound
-contributions under one Group goal. Store scores and private feedback outside GitHub.
+Instructor confirms slots/lengths. A starting suggestion is 8–10 minutes per pair
+plus discussion, adjusted to cohort size. Both partners have agreed preparation and
+speaking/question roles and explain their own work. Record slides and feedback in
+the Pair case and link from [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) or [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22). No weekly deck or cohort-wide final paper.
+The final slides do not replace the report.
 
 ## Individual contribution report
 
-Each student opens their own Individual report task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) and prepares **one short report**, about **1–2 pages plus evidence links**.
-Length is a guide, not a scoring criterion. Use the
-[individual report template](contributors/_individual-report-template.md).
-Draft target: **November 6**; final target: **November 20**, aligned with the shared
-report and handoff. These are proposed report targets, not new official due dates.
-If the instructor assigns later assessed work, update the report before the announced
-assessment cutoff rather than treating the early handoff as the end of all course work.
+Each student creates an Individual task under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23), cross-linked to their Pair case.
+Use the [template](contributors/_individual-report-template.md) for a short report
+(about 1–2 pages plus links; length is guidance), draft Nov 6 and final Nov 20.
+Create `docs/contributors/YOUR-USERNAME.md` at the draft checkpoint; preserve any
+existing content. Explain:
 
-The report answers:
+1. Your agreed responsibilities and changes across the four stages.
+2. Your actual work and decisions, with task/PR/artifact evidence.
+3. Your effect on the pair case and any shared cohort assets.
+4. Your collaboration/review, distinguishing your partner's contributions.
+5. Limitations, unsuccessful approaches, learning, tool assistance and next steps.
 
-1. **What was I responsible for?** State agreed tasks and any reviewed scope changes.
-2. **What did I personally produce or decide?** Link the existing task/PR evidence;
-   distinguish your work from collaborators' work and disclose material tool assistance.
-3. **How did it help the shared study?** Explain the result, decision, or reusable asset.
-4. **How did I review and support others?** Link specific review or coordination evidence.
-5. **What are the limits and next steps?** Discuss unsuccessful approaches, learning,
-   unfinished work, and what another student needs to continue it.
+Link existing evidence instead of maintaining another activity log. The instructor
+confirms official submission and updates needed for later assessed work.
 
-At the draft checkpoint, create `docs/contributors/YOUR-USERNAME.md` from the
-report template, or add the report sections to an existing file while preserving
-earlier records. Link Issues/PRs directly; no ongoing portfolio or duplicate activity
-table is required. Explain your own work without repeating the group report.
-The public version contains research contributions and evidence. The instructor
-confirms the official submission route; marks, personal circumstances, and private
-feedback stay in that channel.
+## Fair assessment and issue ownership
 
-## Fair assessment and a simple routine
+Follow the [issue workflow](issue-workflow.md). Multiple students may independently
+complete the same agreed assignment with separate personal tasks and evidence;
+each can earn full credit. Joint work uses separate personal tasks linked to shared
+artifacts, describing actual roles. One student's completion closes their task only.
 
-- **Each week:** work on the agreed deliverable, post the existing short issue update,
-  submit evidence for review, and keep attribution in that same task.
-- **At the stage checkpoints above:** the instructor checks each student's agreed
-  contributions and evidence, identifies gaps early, and agrees any change. These
-  are progress conversations using existing issue records, not new reports.
-- **At the M2 review:** contribute to the research-question presentation and selection discussion.
-- **At handoff:** submit the individual report and contribute to the group report and final presentation.
-  The instructor assesses individual evidence separately from the shared project.
-
-If a dependency or teammate blocks delivery, raise it in the issue and agree an
-alternative deliverable or scope change. Assess the student's documented work and
-response; another person's missing task does not automatically erase individual credit.
-The 30% shared component still reflects the integrated outcomes. Any exceptional
-adjustment is an instructor decision communicated under the adopted course policy.
-
-Peer feedback can help verify attribution and collaboration; classmates do not assign
-one another's grades. Resolve disputed credit using artifact history and a private
-instructor discussion. Paper authorship remains a separate contribution-based decision.
+If a partner, setup or data dependency blocks work, report it early and agree an
+alternative contribution. Another student's missing work does not erase your
+individual credit. Shared marks still reflect the pair outcome; exceptional
+adjustments follow the instructor's announced policy. Peer feedback informs review,
+not peer grading. Authorship of a later paper is a separate contribution-based decision.
 
 ## Course confirmation and changes
 
-The student guide, contribution templates, #3, and #9 use this tentative working
-scheme so students can plan now. The instructor still confirms the final weights
-and criteria, assessed period, presentation slots, official report/slide submission
-route, and how extensions or adjustments follow course policy, then announces them
-through the official course channel. Record any resulting changes in this document,
-the student guide, and affected issues together. Do not publish student scores here.
+Instructor tracker [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) covers final weights, criteria, workload, presentation slots,
+submission arrangements, support and private assessments. Review Foundation at M2,
+Question at M3, Execution at M4, drafts Nov 6, and Synthesis/reports at M5. Announce
+policy before applying it; update this guide, schedule, templates and live issues
+together when arrangements change. Publication of this proposal is not formal approval.

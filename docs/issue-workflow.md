@@ -1,144 +1,113 @@
-# Group goals and individual tasks
+# Pair cases, cohort goals, and Individual tasks
 
-**Multiple students can complete the same assignment independently. Each student uses
-a separate Individual task linked to the same Group goal.** Each task has its own
-owner, evidence, review, and completion status.
+**One shared case per pair; one owner per Individual task.** Issues and PRs are the
+contribution record. Do not create an issue for every meeting, comment, or weekly update.
 
-## Two kinds of issue
+## Which issue do I create?
 
-| Kind | Purpose | Who is assigned? | When is it closed? |
-| --- | --- | --- | --- |
-| **[Group]** / `group-goal` | The shared assignment or cohort outcome. See the complete task map below; #4 remains conditional. | At most one coordinator, named by a maintainer. Students join through their Individual tasks. | A maintainer checks the group's acceptance criteria and required student contributions. One student's completion does not close the group. |
-| **[Individual]** / `individual-task` | One student's agreed work package under a Group goal. | Exactly one student owner before work begins; name helpers and a reviewer in the body. | The student's own acceptance criteria and evidence are reviewed. Other students' unfinished tasks do not hold this task open. |
+| Issue type | Purpose | Ownership and completion |
+| --- | --- | --- |
+| **Pair case** | One pair's workflow, question, plan, report links, and milestone checklist for the semester. Create after partners agree; register its link in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). | Names both partners and a reviewer. Both may be assigned. Stays open until the case outputs are reviewed. Assignment alone does not allocate individual credit. |
+| **Individual task** | One student's meaningful contribution or independent attempt. | Exactly one student owner; separate evidence and review. Name collaborators separately. |
+| **Group goal** | Existing cohort onboarding, shared resources, or collection of outputs across pairs. | Maintainer coordinates required coverage; it is not a single research project or cohort-wide grade. |
+| **Instructor task** | Teaching setup, access/budget, assessment and support. | Instructor/maintainer owns it. Students are not automatically responsible for preparing the platform. |
 
-A Group goal's assignee coordinates the shared work; they do not own everyone else's
-contribution. An unassigned goal/task stays explicitly unassigned until a maintainer
-confirms a person. No student roster or reviewer is assumed in advance.
+GitHub calls the templates **Pair case**, **Individual task**, and **Group goal (maintainer)**.
+The parent is an issue link in the form; native GitHub sub-issues or a Project board
+are optional. No multi-select enrollment field is needed. Multiple assignees on a
+pair issue identify partners; personal credit still comes from one-owner tasks.
+
+## Simple student workflow
+
+1. Onboard with your Individual task under [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) and starter task under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1).
+2. When partners are confirmed, **one partner** opens **New issue → Pair case**,
+   names both partners, and links it in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). A maintainer confirms membership, reviewer,
+   and scope. Choose a stable short slug such as `retail-refunds`.
+3. Each partner opens **Individual tasks** under that Pair case for their meaningful
+   work. Include stage, deliverable, done criteria, target, and reviewer. Reuse a task
+   across weeks; no minimum number of tasks is required.
+4. Link the artifact and review in the Individual task. Update the Pair case with
+   links to its outputs; cohort collection goals link those same outputs.
+5. A PR uses `Closes #YOUR_INDIVIDUAL_TASK` only when complete and `Relates to
+   #YOUR_PAIR_CASE`. A joint PR may close multiple personal tasks after each is
+   checked. It must not automatically close the pair or a cohort collection goal.
+6. Write your individual report under [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) and link it from the Pair case as well.
+
+A task has **one primary parent**. Related goals may link it without requiring a
+second task. Shared resource work can belong directly to [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), or [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) when agreed;
+link it from the benefiting pair. Assignees/labels/milestones can be set by a
+maintainer; missing edit permissions do not prevent starting agreed work.
+
+## Multiple students doing the same assignment
+
+Any number of students may independently do the same agreed assignment. Each uses
+a separate Individual task under the same parent, with their own evidence and review.
+They can each earn full individual credit; credit is not divided between assignees.
+For example, starter critiques from several students belong under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1).
+
+Partners doing joint work choose **Contribution to shared work**, describe their
+actual parts, and link each other's tasks. They may use the same code, table, or PR.
+Do not describe a joint artifact as independent results. A planned replication by
+another pair needs an agreed purpose; there is no requirement that every topic differ.
 
 ## Complete task and assessment map
 
-**Every student owns their work; no student completes every Group goal alone.**
-Start with your onboarding task under #5 and starter task under #1. Agree later
-work at the relevant checkpoint instead of creating the whole semester's tasks now.
-An Individual task is a separate GitHub issue with a parent link, not a checkbox
-inside someone else's issue. Native sub-issues are optional.
+Cohort issues are retained to keep existing links and show coverage. Students do
+**not** open tasks under every row. Most research work belongs under the Pair case.
 
-| Work / assessment | Parent goal or tracker | Who does it? | Checkpoint |
+| Work / output | Primary student task parent | Cohort coordination / target | Proposed assessment |
 | --- | --- | --- | --- |
-| Onboarding and roster entry (access/attribution; not a research score) | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) | Every student, own task and introduction PR | M1, September 25 |
-| Starter attempt and critique | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) | Every student, own attempt/evidence | M1, September 25; Foundation evidence reviewed by M2 |
-| Literature and bounded reproduction | [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) | Divide scoped work across students; not every student does both | M2, October 9 |
-| Candidate feasibility, question, and protocol | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) | Every student has an agreed design contribution; cohort selects one study | M2, October 9 |
-| Research-question presentation — **10% shared** | [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) | One cohort deck; every student has an agreed preparation/presentation role | M2, October 9, before #3 selection |
-| Selected-study implementation and evidence | [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7), [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8); [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) only if activated | Divide substantive work, each student accountable for their part | M3 October 16 / M4 October 30 |
-| Final written report/reproducibility — **10% shared** | [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9) | One cohort report; divide writing, analysis, checking, and handoff | Draft November 6; M5 November 20 |
-| Final presentation — **10% shared** | [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22) | One cohort deck; every student has an agreed preparation/presentation role | M5, November 20 |
-| Individual contribution report — **10% individual** | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) | Every student writes their own report and opens their own report task | Draft November 6; M5 November 20 |
-| Individual research work — **50% individual** | Own tasks under the research goals above | Every student: Foundation 10, Question 10, Execution 20, Synthesis 10; agree distinct outputs | Four stage checkpoints in the [rubric](grading-proposal.md#how-the-individual-50-maps-to-issues) |
-| Collaboration/review — **10% individual** | Existing tasks and reviews; instructor checks in [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) | Every student records useful reviews, communication, and follow-through | Ongoing; reviewed at checkpoints |
-| Confirm policy, slots, scope reviews, and private assessment | [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) | Instructor/maintainer; no student tasks under this administrative issue | M1 through announced assessment cutoff |
+| Roster and onboarding | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) | [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5); M1 Sep 25 | Access/attribution; setup alone is not research credit |
+| Starter attempt and critique | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) | [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1); M1 Sep 25 | Foundation evidence |
+| Reading / business workflow | Pair case (or [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2) for shared resources) | [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2) resources; M2 Oct 9 | Foundation 10 |
+| Question and evidence plan | Pair case | [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) case registry; outline M2, reviewed plan M3 Oct 16 | Question 10 |
+| Guided platform / trace package | Instructor [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); agreed student help may have a task under [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) | [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) before requiring platform use | Student credit only for actual agreed work |
+| Feasibility and execution | Pair case | [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) validation; M3 then M4 | Execution 25 |
+| Analysis | Pair case | [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) first analysis; M4 Oct 30 | Execution or Synthesis; distinct outputs, no double counting |
+| Midterm case/question presentation | Pair case; reuse design task if it covers the role | [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) collects each pair's deck/feedback; M3 Oct 16 | Pair 10 |
+| Final report and reproducible evidence | Pair case | [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9); draft Nov 6, final M5 Nov 20 | Synthesis 10 individually; integrated pair package 15 |
+| Final presentation | Pair case; reuse report task if it covers the role | [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); M5 Nov 20 | Required, feedback only; no separate weight |
+| Individual contribution report | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); cross-link Pair case | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); draft Nov 6, final Nov 20 | Individual 10 |
+| Collaboration and substantive peer review | Existing relevant task; substantial review package may have its own task | Ongoing, with cross-pair review before M5 | Individual 10 |
+| Course policy, support, private assessment | Instructor [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24); students do not open tasks for course administration | Checkpoints through official cutoff | Private instructor assessment |
+| Candidate A practical gate | Pair case only if explicitly adopted; related [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) | [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) deferred, no delivery milestone | Optional scope; no additional points |
 
-Milestones are **date-based collections and review gates**, not additional student
-assignments. M1 groups #1/#5; M2 groups #2/#3/#6/#21; M3 uses #7 (and #4 only if
-activated); M4 uses #8; M5 groups #9/#22/#23. #24 spans the semester and is tracked
-through M5, with explicit earlier check-ins in its checklist. The November 6 draft
-checkpoint is in #9/#23; it does not need a duplicate milestone issue.
+The [grading proposal](grading-proposal.md) defines the rubric and stage boundaries.
+The two assessments of individual contribution and integrated pair output serve
+different purposes; closing issues does not award points.
 
-Use one primary parent per Individual task. If your existing #3 task includes your
-question-presentation role, #21 can link it; do not open a duplicate just to fill a
-second list. The same applies to #9 work supporting #22. Each individual report has
-its own task under #23 so its submission/review is visible separately; if one was
-already opened under #9, update its parent and cross-link it instead of recreating it.
-Routine review comments need no extra issue; a substantial planned review package
-can be a task under the relevant research goal. Evidence may support different
-assessment criteria, but the same output is not scored twice within the 50% work budget.
+## Who reviews what?
 
-The [grading scheme](grading-proposal.md) remains tentative until instructor
-confirmation. The **Group** label on #23 means collection/coordination, not a shared
-report or shared grade. Keep all scores and private feedback out of GitHub.
+- **Personal task:** an agreed reviewer other than its owner checks the evidence;
+  a partner can provide this review. A substantial cross-pair review is useful too.
+- **Study plan and method changes:** the instructor or a designated method mentor
+  records approval. Partner agreement alone does not approve the final evidence plan.
+- **Final handoff:** another pair or an instructor checks the analysis/source trail.
+- **PR merge:** an eligible GitHub reviewer approves according to [access rules](access-management.md).
+  Peer feedback and study-plan approval do not automatically grant merge permissions.
+- **Grades:** the instructor assesses evidence privately using announced policy.
 
-## Same assignment, separate attempts
+## Milestones, review, and closing
 
-Example only; any number of students may participate within the agreed scope.
-These are examples, not actual assignments:
+Each Individual task uses the milestone for its next agreed output. A semester-long
+Pair case uses M5 and keeps its M2–M5 checklist in the body; do not create five
+separate pair issues. Cohort collectors use their relevant milestone. Milestones
+organize work, not new assignments.
 
-```text
-[Group] #1 — Reproduce and critique the scripted starter
-  ├─ [Individual] Student A — My starter reproduction and critique
-  │    owner: A; evidence: A's commands, output/error, and critique
-  ├─ [Individual] Student B — My starter reproduction and critique
-  │    owner: B; evidence: B's commands, output/error, and critique
-  ├─ [Individual] Student C — My starter reproduction and critique
-  │    owner: C; evidence: C's commands, output/error, and critique
-  └─ ... one task per participating student
-```
+A reviewer checks a student's evidence separately from the pair's overall progress.
+The pair may proceed after its own plan/validation review without waiting for the
+cohort's [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3)/#7 to close. A maintainer closes collection goals only after every required
+participant/pair is covered or an explicit scope adjustment is recorded.
 
-Students may run the same configuration or study the same paper. They submit
-their own attempt and explanation, and each task is reviewed separately. Agreement
-between results is fine; a different answer or unique topic is not required. Mark
-these tasks **Independent attempt** and link any sources or assistance used. Do not
-close another student's planned attempt as a duplicate merely because its topic matches.
+Use one short weekly update in each active task: evidence, next step, blocker. Keep
+completed links visible. No duplicate portfolio, public gradebook, or weekly report.
+When a partner or dependency blocks progress, preserve the existing work and agree
+an alternative scope with the instructor. Late joiners get agreed targets.
 
-The starter attempt is for every student. Other repeated work needs an agreed purpose,
-such as an independent reproduction, comparison, or learning task; confirm it with
-the maintainer before spending effort. Repeating a task does not earn automatic credit.
+## Transition from the previous plan
 
-## Working together on one output
-
-For a shared code change, dataset, analysis, or report, each student has their own
-Individual task describing their part. Mark it **Contribution to shared work** and
-link the other students' tasks. For example, under #7 one student owns case/label
-construction and another owns runner implementation and tests.
-
-Joint work can produce one shared artifact or PR. Each task identifies what its owner
-actually contributed and links the common evidence. Credit each person’s actual part;
-do not describe joint work as multiple independent attempts. Incidental help or a review
-comment can be credited directly without creating another task. Use one task per
-meaningful work package, not per commit, comment, or small edit.
-
-## Student steps
-
-1. Open the relevant **Group goal** and propose your specific deliverable in a comment.
-2. Use **New issue → Individual task**. Title it `[Individual] YOUR-USERNAME — outcome`.
-   Include the parent goal, your username, work mode, deliverable, done criteria,
-   target/check-in, and proposed reviewer. A maintainer confirms scope and assignment.
-3. Post your task link in a comment on the Group goal; a maintainer adds it to the
-   **Individual tasks** section. An ordinary link is sufficient; native sub-issues
-   are optional. The maintainer sets the
-   milestone/workstream label; conditional work such as #4 remains deferred until selected.
-4. Post your short weekly evidence/next-step/blocker update in **your task**. The
-   coordinator summarizes group dependencies using links; no duplicate update is needed.
-5. Link your PR or other evidence and request review. Use `Closes #YOUR_TASK_NUMBER`
-   only when it finishes your task, and `Relates to #GROUP_NUMBER` for the Group goal
-   (replace the placeholders with actual numbers). A joint PR may close multiple
-   Individual tasks only when each one's criteria are independently checked.
-6. Keep attribution and evidence in the task; link collaborators and relevant reviews.
-   Reuse those links in your individual report at the report checkpoints. No separate
-   contribution log is required. Keep scores and private feedback in the course channel.
-
-**Onboarding follows the same rule:** open an Individual task under #5, then link
-your roster-entry PR with `Closes #YOUR_TASK_NUMBER` and `Relates to #5`. Choose
-Independent attempt, M1, and Documentation / onboarding; state “Onboarding” as the
-component. Done means your roster-entry PR is reviewed and merged. No personal profile file or research
-result is required for this task. If your introduction PR already exists or is
-merged, link it as evidence; do not submit it again. For the starter reproduction,
-use a separate Individual task under #1. If you already posted your starter
-evidence in #1, link that comment from your task instead of copying or rerunning it.
-Report setup trouble in #1 or your task without waiting for assignment.
-The starter is already an agreed assignment; you can run it while the maintainer
-sets GitHub fields. Scope confirmation for new work should not delay setup help.
-
-## Closing and credit
-
-The coordinator keeps required task links current. Before closing a Group goal,
-the maintainer checks its agreed participant coverage and shared output; open required
-tasks stay visible or are explicitly re-scoped with a reason. Optional tasks do not
-hold the goal open. Late joiners receive an agreed task/target without reopening every
-earlier goal. Preserve each student's evidence when ownership or scope changes.
-
-Assignment or closure alone does not establish contribution quality or a grade.
-Multiple students can each receive credit for their own sound work under one Group goal;
-credit is not a pool divided among its contributors. The [tentative grading
-scheme](grading-proposal.md) defines the four individual-work stages and assessment
-criteria; include the agreed stage in your task objective. Grades remain private. See [contribution records](contributors/README.md)
-and the [student guide](student-start.md) for attribution and the semester roadmap.
+Existing student [#28](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/28), [#30](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/30), and PR [#29](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/29) remain valid. Do not rewrite student-authored
+records or require resubmission. Existing research tasks can be re-parented by agreement,
+with a note and original evidence retained. Previous cohort goals become coordination
+and output collections; [#4](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/4) stays optional. No pair membership or completed result is
+inferred from an old assignment. Confirm partners in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before creating a Pair case.

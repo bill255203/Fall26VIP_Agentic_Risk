@@ -15,17 +15,18 @@ as required; keep marks and private feedback out of the public repository.
 
 - Author / GitHub username:
 - Individual report task (parent Group goal #23):
+- Pair case issue / partner:
 - Reporting period:
 - Key Individual task / PR links:
 
 ### My responsibilities
 
 What work did you agree to own? Link your own Individual tasks and their parent
-Group goals. State whether each was an independent attempt or a contribution to
+Pair case or cohort goals. State whether each was an independent attempt or a contribution to
 shared work. Identify the agreed deliverable for each contribution stage:
 **Foundation, Question, Execution, and Synthesis**. Link the relevant tasks and
 their evidence; explain any agreed change of scope or unfinished work.
-These stages map to the proposed individual-work 10 + 10 + 20 + 10 points; do not
+These stages map to the proposed individual-work 10 + 10 + 25 + 10 points; do not
 publish scores or claim credit simply because an issue was assigned or closed.
 
 ### My work and decisions
@@ -36,17 +37,17 @@ parts. Describe material tool assistance and what you checked yourself. Explain
 how you know the result is sound, or what remains unresolved. Each deliverable
 belongs to one stage; distinguish separate outputs when one issue spans stages.
 
-### Contribution to the shared study
+### Contribution to the pair case and cohort
 
 How did your work change the question, method, implementation, interpretation,
-report, or handoff? Link where the cohort used it. A well-supported rejection or
+report, or handoff? Link where your pair or the cohort used it. A well-supported rejection or
 an informative unsuccessful attempt can be a useful outcome; explain why.
 
 ### Review and collaboration
 
 Link specific reviews, feedback you acted on, or coordination that helped others
-complete work. Identify your preparation/presentation role in the research-question
-and final group presentations, with links to your contribution. State your role without grading teammates or claiming their work.
+complete work. Identify your preparation/presentation role in the midterm case/question
+and final pair presentations, with links to your contribution. State your role without grading teammates or claiming their work.
 
 ### Limits, learning, and handoff
 

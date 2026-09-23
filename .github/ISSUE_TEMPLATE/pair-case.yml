@@ -1,0 +1,54 @@
+name: Pair case
+description: Register one pair's business case and keep its semester outputs together
+title: "[Pair] CASE-SLUG — business workflow and risk question"
+labels: [pair-case, research]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Create one case issue after agreeing partners with the instructor; link it in #3. Each student then opens their own Individual tasks under this case. Use the [case guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/studies/README.md). No platform or paid access is assumed.
+  - type: input
+    id: partners
+    attributes:
+      label: Partners and reviewer
+      description: Name both GitHub usernames and the study-plan reviewer (instructor/designated method mentor), or awaiting assignment.
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Short case outline
+      description: Half a page is enough initially. Link your case document when available; do not duplicate a maintained plan here.
+      value: |
+        - Business workflow and source:
+        - One risk question / possible improvement:
+        - Relevant prior work:
+        - Evidence and comparison:
+        - Feasibility, help needed, and next individual roles:
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Individual tasks and roles
+      description: Link each student's own tasks as agreed. Keep completed and open links; a shared artifact must say who did what.
+  - type: textarea
+    id: checkpoints
+    attributes:
+      label: Semester checklist
+      description: Working targets; actual presentation slots and grading need instructor confirmation. Use M5 for this semester-long issue.
+      value: |
+        - [ ] M2 Oct 9 — short outline, partners, reviewer and feasible scope agreed
+        - [ ] M3 Oct 16 — midterm slides/feedback linked (#21); plan revision and validation reviewed (#7)
+        - [ ] Before final evidence — evaluation data/rules fixed; resources confirmed; development evidence separated
+        - [ ] M4 Oct 30 — first checked analysis, failures and limitations linked (#8)
+        - [ ] Nov 6 — pair report draft and both individual report drafts linked
+        - [ ] M5 Nov 20 — reviewed report/evidence and peer handoff check linked (#9)
+        - [ ] M5 Nov 20 — final presentation and feedback linked (#22)
+        - [ ] M5 Nov 20 — each student's individual report task linked (#23)
+        - [ ] Both partners' contributions reviewed; report index updated; remaining work recorded
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Plan review, evidence, and amendments
+      description: Link instructor/designated method mentor approval and plan revision before final evidence; label exploratory results and record changes. Do not infer approval from a date.

@@ -1,12 +1,12 @@
 name: Group goal (maintainer)
-description: Coordinate a shared assignment or cohort outcome with linked Individual tasks
+description: Coordinate shared support or collect pair/student outputs without duplicate tasks
 title: "[Group] Outcome"
 labels: [group-goal]
 body:
   - type: markdown
     attributes:
       value: |
-        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Students use the Individual task form under an existing goal. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
   - type: textarea
     id: objective
     attributes:
@@ -30,11 +30,11 @@ body:
     id: acceptance
     attributes:
       label: Group acceptance criteria
-      description: Define combined evidence and required student-task coverage. One student's completion does not close this goal.
+      description: Define required pair/participant coverage and evidence. One contribution does not close a cohort collection.
     validations:
       required: true
   - type: textarea
     id: tasks
     attributes:
-      label: Individual tasks
-      description: Link each student's task and name its owner. Keep completed and open required tasks visible. Do not invent assignments before students claim work.
+      label: Pair cases, output links, or Individual tasks
+      description: For a collection, link Pair cases and their outputs. For a shared assignment, link personal tasks and owners. Reuse existing tasks; do not invent assignments.

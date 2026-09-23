@@ -1,19 +1,26 @@
 name: Individual task
-description: One student's own attempt or contribution under a Group goal
+description: One student's contribution under a Pair case or shared cohort goal
 title: "[Individual] YOUR-USERNAME — outcome"
 labels: [individual-task]
 body:
   - type: markdown
     attributes:
       value: |
-        Multiple students doing the same assignment independently each open their own Individual task under the same Group goal. One task has one student owner. Read the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
-        Onboarding also uses an Individual task under #5. Link your introduction PR; no research result is required. Find the parent for every deliverable in the [task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map).
+        One task has one student owner. Multiple students may independently attempt the same agreed assignment with separate evidence; joint work states each person's part. Use your Pair case as parent for research; onboarding uses #5, starter #1, individual report #23. See the [task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map). No issue-count quota or duplicate portfolio.
   - type: input
     id: parent
     attributes:
-      label: Parent Group goal
-      description: Link the existing goal. A maintainer links your task from its Individual tasks section.
-      placeholder: "#1"
+      label: Primary parent issue
+      description: Link your Pair case or the relevant shared goal. Related goals can link this task without a duplicate.
+      placeholder: "#YOUR-PAIR-CASE (or #5, #1, #23 for common assignments)"
+    validations:
+      required: true
+  - type: input
+    id: people
+    attributes:
+      label: Student owner
+      description: One GitHub username. Name collaborators below; a maintainer can set the assignee field.
+      placeholder: "@YOUR-USERNAME"
     validations:
       required: true
   - type: dropdown
@@ -21,87 +28,50 @@ body:
     attributes:
       label: Work mode
       options:
-        - Independent attempt at a shared assignment
         - Contribution to shared work
+        - Independent attempt at a shared assignment
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: My deliverable and stage
+      description: State your own output and why it helps. Name Foundation, Question, Execution, Synthesis, or onboarding/report/collaboration. For joint work, distinguish your part and link your partner's task. If spanning stages, identify distinct outputs.
     validations:
       required: true
   - type: dropdown
     id: milestone
     attributes:
       label: Milestone or backlog status
-      description: A maintainer also sets the GitHub milestone field. Changes to scope need a plan update.
+      description: Choose the next output checkpoint; a maintainer sets the actual field. Reuse tasks across weeks.
       options:
-        - M1 — Onboard and reproduce
-        - M2 — Select a question and freeze protocol
-        - M3 — Implement and validate
-        - M4 — Run and analyze
+        - M1 — Onboard and understand
+        - M2 — Propose pair cases
+        - M3 — Present cases and validate plans
+        - M4 — Analyze first evidence
         - M5 — Report and hand off
-        - Candidate — pending study selection, no delivery milestone yet
-        - Stretch backlog — no delivery milestone yet
-    validations:
-      required: true
-  - type: dropdown
-    id: workstream
-    attributes:
-      label: Workstream
-      options:
-        - Research
-        - Engineering
-        - Experiment
-        - Bug
-        - Documentation / onboarding
-    validations:
-      required: true
-  - type: textarea
-    id: objective
-    attributes:
-      label: Objective
-      description: State what you personally will produce or investigate and its agreed stage (Foundation, Question, Execution, or Synthesis). For onboarding, a contribution report, or a collaboration-only task, name that component instead. If work spans stages, identify distinct outputs. For joint work, name your part and link collaborators' tasks.
-    validations:
-      required: true
-  - type: textarea
-    id: rationale
-    attributes:
-      label: Research value
-      description: Explain how this informs question selection or supports the selected study. A sourced critique, reproduction attempt, or rejected proposal can be a useful outcome. For onboarding, state that the task establishes access and visible attribution.
-    validations:
-      required: true
-  - type: input
-    id: people
-    attributes:
-      label: Student owner
-      description: One GitHub username. A maintainer confirms scope and sets this person as the sole assignee before work begins.
-      placeholder: "@YOUR-USERNAME"
+        - Candidate / stretch — not adopted, no delivery milestone
     validations:
       required: true
   - type: input
     id: target
     attributes:
-      label: Target or check-in
-      description: Propose a date or checkpoint for confirmation with the maintainer.
+      label: Target and reviewer
+      description: Agreed date or next check-in; reviewer other than yourself, or awaiting assignment. Raise setup blockers immediately.
     validations:
       required: true
-  - type: input
-    id: reviewer
-    attributes:
-      label: Proposed reviewer
-      description: Name someone other than yourself, or write awaiting assignment. A maintainer confirms the reviewer.
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Collaborators, dependencies, and scope
-      description: Name helpers and their actual roles; link related tasks and prerequisites. State whether work is required, conditional, or optional. Disclose shared work rather than calling it independent.
   - type: textarea
     id: acceptance
     attributes:
-      label: Acceptance criteria
-      description: List observable conditions that make your own work complete and reviewable. A recorded blocked attempt may need revised criteria agreed with the maintainer.
+      label: Done when
+      description: Two or three observable checks for your contribution. Scope and support are agreed with the reviewer.
       placeholder: |
-        - [ ] ...
+        - [ ] Artifact/source/analysis linked
+        - [ ] Result or diagnosed limitation explained and checked
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Reproducibility record
-      description: For exploration, link sources, critique, and feasibility evidence. For experiments or data analysis, list the intended data/config, provenance, comparison, measures, and analysis.
+      label: Evidence, collaborators, and help needed
+      description: Link sources, commands/config/data, artifacts/PRs and review as applicable. State collaborators' actual roles and material tool assistance. Weekly updates can be comments with evidence, next step and blocker. No private data or grades.

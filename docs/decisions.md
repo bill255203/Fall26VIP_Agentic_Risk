@@ -5,6 +5,9 @@ interpretation. Routine task progress belongs in issues. Link the issue or PR
 that contains the reasoning and actual review; meeting discussion alone does
 not establish approval.
 
+Current direction: **D017** (pair cases), with **D018** (75/25 grading and coherence fixes). Earlier entries record the historical plan; references
+to one cohort study or D003 pending selection are superseded as specified below.
+
 Use `proposed`, `accepted`, `rejected`, or `superseded`. An accepted decision
 needs the responsible reviewer's recorded agreement. Keep prior entries when
 a decision changes and link the replacement. Dates are the decision dates,
@@ -14,7 +17,7 @@ not a planned completion schedule.
 | --- | --- | --- | --- | --- |
 | D001 | 2026-09-15 | accepted | Use `zhongnz/Fall26VIP_Agentic_Risk` as the canonical Fall 2026 VIP repository, with an explicit plan and visible student contributions. | Repository owner requested this direction in the setup conversation on this date. The [semester plan](semester-plan.md) implements the charter; this row does not assert instructor approval of an experimental protocol. |
 | D002 | 2026-09-15 | superseded | Initial working checkpoints extended core work to the end of term. Retain the NYU Tandon calendar and self-enrollment approach; replace the checkpoint schedule with D005. | [Original schedule](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/658b8e4390198975217dad3d2aaab4ee44ea7ad6/docs/semester-plan.md#calendar-and-working-targets). The owner subsequently requested front-loaded work and milestones; see D004 and [scope issue #11](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/11). |
-| D003 | — | proposed | Select one empirical question and freeze its protocol and permitted claim before confirmatory runs or analysis. | Resolve through [selection and protocol issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); link the selected question, reviewed protocol revision, and reviewer agreement. No study is selected yet. |
+| D003 | — | superseded | Select one empirical question and freeze its protocol and permitted claim before confirmatory runs or analysis. | Resolve through [selection and protocol issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); link the selected question, reviewed protocol revision, and reviewer agreement. Replaced by pair-specific plan reviews in D017; this cohort selection was never completed. |
 | D004 | 2026-09-15 | accepted | Draw selectively from Agent Assurance as a source of testable assumptions alongside independent literature, and front-load the semester's core work. Preserve student critique, null/adverse findings, and visible contribution evidence. | Repository owner explicitly requested this direction in the setup conversation on this date; [scope issue #11](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/11) records the implementation. The [source map](agent-assurance-bridge.md) pins and limits the borrowed concepts. This accepts the direction, not a frozen experimental protocol or model budget. |
 | D005 | 2026-09-15 | superseded | Front-loaded targets included a required empirical backend and practical gate by October 2. D007 retains the dates while making the selected study determine the implementation. | [Previous plan](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/c440afea7943d88480cbaddc49e0d2558f4c4a32/docs/semester-plan.md#calendar-and-working-targets). D006 removes the implicit commitment to the containment proposal. |
 | D006 | 2026-09-16 | accepted | Give students a bounded period to help choose the research question. Treat runtime containment as unselected Candidate A; compare at most two developed cohort proposals using literature, reproduction, and feasibility evidence. Preserve research standards, early evidence, and credit for exploration and reasoned rejections. | The owner agreed with the review and requested a consistent repository update; [scope issue #13](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/13) records this work. The [selection guide](studies/README.md#selection-and-protocol) implements the process. This accepts the process, not a candidate, protocol, or budget; D003 remains pending. |
@@ -27,6 +30,49 @@ not a planned completion schedule.
 | D013 | 2026-09-18 | accepted | Apply one Individual-task rule to onboarding and research work. Give the two presentations and individual report collection dedicated Group goals; publish a complete task/assessment map and an instructor checkpoint tracker. | The owner questioned the #5 exception and missing visible assessment issues. This removes D011's introduction-only shortcut while preserving its separate ownership/evidence rule. New goals [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21), [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22), [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) and instructor tracker [#24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24) make existing deliverables visible; grading weights, dates, and pending study selection are unchanged. Existing evidence is linked rather than resubmitted. |
 | D014 | 2026-09-18 | accepted | Use Individual tasks and linked PRs as the ongoing contribution record. Keep a simple roster, the individual contribution report, and the final group credit summary; remove routine portfolio tables and mandatory CRediT labeling. | The owner approved simplifying duplicate contribution records. Onboarding now requires a roster-entry PR, not a personal profile file. Students create individual reports at the draft checkpoint using existing task/PR evidence; preserve any earlier records. The tentative 70/30 scheme, report’s 10%, issue ownership, and project dates stay unchanged. |
 | D015 | 2026-09-18 | accepted | Describe multiple students independently completing the same agreed assignment, with one task per student and no two-student limit. Document actual access/main protection, the fork-first student workflow, trusted reviewer onboarding, and the owner bootstrap exception. | The owner requested access-management guidance and corrected the participant wording. The [access guide](access-management.md) records the September 18 API audit; this update grants no new access and does not change protection settings. Enable administrator enforcement after an eligible independent reviewer and appropriate code-owner coverage are in place. |
+| D016 | 2026-09-21 | accepted | Add nine weekly student goals from kickoff through M5, with individual evidence, shared outcomes, and existing parent issues. Use intermediate weeks for exploration, early evidence checks, and review; reuse ongoing tasks and keep the existing milestone dates and grading scheme. | The owner requested weekly goals for the student guide and roadmap. The [weekly goals](student-start.md#weekly-goals) elaborate the canonical semester plan without adding weekly graded submissions, new tracking issues, assumed meeting times, or claims of completed student work. Prerequisite gates and instructor-agreed scope adjustments still apply. |
+
+## D017 — Pair case studies with guided empirical work
+
+- Date: 2026-09-23
+- Status: accepted (repository working direction; grading remains tentative)
+- Basis: the owner requested that the repository reflect the discussed pair-based,
+  beginner-supported approach following Prof. Aboussalah's proposal.
+- Decision: one bounded business case per pair; shared teaching resources and
+  cross-pair review; one Pair case issue plus one-owner Individual tasks. Preserve
+  existing student work. Instructor prepares/tests the external platform example;
+  none is adopted or funded by this update.
+- Schedule: retain Sep 25, Oct 9, Oct 16, Oct 30, Nov 6 and Nov 20 targets. M2 is
+  the case outline; M3 includes the midterm presentation and reviewed evidence plan.
+- Historical tentative assessment (replaced by D018): retain individual 50/10/10; propose pair midterm 10 and
+  report/evidence 20. Final presentation remains required with feedback, no separate
+  weight. Formal instructor confirmation and presentation slots remain pending.
+- Supersedes: D003's pending cohort selection; the single-study/two-subteam aspects
+  of D006/D009; the cohort-wide shared grading split of D012; and D016's old weekly
+  outputs. Retains D010 dates, individual attribution and no-duplicate-log principles.
+- Implementation/review record: [PR #32](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/32) records validation and the documented owner bootstrap merge exception.
+  Pair-specific plan approvals are recorded separately, not inferred from this decision.
+
+## D018 — Increase individual grading to 75% and align the working guides
+
+- Date: 2026-09-23
+- Status: accepted for the repository proposal; formal course confirmation remains pending
+- Basis: the owner explicitly requested 75% individual / 25% pair and a thorough
+  review of coherence, correctness and structure.
+- Decision: individual work 55 (Foundation 10, Question 10, Execution 25, Synthesis 10),
+  collaboration 10, individual report 10; pair midterm 10 and final report/evidence 15.
+  Move five points from the integrated pair report to individual execution evidence.
+  Final presentation stays required with feedback and no separate grade weight.
+- Preserve: D017 pair-case approach, dates, credit for existing work, and one evidence
+  record per task. Do not apply new grading retrospectively without announced policy.
+- Coherence fixes: clarify study-plan/task/merge review responsibilities, collection
+  issue links, prior-inspected evidence, platform support status and beginner setup.
+  Keep the grading proposal and semester plan authoritative for weights and dates.
+- Implementation/review record: [PR #33](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/33) records the audit, validation and owner bootstrap merge exception.
+  Checked documents, live issue/milestone descriptions, source references, protection
+  settings and the scripted starter. External-platform preparation remains pending.
+- Supersedes: the weight/rubric portions of D012 and D017 only; retain those entries
+  as historical records, not current student instructions.
 
 ## New entry template
 

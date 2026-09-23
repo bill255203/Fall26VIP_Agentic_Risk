@@ -1,119 +1,105 @@
 # Agentic AI for Risk Management
 
-## Risk Propagation and Assurance in Multi-Agent Systems
+This is the **canonical Fall 2026 VIP repository**. Students work in pairs to
+investigate a real business use case for an agentic workflow, identify one important
+risk, and use evidence to assess one possible improvement.
 
-This is the **canonical repository for the Fall 2026 VIP: Agentic AI for Risk Management**. The cohort will identify and investigate one bounded question about risk in agentic systems, producing reusable evidence and a technical report. The plan, work queue, decisions, code, and student contribution records live here.
+**One pair → one business workflow → one risk question → one bounded case study.**
+The cohort shares teaching resources, research standards, reusable tools, and peer
+review. Each pair produces its own report; each student owns visible individual work.
 
 ## Start here
 
-**First meeting: Friday, September 18, 2026. First student checkpoint: September 25.**
-Kickoff covers the project, a starter demonstration, and setup help. No repository
-submission is due at kickoff.
+Read the [student guide](docs/student-start.md) first. It explains this week's work,
+setup, resources, and submissions. Kickoff was scheduled for **September 18, 2026**;
+the first working checkpoint is **September 25**. Try the starter with help, add your
+roster entry, and bring an observation or question. Existing work counts; no resubmission
+is needed because the plan changed. Pair formation is coordinated by the instructor;
+you can onboard before you have a partner.
 
-Start with the [student guide](docs/student-start.md): it explains **what to do at
-each stage, where to submit work, and how to get help**. By September 25, open an
-introduction PR adding your roster entry, try the starter and record the result or setup error, and bring one
-question and an agreed small next task. No advance username list or invitation is needed.
+## What students will do
 
-Then read the [short proposal outline](docs/studies/README.md#short-proposal-outline)
-and choose an assigned source from the [literature and research resources](docs/literature.md).
-Reading is divided across the cohort; detailed methods and candidate protocols are
-references for your task. Use the [dated semester schedule](docs/semester-plan.md#calendar-and-working-targets)
-and [student roadmap](docs/student-start.md#throughout-the-project) throughout the project.
+1. Learn the basics together through a guided example and focused reading.
+2. In a pair, choose a business workflow and one answerable risk question.
+3. Present the case, question, evidence plan, and initial feasibility around midterm.
+4. Complete a small experiment, replication, or structured analysis of genuine agent traces.
+5. Submit a pair report and evidence; each student submits an individual contribution report.
+
+A simulation must be grounded in documented business needs or policies; it is not
+proof of effectiveness in a real deployment. Positive results, publication, and a
+large software system are not required. The [research standards](docs/research-plan.md)
+explain what makes a small study rigorous.
 
 ## Resources and where work lives
 
-| Need | Authoritative location |
-|---|---|
-| Semester scope, deliverables, and dependencies | [Fall 2026 plan](docs/semester-plan.md) |
-| All student deliverables, assessment components, and parent issues | [Complete task and assessment map](docs/issue-workflow.md#complete-task-and-assessment-map) |
-| Access, reviewers, and main protection | [Access management](docs/access-management.md) |
-| Current work and completion status | [Issues](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues) and [milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) |
-| Multiple students doing the same assignment; ownership and completion | [Group goals and individual tasks](docs/issue-workflow.md): one Group goal, a separate task per student |
-| Tentative grading, individual responsibilities, and presentations | [70% individual / 30% group scheme](docs/grading-proposal.md) and [individual report template](docs/contributors/_individual-report-template.md) |
-| Student roster and individual work | [Contributors](CONTRIBUTORS.md) and [individual report guide](docs/contributors/README.md) |
-| First contribution and review process | [Contributing](CONTRIBUTING.md) |
-| Papers, benchmarks, datasets, and evaluation tools | [Literature and resource guide](docs/literature.md), including propagation, containment, and failure attribution |
-| Research methods and claim limits | [Research plan](docs/research-plan.md) |
-| How students choose the research question | [Study selection guide](docs/studies/README.md) |
-| A worked proposal to critique | [Candidate A: runtime containment](docs/studies/01-runtime-containment.md) |
-| Ideas borrowed from Agent Assurance | [Source-to-experiment map](docs/agent-assurance-bridge.md) |
-| Runnable starter, configuration, and checks | [Run commands](#run-the-pilot), [source code](src/agentic_risk/), [pilot configuration](experiments/pilot.toml), and [tests](tests/) |
-| How to record experiments and store evidence | [Experiment record](docs/experiment-record.md) and [results policy](results/README.md) |
-| Accepted decisions and meeting actions | [Decision log](docs/decisions.md) and [meeting records](docs/meetings/README.md) |
-| Semester outputs and continuity | [Reports and handoff](docs/reports/README.md) |
-
-`main` is the current project record; branches and forks contain work in progress. Students add themselves to the roster, and task ownership is agreed in Issues. Course policies and grades remain with the course's official systems.
-
-Chat, slides, notebooks, and external storage may support the work. Link their durable outputs from a reviewed issue or document here. Resolve changes to scope through a plan pull request and the decision log so there is one current plan.
-
-## What is ready, and what students decide
-
-| Item | Current status |
+| Need | Location |
 | --- | --- |
-| Scripted credit-limit pilot | Runnable now, with tests and traces; no real model calls. |
-| Candidate A: runtime containment | Proposed research design; not selected, frozen, or implemented. |
-| Semester study | Students compare bounded proposals and select one with the method lead at M2, after onboarding and feasibility work. |
-| Empirical results and report | Still to be produced and reviewed; the starter's output is apparatus validation. |
+| What to do now, weekly goals, setup help | [Student guide](docs/student-start.md) |
+| Dates, milestones, instructor support | [Semester plan](docs/semester-plan.md) |
+| Choose and plan a pair case | [Case guide](docs/studies/README.md) and [short template](docs/studies/_case-template.md) |
+| Find registered pairs and cases | [Case registry issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) |
+| Track personal work and shared outcomes | [Issue workflow and task map](docs/issue-workflow.md) |
+| Tentative 75% individual / 25% pair grading | [Grading proposal](docs/grading-proposal.md) |
+| Beginner concepts, reading, and platform candidates | [Resource guide](docs/literature.md) |
+| Agent Assurance as a source of hypotheses | [Source map](docs/agent-assurance-bridge.md) — optional reference |
+| Code and setup | [Run the pilot](#run-the-pilot), [source](src/agentic_risk/), [tests](tests/) |
+| Evidence and reports | [Experiment record](docs/experiment-record.md), [results policy](results/README.md), [pair reports](docs/reports/README.md) |
+| Individual report | [Guide](docs/contributors/README.md) and [template](docs/contributors/_individual-report-template.md) |
+| Roster, contributing, access | [Roster](CONTRIBUTORS.md), [contributing](CONTRIBUTING.md), [access](docs/access-management.md) |
+| Shared working practices and decisions | [Cohort guide](docs/cohort-guide.md), [decision log](docs/decisions.md), [meetings](docs/meetings/README.md) |
 
-After orientation, students share the work of running and criticizing the pilot,
-reading primary research, attempting one bounded reproduction, and proposing a
-feasible question. The
-[selection guide](docs/studies/README.md) explains how this becomes one shared study.
+## What is ready
 
-## Research question
+| Item | Status |
+| --- | --- |
+| Scripted credit-limit starter | Runnable with tests and traces; no model API needed. Teaching apparatus, not empirical agent evidence. |
+| Guided external-platform example and genuine saved traces | Preparation pending; instructor support tracked in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6). No platform adopted or paid access promised. |
+| Pair membership, questions, and study plans | Recorded as agreed in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and each Pair case issue; no assignments or approvals assumed. |
+| Candidate A: runtime containment | Optional advanced example, unselected and unimplemented; not the standard an early student outline must match. |
+| Findings | To be produced and reviewed by each pair. |
 
-The program asks:
-
-> How do risks arise and propagate in agentic systems, when do they become consequential, and how can they be understood or controlled?
-
-The starter uses a synthetic financial-control workflow to make decisions and
-consequences inspectable. Candidate A asks whether an evidence-checking gate reduces
-incorrect actions while preserving correct task completion. The cohort may select
-that study or one better-supported feasible alternative, including a controlled
-replication or analysis of existing agent traces. The credit setting, gate, and
-particular frameworks are choices to justify during selection.
-
-## Research structure
-
-```text
-Explore and reproduce → select one question → freeze a protocol
-                    → validate → collect/analyze evidence → report and hand off
-```
-
-[Agent Assurance](docs/agent-assurance-bridge.md) is one source of hypotheses and evidence practices. Students may support, qualify, or challenge its assumptions. The VIP's success is a defensible result and reproducible evidence, including a negative result.
-
-The **currently runnable scripted pilot** varies three factors:
-
-| Factor | Conditions |
-|---|---|
-| Input | clean, flipped signal |
-| Authority cap | recommend, approve, execute |
-| Verification | off, on |
-
-The deterministic backend validates the experiment machinery and trace format.
-Because lower authority caps cannot execute by construction, their execution rates
-cannot establish a causal effect of authority on agent behavior. Its verifier reads
-the expected answer, so it checks the control pathway rather than demonstrating
-practical detection. These limitations are useful starting points for student critique.
-See the [research plan](docs/research-plan.md) for methods and outcome definitions.
+The starter is deterministic. Lower authority caps cannot execute by construction,
+and its verifier reads the expected answer. These are useful limitations to critique;
+the output does not demonstrate real-model behavior or a practical defense.
+See [pilot definitions](docs/research-plan.md#current-scripted-pilot).
 
 ## Run the pilot
 
-Python 3.11 or later is required. The initial harness has no runtime dependencies.
+Python 3.11 or later and Git are required. The starter has no runtime dependencies;
+installation may download Python build tools. No model account or API key is needed.
+
+Clone once (macOS/Linux terminal or Windows PowerShell):
 
 ```bash
 git clone https://github.com/zhongnz/Fall26VIP_Agentic_Risk.git
 cd Fall26VIP_Agentic_Risk
+```
+
+If already cloned, open a terminal in that folder. Then choose your operating system.
+
+**macOS / Linux**
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
-python -m agentic_risk \
-  --config experiments/pilot.toml \
-  --output results/local/pilot
+python -m agentic_risk --config experiments/pilot.toml --output results/local/pilot
+python -m unittest discover -s tests -v
 ```
 
-If you already cloned the repository, start with the virtual-environment command. On Windows, use `py -3 -m venv .venv` and activate with `.venv\Scripts\Activate.ps1` in PowerShell. To run directly from a checkout without installation on macOS/Linux, prefix the run and test commands with `PYTHONPATH=src`.
+**Windows PowerShell** — these commands use the virtual environment directly,
+so activation is not required:
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -e .
+.\.venv\Scripts\python.exe -m agentic_risk --config experiments/pilot.toml --output results/local/pilot
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+```
+
+For a macOS/Linux checkout without installation, prefix the run and test commands
+with `PYTHONPATH=src` and use `python3`. If blocked, post the exact command and error
+in your starter task without credentials or private paths; setup help is part of onboarding.
 
 The output directory must be new. Each run creates:
 
@@ -124,11 +110,10 @@ The output directory must be new. Each run creates:
 
 Local artifacts are ignored by Git. Promote only reviewed, documented result snapshots into version control.
 
-Run the checks with:
-
-```bash
-python -m unittest discover -s tests -v
-```
+The checks should report 10 passing tests. The default run writes 480 scripted
+trials and 12 summary rows. Open `summary.csv`, then inspect a trial in `trials.jsonl`.
+For another run, choose a new output path such as `results/local/pilot-02`; existing
+runs are deliberately not overwritten.
 
 ## Repository map
 
@@ -141,33 +126,19 @@ docs/                 research plan, cohort guide, records, and literature
 .github/               issue, pull-request, and CI workflow templates
 ```
 
-## Working as one cohort
+## Working together
 
-The Research and Data Science / Engineering subteams work on the same selected
-study. Research owns questions, design, analysis, interpretation, and writing.
-Engineering owns the data/trace pipeline, tooling, and reproducibility, plus agents
-and controls where needed. Each issue should leave reusable evidence, code, data,
-literature synthesis, or a documented research decision.
+Each pair has one **Pair case** issue. Each student opens **Individual tasks** for
+meaningful contributions under that case. Cohort onboarding and individual reports
+use their existing shared collection goals. Multiple students may attempt the same
+agreed assignment independently, with separate evidence and review. Shared artifacts
+state who did what. See the [issue guide](docs/issue-workflow.md).
 
-Start with the [cohort guide](docs/cohort-guide.md), record experiments using [the experiment record](docs/experiment-record.md), and review the current [literature map](docs/literature.md). Contributions follow [CONTRIBUTING.md](CONTRIBUTING.md).
+Keep the software scope small. Code, scenario design, label checking, trace analysis,
+literature synthesis, and reproducibility work can all be substantive contributions.
+Both partners should understand the method and findings. Reuse teaching resources
+and review another pair's work without creating an additional cohort-wide report.
 
-The [semester task queue](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues)
-starts from **September 18**, with a full week for onboarding.
-The [semester plan](docs/semester-plan.md#calendar-and-working-targets) is the single
-schedule for selection, validation, evidence, draft, and handoff. Its dates are
-working project targets; course policies and any formal submission times come from the instructor.
-
-## Current scope
-
-Keep one question, a meaningful comparison, measurable outcomes, and a feasible
-evidence plan. Choose tools after choosing the question. Agent Assurance and the
-external work in the literature guide supply ideas and reusable assets; they do
-not prescribe the study. More models, controls, or frameworks require a clear
-scientific purpose and an agreed scope change after selection.
-
-Literature synthesis, pilot criticism, reproduction attempts, and well-supported
-rejected proposals are visible contributions alongside code and results. Link them
-from each student's [Individual tasks](docs/issue-workflow.md), with their role
-and linked evidence. Summarize decisions and learning in the individual report.
-
-The repository contains no production financial integration and should not contain personal, confidential, regulated, or proprietary data.
+`main` is the current project record. Dates and grading are working proposals;
+formal course policy, grades, and private feedback remain in official course channels.
+The repository contains no production integration. Use synthetic or approved public data.

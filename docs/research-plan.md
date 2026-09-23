@@ -12,23 +12,34 @@ A useful conceptual chain is:
 
 > Failure → Propagation → Authority boundary → Consequence → Control
 
-The first cohort's contribution is one bounded, reproducible study with clear methods, data, conclusions, and limitations. The cohort helps select that study through a short, evidence-producing discovery period rather than receiving a predetermined paper question.
+Each pair produces one bounded, reproducible case study with clear methods,
+evidence, conclusions, and limitations. The common question is how risk assessment
+and controls can improve business workflows involving agents. A single-agent
+workflow can qualify; multiple agents are not a complexity requirement.
 
-## Selecting the first empirical study
+## Developing a pair case
 
-The cohort will select one study at **M2** using the [study-selection and protocol process](studies/README.md#selection-and-protocol) and the [schedule measured from kickoff](semester-plan.md#calendar-and-working-targets). Consider no more than two serious cohort candidate proposals. Each candidate must identify a testable question or deliberate replication purpose, relevant primary literature, a feasible empirical design, needed access and resources, measurable outcomes, and a credible path to M3 validation. A bounded replication, a controlled experiment, an analysis of existing genuine traces, or an attribution study can qualify when its question and evidence fit the program.
+Use the [case guide](studies/README.md) and [schedule](semester-plan.md). Begin with
+a short sourced outline, test feasibility, then review the plan before final evidence
+collection or analysis. Each pair chooses its question; no cohort-wide winner or
+maximum of two cohort proposals applies. Keep only one active bounded question per pair.
 
-[Candidate A: runtime containment](studies/01-runtime-containment.md) is a worked starting proposal, not the selected semester study. It asks whether independent-evidence gating reduces incorrect actions under corrupted input without unacceptable loss of clean task completion. Its detail makes it useful for critique and feasibility testing; it receives the same review of novelty or replication value, evidence, access, and schedule as any other candidate.
+A small experiment, deliberate replication, or structured analysis of genuine traces
+can qualify. Document actual business motivation, while keeping simulation findings
+separate from claims about real deployments. Trace analysis requires a sampling rule,
+consistent labels, a meaningful comparison, and a reviewer agreement check; it cannot
+show an untested intervention's causal effectiveness.
 
-The scripted pilot remains common setup evidence. It gives every candidate a concrete apparatus to reproduce and criticize, but the selected study may adapt it, replace parts of it, reuse an established research asset, or analyze a suitable genuine trace set. If no candidate is viable at M2, the method lead records a narrower scope decision; no candidate becomes selected merely because it is already documented.
+The scripted starter teaches tracing and critique. [Candidate A](studies/01-runtime-containment.md)
+is an optional advanced example; its live backend, practical gate and four conditions
+apply only if a pair explicitly adopts that design with a reviewer. There is no
+requirement to build it or implement an assurance framework.
 
-1. **Explore and critique.** Read primary literature, inspect relevant datasets or systems, and question the scripted pilot's assumptions.
-2. **Reproduce or probe feasibility.** Reproduce the starter and one bounded external result or component, or run another small feasibility check that directly informs a candidate.
-3. **Select and freeze one study.** Record the question, hypotheses or estimands, evidence source, units, comparisons, outcomes, resources, exclusions, failure handling, and analysis before confirmatory work.
-4. **Produce and inspect evidence.** Preserve the observable inputs, outputs, decisions, failures, labels, and provenance needed for the selected claim. Analyze adverse outcomes beside usefulness or other relevant costs.
-5. **Report the finding and its limits.** Explain whether the evidence supports, qualifies, or challenges the tested claim. Keep method critique, negative results, and next questions visible.
-
-If Candidate A is selected, its first empirical effect is the effect of the **configured control package**, with authority held constant. Its practical gate, live backend, and fixed four-cell comparison are Candidate A requirements, not program-wide requirements. A different selected study must provide equally explicit claim boundaries and a design appropriate to its question.
+1. Understand a workflow and ground the risk in literature/business sources.
+2. Form one question and inspect accessible evidence or a small development probe.
+3. Record a reviewed plan, including measures, labels, comparisons and claim limits.
+4. Produce/check evidence, preserving failures and relevant usefulness/cost tradeoffs.
+5. Report the result and limitations; let another pair check the analysis or handoff.
 
 ## Common research cycle
 
@@ -101,7 +112,7 @@ A candidate that tests authority causally must treat it as a separate experiment
 6. analyze paired or blocked comparisons by scenario and report uncertainty;
 7. distinguish behavioral effects from the mechanical protection supplied by enforcement.
 
-Those requirements are necessary before making a causal authority claim. The current scripted pilot is apparatus and enforcement validation. Candidate A would estimate a containment-control effect under fixed authority if the cohort selects and freezes it.
+Those requirements are necessary before making a causal authority claim. The current scripted pilot is apparatus and enforcement validation. Candidate A would estimate a containment-control effect under fixed authority if a pair adopts it in a reviewed plan.
 
 ## Semester delivery
 

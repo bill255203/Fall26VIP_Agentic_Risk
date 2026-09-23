@@ -1,12 +1,17 @@
 # Candidate A: runtime containment
 
+> **Optional advanced example (September 23 update).** A pair may adapt this design
+> with reviewer agreement. It is not the cohort assignment, a selected study, or the
+> expected detail of a beginner outline. Use the [pair case guide](README.md) and
+> current schedule; no platform or backend is implemented by this document.
+
 **Status: unselected and unimplemented candidate protocol.** This maintainer-authored
 proposal is a starting point for student critique under the [selection process](README.md#selection-and-protocol).
 The executable code implements only the scripted pilot in `experiments/pilot.toml`.
 
-If Candidate A is selected at M2, its model/backend choice, resource limits, scenario
+If a pair adopts Candidate A, its model/backend choice, resource limits, scenario
 set, repetitions, and analysis thresholds must be reviewed and frozen in
-[issue #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) before confirmatory runs.
+its Pair case issue before confirmatory runs (registered through #3).
 Its detail illustrates what a mature protocol can look like. Early student ideas
 need only the [five-part candidate outline](README.md#short-proposal-outline), not a
 protocol of comparable length; selection assesses the question and evidence.
@@ -20,7 +25,7 @@ This would test one runtime containment package. Delegated authority defines whe
 - **H1 — containment:** on faulted inputs, the practical gate reduces erroneous execution per assigned trial relative to no gate.
 - **H2 — utility:** on clean inputs, task-success loss from the gate is no larger than a prespecified tolerance, `delta`. The working proposal is 5 percentage points; the reviewed protocol must justify and freeze the tolerance and the precision needed to assess it.
 
-Define clean loss as `task_success_off - task_success_on`. To support H2, a prespecified one-sided 95% upper confidence bound for that loss must fall below `delta`; otherwise report H2 as unresolved or contradicted as the evidence warrants. Choose a method valid for the paired, clustered design before running, including rare-event and zero-loss cases. A naive bootstrap with no observed losses can produce a misleading zero-width interval. Repeated calls on a few cases cannot substitute for enough distinct cases; assess whether the budget can resolve the proposed tolerance at M2.
+Define clean loss as `task_success_off - task_success_on`. To support H2, a prespecified one-sided 95% upper confidence bound for that loss must fall below `delta`; otherwise report H2 as unresolved or contradicted as the evidence warrants. Choose a method valid for the paired, clustered design before running, including rare-event and zero-loss cases. A naive bootstrap with no observed losses can produce a misleading zero-width interval. Repeated calls on a few cases cannot substitute for enough distinct cases; assess whether the budget can resolve the proposed tolerance during the M3 plan review.
 
 Report effect sizes and uncertainty. A wide interval is inconclusive, not proof of no effect. Useful outcomes include risk reduction with acceptable utility, risk reduction with excessive blocking, no detectable benefit, or worse performance. These findings concern the tested mechanism, scenarios, and model only.
 
@@ -89,7 +94,7 @@ Use the current [outcome definitions](../research-plan.md#outcomes) where applic
 
 Report gate-on minus gate-off paired differences and counts. H1 estimates the gate-package effect under corrupted input; it does not by itself prove that corruption caused each wrong decision. Report the paired clean/fault contrast descriptively unless a separate corruption-effect or interaction hypothesis and appropriate assignment/sampling are preregistered.
 
-Define the inference target at M2. For a fixed hand-authored benchmark, report paired effects on that set and avoid population claims. For inference to a synthetic scenario population, define its construction/sampling distribution, draw distinct cases under that protocol, and account for scenario clustering. If using a paired bootstrap, resample entire base-case clusters containing both inputs, both gate branches, and all replicates; assess small-sample and boundary behavior before relying on it. Freeze case counts, replicates, confidence methods, pairing keys, and stopping rules. Do not count messages as samples or add runs because a desired result has not appeared.
+Define the inference target during the M3 plan review. For a fixed hand-authored benchmark, report paired effects on that set and avoid population claims. For inference to a synthetic scenario population, define its construction/sampling distribution, draw distinct cases under that protocol, and account for scenario clustering. If using a paired bootstrap, resample entire base-case clusters containing both inputs, both gate branches, and all replicates; assess small-sample and boundary behavior before relying on it. Freeze case counts, replicates, confidence methods, pairing keys, and stopping rules. Do not count messages as samples or add runs because a desired result has not appeared.
 
 Retain cases on which the clean baseline fails. Do not filter evaluation cases or tune prompts based on held-out results. Use separate development cases for smoke tests; freeze the evaluation set and its version before confirmatory runs. If the sample cannot resolve the utility tolerance, report the uncertainty rather than declaring H2 passed.
 
@@ -101,8 +106,8 @@ Steps 1–2 inform selection. Steps 3–5 apply only if Candidate A is selected.
 All checkpoints use the [semester schedule measured from kickoff](../semester-plan.md#calendar-and-working-targets):
 
 1. **M1:** try and critique the starter after the first meeting, raise setup/access blockers, and share small reading and feasibility tasks relevant to this proposal.
-2. **M2:** select the semester study. Candidate A needs confirmed backend access and a small genuine-model feasibility smoke to be selected; a recorded access failure is evidence against its feasibility. If selected, freeze a reviewed protocol recording its hypotheses, primary outcomes, utility tolerance, model/settings/resources, scenario plan, failure handling, pairing, and analysis. If neither candidate is viable, the method lead records a narrower scope decision.
-3. **M3:** demonstrate Candidate A's four conditions end to end, including the practical gate, source/answer separation, traces, isolated replay, and an analysis smoke test. Finalize the frozen evaluation set before confirmatory runs.
+2. **M2:** propose the pair case and inspect access/feasibility. Record an access failure as a limitation, not an assumed future solution.
+3. **M3:** present the case and feasibility evidence. If adopted, review and freeze its hypotheses, utility tolerance, model/settings/resources, scenarios, failures, pairing and analysis. Demonstrate all four conditions, the practical gate, source/answer separation and isolated replay; freeze evaluation data before final runs. Narrow scope with the reviewer if infeasible.
 4. **M4:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
 5. **Report draft checkpoint, then M5:** assemble a full draft, reproduce, review, revise, and hand off; reserve the remaining term for presentations and justified repairs.
 
