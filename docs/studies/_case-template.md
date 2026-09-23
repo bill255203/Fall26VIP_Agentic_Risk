@@ -19,10 +19,11 @@ the study. A compact table can record roles, tools, permissions, and information
 
 ## 2. Risk question
 
-Name one failure, its potential consequence, and one answerable question. Explain
-one possible improvement and what evidence could support or challenge it.
-Use the [broad research scope](../research-plan.md#shared-theme). A propagation path
-is useful only when it fits the question; it is not a required case field.
+Name one business risk or agent-related failure, why it matters, and one answerable
+question about the agent's role. Explain one possible improvement and what evidence
+could support or challenge it. Use the [broad research scope](../research-plan.md#shared-theme):
+agents helping manage business risks, or managing risks introduced by agents.
+Choose one question; studying both lenses or a propagation path is not required.
 
 ## 3. Prior work
 
@@ -31,8 +32,9 @@ is this question or replication useful? Disclose an Agent Assurance connection i
 
 ## 4. Evidence and comparison
 
-Describe the baseline/groups, source of traces or tasks, and the failure and useful
-outcomes. Distinguish observations from proposed explanations.
+Describe the baseline/groups, source of traces or tasks, reference labels and the
+decision-quality, failure and useful outcomes relevant to the question. Distinguish
+observations from proposed explanations and recommendations.
 
 ## 5. Feasibility and individual roles
 

@@ -4,20 +4,39 @@
 
 The program asks:
 
-> How can we identify, assess and manage risks in agentic business workflows while preserving their usefulness?
+> How can agentic AI help manage business risks, and how can we understand and manage the risks of using it?
 
-The VIP is an empirical research project on agentic risk and assurance. A simulated financial-control workflow is the starter environment, giving decisions observable consequences. Academic literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply hypotheses and methods. Neither source predetermines the question or findings or requires the cohort to validate an entire framework.
+**Agentic AI for Risk Management** is the program's overarching theme. Pairs pursue
+small evidence-based studies within it. A simulated financial-control workflow is
+the starter environment, giving decisions observable consequences. Academic
+literature and selected [Agent Assurance concepts](agent-assurance-bridge.md) supply
+hypotheses and methods. Neither source predetermines the question or findings or
+requires the cohort to validate an entire framework.
 
 ## Shared theme
 
-**Agentic risk and assurance in business workflows** is the broad research scope.
-Here, assurance means gathering evidence about a workflow's risks and safeguards;
-it does not require implementing the Agent Assurance framework or certifying a system.
+The umbrella has two complementary lenses:
+
+| Lens | What a pair might investigate |
+| --- | --- |
+| **Agents for managing business risk** | Whether an agent helps identify, assess, monitor or respond to a business risk; compare decision quality and useful outcomes against a stated baseline. |
+| **Managing risks introduced by agents** | When an agentic workflow fails or creates harm, and whether oversight, controls or better evidence help. |
+
+Choose **one bounded question under either lens**. A pair need not study both or
+produce two reports. The agent's role and business consequence must be explicit;
+a generic chatbot demonstration or business essay without an agent-related
+evidence question is insufficient.
+
+Agentic risk and assurance is part of this broader scope. Here, assurance means
+gathering evidence about a workflow's risks and safeguards; it does not require
+implementing the Agent Assurance framework or certifying a system.
 
 Possible directions include:
 
 | Direction | Example question to narrow for a case |
 | --- | --- |
+| Risk identification and assessment | Does an agent identify relevant business risks more accurately than a stated baseline, and what does it miss or flag incorrectly? |
+| Risk-informed decision support | Does an agent's proposed response improve decisions under a documented policy, with acceptable errors and review effort? |
 | Reliability and task quality | Under which conditions does the workflow make incorrect decisions or fail to complete useful work? |
 | Permissions and tool use | Do action limits prevent unauthorized operations while preserving legitimate work? |
 | Human oversight | When is review or escalation useful, and what tradeoffs does it create? |
@@ -38,8 +57,8 @@ propagation path or cascade metric. The starter and Candidate A illustrate one
 part of the research space; they do not define which questions students may choose.
 
 Each pair produces one bounded, reproducible case study with clear methods,
-evidence, conclusions, and limitations. The common question is how risk assessment
-and controls can improve business workflows involving agents. A single-agent
+evidence, conclusions, and limitations. The common interest is the usefulness and
+risks of agentic AI in risk management. A single-agent
 workflow can qualify; multiple agents are not a complexity requirement.
 The cohort stays cohesive through shared methods, source notes, reusable tools,
 peer review and evidence standards. Instructor adaptation and existing student
@@ -63,10 +82,10 @@ is an optional advanced example; its live backend, practical gate and four condi
 apply only if a pair explicitly adopts that design with a reviewer. There is no
 requirement to build it or implement an assurance framework.
 
-1. Understand a workflow and ground the risk in literature/business sources.
+1. Understand a workflow, the agent's role, and the risk-management need using literature/business sources.
 2. Form one question and inspect accessible evidence or a small development probe.
 3. Record a dated method, including measures, labels, comparisons and claim limits.
-4. Produce/check evidence, preserving failures and relevant usefulness/cost tradeoffs.
+4. Produce/check evidence, including decision quality, failures and relevant usefulness/cost tradeoffs.
 5. Report the result and limitations; let another pair check the analysis or handoff.
 
 ## Common research cycle

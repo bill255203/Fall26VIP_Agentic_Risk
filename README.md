@@ -1,14 +1,14 @@
 # Agentic AI for Risk Management
 
 This is the **canonical Fall 2026 VIP repository**. Students work in pairs to
-investigate a real business use case for an agentic workflow, identify one important
-risk, and use evidence to assess one possible improvement.
+investigate a real business use case involving agents and use evidence to answer
+one risk-management question.
 
-Our broad theme is **agentic risk and assurance in business workflows**:
-how to identify, assess and manage risks while preserving useful work. Pairs can
-study reliability, permissions and tool use, human oversight, security/privacy,
-observability, or propagation and containment. These are examples, not assigned
-tracks. Risk propagation is an optional direction. See the [research scope](docs/research-plan.md#shared-theme).
+The overarching theme is **Agentic AI for Risk Management**. A pair can study
+**how agents help assess or manage business risks**, or **how to manage risks
+introduced by agents**. Choose one bounded question; studying both is not required.
+Risk assessment, decision support, reliability, oversight and propagation are
+possible directions. See the [research scope](docs/research-plan.md#shared-theme).
 
 **One pair → one business workflow → one risk question → one bounded case study.**
 The cohort shares teaching resources, research standards, reusable tools, and peer

@@ -54,6 +54,11 @@ marks. Neither publication nor a working positive-result intervention is require
 Both students must understand the method/evidence and contribute substantively;
 neither is permanently assigned only coding or only writing.
 
+The same rubric applies to both [research lenses](research-plan.md#shared-theme):
+agents helping manage business risks, or managing risks introduced by agents.
+Assess the quality of the question and evidence. Neither a particular theme nor
+a more complex architecture earns extra credit.
+
 ### One scoring rubric, applied to each stage
 
 | Criterion | Foundation /10 | Question /10 | Execution /25 | Synthesis /10 | Total /55 |

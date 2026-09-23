@@ -5,12 +5,12 @@ case; the cohort shares learning, reusable assets, and research standards.
 
 ## What connects the pairs
 
-- Common theme: [agentic risk and assurance](research-plan.md#shared-theme), examining
-  how evidence-based risk assessment and controls can improve business workflows.
-  Pairs can investigate different risks; propagation is one optional direction.
+- Common theme: [Agentic AI for Risk Management](research-plan.md#shared-theme),
+  including agents helping manage business risks and managing risks introduced by
+  agents. Each pair chooses one small question; propagation is optional.
 - Shared guided introduction: inspect an execution, distinguish a wrong answer from
   a consequential action, and explain a safeguard's usefulness tradeoff.
-- Shared reporting questions: what was the workflow, failure, comparison, evidence,
+- Shared reporting questions: what was the workflow, risk question, comparison, evidence,
   result, and limitation? Metrics may differ when cases require it; do not pool
   incompatible results into a cohort score.
 - Reuse: source notes, task subsets, trace readers, analysis utilities and documented setup.
