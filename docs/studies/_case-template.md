@@ -19,11 +19,12 @@ the study. A compact table can record roles, tools, permissions, and information
 
 ## 2. Risk question
 
-Name one business risk or agent-related failure, why it matters, and one answerable
-question about the agent's role. Explain one possible improvement and what evidence
-could support or challenge it. Use the [broad research scope](../research-plan.md#shared-theme):
-agents helping manage business risks, or managing risks introduced by agents.
-Choose one question; studying both lenses or a propagation path is not required.
+Name one risk in the agentic workflow, its potential business consequence, and
+one answerable question about how to assess or address it. Explain one possible
+improvement and what evidence could support or challenge it. Use the
+[research scope](../research-plan.md#shared-theme): risk assessment and improvement
+of agentic business workflows. Choose one question; a propagation path is useful
+only when it fits that question.
 
 ## 3. Prior work
 

@@ -18,7 +18,7 @@ body:
     id: outline
     attributes:
       label: Short case outline
-      description: Half a page is enough. Choose one question about agents helping manage a business risk, or managing a risk introduced by agents. Neither both lenses nor propagation is required. Link your case document when available rather than maintaining two copies.
+      description: Half a page is enough. Choose a real business use case for an agentic workflow, one risk question and a possible improvement to assess. Propagation is optional. Link your case document when available rather than maintaining two copies.
       value: |
         - Business workflow and source:
         - One risk question / possible improvement:

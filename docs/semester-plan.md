@@ -13,11 +13,11 @@ A controlled experiment, deliberate replication, or systematic analysis of genui
 agent traces can qualify. A hypothetical risk narrative or scripted demonstration
 alone does not establish empirical findings.
 
-The [overarching theme](research-plan.md#shared-theme) is **Agentic AI for Risk
-Management**: using agents to help manage business risks, or managing risks
-introduced by agents. Each pair chooses one bounded question under either lens.
-Propagation and containment remain optional; no pair must cover both lenses or
-use a common failure mechanism.
+The VIP title remains **Agentic AI for Risk Management**. The [research focus](research-plan.md#shared-theme)
+is risk assessment and improvement of agentic business workflows. Each pair
+examines a real business use case and one bounded question about its workflow's
+risks and possible improvements. Propagation and containment are optional; pairs
+can study different risks while sharing research methods and peer feedback.
 
 Ground the business use case in public policies, documented processes, or other
 approved sources. Distinguish the real-world motivation from the simulated or

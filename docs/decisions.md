@@ -143,7 +143,10 @@ not a planned completion schedule.
 ## D022 — Clarify the original program umbrella and its two lenses
 
 - Date: 2026-09-23
-- Status: accepted (repository research direction)
+- Status: superseded by D023; retained as a record of the implementation being corrected.
+- Correction: the extra research direction was an assistant inference from the
+  title, not an explicitly chosen direction from the owner. D023 records the
+  owner's clarification and replaces this entry's scope.
 - Basis: the owner asked to recover the earlier overall theme and review the
   repository against it. The initial README used **Agentic AI for Risk Management**.
 - Decision: retain that original program title as the umbrella. Explicitly allow
@@ -161,6 +164,26 @@ not a planned completion schedule.
   an important part of the broader program, with propagation optional.
 - Implementation/review record: [PR #38](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/38),
   including validation and the documented owner bootstrap merge exception.
+
+## D023 — Assess and improve agentic workflows in business use cases
+
+- Date: 2026-09-23
+- Status: accepted (repository research direction)
+- Basis: the owner questioned D022's added direction and explicitly asked to
+  remove it and review the repository carefully. The intended approach follows
+  Professor Aboussalah's proposal for pair business-use-case studies.
+- Decision: retain the title **Agentic AI for Risk Management**. Students
+  investigate agentic workflows in real business use cases, assess their risks,
+  and use evidence to evaluate possible improvements.
+- Scope: one workflow, one bounded risk question and one case report per pair.
+  Reliability, decision quality, oversight, permissions, security/privacy,
+  accountability and propagation remain possible directions. Propagation and
+  Agent Assurance are optional; each case needs accessible evidence and honest
+  claim limits.
+- Preserve: student-owned tasks, the tentative 75/25 grading, individual reports,
+  current working targets, existing contribution credit and instructor flexibility.
+- Supersedes: D022's extra research direction. The current guides, case examples,
+  forms and live coordination issues use the corrected focus.
 
 ## New entry template
 
