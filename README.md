@@ -43,6 +43,7 @@ explain what makes a small study rigorous.
 | Beginner concepts, reading, and platform candidates | [Resource guide](docs/literature.md) |
 | Agent Assurance as a source of hypotheses | [Source map](docs/agent-assurance-bridge.md) — optional reference |
 | Code and setup | [Run the pilot](#run-the-pilot), [source](src/agentic_risk/), [tests](tests/) |
+| Read and critique your first trace | [Guided starter walkthrough](docs/starter-walkthrough.md), including a worked example if setup is blocked |
 | Evidence and reports | [Experiment record](docs/experiment-record.md), [results policy](results/README.md), [pair reports](docs/reports/README.md) |
 | Individual report | [Guide](docs/contributors/README.md) and [template](docs/contributors/_individual-report-template.md) |
 | Roster, contributing, access | [Roster](CONTRIBUTORS.md), [contributing](CONTRIBUTING.md), [access](docs/access-management.md) |
@@ -112,6 +113,8 @@ Local artifacts are ignored by Git. Promote only reviewed, documented result sna
 
 The checks should report 10 passing tests. The default run writes 480 scripted
 trials and 12 summary rows. Open `summary.csv`, then inspect a trial in `trials.jsonl`.
+The [walkthrough](docs/starter-walkthrough.md) explains how to select a trace and
+interpret the outputs.
 For another run, choose a new output path such as `results/local/pilot-02`; existing
 runs are deliberately not overwritten.
 

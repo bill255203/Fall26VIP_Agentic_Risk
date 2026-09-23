@@ -16,8 +16,9 @@ checkpoint**, each student should:
 1. Open **New issue → Individual task**, parent **[#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)**. Add your roster row through
    a PR using the instructions below. No personal profile file is needed.
 2. Open an Individual task under **[#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)**. Try the starter with help; record the command
-   and result or exact setup error, plus one observation or question. A guided trace
-   walkthrough can help while setup is blocked. The starter makes no paid model calls.
+   and result or exact setup error, plus one observation or question. Use the
+   [guided trace walkthrough](starter-walkthrough.md), including its worked example
+   while setup is blocked. The starter makes no paid model calls.
 3. Share a business interest and any support need. Agree one achievable next task.
    The instructor will coordinate pairs; you do not need a partner to start.
 
@@ -88,6 +89,7 @@ actual part. There is no issue quota and no extra contribution log.
 | Choose the case and write the evidence plan | [Case guide](studies/README.md); copy [template](studies/_case-template.md) to `docs/studies/pair-CASE-SLUG.md` |
 | Guided external example / saved genuine traces | Pending instructor preparation in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); do not assume a platform or API budget is available |
 | Starter commands and code | [README](../README.md#run-the-pilot), `src/agentic_risk/`, `experiments/pilot.toml`, `tests/` |
+| Understand the starter outputs | [Trace walkthrough](starter-walkthrough.md); record the observation in your existing starter task |
 | Personal work and review | Your Individual task under your Pair case; common onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and individual report [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) |
 | Source notes | Your task or case document, linked to sources; shared reusable notes can go in [literature](literature.md) |
 | Experiment/analysis provenance | [Experiment record](experiment-record.md), only applicable fields; link from the case document |
@@ -103,7 +105,7 @@ no one must implement all its controls or complete its institutional templates.
 
 Install Git and Python 3.11 or later, then follow the [README run commands](../README.md#run-the-pilot). Choose the macOS/Linux or Windows PowerShell commands; they clone the repo, create a Python environment, install the package, run the pilot and check it. No model account or API key is needed for the starter.
 
-The checks should report 10 passing tests. The default pilot produces 480 scripted trials and 12 summary rows. Look at `results/local/pilot/summary.csv`, then read one trial from `trials.jsonl`. Local output stays on your computer; record a concise reproduction note when it becomes part of a task.
+The checks should report 10 passing tests. The default pilot produces 480 scripted trials and 12 summary rows. Use the [walkthrough](starter-walkthrough.md) to inspect `summary.csv` and a matched case from `trials.jsonl`. Local output stays on your computer; record a concise reproduction note when it becomes part of a task.
 
 This runnable starter is a deterministic mechanism check that gives the cohort a shared setup and trace format. It does not choose your pair's question. [Candidate A](studies/01-runtime-containment.md) is a proposed runtime-containment study, not an implemented or preselected continuation of the starter.
 
