@@ -26,7 +26,7 @@ Pair case or cohort goals. State whether each was an independent attempt or a co
 shared work. Identify the agreed deliverable for each contribution stage:
 **Foundation, Question, Execution, and Synthesis**. Link the relevant tasks and
 their evidence; explain any agreed change of scope or unfinished work.
-These stages map to the proposed individual-work 10 + 10 + 20 + 10 points; do not
+These stages map to the proposed individual-work 10 + 10 + 25 + 10 points; do not
 publish scores or claim credit simply because an issue was assigned or closed.
 
 ### My work and decisions
@@ -46,8 +46,8 @@ an informative unsuccessful attempt can be a useful outcome; explain why.
 ### Review and collaboration
 
 Link specific reviews, feedback you acted on, or coordination that helped others
-complete work. Identify your preparation/presentation role in the research-question
-and final group presentations, with links to your contribution. State your role without grading teammates or claiming their work.
+complete work. Identify your preparation/presentation role in the midterm case/question
+and final pair presentations, with links to your contribution. State your role without grading teammates or claiming their work.
 
 ### Limits, learning, and handoff
 

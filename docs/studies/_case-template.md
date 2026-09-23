@@ -2,7 +2,7 @@
 
 - Pair case issue:
 - Partners / GitHub usernames:
-- Reviewer (awaiting assignment until confirmed):
+- Study-plan reviewer (instructor/designated method mentor; awaiting assignment until confirmed):
 - Status: outline / feasibility / reviewed plan / analysis / draft / reviewed report
 - Plan revision and review link (pending until reviewed):
 - Individual task links:
@@ -42,7 +42,7 @@ API budget, or help is still pending? Link each partner's next task and actual r
 Before final evidence work, agree with the reviewer:
 
 - Evidence route; exact platform/data/model versions as applicable.
-- Unit of analysis, data selection, development versus evaluation split.
+- Unit of analysis, data selection, development versus evaluation split; prior inspection and its effect on claims.
 - Comparison and what remains fixed; labels and how they are checked.
 - Measures with numerators/denominators; risk, utility and relevant cost.
 - Sample/repetition plan, treatment of dependent observations, uncertainty/claim limits.

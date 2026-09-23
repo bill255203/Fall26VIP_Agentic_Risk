@@ -4,7 +4,9 @@ Each pair chooses **one business workflow, one risk question, and one possible
 improvement**. The cohort shares methods and feedback; there is no competition to
 select a single cohort-wide study. Pair membership and reviewed plans are recorded
 in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and linked Pair case issues.
-No platform, case, or protocol is automatically adopted.
+No platform, case, or protocol is automatically adopted. The instructor or a
+designated method mentor approves the study plan; partners and peers help review
+the evidence. See [review responsibilities](../issue-workflow.md#who-reviews-what).
 
 ## Short proposal outline
 
@@ -39,6 +41,12 @@ continuation of the starter or the expected detail of a first student outline.
   a few smoke-test examples establish feasibility, not a reliable effect estimate.
 - **Afterward:** record amendments and whether results had been inspected. If access
   fails, narrow the question with the reviewer; do not invent missing evidence.
+
+If evidence has already been inspected, document which records were used for
+development and reserve new records where feasible. Otherwise frame the affected
+analysis as exploratory or replication work; do not claim a fresh held-out test.
+A trace analyst may read evaluation records to apply fixed labels, but changing the
+labeling guide or hypothesis after seeing them requires a recorded amendment.
 
 Each pair progresses independently after its review. Do not wait for every pair's
 plan to be approved. Pairs may share an environment or compare complementary

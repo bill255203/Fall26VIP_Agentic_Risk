@@ -1,5 +1,5 @@
 name: Group goal (maintainer)
-description: Coordinate a shared support or collect outcomes across pairs with linked Individual tasks
+description: Coordinate shared support or collect pair/student outputs without duplicate tasks
 title: "[Group] Outcome"
 labels: [group-goal]
 body:
@@ -30,11 +30,11 @@ body:
     id: acceptance
     attributes:
       label: Group acceptance criteria
-      description: Define combined evidence and required student-task coverage. One student's completion does not close this goal.
+      description: Define required pair/participant coverage and evidence. One contribution does not close a cohort collection.
     validations:
       required: true
   - type: textarea
     id: tasks
     attributes:
-      label: Individual tasks
-      description: Link each student's task and name its owner. Keep completed and open required tasks visible. Do not invent assignments before students claim work.
+      label: Pair cases, output links, or Individual tasks
+      description: For a collection, link Pair cases and their outputs. For a shared assignment, link personal tasks and owners. Reuse existing tasks; do not invent assignments.

@@ -11,7 +11,7 @@ body:
     id: partners
     attributes:
       label: Partners and reviewer
-      description: Name both GitHub usernames and the agreed reviewer, or awaiting reviewer assignment.
+      description: Name both GitHub usernames and the study-plan reviewer (instructor/designated method mentor), or awaiting assignment.
     validations:
       required: true
   - type: textarea
@@ -51,4 +51,4 @@ body:
     id: evidence
     attributes:
       label: Plan review, evidence, and amendments
-      description: Link actual reviewer agreement and plan revision before final evidence; label exploratory results and record changes. Do not infer approval from a date.
+      description: Link instructor/designated method mentor approval and plan revision before final evidence; label exploratory results and record changes. Do not infer approval from a date.

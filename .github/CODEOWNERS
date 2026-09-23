@@ -13,3 +13,10 @@
 /docs/decisions.md @zhongnz
 /docs/experiment-record.md @zhongnz
 /experiments/ @zhongnz
+# Student-facing policy summaries and report instructions.
+/README.md @zhongnz
+/docs/student-start.md @zhongnz
+/docs/cohort-guide.md @zhongnz
+/docs/reports/README.md @zhongnz
+/docs/contributors/README.md @zhongnz
+/docs/contributors/_individual-report-template.md @zhongnz

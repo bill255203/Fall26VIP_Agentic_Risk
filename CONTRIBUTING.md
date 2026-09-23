@@ -18,7 +18,7 @@ support the tasks agreed after kickoff. Each pair develops its own case; no plat
 
 Use the same task/PR workflow for onboarding and later work. An introduction PR
 needs a roster change, a short introduction, its Individual task link, and
-`Relates to #5`; it can omit the research interpretation and full evidence/role table.
+`Relates to #5`; it can omit the research interpretation and detailed evidence sections.
 
 1. Start from an Individual task with one student owner, a parent Pair case or cohort goal, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Pair case names both partners; the Group goal's assignee coordinates cohort coverage; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
@@ -38,7 +38,7 @@ Organize work as `To Do`, `In Progress`, `Review`, and `Done` if a Project board
 - `bug`: behavior that contradicts the documented design;
 - `documentation`: onboarding, contribution reports, presentations, or administrative documentation.
 
-Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. A change in research scope, planned outcomes, resources, or success criteria needs a linked plan-change issue and reviewed update to the semester plan/decision log.
+Issues marked `stretch` are optional extensions and stay outside delivery milestones until adopted through a scope decision. Finish required milestone work before starting them. For a program-wide change, link the review issue and update the semester plan/decision log. For a case-specific change, record the reason, affected evidence and instructor/designated method mentor approval in the existing Pair case and its document; no duplicate plan-change issue is required.
 
 Issues marked `candidate` are optional proposals, with no delivery milestone until
 explicitly adopted by a pair and reviewer. Candidate A (#4) is an advanced example,
