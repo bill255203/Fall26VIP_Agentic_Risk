@@ -140,6 +140,26 @@ not a planned completion schedule.
 - Implementation/review record: [PR #37](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/37),
   including validation and the documented owner bootstrap merge exception.
 
+## D022 — Clarify the original program umbrella and its two lenses
+
+- Date: 2026-09-23
+- Status: accepted (repository research direction)
+- Basis: the owner asked to recover the earlier overall theme and review the
+  repository against it. The initial README used **Agentic AI for Risk Management**.
+- Decision: retain that original program title as the umbrella. Explicitly allow
+  a bounded question about agents helping assess/manage business risks, or about
+  understanding/managing risks introduced by agents. The two-lens description
+  clarifies the current scope; it is not a claim that the initial charter already
+  developed both equally.
+- Scope: each pair chooses one question, one workflow and one evidence route.
+  Neither both lenses, propagation nor Agent Assurance is mandatory. Align the
+  case outline, examples, resource guidance and issue descriptions with this scope.
+- Preserve: D019 flexibility, peer feedback and student ownership; D018's tentative
+  75/25 assessment, dates, reports, existing contributions and research standards.
+  No additional assignment, framework requirement or instructor approval gate.
+- Refines: D021's use of agentic risk and assurance as the umbrella; it remains
+  an important part of the broader program, with propagation optional.
+
 ## New entry template
 
 ```markdown

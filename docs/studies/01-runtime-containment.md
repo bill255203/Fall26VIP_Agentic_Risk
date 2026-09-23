@@ -116,7 +116,7 @@ All checkpoints use the [semester schedule measured from kickoff](../semester-pl
 4. **M4:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
 5. **Report draft checkpoint, then M5:** assemble a full draft, reproduce, review, revise, and hand off; reserve the remaining term for presentations and justified repairs.
 
-These are working project targets, not NYU course deadlines. See the [semester plan](../semester-plan.md) for gate ownership and dependencies. A late student can join an active task without restarting the cohort's sequence.
+These are working project targets, not NYU course deadlines. See the [semester plan](../semester-plan.md) for responsibilities and dependencies. A late student can join an active task without restarting the cohort's sequence.
 
 ## Relationship to Agent Assurance
 

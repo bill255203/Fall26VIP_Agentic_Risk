@@ -13,10 +13,11 @@ A controlled experiment, deliberate replication, or systematic analysis of genui
 agent traces can qualify. A hypothetical risk narrative or scripted demonstration
 alone does not establish empirical findings.
 
-The [shared scope](research-plan.md#shared-theme) is broad: agentic risk and assurance
-in business workflows. Propagation and containment are optional directions alongside
-reliability, permissions, oversight, security/privacy and observability. Each pair
-keeps its own question small; there is no required propagation map or common mechanism.
+The [overarching theme](research-plan.md#shared-theme) is **Agentic AI for Risk
+Management**: using agents to help manage business risks, or managing risks
+introduced by agents. Each pair chooses one bounded question under either lens.
+Propagation and containment remain optional; no pair must cover both lenses or
+use a common failure mechanism.
 
 Ground the business use case in public policies, documented processes, or other
 approved sources. Distinguish the real-world motivation from the simulated or

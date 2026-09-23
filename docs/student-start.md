@@ -1,13 +1,14 @@
 # Student guide: your pair case study
 
 **Your semester in one sentence:** work with a partner to understand a business
-workflow, investigate one risk, and assess one possible improvement using evidence.
+workflow involving agents and answer one risk-management question using evidence.
 You will learn the basics together before taking on a small research task.
 
-The shared scope is [agentic risk and assurance in business workflows](research-plan.md#shared-theme).
-Choose a question about reliability, tool permissions, oversight, security/privacy,
-trace evidence, propagation or another relevant risk. Propagation is one option;
-you do not need to frame every case as an error spreading through agents.
+The shared theme is [Agentic AI for Risk Management](research-plan.md#shared-theme).
+Your pair can investigate how agents help manage a business risk, or how to manage
+risks introduced by agents. Choose one small question; neither both lenses nor
+propagation is required. The [case guide](studies/README.md#examples-of-bounded-questions)
+shows examples and how to keep the scope manageable.
 
 Start with this guide. The [resource guide](literature.md) explains the basic terms
 and reading. Detailed protocols and framework documentation are references for a

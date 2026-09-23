@@ -1,6 +1,12 @@
 # Agent Assurance as a research source
 
-The VIP studies agentic risk and assurance through bounded business case studies, one per pair. Agent Assurance supplies candidate assumptions, threat patterns, controls, and evidence practices alongside independent academic literature; it does not select the semester question. A result may support an assumption, narrow its applicability, or challenge it. Completing the methodology's institutional templates is not a semester deliverable.
+The VIP's overarching theme is [Agentic AI for Risk Management](research-plan.md#shared-theme).
+Agent Assurance is an optional source, especially for questions about managing
+risks introduced by agents. Its assumptions, threat patterns, controls and evidence
+practices sit alongside independent academic literature; they do not define the
+entire program or select a pair's question. A result may support an assumption,
+narrow its applicability, or challenge it. Completing the methodology's institutional
+templates is not a semester deliverable.
 
 ## Version inspected
 

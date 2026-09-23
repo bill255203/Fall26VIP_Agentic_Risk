@@ -7,7 +7,8 @@ This is a seed list, not a completed literature review. Paper links point to pri
 - **Agentic workflow:** a model uses information and tools to take steps toward a task.
 - **Tool:** an operation it can request, such as looking up an order or changing a record.
 - **Authority:** what actions it is permitted to take; permission does not ensure correctness.
-- **Risk:** a possible failure and its consequence for the business or user.
+- **Risk:** a possible adverse outcome for the business or user, including poor decisions, losses or failures.
+- **Risk-management task:** identifying, assessing, monitoring or responding to a business risk; a case can test whether an agent helps with one such task.
 - **Control:** a check or restriction intended to reduce a failure or consequence.
 - **Trace:** a record of observable inputs, tool calls/results, responses and actions.
 - **Baseline:** the comparison used to judge whether a proposed change helps.
@@ -18,14 +19,20 @@ This is a seed list, not a completed literature review. Paper links point to pri
 Read with a question in mind; nobody is assigned this whole list.
 Choose sources for your own question within the [broad research scope](research-plan.md#shared-theme).
 The propagation and attribution references below are useful options, not a required focus.
+This seed list is strongest on agent evaluation and safeguards. A case about agents
+helping manage a business risk should also find sources on that particular risk
+and how assessment quality is judged; these agent-safety references cannot establish
+business effectiveness by themselves.
 
 1. **Common guided methods reading:** [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
    (Kapoor et al., 2024). Focus on cost, held-out evaluation and reproducibility.
    Discuss selected sections with a partner or in the cohort; students need not master every method first.
-2. **One environment paper relevant to your case:** [tau-bench](https://arxiv.org/abs/2406.12045)
-   (Yao et al., 2024) for business interactions with policies/tools and final-state
-   evaluation, or [AgentDojo](https://arxiv.org/abs/2406.13352) for prompt-injection
-   attacks/defenses and legitimate task utility.
+2. **One methods or application paper relevant to your case:** choose research on
+   your risk-management task or a relevant environment. Examples include
+   [tau-bench](https://arxiv.org/abs/2406.12045) (Yao et al., 2024) for business
+   interactions with policies/tools and final-state evaluation, and
+   [AgentDojo](https://arxiv.org/abs/2406.13352) for prompt-injection attacks/defenses
+   and legitimate task utility. Neither environment is required.
 3. **A few focused sources:** find the business policy/process and prior research
    directly informing your question. Split reading between partners and explain it
    to each other; there is no fixed paper-count quota.
@@ -114,7 +121,12 @@ For a deeper case-specific review, record the applicable details:
 - similarities to and differences from the candidate question and proposed comparison;
 - one concrete implication for this project’s experiment design.
 
-If the case requires a broader search, consider multi-agent safety, cascading failures and prompt injection, delegated authorization and capability control, runtime verification, operational risk, failure attribution, trace observability, and safety–utility evaluation. Record search sources, query strings, inclusion criteria, and the version of each reviewed paper.
+If the case requires a broader search, start with its business risk and assessment
+task (for example, invoice exceptions, operational risk or risk-informed decision
+support). For agent-risk cases, useful terms include multi-agent safety, cascading
+failures, prompt injection, delegated authorization, runtime verification, failure
+attribution and safety–utility evaluation. Record search sources, query strings,
+inclusion criteria, and the version of each reviewed paper.
 
 Related work does not establish this project's novelty. A documented review helps
 show what is answered, which methods can be reused, and where a defensible gap may
