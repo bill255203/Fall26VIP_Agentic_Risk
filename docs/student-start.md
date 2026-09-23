@@ -96,6 +96,12 @@ A date does not make an unfinished study complete. See the [canonical schedule](
 4. Submit a PR when repository files change; respond to feedback. Close only your
    completed task. A pair case stays open until the pair's full work is reviewed.
 
+Say when you need help or your evidence is ready for review in that same task.
+A maintainer can add `help wanted` or `needs-review`; you do not need label
+permissions to request support. Keep shared output links in the Pair case's
+checkpoint checklist. Register the case once in #3; the other cohort collections
+refer to it, so you do not have to repost each output in several issues.
+
 Multiple students may independently attempt the same agreed assignment with separate
 tasks and evidence. Partners can also share an artifact, identifying each person's
 actual part. There is no issue quota and no extra contribution log.
@@ -172,9 +178,11 @@ For a documentation-only first contribution, you can also use GitHub's browser e
 ## 4. Pick a small task and keep the evidence
 
 After pair formation, use **New issue → Individual task** with your **Pair case issue**
-as the primary parent. State your own deliverable, assessment stage, target, peer reviewer when arranged,
+as the primary parent. Select the **Assessment category**, then state your deliverable, target, peer reviewer when arranged,
 and what evidence will show it is done. For common work, use the existing cohort goal
 instead. See the [complete task map](issue-workflow.md#complete-task-and-assessment-map).
+The category's weight is for that semester component, not for each issue. Existing
+tasks that name their stage still count; use the form for new work.
 
 Examples: explain a paper's implication for the case, design test cases, check labels,
 implement a small control, analyze a trace set, or verify reproduction instructions.

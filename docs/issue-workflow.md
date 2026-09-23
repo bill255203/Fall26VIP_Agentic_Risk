@@ -24,10 +24,12 @@ pair issue identify partners; personal credit still comes from one-owner tasks.
    names both partners, and links it in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). Start with a small scope; the instructor
    can adjust pairings or direction. Choose a stable short slug such as `retail-refunds`.
 3. Each partner opens **Individual tasks** under that Pair case for their meaningful
-   work. Include stage, deliverable, done criteria, target, and a peer reviewer when arranged. Reuse a task
+   work. Select its assessment category and include deliverable, done criteria, target, and a peer reviewer when arranged. Reuse a task
    across weeks; no minimum number of tasks is required.
-4. Link the artifact and review in the Individual task. Update the Pair case with
-   links to its outputs; cohort collection goals link those same outputs.
+4. Link the artifact and review in the Individual task. Keep the pair's shared
+   output links beside its Pair case checkpoints. Register the case once in #3;
+   cohort collection goals use that registry to find the outputs. No repeated
+   output posts under #7, #8, #9, #21 and #22 are needed.
 5. A PR uses `Closes #YOUR_INDIVIDUAL_TASK` only when complete and `Relates to
    #YOUR_PAIR_CASE`. A joint PR may close multiple personal tasks after each is
    checked. It must not automatically close the pair or a cohort collection goal.
@@ -37,6 +39,65 @@ A task has **one primary parent**. Related goals may link it without requiring a
 second task. Shared resource work can belong directly to [#2](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/2), [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6), or [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) when agreed;
 link it from the benefiting pair. Assignees/labels/milestones can be set by a
 maintainer; missing edit permissions do not prevent starting agreed work.
+
+## Management view
+
+Start with the registry and attention queues below. The issue body and linked
+evidence are the record; a separate Project board or activity spreadsheet is optional.
+
+| Need | View / action |
+| --- | --- |
+| Pair membership and checkpoint progress | [Registry #3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) → each Pair case's checklist and individual task links; [all Pair cases](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20label%3Apair-case) |
+| One student's evidence, including completed work | [All Individual tasks](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20label%3Aindividual-task); add `assignee:USERNAME` to the search |
+| Evidence awaiting a peer check | [Needs review](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20is%3Aopen%20label%3Aneeds-review) |
+| Blockers or support requests | [Help wanted](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20is%3Aopen%20label%3A%22help%20wanted%22) |
+| Working targets and repository merges | [Milestones](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/milestones) and [open PRs](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pulls?q=is%3Apr%20is%3Aopen) |
+| Personal tasks missing routing information | [No assignee](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20is%3Aopen%20label%3Aindividual-task%20no%3Aassignee) / [no milestone](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues?q=is%3Aissue%20is%3Aopen%20label%3Aindividual-task%20no%3Amilestone%20-label%3Acandidate%20-label%3Astretch) |
+
+These use GitHub's [issue filters](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/filtering-and-searching-issues-and-pull-requests).
+The all-task view includes open and closed work. Check the body when an assignee
+has not been set; `author:USERNAME` can help find self-created issues. A missing
+field is a routing problem, not a missing contribution.
+
+### Attention and completion
+
+- **Working or planned:** keep the existing short evidence/next-step/blocker update.
+- **Needs help:** describe the blocker and help needed in the task; use `help wanted`.
+- **Ready for review:** link the evidence and say what needs checking; use
+  `needs-review`. This requests a check, not a grade or declaration of completion.
+- **Completed:** close after the agreed output and review are linked. If work is
+  dropped, close as **not planned**, explain why and retain useful evidence.
+  GitHub's [closure reasons](https://docs.github.com/en/issues/tracking-your-work-with-issues/administering-issues/closing-an-issue)
+  distinguish these outcomes; neither reason determines marks.
+
+Students without label permissions state the request in their existing update;
+a maintainer applies the label. Remove resolved attention labels on open issues.
+Both can apply when a partial result needs review and a later step is blocked.
+Check recent comments too; there is no automatic status sync.
+
+### A short coordination pass
+
+At an appropriate check-in, a maintainer reviews help/review requests, checks new
+task owners and targets, and follows the registry into relevant Pair cases. Form
+answers do not set GitHub's assignee/milestone fields automatically. Set them from
+the student's record, and add `individual-task` to tasks created outside the form.
+Ask only if the record is ambiguous; routine work proceeds during this housekeeping.
+
+The repository owner handles routing until another coordinator agrees to it.
+A Group goal assignee coordinates coverage and does not own students' work.
+Partners maintain case links; peers check evidence. Instructors choose their
+feedback cadence and retain private grading authority.
+
+Milestone percentages mix collection issues and personal tasks; they do not measure
+student performance. Pair cases sit in M5, so use their checklist for earlier
+checkpoints. No new issue for every graded component or per-student quota is required.
+
+For assessment, follow the [task map](#complete-task-and-assessment-map), the student's
+tasks/reviews and individual report, and the pair's shared outputs. Check all four
+work stages, collaboration and the report, then the two shared components.
+Category weights apply across the semester, not once per issue. Record marks
+privately using announced policy. Existing tasks with a clear stage remain valid;
+no resubmission is required for the new dropdown.
 
 ## Multiple students doing the same assignment
 
@@ -64,7 +125,7 @@ Cohort issues are retained to keep existing links and show coverage. Students do
 | Optional reusable examples / setup help | Pair case for case-specific work; [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) for a shared resource contribution | Share when useful; no required teaching package or fixed delivery date | Credit for actual contribution; no additional assignment |
 | Feasibility and execution | Pair case | [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) validation; M3 then M4 | Execution 25 |
 | Analysis | Pair case | [#8](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/8) first analysis; M4 Oct 30 | Execution or Synthesis; distinct outputs, no double counting |
-| Midterm case/question presentation | Pair case; reuse design task if it covers the role | [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) collects each pair's deck/feedback; M3 Oct 16 | Pair 10 |
+| Midterm case/question presentation | Pair case; reuse design task if it covers the role | [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) tracks decks/feedback via registered Pair cases; M3 Oct 16 | Pair 10 |
 | Final report and reproducible evidence | Pair case | [#9](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/9); draft Nov 6, final M5 Nov 20 | Synthesis 10 individually; integrated pair package 15 |
 | Final presentation | Pair case; reuse report task if it covers the role | [#22](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/22); M5 Nov 20 | Required, feedback only; no separate weight |
 | Individual contribution report | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); cross-link Pair case | [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23); draft Nov 6, final Nov 20 | Individual 10 |
