@@ -159,6 +159,8 @@ not a planned completion schedule.
   No additional assignment, framework requirement or instructor approval gate.
 - Refines: D021's use of agentic risk and assurance as the umbrella; it remains
   an important part of the broader program, with propagation optional.
+- Implementation/review record: [PR #38](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/38),
+  including validation and the documented owner bootstrap merge exception.
 
 ## New entry template
 
