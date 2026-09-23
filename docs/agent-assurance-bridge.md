@@ -1,6 +1,6 @@
 # Agent Assurance as a research source
 
-The VIP studies [risk propagation and containment](research-plan.md#shared-theme) through bounded business case studies, one per pair. Agent Assurance supplies candidate assumptions, threat patterns, controls, and evidence practices alongside independent academic literature; it does not select a pair's question. Use its concepts when they help examine an origin, path, consequence or control. A result may support an assumption, narrow its applicability, or challenge it. Completing the methodology's institutional templates is not a semester deliverable.
+The VIP studies agentic risk and assurance through bounded business case studies, one per pair. Agent Assurance supplies candidate assumptions, threat patterns, controls, and evidence practices alongside independent academic literature; it does not select the semester question. A result may support an assumption, narrow its applicability, or challenge it. Completing the methodology's institutional templates is not a semester deliverable.
 
 ## Version inspected
 

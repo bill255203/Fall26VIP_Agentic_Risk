@@ -1,15 +1,18 @@
 # Choose and develop your pair case
 
-Each pair chooses **one business workflow, one propagation or containment question,
-and one possible improvement**. Use the [shared theme](../research-plan.md#shared-theme):
-identify an origin, a possible path, its consequence and a possible control, then
-focus the investigation on one part. The cohort shares methods and feedback; there is no competition to
+Each pair chooses **one business workflow, one risk question, and one possible
+improvement**. The cohort shares methods and feedback; there is no competition to
 select a single cohort-wide study. Pair membership and working plans are recorded
 in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and linked Pair case issues.
 No platform, case, or protocol is automatically adopted. Partners choose a small
 scope and proceed with peer feedback; instructor sign-off is not a prerequisite.
 The instructor can redirect or adapt the work as needed. See
 [review responsibilities](../issue-workflow.md#who-reviews-what).
+
+Choose from the broad [research scope](../research-plan.md#shared-theme): reliability,
+permissions, oversight, security/privacy, observability, propagation or another
+relevant risk. These are examples, not tracks to complete. A case does not need
+an error-propagation path; define the evidence and comparison that answer its own question.
 
 ## Short proposal outline
 
@@ -20,8 +23,7 @@ it becomes the final report, avoiding a separate proposal/report to maintain.
 
 1. **Business workflow:** who needs what done, which actions the agent can take,
    and the policy/source supporting this real business need.
-2. **Propagation question:** where an error or untrusted input enters, which later
-   step might use it, the possible consequence, and one answerable question.
+2. **Risk question:** one failure and consequence, and one answerable question.
 3. **Prior work:** a few relevant sources; what remains uncertain or why replication helps.
 4. **Evidence and comparison:** what will be observed, compared, or labeled; how
    failure and useful outcomes will be judged; one possible improvement to assess.
@@ -30,20 +32,6 @@ it becomes the final report, avoiding a separate proposal/report to maintain.
 
 Candidate A is an **optional advanced example** of a mature protocol, not a required
 continuation of the starter or the expected detail of a first student outline.
-
-Illustrative questions to narrow, not findings or assigned topics:
-
-| Business workflow | Possible path | Bounded question |
-| --- | --- | --- |
-| Customer support | Wrong eligibility summary → refund decision → unnecessary refund | Does checking the source policy interrupt this path while preserving valid refunds? |
-| Purchasing | Incorrect quantity in a request → order tool → excessive order | In accessible traces, where is the quantity carried forward or corrected? |
-| Credit-limit review | Incorrect risk summary → keep/reduce decision → unsuitable limit | Which records let a reviewer distinguish a blocked wrong action from an unmet required reduction? |
-
-One agent with tools can be enough. Natural errors or existing traces can be used;
-there is no requirement to inject faults, force propagation, or build a defense.
-A proposed control can remain a recommendation if it is not tested. Finding
-correction or no observed propagation is valuable when its evidence and limits
-are clear. Ground the chosen case in actual sources and accessible evidence.
 
 ## Selection and protocol
 

@@ -6,7 +6,7 @@ announcement or discussion; maintainers record it and synchronize the guides.
 This log does not create an approval process. Distinguish actual decisions from
 suggestions, and preserve dated method changes that affect research claims.
 
-Current direction: **D017** (pair cases), **D018** (75/25 grading), **D019** (flexible workflow) and **D020** (shared propagation theme). Earlier entries record the historical plan; references
+Current direction: **D017** (pair cases), **D018** (75/25 grading), **D019** (flexible workflow) and **D021** (broad research scope). D020's required propagation focus is superseded. Earlier entries record the historical plan; references
 to one cohort study or D003 pending selection are superseded as specified below.
 
 Use `proposed`, `accepted`, `rejected`, or `superseded`. An accepted decision
@@ -101,7 +101,7 @@ not a planned completion schedule.
 ## D020 — Risk propagation and containment as the shared theme
 
 - Date: 2026-09-23
-- Status: accepted (repository research direction)
+- Status: superseded by D021; retained as the historical framing
 - Basis: after discussing that the pair-case framing had broadened to agentic
   risk generally, the owner proposed adopting risk propagation as the theme.
 - Decision: each pair connects a business case to an error/input origin, possible
@@ -118,6 +118,25 @@ not a planned completion schedule.
   theme while pairs retain their own business cases and methods.
 - Implementation/review record: [PR #36](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/36),
   including validation and the documented owner bootstrap merge exception.
+
+## D021 — Restore broad agentic risk and assurance scope
+
+- Date: 2026-09-23
+- Status: accepted (repository research direction)
+- Basis: the owner clarified that the propagation theme was too narrow and asked
+  to keep the scope broad as before.
+- Decision: use agentic risk and assurance in business workflows as the umbrella.
+  Reliability, permissions/tool use, human oversight, security/privacy,
+  observability and propagation/containment are possible directions, not assigned
+  tracks. Each pair chooses one business workflow and one bounded risk question.
+- Propagation: retain it as an optional research lens and keep the starter and
+  Candidate A as examples. Remove required origin/path/consequence/control fields
+  and propagation framing from case selection, reporting and coordination.
+- Preserve: D019 instructor flexibility, student-owned work, peer review, research
+  standards, the 75/25 proposal, individual reports, dates and existing credit.
+  No new deliverable, approval requirement, resubmission or grading component.
+- Supersedes: D020's shared-theme requirement; preserves useful propagation methods
+  for pairs that choose them.
 
 ## New entry template
 
