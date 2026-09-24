@@ -1,12 +1,12 @@
 name: Cohort goal (maintainer)
 description: Coordinate shared support or collect pair/student outputs without duplicate tasks
-title: "[Cohort] Outcome"
+title: "[Individual assignment] Outcome"
 labels: [group-goal]
 body:
   - type: markdown
     attributes:
       value: |
-        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Cohort goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The cohort assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Title this guide [Individual assignment] or [Pair assignment] according to who produces the deliverable; use [Resource] for optional shared help/examples. Add the matching individual-assignment or pair-assignment label for assignment guides, and optional when applicable. These guides serve the whole class; students keep personal evidence in Individual tasks and shared outputs in Pair cases. Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Cohort goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The cohort assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
   - type: textarea
     id: objective
     attributes:

@@ -1,7 +1,13 @@
 # Guided starter walkthrough
 
-Use this with your existing starter task under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1).
-It introduces traces and research critique; it is not another assignment or a
+**Optional practice:** use any part of this walkthrough if it helps. There is no
+required submission or deadline, and skipping it does not affect your grade or
+block pair work. You can read the worked example without installing anything.
+
+If you want feedback or contribution credit for an attempt, use your own
+Individual task under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1).
+Existing work remains valid Foundation evidence under the normal rubric.
+The walkthrough introduces traces and research critique; it is not another assignment or a
 case-study result. If setup is blocked, discuss the worked example below with a
 partner or instructor and record the blocker. You can inspect your own run later.
 

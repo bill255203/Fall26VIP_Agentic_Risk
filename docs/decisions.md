@@ -187,6 +187,25 @@ not a planned completion schedule.
 - Implementation/review record: [PR #39](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/pull/39),
   including validation and the documented owner bootstrap merge exception.
 
+## D024 — Visible assignment responsibility and optional starter practice
+
+- Date: 2026-09-24
+- Status: accepted (owner-directed repository workflow)
+- Basis: the owner asked for clear individual/pair issue identification and made
+  starter practice optional.
+- Decision: title shared instructions **Individual assignment** or **Pair
+  assignment**, with matching labels and filtered lists. Keep each student's
+  Individual tasks and each pair's Pair case as the contribution records.
+- Starter practice #1 has no required submission, deadline or grading penalty.
+  Foundation credit can come from other substantive case-relevant work. Preserve
+  existing starter evidence and its eligibility under the normal rubric.
+- Update M1 to onboarding, business interests/support needs and an agreed next
+  step. The September 25 working target applies to onboarding, not starter practice.
+  Preserve the tentative 75/25 weights, pair research requirements and instructor
+  flexibility. Earlier records of required starter practice are historical.
+- Live record: [starter #1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)
+  and [course notes #24](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/24).
+
 ## New entry template
 
 ```markdown

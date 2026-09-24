@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Use this form for your own contribution. One task has one student owner. Multiple students may attempt the same assignment separately; joint work names each person's part. Use your Pair case as parent for research; onboarding uses #5, starter #1, individual report #23. Link the new task in its parent; a comment is enough. Reuse an existing task when it already covers this work. See [where tasks belong](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#where-does-my-task-belong).
+        Use this form for your own contribution. One task has one student owner. Multiple students may attempt the same assignment separately; joint work names each person's part. Use your Pair case as parent for research; onboarding uses #5, optional starter practice #1, individual report #23. Link the new task in its parent; a comment is enough. Reuse an existing task when it already covers this work. See [where tasks belong](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#where-does-my-task-belong).
   - type: input
     id: parent
     attributes:
@@ -27,7 +27,7 @@ body:
     id: mode
     attributes:
       label: Work mode
-      description: Choose shared work when contributing to a pair output; choose independent attempt for your own onboarding, starter, report or agreed replication.
+      description: Choose shared work when contributing to a pair output; choose independent attempt for your own onboarding, optional starter, report or agreed replication.
       options:
         - Contribution to shared work
         - Independent attempt at a shared assignment
@@ -61,13 +61,14 @@ body:
     id: milestone
     attributes:
       label: Milestone or backlog status
-      description: Choose the next working checkpoint; a maintainer sets the actual field. Reuse tasks across weeks and adjust the target as work or course direction changes.
+      description: Choose the next working checkpoint, or optional practice without a required milestone; a maintainer sets the field and optional label. Reuse tasks across weeks and adjust the target as work or course direction changes.
       options:
         - M1 — Onboard and understand
         - M2 — Propose pair cases
         - M3 — Present cases and validate plans
         - M4 — Analyze first evidence
         - M5 — Report and hand off
+        - Optional practice — no required milestone
         - Candidate / stretch — not adopted, no delivery milestone
     validations:
       required: true

@@ -1,6 +1,6 @@
 # Tentative grading and individual responsibility
 
-**Revised working proposal: September 23, 2026.** The instructor must confirm and
+**Revised working proposal: September 24, 2026.** The instructor must confirm and
 announce the policy before applying it. Dates are [project targets](semester-plan.md#calendar-and-working-targets);
 presentation slots, official submissions, accommodations and the assessed period
 remain for the instructor to confirm. Grades and private feedback stay outside GitHub.
@@ -45,10 +45,15 @@ maximum for that semester component across all tasks, not points per issue.
 
 | Stage | Points | Examples of personal evidence | Checkpoint |
 | --- | ---: | --- | --- |
-| **Foundation** | **10** | A sourced business/paper critique, documented reproduction with interpretation, or useful diagnosis of a failed attempt. Starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) or tasks under the Pair case/shared resources. | Review by M2, Oct 9 |
+| **Foundation** | **10** | A sourced business/paper critique, documented reproduction with interpretation, or useful diagnosis of a failed attempt. Optional starter practice [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) or tasks under the Pair case/shared resources. | Review by M2, Oct 9 |
 | **Question** | **10** | Justified risk question, workflow/authority map, meaningful comparison, label definition or evidence-plan contribution under the Pair case. | Outline M2; review by M3, Oct 16 |
 | **Execution** | **25** | Checked implementation, scenario/label package, experiment batch, systematic trace analysis or reproducible analysis tooling under the Pair case. | Scope M3; progress/evidence M4, Oct 30 |
 | **Synthesis** | **10** | Evidence-backed interpretation, figure with explanation, limitations, robustness check, or validated reproduction/handoff contribution under the Pair case. | Draft Nov 6; final Nov 20 |
+
+**Starter practice is optional.** Skipping it carries no penalty or missing-work
+mark. Foundation remains 10% and can be fully demonstrated through case-relevant
+reading, critique or other substantive evidence. Completed starter contributions
+retain credit under the same rubric; optional does not mean automatic extra credit.
 
 These are options, not a requirement to complete every example. Onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)
 establishes access and attribution; installation or a roster row alone is not full

@@ -8,8 +8,9 @@ case; the cohort shares learning, reusable assets, and research standards.
 - Common focus under **Agentic AI for Risk Management**: [risk assessment and
   improvement of agentic business workflows](research-plan.md#shared-theme).
   Each pair chooses one use case and one small risk question; propagation is optional.
-- Shared guided introduction: inspect an execution, distinguish a wrong answer from
-  a consequential action, and explain a safeguard's usefulness tradeoff.
+- Optional guided introduction: inspect an execution, distinguish a wrong answer
+  from a consequential action, and explain a safeguard's usefulness tradeoff.
+  Students may learn through case-relevant reading and discussion instead.
 - Shared reporting questions: what was the workflow, risk question, comparison, evidence,
   result, and limitation? Metrics may differ when cases require it; do not pool
   incompatible results into a cohort score.

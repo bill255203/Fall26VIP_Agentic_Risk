@@ -32,7 +32,7 @@ body:
     id: tasks
     attributes:
       label: Individual tasks and roles
-      description: Link each student's own tasks as agreed. Keep completed and open links, including common starter/report tasks. Each task identifies its assessment category; a shared artifact must say who did what.
+      description: Link each student's own tasks as agreed. Keep completed and open links, including individual report tasks and any optional starter work. Each task identifies its assessment category; a shared artifact must say who did what.
   - type: textarea
     id: checkpoints
     attributes:

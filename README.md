@@ -18,8 +18,9 @@ review. Each pair produces its own report; each student owns visible individual 
 
 Read the [student guide](docs/student-start.md) first. It explains this week's work,
 setup, resources, and submissions. Kickoff was scheduled for **September 18, 2026**;
-the first working checkpoint is **September 25**. Try the starter with help, add your
-roster entry, and bring an observation or question. Existing work counts; no resubmission
+the first working checkpoint is **September 25**. Add your roster entry, share a
+business interest or support need, and agree a small next step. **Starter practice
+is optional**: use it if helpful, with no required submission or deadline. Existing work counts; no resubmission
 is needed because the plan changed. Students agree partners and register their case;
 the instructor can adjust pairings or help when needed. You can onboard first.
 
@@ -30,7 +31,7 @@ Maintainers keep the repository aligned. See [how adjustments work](docs/semeste
 
 ## What students will do
 
-1. Learn the basics together through a guided example and focused reading.
+1. Learn the basics through focused reading and discussion; the guided starter is optional.
 2. In a pair, choose a business workflow and one answerable risk question.
 3. Present the case, question, evidence plan, and initial feasibility around midterm.
 4. Complete a small experiment, replication, or structured analysis of genuine agent traces.
@@ -55,7 +56,7 @@ explain what makes a small study rigorous.
 | Beginner concepts, reading, and platform candidates | [Resource guide](docs/literature.md) |
 | Agent Assurance as a source of hypotheses | [Source map](docs/agent-assurance-bridge.md) — optional reference |
 | Code and setup | [Run the pilot](#run-the-pilot), [source](src/agentic_risk/), [tests](tests/) |
-| Read and critique your first trace | [Guided starter walkthrough](docs/starter-walkthrough.md), including a worked example if setup is blocked |
+| Optional trace practice | [Guided starter walkthrough](docs/starter-walkthrough.md), including a worked example if setup is blocked |
 | Evidence and reports | [Experiment record](docs/experiment-record.md), [results policy](results/README.md), [pair reports](docs/reports/README.md) |
 | Individual report | [Guide](docs/contributors/README.md) and [template](docs/contributors/_individual-report-template.md) |
 | Roster, contributing, access | [Roster](CONTRIBUTORS.md), [contributing](CONTRIBUTING.md), [access](docs/access-management.md) |
@@ -65,7 +66,7 @@ explain what makes a small study rigorous.
 
 | Item | Status |
 | --- | --- |
-| Scripted credit-limit starter | Runnable with tests and traces; no model API needed. Teaching apparatus, not empirical agent evidence. |
+| Optional scripted credit-limit starter | Runnable with tests and traces; no model API needed. Teaching apparatus, not empirical agent evidence. |
 | Optional external examples and genuine saved traces | Share useful resources in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6) as cases need them. No central package, adopted platform or paid access is promised. |
 | Pair membership, questions, and study plans | Partners record these in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) and their Pair case; refine with feedback as work develops. |
 | Candidate A: runtime containment | Optional advanced example, unselected and unimplemented; not the standard an early student outline must match. |
@@ -78,7 +79,9 @@ See [pilot definitions](docs/research-plan.md#current-scripted-pilot).
 
 ## Run the pilot
 
-Python 3.11 or later and Git are required. The starter has no runtime dependencies;
+**Optional practice.** Running the starter is not required for onboarding, pair
+work or full Foundation credit. If you choose to run it, use Python 3.11 or later
+and Git. The starter has no runtime dependencies;
 installation may download Python build tools. No model account or API key is needed.
 
 Clone once (macOS/Linux terminal or Windows PowerShell):
@@ -145,8 +148,10 @@ docs/                 research plan, cohort guide, records, and literature
 
 Each pair has one **Pair case** issue. Each student opens **Individual tasks** for
 meaningful contributions under that case. Cohort onboarding and individual reports
-use their existing shared collection goals. **[Cohort]** issues coordinate the whole
-class; **[Pair]** identifies one pair's case. Start with the student guide's
+use their existing assignment guides. Shared instructions are titled
+**[Individual assignment]** or **[Pair assignment]** so you can see who delivers
+the work. **[Individual]** identifies one student's task; **[Pair]** identifies
+one pair's case. [Browse assignments by responsibility](docs/issue-workflow.md#find-individual-and-pair-assignments). Start with the student guide's
 [two issue types](docs/student-start.md#two-issue-types-you-create) and
 [weekly goals](docs/student-start.md#weekly-goals). Multiple students may attempt the same
 agreed assignment independently, with separate evidence and review. Shared artifacts

@@ -74,7 +74,7 @@ separate from claims about real deployments. Trace analysis requires a sampling 
 consistent labels, a meaningful comparison, and a reviewer agreement check; it cannot
 show an untested intervention's causal effectiveness.
 
-The scripted starter teaches tracing and critique. [Candidate A](studies/01-runtime-containment.md)
+The optional scripted starter teaches tracing and critique. [Candidate A](studies/01-runtime-containment.md)
 is an optional advanced example; its live backend, practical gate and four conditions
 apply only if a pair explicitly adopts that design with a reviewer. There is no
 requirement to build it or implement an assurance framework.

@@ -1,6 +1,6 @@
 # Fall 2026 semester plan
 
-**Current approach, September 23:** one bounded case study per pair, with shared
+**Current approach, September 24:** one bounded case study per pair, with shared
 resources and peer feedback. Students own the work; the instructor guides and
 adapts the course. Existing student contributions remain valid evidence.
 
@@ -23,7 +23,7 @@ Ground the business use case in public policies, documented processes, or other
 approved sources. Distinguish the real-world motivation from the simulated or
 observational evidence actually studied. No company integration is required.
 
-The cohort shares concepts, a guided example, a small reading core, compatible
+The cohort shares concepts, an optional guided example, a small reading core, compatible
 reporting practices, reusable tools, and peer review. Pairs choose their own bounded
 questions; they need not compete for one winning proposal. Agent Assurance and
 external benchmarks are optional sources, not required frameworks to implement.
@@ -62,7 +62,7 @@ availability. Late joiners agree individual targets; no work is due before joini
 
 | Checkpoint | Target | What is expected |
 | --- | --- | --- |
-| **M1 — Onboard and understand** | **September 25** | Roster PR, starter attempt or recorded blocker, guided trace discussion, and one observation/question per student. |
+| **M1 — Onboard and understand** | **September 25** | Roster PR, a shared business interest/support need, and a small agreed next step. Starter practice is optional, with no required submission or deadline. |
 | **M2 — Propose pair cases** | **October 9** | Agree partners, register one Pair case, outline the question and accessible evidence, and divide the next individual contributions. Seek feedback; a full protocol is not needed. |
 | **M3 — Present cases and validate plans** | **October 16** | Present the case and a small feasibility result or diagnosed limitation. Record the working method and act on feedback; no instructor approval gate. |
 | **M4 — Analyze first evidence** | **October 30** | Each pair produces a first complete analysis with counts, failures, relevant risk/utility tradeoffs, and limitations. |
@@ -87,7 +87,10 @@ Keep each pair's shared output links in its Pair case checklist. Registry #3 poi
 to those cases; the collection issues below define coverage and assessment roles
 without requiring students to repost the same outputs in each issue.
 
-- **M1:** shared onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5) and starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1); pair formation can follow.
+- **M1:** individual onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5); pair formation can follow.
+  Starter practice [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1) is optional and has no delivery milestone.
+  Skipping it does not delay pair work or reduce grades; existing substantive
+  evidence remains creditable under the normal Foundation rubric.
 - **M2:** [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3) registers Pair case issues. Each pair uses the [short outline](studies/README.md#short-proposal-outline).
 - **M3:** [#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21) tracks midterm presentation coverage; [#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7) tracks method/feasibility coverage. Each
   pair records its plan revision, data/access, development check and feedback in
@@ -106,8 +109,9 @@ it is not an automatic fallback based on the scripted starter.
 
 ## Resources and support as needed
 
-Start with the runnable starter and [walkthrough](starter-walkthrough.md). Pairs
-choose accessible sources and the smallest useful example from [resources](literature.md).
+Start with focused [resources](literature.md) for your case. The runnable starter
+and [walkthrough](starter-walkthrough.md) are optional learning aids. Pairs choose
+accessible sources and the smallest useful example for their own question.
 They can read, map a workflow and test feasibility without waiting for a centrally
 prepared platform or saved-trace package.
 

@@ -45,7 +45,7 @@ permissions or create organization teams. See GitHub's
 Students can name themselves as task owner even before the GitHub assignee field
 is set. A maintainer sets eligible assignees; students should open/comment on their
 task first. See [GitHub's assignment rules](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/assigning-issues-and-pull-requests-to-other-github-users).
-Setup help and the already-agreed starter attempt do not wait for a permission change.
+Onboarding, setup help and optional starter practice do not wait for a permission change.
 
 ## Current main protection
 

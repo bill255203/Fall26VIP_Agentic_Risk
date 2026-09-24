@@ -110,7 +110,7 @@ Malformed responses, missing evidence, and timeouts must be visible. The propose
 Steps 1–2 inform selection. Steps 3–5 apply only if Candidate A is selected.
 All checkpoints use the [semester schedule measured from kickoff](../semester-plan.md#calendar-and-working-targets):
 
-1. **M1:** try and critique the starter after the first meeting, raise setup/access blockers, and share small reading and feasibility tasks relevant to this proposal.
+1. **Early exploration:** use relevant reading or small feasibility checks and raise access blockers. Starter practice is optional, including for a pair considering this candidate; it has no required deadline.
 2. **M2:** propose the pair case and inspect access/feasibility. Record an access failure as a limitation, not an assumed future solution.
 3. **M3:** present the case and feasibility evidence. If adopted, review and freeze its hypotheses, utility tolerance, model/settings/resources, scenarios, failures, pairing and analysis. Demonstrate all four conditions, the practical gate, source/answer separation and isolated replay; freeze evaluation data before final runs. Narrow scope with the reviewer if infeasible.
 4. **M4:** preserve the planned dataset and first complete paired analysis, including null findings and utility costs.
