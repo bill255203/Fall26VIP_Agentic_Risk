@@ -29,13 +29,15 @@ checkpoint**, each student should:
 
 1. Open **New issue → Individual task**, parent **[#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)**. Add your roster row through
    a PR using the instructions below. No personal profile file is needed.
-2. Open an Individual task under **[#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)**. Try the starter with help; record the command
-   and result or exact setup error, plus one observation or question. Use the
-   [guided trace walkthrough](starter-walkthrough.md), including its worked example
-   while setup is blocked. The starter makes no paid model calls.
-3. Share a business interest and any support need. Agree one achievable next task.
+2. Share a business interest and any support need. Agree one achievable next task.
    Agree a partner and register the case when ready; ask for pairing help if needed.
    You do not need a partner to onboard.
+
+**Optional practice:** try the starter or read the [worked trace example](starter-walkthrough.md)
+if it helps you learn. If you want feedback or contribution credit for an attempt,
+use an Individual task under [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)
+and record your result/error and observation. You may skip it without a penalty;
+it has no required deadline and does not block pairing or research.
 
 Existing onboarding/starter work counts. Link it rather than redo it. Late joiners
 agree a target after joining. Public reading, cloning, issues, and fork PRs need no
@@ -50,14 +52,17 @@ collaborator invitation; a maintainer can set issue fields. See [access](access-
 | **[Individual task](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/new?template=work-item.yml)** | You: one student per task. | Your next contribution, evidence, review and progress. |
 | **[Pair case](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/new?template=pair-case.yml)** | You and your partner: one case issue for the semester. One partner creates it. | Your shared question, plan, links to both students' tasks, and shared output checklist. |
 
-**Cohort** means the whole class. Existing **[Cohort]** issues explain common
-assignments or collect progress across pairs; they are maintained for everyone.
+Shared instruction issues say **[Individual assignment]** when each student owns
+the deliverable and **[Pair assignment]** when the partners produce one shared
+output. They are maintained for the whole class. **[Resource]** issues offer
+optional help or examples. Use the [assignment lists](issue-workflow.md#find-individual-and-pair-assignments)
+to see the distinction before opening an issue.
 Your pair's shared work lives in its **[Pair]** case. Keep presentation, analysis
 and report checkpoints in that one case; record your own part in an Individual
 task. Reuse a task when it already covers your contribution.
 
 In a new task, **Primary parent issue** just means the related issue number:
-enter `#5` for onboarding, `#1` for the starter, your Pair case number for research,
+enter `#5` for onboarding, `#1` for optional starter practice, your Pair case number for research,
 or `#23` for your individual report. Register your Pair case once in #3; link
 your personal tasks in their parent (a comment is enough). You can open issues
 in the main repository while making file changes in your fork.
@@ -101,7 +106,7 @@ progress; agree a small scope suited to your experience.
 
 | Week ending | Your individual goal | Pair or cohort outcome |
 | --- | --- | --- |
-| **Sep 25 — learn the basics (M1)** | Roster PR; starter attempt or blocker; one trace observation/question. | Shared walkthrough and setup help ([#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)). |
+| **Sep 25 — onboard (M1)** | Roster PR; share a business interest/support need and agree a small next step. | Onboarding help ([#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5)); optional starter practice ([#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1)) has no required deadline. |
 | **Oct 2 — explore a business case** | Read a relevant source or inspect an example; explain one useful finding. | Agree partners, a workflow and possible risk; share useful examples or setup questions ([#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6)). |
 | **Oct 9 — outline the case (M2)** | Contribute a sourced question, workflow map, measure, or feasibility check. | Register the Pair case under [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3); complete its short outline and agree who does what. |
 | **Oct 16 — present and refine (M3)** | Explain your part of the question, evidence plan, and feasibility result; act on feedback. | Pair midterm presentation ([#21](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/21)), dated working method and small validation ([#7](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/7)). |
@@ -149,9 +154,9 @@ actual part. There is no issue quota and no extra contribution log.
 | Basic concepts and a small reading path | [Resource guide](literature.md); one guided methods reading plus sources relevant to your case |
 | Choose the case and write the evidence plan | [Case guide](studies/README.md); copy [template](studies/_case-template.md) to `docs/studies/pair-CASE-SLUG.md` |
 | Optional examples / setup support | Share tested resources or help requests in [#6](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/6); choose accessible evidence for your case without waiting for an instructor-prepared package |
-| Starter commands and code | [README](../README.md#run-the-pilot), `src/agentic_risk/`, `experiments/pilot.toml`, `tests/` |
-| Understand the starter outputs | [Trace walkthrough](starter-walkthrough.md); record the observation in your existing starter task |
-| Personal work and review | Your Individual task under your Pair case; common onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and individual report [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) |
+| Optional starter commands and code | [README](../README.md#run-the-pilot), `src/agentic_risk/`, `experiments/pilot.toml`, `tests/` |
+| Optional starter walkthrough | [Trace walkthrough](starter-walkthrough.md); record the observation in your existing starter task |
+| Personal work and review | Your Individual task under your Pair case; onboarding [#5](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/5), optional starter [#1](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/1), and individual report [#23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23) |
 | Source notes | Your task or case document, linked to sources; shared reusable notes can go in [literature](literature.md) |
 | Experiment/analysis provenance | [Experiment record](experiment-record.md), only applicable fields; link from the case document |
 | Data, traces, figures | [Results policy](../results/README.md); use `results/local/` for local runs and pair-specific names for reviewed artifacts |
@@ -162,9 +167,22 @@ actual part. There is no issue quota and no extra contribution log.
 Do not read every advanced reference before starting. Agent Assurance is optional;
 no one must implement all its controls or complete its institutional templates.
 
-## 1. Clone and run
+## 1. Choose your setup
 
-Install Git and Python 3.11 or later, then follow the [README run commands](../README.md#run-the-pilot). Choose the macOS/Linux or Windows PowerShell commands; they clone the repo, create a Python environment, install the package, run the pilot and check it. No model account or API key is needed for the starter.
+For a roster-only contribution, you can use the browser editor in your fork;
+Git, Python and a starter run are not prerequisites. Follow step 2 below to fork
+and edit `CONTRIBUTORS.md`, then step 3 to open the PR.
+
+For local file work, install Git and clone once:
+
+```bash
+git clone https://github.com/zhongnz/Fall26VIP_Agentic_Risk.git
+cd Fall26VIP_Agentic_Risk
+```
+
+If you choose **optional starter practice**, install Python 3.11 or later and use
+the [README run commands](../README.md#run-the-pilot) for your operating system.
+Skip its clone command if already cloned. No model account or API key is needed.
 
 The checks should report 10 passing tests. The default pilot produces 480 scripted trials and 12 summary rows. Use the [walkthrough](starter-walkthrough.md) to inspect `summary.csv` and a matched case from `trials.jsonl`. Local output stays on your computer; record a concise reproduction note when it becomes part of a task.
 
@@ -174,7 +192,7 @@ This runnable starter is a deterministic mechanism check that gives the cohort a
 
 On [the repository page](https://github.com/zhongnz/Fall26VIP_Agentic_Risk), click **Fork** to create a working copy in your GitHub account. The official repository remains the shared destination for everyone's work. Forking lets you contribute before being invited as a collaborator.
 
-In the clone you already made, replace `YOUR-USERNAME` with your own GitHub username:
+For local Git work, use the clone from step 1 and replace `YOUR-USERNAME` with your own GitHub username:
 
 ```bash
 git switch -c onboarding/YOUR-USERNAME

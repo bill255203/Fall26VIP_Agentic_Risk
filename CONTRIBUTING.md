@@ -19,8 +19,10 @@ support the tasks agreed after kickoff. Each pair develops its own case; no plat
 Use the same task/PR workflow for onboarding and later work. An introduction PR
 needs a roster change, a short introduction, its Individual task link, and
 `Relates to #5`; it can omit the research interpretation and detailed evidence sections.
+Starter practice is optional and is not a prerequisite for this PR or later pair
+work. A roster PR can be made in the browser without installing Git or Python.
 
-1. Start from an Individual task with one student owner, a parent Pair case or cohort goal, an assessment category, a milestone or candidate/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Pair case names both partners; the Cohort goal's assignee coordinates cohort coverage; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
+1. Start from an Individual task with one student owner, a parent Pair case or cohort goal, an assessment category, a milestone or optional/backlog status, acceptance criteria, and planned evidence. Name collaborators and reviewer separately. The Pair case names both partners; the Cohort goal's assignee coordinates cohort coverage; each Individual task's sole assignee owns that student's work. Introduction tasks use #5 as their parent; the [task map](docs/issue-workflow.md#complete-task-and-assessment-map) covers all deliverables and grading components.
 2. Create a short-lived branch from current `main`, such as `work/12-trace-analysis`. Do not work directly on `main`.
 3. Make one focused change and document assumptions. Link deliverables and substantive reviews in your Individual task. Keep the evidence there; no separate contribution log is required.
 4. For code or experiment changes, run `python -m unittest discover -s tests -v` plus the relevant experiment. For documents, check references, links, and claims. CI runs for every pull request.
