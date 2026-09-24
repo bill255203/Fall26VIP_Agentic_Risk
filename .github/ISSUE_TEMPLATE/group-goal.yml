@@ -1,17 +1,17 @@
-name: Group goal (maintainer)
+name: Cohort goal (maintainer)
 description: Coordinate shared support or collect pair/student outputs without duplicate tasks
-title: "[Group] Outcome"
+title: "[Cohort] Outcome"
 labels: [group-goal]
 body:
   - type: markdown
     attributes:
       value: |
-        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Group goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The group assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
+        Check the [complete task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map) before adding another Cohort goal. Pairs use the Pair case form; this form is only for shared support or cohort output collection. Students use Individual tasks for personal work. The cohort assignee is a coordinator; each student owns a separate task. See the [issue guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md).
   - type: textarea
     id: objective
     attributes:
       label: Shared outcome and participation
-      description: Define the outcome and whether every student attempts it, work is divided, or selected independent replications are wanted. State participant coverage needed for completion.
+      description: Lead with who does the work, the next actions, where to submit evidence, and when it is done. Distinguish each student's assignment from each pair's shared output; give a working target or mark it optional.
     validations:
       required: true
   - type: input
@@ -29,7 +29,7 @@ body:
   - type: textarea
     id: acceptance
     attributes:
-      label: Group acceptance criteria
+      label: Cohort completion criteria
       description: Define required pair/participant coverage and where to inspect it. For pair outputs, use the #3 registry and Pair case checkpoints. State the applicable assessment component or that there is no separate grade. One contribution does not close a cohort collection.
     validations:
       required: true

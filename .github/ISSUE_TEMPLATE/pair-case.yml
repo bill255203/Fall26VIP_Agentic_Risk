@@ -6,12 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        Partners agree one case and link it in #3. Each student opens their own Individual tasks under it. Start small and refine with peer feedback; no instructor sign-off or appointed mentor is required. The instructor may adapt scope, pairings and timing. Use the [case guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/studies/README.md). No platform or paid access is assumed.
+        One partner creates this issue for both partners, once for the semester, and links it in #3. Keep shared outputs in the checklist below; each partner links their own Individual tasks here. Reuse this case for the proposal, presentations, analysis and report. Start small and refine with peer feedback; no instructor sign-off or appointed mentor is required. The instructor may adapt scope, pairings and timing. Use the [case guide](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/studies/README.md). No platform or paid access is assumed.
   - type: input
     id: partners
     attributes:
       label: Partners and peer feedback
       description: Name both GitHub usernames. Add peer reviewers when arranged; an unassigned reviewer does not block starting.
+      placeholder: "@PARTNER-ONE and @PARTNER-TWO; peer feedback to be arranged."
     validations:
       required: true
   - type: textarea
@@ -36,7 +37,7 @@ body:
     id: checkpoints
     attributes:
       label: Working checkpoints
-      description: Keep output links beside these checkpoints and adapt targets to course direction. Register this case once in #3; cohort collection issues refer back here, so no repeated output posts are needed. Use M5 for this semester-long issue. This is not an approval checklist.
+      description: Keep output links beside these checkpoints and adapt targets to course direction. If you cannot edit this issue, comment with your update; its author or a maintainer can update the checklist. Register once in #3; cohort collections refer here. Use M5 for this semester-long issue. This is not an approval checklist.
       value: |
         - [ ] M2 Oct 9 — partners, short outline, accessible evidence route and next tasks recorded
         - [ ] M3 Oct 16 — midterm slides/feedback linked (#21); dated method and feasibility check linked (#7)

@@ -145,7 +145,10 @@ docs/                 research plan, cohort guide, records, and literature
 
 Each pair has one **Pair case** issue. Each student opens **Individual tasks** for
 meaningful contributions under that case. Cohort onboarding and individual reports
-use their existing shared collection goals. Multiple students may attempt the same
+use their existing shared collection goals. **[Cohort]** issues coordinate the whole
+class; **[Pair]** identifies one pair's case. Start with the student guide's
+[two issue types](docs/student-start.md#two-issue-types-you-create) and
+[weekly goals](docs/student-start.md#weekly-goals). Multiple students may attempt the same
 agreed assignment independently, with separate evidence and review. Shared artifacts
 state who did what. See the [issue guide](docs/issue-workflow.md).
 
