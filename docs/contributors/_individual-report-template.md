@@ -14,7 +14,7 @@ as required; keep marks and private feedback out of the public repository.
 ## Individual contribution report
 
 - Author / GitHub username:
-- Individual report task (parent Group goal #23):
+- Individual report task (parent Cohort goal #23):
 - Pair case issue / partner:
 - Reporting period:
 - Key Individual task / PR links:

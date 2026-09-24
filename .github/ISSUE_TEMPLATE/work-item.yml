@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        One task has one student owner. Multiple students may independently attempt the same agreed assignment with separate evidence; joint work states each person's part. Use your Pair case as parent for research; onboarding uses #5, starter #1, individual report #23. See the [task map](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#complete-task-and-assessment-map). No issue-count quota or duplicate portfolio.
+        Use this form for your own contribution. One task has one student owner. Multiple students may attempt the same assignment separately; joint work names each person's part. Use your Pair case as parent for research; onboarding uses #5, starter #1, individual report #23. Link the new task in its parent; a comment is enough. Reuse an existing task when it already covers this work. See [where tasks belong](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/blob/main/docs/issue-workflow.md#where-does-my-task-belong).
   - type: input
     id: parent
     attributes:
       label: Primary parent issue
-      description: Link your Pair case or the relevant shared goal. Related goals can link this task without a duplicate.
+      description: Enter the issue number of your Pair case or the common assignment. This field is a link, not a special GitHub setup step.
       placeholder: "#YOUR-PAIR-CASE (or #5, #1, #23 for common assignments)"
     validations:
       required: true
@@ -27,6 +27,7 @@ body:
     id: mode
     attributes:
       label: Work mode
+      description: Choose shared work when contributing to a pair output; choose independent attempt for your own onboarding, starter, report or agreed replication.
       options:
         - Contribution to shared work
         - Independent attempt at a shared assignment
@@ -37,13 +38,14 @@ body:
     attributes:
       label: My deliverable
       description: State your own output and why it helps. For joint work, distinguish your part and link your partner's task. If spanning assessment categories, identify a distinct output for each; one output is not counted twice within individual work.
+      placeholder: "I will map the refund workflow from two public sources and identify one consequential agent error. My partner will check the map against the sources."
     validations:
       required: true
   - type: dropdown
     id: assessment
     attributes:
       label: Assessment category
-      description: Select the category from the tentative rubric. Weights apply to semester components, not individual issues. Pair grades come from the integrated pair outputs. Existing tasks can keep their recorded stage.
+      description: Foundation = reading/critique; Question = design; Execution = implement/collect/check; Synthesis = interpret/report findings. The remaining options cover review, your personal report and onboarding. Weights apply across the semester, not per issue.
       options:
         - Foundation
         - Question
@@ -74,13 +76,14 @@ body:
     attributes:
       label: Working target and peer check
       description: State a date or next check-in. Add a peer reviewer when arranged; no instructor approval or appointed mentor is needed to start. Note blockers here.
+      placeholder: "Next check-in: Oct 9; peer check: to be arranged."
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
       label: Done when
-      description: Two or three observable checks for your contribution, agreed with your partner. Refine scope as needed; arrange a peer check as work develops.
+      description: Two or three observable checks for your contribution. For a common assignment, use its issue instructions; for research, agree them with your partner. Arrange a peer check as work develops.
       placeholder: |
         - [ ] Artifact/source/analysis linked
         - [ ] Result or diagnosed limitation explained and checked

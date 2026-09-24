@@ -103,7 +103,7 @@ pair marks assess the integrated output. Do not award points by issue/commit cou
 For example: 48/55 work + 8/10 collaboration + 9/10 individual report + 8/10 pair
 midterm + 12/15 pair report = **85/100**. No public grade table is needed.
 
-## Two group presentations and the written report
+## Two pair presentations and the written report
 
 Each pair gives the midterm and final presentations and submits one written report.
 

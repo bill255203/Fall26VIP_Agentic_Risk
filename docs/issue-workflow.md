@@ -9,13 +9,36 @@ contribution record. Do not create an issue for every meeting, comment, or weekl
 | --- | --- | --- |
 | **Pair case** | One pair's workflow, question, plan, report links, and adjustable checkpoint checklist. Create after partners agree; register its link in [#3](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/3). | Names both partners; add peer reviewers when arranged. Both partners may be assigned. Stays open until the agreed case outputs are reviewed. Assignment alone does not allocate individual credit. |
 | **Individual task** | One student's meaningful contribution or independent attempt. | Exactly one student owner; separate evidence and review. Name collaborators separately. |
-| **Group goal** | Existing cohort onboarding, shared resources, or collection of outputs across pairs. | Maintainer coordinates required coverage; it is not a single research project or cohort-wide grade. |
+| **Cohort goal** | Existing cohort onboarding, shared resources, or collection of outputs across pairs. | Maintainer coordinates required coverage; it is not a single research project or cohort-wide grade. |
 | **Course notes (#24)** | Current arrangements, instructor announcements and adjustments. | Maintainers record changes; no instructor task checklist or separate approval queue. Grades stay private. |
 
-GitHub calls the templates **Pair case**, **Individual task**, and **Group goal (maintainer)**.
+GitHub calls the templates **Pair case**, **Individual task**, and **Cohort goal (maintainer)**.
 The parent is an issue link in the form; native GitHub sub-issues or a Project board
 are optional. No multi-select enrollment field is needed. Multiple assignees on a
 pair issue identify partners; personal credit still comes from one-owner tasks.
+
+Students create the first two types. **Cohort** means the whole class: its existing
+issues explain shared assignments and check coverage. One Pair case holds all of
+a pair's shared checkpoints; individual tasks describe each partner's actual work.
+The internal label `group-goal` is retained for cohort issues and existing filters.
+It does not mean a pair assignment or a shared cohort grade.
+
+### Where does my task belong?
+
+| What you are doing | What you create or update |
+| --- | --- |
+| Joining the repo | Your own Individual task, parent #5, with your roster PR. |
+| Trying and critiquing the starter | Your own Individual task, parent #1, with your attempt/error and observation. |
+| Starting with a partner | One Pair case, created by either partner; register it in #3. |
+| Reading, designing, coding, analyzing or preparing pair outputs | Your Individual task under that Pair case. Put shared output links in its checkpoints. |
+| Writing your personal contribution report | Your own Individual task, parent #23; also link it from the Pair case. |
+| Posting a weekly update or a small review/help contribution | Comment in the existing relevant task and link the evidence. |
+
+Enter the parent's issue number in **Primary parent issue** and link your task
+in that parent; a comment is enough if you cannot edit its body. Research tasks
+stay under the Pair case as they progress through #7, #8, #9, #21 and #22; these
+cohort issues describe/check outputs and do not require another personal task.
+Use the [student guide](student-start.md#two-issue-types-you-create) for an example.
 
 ## Simple student workflow
 
@@ -84,7 +107,7 @@ the student's record, and add `individual-task` to tasks created outside the for
 Ask only if the record is ambiguous; routine work proceeds during this housekeeping.
 
 The repository owner handles routing until another coordinator agrees to it.
-A Group goal assignee coordinates coverage and does not own students' work.
+A Cohort goal assignee coordinates coverage and does not own students' work.
 Partners maintain case links; peers check evidence. Instructors choose their
 feedback cadence and retain private grading authority.
 

@@ -7,7 +7,7 @@ weekly contribution log is required. This directory holds individual reports.
 ## First contribution
 
 1. Follow the [student guide](../student-start.md) to fork/clone and open an
-   Individual onboarding task under Group goal #5.
+   Individual onboarding task under Cohort goal #5.
 2. Add one alphabetical row to [CONTRIBUTORS.md](../../CONTRIBUTORS.md), containing
    your preferred public name and GitHub profile link. Your username is sufficient.
    Remove the empty-roster notice if you are the first student to join.
@@ -32,7 +32,7 @@ be useful contributions. Do not rank students by issues, commits, or activity co
 
 ## Individual contribution report
 
-Each student opens their own report task under [Group goal #23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23).
+Each student opens their own report task under [Cohort goal #23](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/23).
 Working targets are **draft November 6** and **final November 20, 2026**. At the
 draft checkpoint, copy the [report template](_individual-report-template.md) to
 `docs/contributors/YOUR-GITHUB-USERNAME.md`. If you already have a file there,

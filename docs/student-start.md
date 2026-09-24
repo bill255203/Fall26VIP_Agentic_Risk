@@ -43,6 +43,35 @@ collaborator invitation; a maintainer can set issue fields. See [access](access-
 
 ## Your responsibilities
 
+### Two issue types you create
+
+| Create | Who owns it? | What goes there? |
+| --- | --- | --- |
+| **[Individual task](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/new?template=work-item.yml)** | You: one student per task. | Your next contribution, evidence, review and progress. |
+| **[Pair case](https://github.com/zhongnz/Fall26VIP_Agentic_Risk/issues/new?template=pair-case.yml)** | You and your partner: one case issue for the semester. One partner creates it. | Your shared question, plan, links to both students' tasks, and shared output checklist. |
+
+**Cohort** means the whole class. Existing **[Cohort]** issues explain common
+assignments or collect progress across pairs; they are maintained for everyone.
+Your pair's shared work lives in its **[Pair]** case. Keep presentation, analysis
+and report checkpoints in that one case; record your own part in an Individual
+task. Reuse a task when it already covers your contribution.
+
+In a new task, **Primary parent issue** just means the related issue number:
+enter `#5` for onboarding, `#1` for the starter, your Pair case number for research,
+or `#23` for your individual report. Register your Pair case once in #3; link
+your personal tasks in their parent (a comment is enough). You can open issues
+in the main repository while making file changes in your fork.
+If your partner created the Pair case and you cannot edit its checklist, add
+your links or update in a comment; its author or a maintainer can update the body.
+
+For example, a pair might study errors in a refund workflow. One partner owns
+a sourced workflow-and-risk map; the other owns an initial example and its
+evidence check. Each has a personal task, and both task links go in their shared
+Pair case. They can later share a table or PR while explaining each person's
+actual contribution. These are example tasks, not fixed semester roles.
+
+### What each person and pair delivers
+
 - **As a pair:** choose one case, keep one case document, present it around midterm,
   produce evidence and a final report, and give a final presentation.
 - **Individually:** agree your own tasks, produce attributable work, review/support
@@ -95,6 +124,13 @@ A date does not make an unfinished study complete. See the [canonical schedule](
 3. Post a short update: **evidence produced; next step; blocker/help needed**.
 4. Submit a PR when repository files change; respond to feedback. Close only your
    completed task. A pair case stays open until the pair's full work is reviewed.
+
+**Before calling a task done:** link your output, explain what you did and found,
+and link a peer's check of the agreed criteria. A partner can review; a checked
+failed attempt or useful diagnosis can be a valid output. If review is pending,
+say **ready for review** and keep the task open. If blocked, record the exact
+problem and help needed. An issue comment can hold a short reading note or starter
+record; it does not need a PR unless repository files change.
 
 Say when you need help or your evidence is ready for review in that same task.
 A maintainer can add `help wanted` or `needs-review`; you do not need label
